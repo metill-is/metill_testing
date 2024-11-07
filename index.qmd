@@ -35,7 +35,7 @@ Hér má finna ýmis gögn sem varpa ljósi á stöðu flokkanna fyrir komandi a
 
 Við vonum að líkanið komi að notum við að greina stöðu mála í íslenskum stjórnmálum í aðdraganda alþingiskosninganna. Eins og sjá má á vikmörkum fylgisspáa er mikilvægasta niðurstaða líkansins við birtingu sú að óvissan er gríðarlega mikil – það á ekki að koma okkur á óvart þó fylgi flokkanna hreyfist um nokkur prósentustig á lokametrunum. Á næstu vikum kynnum við til sögunnar fleiri gögn byggð á kosningaspánni, svo sem spár yfir fjölda þingmanna og möguleg stjórnarmynstur.
 
-[Um aðferðafræðina](Kosningar/UmLikanid.qmd){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Smelltu hér til að lesa um aðferðafræði spálíkansins"}
+[Um líkanið](Kosningar/UmLikanid.qmd){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Smelltu hér til að lesa um aðferðafræði spálíkansins"}
 
 :::
 
