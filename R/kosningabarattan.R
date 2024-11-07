@@ -54,7 +54,7 @@ make_kosningabarattan_plot <- function() {
 
   d <- read_parquet(here("data", "y_rep_draws.parquet")) |>
     summarise(
-      mean = mean(value),
+      median = median(value),
       q5 = quantile(value, 0.05),
       q95 = quantile(value, 0.95),
       .by = c(dags, flokkur)
@@ -74,7 +74,7 @@ make_kosningabarattan_plot <- function() {
     here("data", "y_rep_draws.parquet")
   ) |>
     reframe(
-      coverage = c(0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.95),
+      coverage = c(0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9),
       lower = quantile(value, 0.5 - coverage / 2),
       upper = quantile(value, 0.5 + coverage / 2),
       .by = c(dags, flokkur)
@@ -87,7 +87,7 @@ make_kosningabarattan_plot <- function() {
     )
 
   p <- d |>
-    ggplot(aes(dags, mean, colour = litur, data_id = flokkur)) +
+    ggplot(aes(dags, median, colour = litur, data_id = flokkur)) +
     annotate(
       geom = "segment",
       x = clock::date_build(2021, 8, 1),

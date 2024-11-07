@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Hvernig virkar spálíkanið? – Metill</title>
+<title>Statistical Methods – Metill</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -54,11 +54,9 @@ ul.task-list li input[type="checkbox"] {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap" rel="stylesheet">
 
-<meta property="og:title" content="Hvernig virkar spálíkanið? – Metill">
-<meta property="og:description" content="Hér er stiklað á stóru um tölfræðina á bak við spálíkanið okkar">
+<meta property="og:title" content="Statistical Methods – Metill">
 <meta property="og:site_name" content="Metill">
-<meta name="twitter:title" content="Hvernig virkar spálíkanið? – Metill">
-<meta name="twitter:description" content="Hér er stiklað á stóru um tölfræðina á bak við spálíkanið okkar">
+<meta name="twitter:title" content="Statistical Methods – Metill">
 <meta name="twitter:creator" content="@bggjonsson">
 <meta name="twitter:site" content="@bggjonsson">
 <meta name="twitter:card" content="summary_large_image">
@@ -84,6 +82,35 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </nav>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../style.css">
 
@@ -95,8 +122,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Hvernig virkar spálíkanið?</h1>
-            <p class="subtitle lead">Hér er stiklað á stóru um tölfræðina á bak við spálíkanið okkar</p>
+      <h1 class="title">Statistical Methods</h1>
                       </div>
   </div>
     
@@ -117,14 +143,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Efnisyfirlit</h2>
    
   <ul>
-  <li><a href="#skoðanakannanir-og-þróun-fylgis" id="toc-skoðanakannanir-og-þróun-fylgis" class="nav-link active" data-scroll-target="#skoðanakannanir-og-þróun-fylgis">Skoðanakannanir og þróun fylgis</a>
+  <li><a href="#methods" id="toc-methods" class="nav-link active" data-scroll-target="#methods">Methods</a>
   <ul class="collapse">
-  <li><a href="#hvernig-er-tekið-tillit-til-skekkja-í-könnunum" id="toc-hvernig-er-tekið-tillit-til-skekkja-í-könnunum" class="nav-link" data-scroll-target="#hvernig-er-tekið-tillit-til-skekkja-í-könnunum">Hvernig er tekið tillit til skekkja í könnunum?</a></li>
-  <li><a href="#hvernig-er-tekið-tillit-til-stjórnarslita" id="toc-hvernig-er-tekið-tillit-til-stjórnarslita" class="nav-link" data-scroll-target="#hvernig-er-tekið-tillit-til-stjórnarslita">Hvernig er tekið tillit til stjórnarslita?</a></li>
-  </ul></li>
-  <li><a href="#grunnbreytur-og-söguleg-gögn" id="toc-grunnbreytur-og-söguleg-gögn" class="nav-link" data-scroll-target="#grunnbreytur-og-söguleg-gögn">Grunnbreytur og söguleg gögn</a>
-  <ul class="collapse">
-  <li><a href="#hvernig-vinna-þessir-þættir-saman" id="toc-hvernig-vinna-þessir-þættir-saman" class="nav-link" data-scroll-target="#hvernig-vinna-þessir-þættir-saman">Hvernig vinna þessir þættir saman?</a></li>
+  <li><a href="#statistical-framework" id="toc-statistical-framework" class="nav-link" data-scroll-target="#statistical-framework">Statistical Framework</a></li>
+  <li><a href="#polling-component" id="toc-polling-component" class="nav-link" data-scroll-target="#polling-component">Polling Component</a></li>
+  <li><a href="#fundamentals-component" id="toc-fundamentals-component" class="nav-link" data-scroll-target="#fundamentals-component">Fundamentals Component</a></li>
+  <li><a href="#model-integration" id="toc-model-integration" class="nav-link" data-scroll-target="#model-integration">Model Integration</a></li>
+  <li><a href="#choosing-tau_f" id="toc-choosing-tau_f" class="nav-link" data-scroll-target="#choosing-tau_f">Choosing <span class="math inline">\(\tau_f\)</span></a></li>
   </ul></li>
   </ul>
 </nav>
@@ -136,55 +161,106 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Spálíkanið okkar er byggt upp af tveimur meginþáttum sem vinna saman til að spá fyrir um úrslit Alþingiskosninga 2024:</p>
-<ol type="1">
-<li>Skoðanakannanir og þróun fylgis samkvæmt þeim</li>
-<li>Niðurstöður fyrri kosninga, söguleg gögn og efnahagsástand</li>
-</ol>
-<section id="skoðanakannanir-og-þróun-fylgis" class="level2">
-<h2 class="anchored" data-anchor-id="skoðanakannanir-og-þróun-fylgis">Skoðanakannanir og þróun fylgis</h2>
-<p>Fyrri hluti líkansins fylgist með þróun fylgis flokkanna yfir tíma og tekur tillit til:</p>
-<ul>
-<li>Hvernig fylgi flokkanna breytist dag frá degi</li>
-<li>Kerfisbundinna skekkja í könnunum eftir fyrirtækjum</li>
-<li>Aukinnar óvissu í kjölfar stjórnarslita</li>
-<li>Hvernig fylgisbreytingar eins flokks hafa áhrif á aðra flokka</li>
-</ul>
-<section id="hvernig-er-tekið-tillit-til-skekkja-í-könnunum" class="level3">
-<h3 class="anchored" data-anchor-id="hvernig-er-tekið-tillit-til-skekkja-í-könnunum">Hvernig er tekið tillit til skekkja í könnunum?</h3>
-<p>Líkanið gerir ráð fyrir að hver könnunaraðili geti haft sína eigin kerfisbundnu skekkju. Til dæmis gæti eitt fyrirtæki alltaf mælt aðeins hærra fylgi hjá sumum flokkum en öðrum. Með því að bera saman kannanir frá mismunandi fyrirtækjum og raunveruleg úrslit síðustu kosninga getum við metið þessar skekkjur og leiðrétt fyrir þeim.</p>
+<section id="methods" class="level1">
+<h1>Methods</h1>
+<section id="statistical-framework" class="level3">
+<h3 class="anchored" data-anchor-id="statistical-framework">Statistical Framework</h3>
+<p>The model integrates polling data <span class="math inline">\(y_{n,p}\)</span> and fundamentals data through a hierarchical structure:</p>
+<p><span class="math display">\[
+\begin{aligned}
+y_{n} &amp;\sim \text{Dirichlet-Multinomial}(\pi_{n}, \phi_{h[n]}) \\
+\pi_{n} &amp;= \text{softmax}(\eta_{n}) \\
+\eta_{n,p} &amp;= \beta_{p,t[n]} + \gamma_{p,h[n]}
+\end{aligned}
+\]</span></p>
+<p>where <span class="math inline">\(\phi_{h[n]}\)</span> is house-specific overdispersion, <span class="math inline">\(t[n]\)</span> indexes the time of poll <span class="math inline">\(n\)</span>, and <span class="math inline">\(h[n]\)</span> indexes the polling house.</p>
+<p>The fundamentals component predicts election results through:</p>
+<p><span class="math display">\[
+\begin{aligned}
+y^{(f)}_{d} &amp;\sim \text{Dirichlet-Multinomial}(\pi^{(f)}_{d}, \phi_f) \\
+\pi^{(f)}_{d} &amp;= \text{softmax}(\mu_{d}) \\
+\mu_{d,p} &amp;= \alpha_p + \beta_{\text{lag}}x_{p,d} + \beta_{\text{years}}\log(I_{p,d}) + \beta_{\text{vnv}}v_{p,d} + \beta_{\text{growth}}g_{p,d}
+\end{aligned}
+\]</span></p>
+<p>The connection between these two components is the election day prediction <span class="math inline">\(\mu_{\text{pred}}\)</span>, calculated from the fundamentals model using current economic conditions and previous election results. This prediction serves as a prior for election day support:</p>
+<p><span class="math display">\[
+\beta_{T} \sim \mathcal{N}(\mu_{\text{pred}}, \tau_f\cdot \sigma)
+\]</span></p>
+<p>The relative weight between polling and fundamentals is controlled by <span class="math inline">\(\tau_f\)</span>, computed to give the fundamentals component a specified percentage weight in the prediction at a certain time before the election (see Appendix for details).</p>
 </section>
-<section id="hvernig-er-tekið-tillit-til-stjórnarslita" class="level3">
-<h3 class="anchored" data-anchor-id="hvernig-er-tekið-tillit-til-stjórnarslita">Hvernig er tekið tillit til stjórnarslita?</h3>
-<p>Líkanið tekur tillit til stjórnarslita á tvo vegu:</p>
-<ol type="1">
-<li><p>Líkanið metur hvort stjórnarslitin hafi leitt til kerfisbundinna breytinga á fylgi flokkanna. Það er, hvort einhverjir flokkar hafi almennt bætt við sig fylgi eða tapað fylgi í kjölfar stjórnarslitanna.</p></li>
-<li><p>Þegar stjórnarslit verða eykst óvissan í spánni því slíkir atburðir geta haft veruleg áhrif á fylgi flokkanna. Líkanið tekur tillit til þessa með því að leyfa meiri sveiflur í fylgi á tímabilinu eftir stjórnarslit.</p></li>
-</ol>
-</section>
-</section>
-<section id="grunnbreytur-og-söguleg-gögn" class="level2">
-<h2 class="anchored" data-anchor-id="grunnbreytur-og-söguleg-gögn">Grunnbreytur og söguleg gögn</h2>
-<p>Seinni hluti líkansins byggir á:</p>
+<section id="polling-component" class="level3">
+<h3 class="anchored" data-anchor-id="polling-component">Polling Component</h3>
+<p>The polling model tracks latent party support <span class="math inline">\(\beta_{p,t}\)</span> over time using a multivariate random walk with correlation structure <span class="math inline">\(\Omega\)</span> between parties:</p>
+<p><span class="math display">\[
+\beta_{t} = \begin{cases}
+\mathrm{Normal}\left(\beta_{t+1}, (1 + \tau_s)\sqrt{\Delta_t} \boldsymbol \Sigma\right) &amp; \text{after government split} \\
+\mathrm{Normal}\left(\beta_{t+1}, \sqrt{\Delta_t} \boldsymbol \Sigma\right) &amp; \text{otherwise}
+\end{cases}
+\]</span></p>
+<p>where:</p>
 <ul>
-<li>Úrslitum síðustu kosninga</li>
-<li>Stöðu flokka (hvort þeir eru í stjórn eða stjórnarandstöðu)</li>
-<li>Hversu lengi flokkar hafa verið við völd</li>
-<li>Efnahagslegum breytum eins og:
-<ul>
-<li>Verðbólgu</li>
-<li>Hagvexti</li>
-</ul></li>
+<li><span class="math inline">\(\boldsymbol \Sigma = \text{diag}(\sigma_1,\ldots,\sigma_P) \Omega \text{diag}(\sigma_1,\ldots,\sigma_P)\)</span> is the covariance matrix</li>
+<li><span class="math inline">\(\sigma_p\)</span> captures party-specific volatility scales</li>
+<li><span class="math inline">\(\Omega\)</span> is the correlation matrix between party-specific innovations</li>
+<li><span class="math inline">\(\tau_s\)</span> allows for increased volatility after government splits</li>
+<li><span class="math inline">\(\Delta_t\)</span> is the number of days between polls</li>
 </ul>
-<section id="hvernig-vinna-þessir-þættir-saman" class="level3">
-<h3 class="anchored" data-anchor-id="hvernig-vinna-þessir-þættir-saman">Hvernig vinna þessir þættir saman?</h3>
-<p>Líkanið vegur og metur upplýsingar frá báðum þáttum. Vægi þáttanna breytist eftir því hversu langt er til kosninga:</p>
+</section>
+<section id="fundamentals-component" class="level3">
+<h3 class="anchored" data-anchor-id="fundamentals-component">Fundamentals Component</h3>
+<p>The fundamentals model predicts party vote shares using economic and political variables:</p>
+<p><span class="math display">\[
+\pi = \text{softmax}(\alpha + \beta_\text{lag}x + \beta_\text{inc}\log(I) + \beta_\text{infl}V + \beta_\text{growth}G)
+\]</span></p>
+<p>where:</p>
 <ul>
-<li>Þegar langt er til kosninga fá sögulegu gögnin og grunnbreyturnar meira vægi</li>
-<li>Eftir því sem nær dregur kosningum fá nýjustu skoðanakannanirnar meira vægi</li>
+<li><span class="math inline">\(\alpha_p\)</span> are party-specific intercepts that sum to zero (<span class="math inline">\(\sum_p \alpha_p = 0\)</span>)</li>
+<li><span class="math inline">\(x\)</span> are previous election vote shares</li>
+<li><span class="math inline">\(I\)</span> are years in government for incumbent parties</li>
+<li><span class="math inline">\(V\)</span> is inflation on an annual basis six months before the election</li>
+<li><span class="math inline">\(G\)</span> is economic growth on an annual basis six months before the election</li>
+<li><span class="math inline">\(\beta_\text{lag}\)</span> captures persistence in party support</li>
+<li><span class="math inline">\(\beta_\text{inc}\)</span> measures the effect of time spent in government on incumbent parties</li>
+<li><span class="math inline">\(\beta_\text{infl}\)</span> captures the impact of inflation on incumbent parties</li>
+<li><span class="math inline">\(\beta_\text{growth}\)</span> captures the impact of growth on incumbent parties</li>
 </ul>
-<p>Með þessu móti nýtir líkanið bæði langtímaþróun og nýjustu upplýsingar til að gefa sem nákvæmasta spá um úrslit kosninganna.</p>
-<p><a href="../Kosningar/Adferdir.html" class="btn btn-outline-primary" role="button" data-toggle="tooltip" title="Smelltu hér til að lesa nánar um aðferðafræði spálíkansins">Sjá nánari tölfræðilegar útskýringar</a></p>
+</section>
+<section id="model-integration" class="level3">
+<h3 class="anchored" data-anchor-id="model-integration">Model Integration</h3>
+<p>The fundamentals prediction serves as a prior for the election day vote shares <span class="math inline">\(\beta_T\)</span>:</p>
+<p><span class="math display">\[
+\beta_T \sim \mathcal{N}(\mu_\text{pred}, \tau_f \cdot \sigma)
+\]</span></p>
+<p>where <span class="math inline">\(\mu_\text{pred}\)</span> is the fundamentals prediction and <span class="math inline">\(\tau_f\)</span> controls how much weight is given to the fundamentals versus polling data at some point before the elections.</p>
+</section>
+<section id="choosing-tau_f" class="level3">
+<h3 class="anchored" data-anchor-id="choosing-tau_f">Choosing <span class="math inline">\(\tau_f\)</span></h3>
+<p>To choose how we want to calculate the standard deviation for prior on <span class="math inline">\(\beta_T\)</span>, we can frame our model as a Gaussian-Gaussian conjugate problem where:</p>
+<ul>
+<li>The prior (fundamentals prediction) is: <span class="math inline">\(\beta_T \sim \mathcal{N}(\mu_{\text{pred}}, \tau_f \cdot \sigma)\)</span></li>
+<li>The likelihood (polling prediction from time t) is: <span class="math inline">\(\beta_T \sim \mathcal{N}(\beta_t, V(t) \cdot \sigma)\)</span></li>
+</ul>
+<p>where <span class="math inline">\(V(t)\)</span> represents the accumulated variance from time t to election time T:</p>
+<ul>
+<li>For <span class="math inline">\(t \leq 47\)</span> (after government split): <span class="math inline">\(V(t) = t \cdot (1 + \tau_{\text{stjornarslit}})^2\)</span></li>
+<li>For t &gt; 47 (before government split): <span class="math inline">\(V(t) = (t - 47) + 47 \cdot (1 + \tau_{\text{stjornarslit}})^2\)</span></li>
+</ul>
+<p>Using standard Gaussian-Gaussian conjugate formulas:</p>
+<p><span class="math display">\[
+\begin{aligned}
+\text{Posterior precision} &amp;= \frac{1}{(\tau_f \cdot \sigma)^2} + \frac{1}{V(t) \cdot \sigma^2} \\
+&amp;= \left(\frac{1}{\tau_f^2} + \frac{1}{V(t)}\right) \cdot \frac{1}{\sigma^2}
+\end{aligned}
+\]</span></p>
+<p>For a desired fundamentals weight w at time t:</p>
+<p><span class="math display">\[
+w = \frac{1/\tau_f^2}{1/\tau_f^2 + 1/V(t)}
+\]</span></p>
+<p>Solving for <span class="math inline">\(\tau_f\)</span>:</p>
+<p><span class="math display">\[
+\tau_f = \sqrt{V(t) \cdot (1-w)/w}
+\]</span></p>
+<p>where <span class="math inline">\(V(t)\)</span> depends on <span class="math inline">\(\tau_{\text{stjornarslit}}\)</span> as defined above. In our current modeling, we choose <span class="math inline">\(w = \frac13\)</span> and <span class="math inline">\(t = 180\)</span>.</p>
 
 
 </section>

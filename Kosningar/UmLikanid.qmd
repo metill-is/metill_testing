@@ -59,3 +59,5 @@ Líkanið vegur og metur upplýsingar frá báðum þáttum. Vægi þáttanna br
 - Eftir því sem nær dregur kosningum fá nýjustu skoðanakannanirnar meira vægi
 
 Með þessu móti nýtir líkanið bæði langtímaþróun og nýjustu upplýsingar til að gefa sem nákvæmasta spá um úrslit kosninganna.
+
+[Sjá nánari tölfræðilegar útskýringar](Adferdir.qmd){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Smelltu hér til að lesa nánar um aðferðafræði spálíkansins"}

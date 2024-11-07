@@ -54,7 +54,7 @@ make_fylgisthroun_plot <- function() {
 
   d <- read_parquet(here("data", "y_rep_draws.parquet")) |>
     summarise(
-      mean = mean(value),
+      median = median(value),
       q5 = quantile(value, 0.05),
       q95 = quantile(value, 0.95),
       .by = c(dags, flokkur)
@@ -89,7 +89,7 @@ make_fylgisthroun_plot <- function() {
 
   p <- d |>
     filter(dags >= clock::date_build(2021, 1, 1)) |>
-    ggplot(aes(dags, mean, colour = litur, data_id = flokkur)) +
+    ggplot(aes(dags, median, colour = litur, data_id = flokkur)) +
     annotate(
       geom = "segment",
       x = clock::date_build(2021, 8, 1),
@@ -118,22 +118,21 @@ make_fylgisthroun_plot <- function() {
       angle = 90,
       fill = "#faf9f9"
     ) +
-    geom_ribbon_interactive(
-      data = coverage_data,
-      aes(
-        x = dags,
-        ymin = lower,
-        ymax = upper,
-        alpha = -coverage,
-        fill = litur,
-        data_id = flokkur,
-        group = str_c(flokkur, coverage)
-      ),
-      inherit.aes = FALSE
-    ) +
+    #    geom_ribbon_interactive(
+    #      data = coverage_data,
+    #      aes(
+    #        x = dags,
+    #        ymin = lower,
+    #        ymax = upper,
+    #        alpha = -coverage,
+    #        fill = litur,
+    #        data_id = flokkur,
+    #        group = str_c(flokkur, coverage)
+    #      ),
+    #      inherit.aes = FALSE
+    #    ) +
     geom_line_interactive(
-      linewidth = 0.3,
-      alpha = 0.5
+      linewidth = 1
     ) +
     geom_point_interactive(
       aes(
@@ -151,7 +150,7 @@ make_fylgisthroun_plot <- function() {
       size = 4
     ) +
     scale_alpha_continuous(
-      range = c(0.01, 0.12)
+      range = c(0, 0.1)
     ) +
     scale_shape_manual(
       values = point_shapes,
