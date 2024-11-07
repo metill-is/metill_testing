@@ -188,8 +188,7 @@ make_fylgisthroun_plot <- function() {
     ) +
     labs(
       x = NULL,
-      y = NULL,
-      subtitle = "Fylgisþróun"
+      y = NULL
     ) +
     theme(
       legend.position = "bottom",

@@ -193,8 +193,7 @@ make_kosningabarattan_plot <- function() {
     ) +
     labs(
       x = NULL,
-      y = NULL,
-      subtitle = "Kapphlaupið"
+      y = NULL
     )
 
 
