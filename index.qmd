@@ -22,18 +22,18 @@ callout-icon: true
 
 #### Velkomin á Kosningavaktina! 
 
-Hér má finna ýmis gögn sem varpa ljósi á stöðu flokkanna fyrir komandi alþingiskosningar. F˘ylgiskannanir eru bestu gögnin sem við höfum til að átta okkur á því hvaða flokk kjósendur ætla að velja í kosningunum. En þær eru auðvitað ekki óbrigðular spár um niðurstöður kosninganna. Til að mynda getur samsetning þátttakenda í könnuninni verið skekkt, ákveðnir flokkar geta verið of- eða vanmetnir, við vitum ekki hver kjörsókn verður meðal ólíkra hópa og svo er auðvitað aðalatriðið – kosningarnar hafa ekki átt sér stað og fjöldi fólks á eftir að gera upp hug sinn eða jafnvel skipta um skoðun varðandi hvaða flokk það ætlar að kjósa. 
+Hér má finna ýmis gögn sem varpa ljósi á stöðu flokkanna fyrir komandi alþingiskosningar. Fylgiskannanir eru bestu gögnin sem við höfum til að átta okkur á því hvaða flokk kjósendur ætla að velja í kosningunum. En þær eru auðvitað ekki óbrigðular spár um niðurstöður kosninganna. Til að mynda getur samsetning þátttakenda í könnuninni verið skekkt, ákveðnir flokkar geta verið of- eða vanmetnir, við vitum ekki hver kjörsókn verður meðal ólíkra hópa og svo er auðvitað aðalatriðið – kosningarnar hafa ekki átt sér stað og fjöldi fólks á eftir að gera upp hug sinn eða jafnvel skipta um skoðun varðandi hvaða flokk það ætlar að kjósa. 
 
 #### Kosningaspálíkan
 
 Því kynnum við til sögunnar tölfræðilíkan sem spáir fyrir um kosningaúrslitin með því að byggja á kannanagögnum en leiðrétta fyrir þekktar orsakir munar milli þeirra og kosningaúrslita. Líkanið skoðar breytingar á fylgi yfir tíma og þá óvissu sem því fylgir. Það leiðréttir fyrir þekktum villum við mat á fylgi ákveðinna flokka í fyrri kosningum. Þar að auki byggir það á fjölda annarra forsenda:
 
-*	Fyrri kosningaúrslit: Fylgissveiflur geta verið miklar á miðju kjörtímabili, en kjósendur f
-*	Fjöldi ára við völd: Á Íslandi tapa sitjandi stjórnarflokkar alla jafna fylgi 
-*	Efnahagsmál: Sitjandi stjórnvöld fá yfirleitt aukið fylgi með meiri hagvexti, en tapa ef verðbólga er há
-*	Stjórnarslit: Við stjórnarslit eykst óvissa um fylgi flokkanna, þar sem kjósendur fara að fylgjast meira með stjórnmálum í aðdraganda kosninga
+*	**Fyrri kosningaúrslit:** Fylgissveiflur geta verið miklar á miðju kjörtímabili, en kjósendur fylgja oftast fyrri venjum þegar nær dregur kosningum.
+*	**Fjöldi ára við völd:** Á Íslandi tapa sitjandi stjórnarflokkar alla jafna fylgi eftir því sem lengra líður á kjörtímabilið.
+*	**Efnahagsmál:** Sitjandi stjórnvöld fá yfirleitt aukið fylgi með meiri hagvexti, en tapa ef verðbólga er há.
+*	**Stjórnarslit:** Við stjórnarslit eykst óvissa um fylgi flokkanna, þar sem kjósendur fara að fylgjast meira með stjórnmálum í aðdraganda kosninga.
 
-Við vonum að líkanið komi að notum við að greina stöðu mála í íslenskum stjórnmálum í aðdraganda alþingiskosninganna. Eins og sjá má á vikmörkum fylgisspáa er mikilvægasta niðurstaða líkansins við birtingu sú að óvissan er gríðarlega mikil – það á ekki að koma okkur á óvart þó fylgi flokkanna um nokkur prósentustig á lokametrunum. Á næstu vikum kynnum við til sögunnar fleiri gögn byggð á kosningaspánni, svo sem spár yfir fjölda þingmanna og möguleg stjórnarmynstur.
+Við vonum að líkanið komi að notum við að greina stöðu mála í íslenskum stjórnmálum í aðdraganda alþingiskosninganna. Eins og sjá má á vikmörkum fylgisspáa er mikilvægasta niðurstaða líkansins við birtingu sú að óvissan er gríðarlega mikil – það á ekki að koma okkur á óvart þó fylgi flokkanna hreyfist um nokkur prósentustig á lokametrunum. Á næstu vikum kynnum við til sögunnar fleiri gögn byggð á kosningaspánni, svo sem spár yfir fjölda þingmanna og möguleg stjórnarmynstur.
 
 [Um aðferðafræðina](Kosningar/UmLikanid.qmd){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Smelltu hér til að lesa um aðferðafræði spálíkansins"}
 
@@ -43,13 +43,13 @@ Við vonum að líkanið komi að notum við að greina stöðu mála í íslens
 
 ## Spá {.column-page}
 
-Hér verður spá-mynd
+Myndin og taflan sýna spá okkar um fylgi flokka á landsvísu í kosningunum 30. nóvember.
 
 ![](Figures/Preds/election_prediction.png)
 
 ## Kosningabaráttan {.column-page}
 
-Hér verður close-up af fylgismati okkar frá ágúst 2024
+Myndin sýnir mat okkar á raunfylgi flokkanna mánuðina fyrir kosningar. Þegar línur liggja ekki yfir punkta er það vegna þess að tölfræðilíkanið okkar metur sem svo að fylgi flokks sé kerfisbundið of- eða vanmetið.
 
 ```{r}
 #| column: page
@@ -59,7 +59,7 @@ make_kosningabarattan_plot()
 
 ## Fylgisþróun {.column-page}
 
-Hér verður fylgismat okkar frá síðustu kosningum
+Fylgi flokkanna hefur tekið breytingum frá síðustu kosningum og myndin að neðan tekur smaan þessar breytingar saman.
 
 ```{r}
 #| column: page
