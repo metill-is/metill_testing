@@ -18,7 +18,7 @@ callout-icon: true
 
 Hér kynnum við til sögunnar spennandi nýjung á Íslandi - kosningalíkan sem spáir fyrir um úrslit komandi alþingiskosninganna á grundvelli tölfræðilegra aðferða og rannsókna í stjórnmálafræði. Líkanið byggir á gögnum úr fylgiskönnunum, en einnig kosningaúrslitum fyrri ára og sögulegum gögnum um efnahagsmál og árangur ríkisstjórnarflokka í kosningum, auk fleiri þátta.
 
-Kosningalíkanið er unnið af Brynjólfi Gauta Guðrúnar Jónssyni, ásamt Agnari Freyr Helgasyni, Hafsteini Einarssyni og Rafael Daniel Vias.
+Kosningalíkanið er unnið af Brynjólfi Gauta Guðrúnar Jónssyni, ásamt Agnari Frey Helgasyni, Hafsteini Einarssyni og Rafael Daniel Vias.
 
 
 ::: {.callout-note collapse="true"}
