@@ -45,7 +45,7 @@ Við vonum að líkanið komi að notum við að greina stöðu mála í íslens
 
 Hér verður spá-mynd
 
-![](Figures/Preds/election_prediction_table_2024-11-07.png)
+![](Figures/Preds/election_prediction.png)
 
 ## Kosningabaráttan {.column-page}
 
