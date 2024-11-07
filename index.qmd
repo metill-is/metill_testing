@@ -45,7 +45,7 @@ Við vonum að líkanið komi að notum við að greina stöðu mála í íslens
 
 Hér verður spá-mynd
 
-![](Figures/Preds/election_prediction_table_2024-11-05.png)
+![](Figures/Preds/election_prediction_table_2024-11-07.png)
 
 ## Kosningabaráttan {.column-page}
 
@@ -53,8 +53,8 @@ Hér verður close-up af fylgismati okkar frá ágúst 2024
 
 ```{r}
 #| column: page
-source("R/election_tracker_plot.R")
-make_election_tracker_plot()
+source("R/kosningabarattan.R")
+make_kosningabarattan_plot()
 ```
 
 ## Fylgisþróun {.column-page}
@@ -63,8 +63,8 @@ Hér verður fylgismat okkar frá síðustu kosningum
 
 ```{r}
 #| column: page
-source("R/election_tracker_plot.R")
-make_election_tracker_plot()
+source("R/fylgisthroun.R")
+make_fylgisthroun_plot()
 ```
 
 
