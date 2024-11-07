@@ -1,0 +1,20 @@
+---
+pagetitle: "Dashboards"
+editor: source
+listing:
+    - id: dashboards
+      template: ejs/dashboards.ejs
+      sort: "date desc"
+      contents: dashboards
+---
+
+<br>
+
+
+::: {#dashboards}
+
+:::
+
+
+
+

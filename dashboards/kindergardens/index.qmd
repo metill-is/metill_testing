@@ -1,0 +1,11 @@
+---
+title: "Leikskólar á Íslandi"
+subtitle: "Yfirlit yfir stöðu leikskólaplássa á Íslandi"
+description: ""
+href: dashboards/kindergardens/index.qmd
+format: 
+  dashboard:
+    orientation: columns
+image: img/fp.png
+---
+

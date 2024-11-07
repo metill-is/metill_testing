@@ -1,0 +1,27 @@
+[
+  {
+    "listing": "/articles.html",
+    "items": [
+      "/articles/asylum/index.html",
+      "/articles/party_funds/index.html",
+      "/articles/workforce/index.html",
+      "/articles/hospital/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
+    "listing": "/dashboards.html",
+    "items": [
+      "/dashboards/immigration/index.html",
+      "/dashboards/sveitarfelog/index.html",
+      "/dashboards/skattagogn/index.html",
+      "/dashboards/properties/index.html",
+      "/dashboards/wagesandexpenses/index.html",
+      "/dashboards/kindergardens/index.html",
+      "/dashboards/inflation/index.html"
+    ]
+  }
+]

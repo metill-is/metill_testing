@@ -1,0 +1,41 @@
+---
+title: "Tekjur, gjöld og skuldir"
+description: "Yfirlit yfir tekjur, gjöld og skuldir Íslendinga"
+href: dashboards/wagesandexpenses/index.qmd
+format: 
+  dashboard:
+    orientation: columns
+image: img/image.png
+---
+
+```{r setup}
+#| include: false
+box::use(
+  arrow[read_parquet], 
+  here[here],
+  visitalaneysluverds[vnv_convert]
+) 
+
+box::use(
+  dashboards / wagesandexpenses / R / make_deciles_plot[make_deciles_plot],
+  dashboards / wagesandexpenses / R / make_fig_fasteignir_tekjur[make_fig_fasteignir_tekjur],
+  dashboards / wagesandexpenses / R / skuldir_hlutf_tekjur_interactive[skuldir_hlutf_tekjur]
+)
+
+d <- here("dashboards", "wagesandexpenses", "data", "deciles.parquet") |>
+    read_parquet()
+
+d$value <- vnv_convert(d$value, d$year)
+```
+
+# Skuldir
+
+```{r}
+skuldir_hlutf_tekjur(d)
+```
+
+# Vaxtagjöld
+
+```{r}
+make_fig_fasteignir_tekjur(d)
+```

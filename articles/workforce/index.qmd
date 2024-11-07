@@ -1,0 +1,656 @@
+---
+title: "Vinnuafl"
+pagetitle: "Vinnuafl"
+subtitle: "Hver er fjöldi starfandi einstaklinga og hvernig skiptast þeir á vinnumarkaði?"
+description: "Reglulega sjást fyrirsagnir þar sem talað er um að opinbert starfsfólk sé allt of margt og að hlutfall þess af heildarfjölda vinnandi fólks sé of hátt. Hér kryf ég reglulega nýjustu gögnin til að geta vitað hvort slíkar fullyrðingar séu teknar úr samhengi eða endurspegli raunveruleikann."
+date: "2024/10/9"
+href: articles/workforce/index.qmd
+image: figures/hlutf_opinbert_fp.png
+twitter-card:
+    image: figures/hlutf_opinbert.png
+---
+
+```{r setup}
+#| include: false
+
+library(cowplot)
+library(tidyverse)
+library(scales)
+library(pxweb)
+library(ggthemes)
+library(kableExtra)
+library(gganimate)
+library(lubridate)
+library(geomtextpath)
+library(ggtext)
+library(here)
+library(readxl)
+library(janitor)
+library(mgcv)
+library(emmeans)
+library(broom)
+library(metill)
+library(patchwork)
+library(gt)
+library(gtExtras)
+library(plotly)
+library(hagstofa)
+library(clock)
+library(ggh4x)
+
+theme_set(theme_metill(type = "standalone"))
+caption <- "Mynd frá metill.is byggð á gögnum Hagstofu um vinnuafl frá skráargögnum"
+
+file_path <- here::here("articles", "workforce", "data", "vinnuafl.csv")
+d <- vroom::vroom(file_path)
+```
+
+
+# Gögnin
+
+## Lýsing
+
+Gagnasafnið á bak við þessa skýrslu er gagnasafn Hagstofu:
+
+* [Fjöldi starfandi í rekstrarformum samkvæmt skrám eftir mánuðum, kyni, aldri og bakgrunni 2008-2023](https://px.hagstofa.is/pxis/pxweb/is/Samfelag/Samfelag__vinnumarkadur__vinnuaflskraargogn/VIN10052.px)
+
+Þar er starfandi einstaklingum skipt upp meðal annars eftir rekstrarformum. Hér eru eftirfarandi rekstrarform talin ná utan um opinbert vinnuafl:
+
+* B2, C2, D4: Opinber fyrirtæki
+* K: Aðrar opinberar stofnanir
+* K1: Ríkisstofnun
+* K2: Stofnun sveitarfélags
+
+Önnur rekstrarform eru talin sem hluti af almennum vinnumarkaði. Þau eru:
+
+* AX og E: Einkahlutafélög
+* B: Einkarekin sameignarfélög
+* C: Einkarekin samlagsfélög
+* D & F: Einkarekin hluta- og samlagshlutafélög
+* G: Samvinnufélög
+* H: Sjálfseignarstofnanir
+* L & M: Spari- og lífeyrissjóðir
+* N & P: Félagasamtök
+* R & Z: Erlend félög
+* Rekstur á eigin kennitölu
+
+## Samantekt
+
+
+```{r}
+heimild <- md("Heimild: [Gögn Hagstofu um fjölda starfandi samkvæmt skrám](https://px.hagstofa.is/pxis/pxweb/is/Samfelag/Samfelag__vinnumarkadur__vinnuaflskraargogn/VIN10052.px)")
+
+table_dat <- d |> 
+  filter(
+    bakgrunnur == "Alls",
+    rekstrarform != "Alls starfandi",
+    kyn == "Alls"
+  ) |> 
+  select(tegund, rekstrarform, dags, starfandi) |> 
+  arrange(desc(tegund), rekstrarform) |> 
+  mutate(
+    tegund = case_match(
+      tegund,
+      "Opinbert" ~ "**Opinbert starfsfólk**",
+      "Annad" ~ "**Almennur vinnumarkaður**"
+    ),
+    hlutf = starfandi / sum(starfandi),
+    .by = c(dags)
+  ) |> 
+  summarise(
+    starfandi_gogn = list(starfandi[dags >= (max(dags) - years(1))]),
+    hlutf_gogn = list(100 * hlutf[dags >= (max(dags) - years(1))]),
+    hlutf = hlutf[dags == max(dags)],
+    starfandi = starfandi[dags == max(dags)],
+    dags = max(dags),
+    .by = c(tegund, rekstrarform)
+  ) |> 
+  select(
+    dags, tegund, rekstrarform, starfandi, starfandi_gogn, hlutf, hlutf_gogn
+  )
+```
+
+```{r}
+tegund_table_dat <- d |> 
+  filter(
+    bakgrunnur == "Alls",
+    rekstrarform != "Alls starfandi",
+    kyn == "Alls"
+  ) |> 
+  select(tegund, rekstrarform, dags, starfandi) |> 
+  arrange(desc(tegund), rekstrarform) |> 
+  mutate(
+    tegund = case_match(
+      tegund,
+      "Opinbert" ~ "**Opinbert starfsfólk**",
+      "Annad" ~ "**Almennur vinnumarkaður**"
+    ),
+    hlutf = starfandi / sum(starfandi),
+    .by = c(dags)
+  ) |> 
+  summarise(
+    starfandi = sum(starfandi),
+    .by = c(tegund, dags)
+  ) |> 
+  mutate(
+    hlutf = starfandi / sum(starfandi),
+    .by = dags
+  ) |> 
+  summarise(
+    starfandi_gogn = list(starfandi[dags >= (max(dags) - years(1))]),
+    hlutf_gogn = list(100 * hlutf[dags >= (max(dags) - years(1))]),
+    hlutf = hlutf[dags == max(dags)],
+    starfandi = starfandi[dags == max(dags)],
+    dags = max(dags),
+    .by = c(tegund)
+  ) |> 
+  mutate(
+    rekstrarform = "Samtals"
+  ) |> 
+  select(
+    dags, tegund, rekstrarform, starfandi, starfandi_gogn, hlutf, hlutf_gogn
+  )
+```
+
+```{r}
+table_dat |> 
+  bind_rows(
+    tegund_table_dat
+  ) |> 
+  arrange(desc(tegund), rekstrarform) |> 
+  group_by(tegund) |> 
+  gt(
+    rowname_col = "rekstrarform",
+    process_md = TRUE,
+    locale = "is"
+  ) |> 
+  tab_header(
+    title = md("**Fjöldatölur eftir rekstrarformum**"),
+    subtitle = md("Samkvæmt nýjustu tölum Hagstofu")
+  ) |> 
+  cols_label(
+    tegund = "Tegund",
+    rekstrarform = "Rekstrarform",
+    dags = "Dagsetning",
+    starfandi = "Nýjast",
+    starfandi_gogn = "Undanfarið ár",
+    hlutf = "Nýjast",
+    hlutf_gogn = "Undanfarið ár"
+  ) |> 
+  tab_spanner(
+    label = "Fjöldi starfandi",
+    columns = starts_with("starfandi")
+  ) |> 
+  tab_spanner(
+    label = "Hlutfall (%)",
+    columns = starts_with("hlutf")
+  ) |> 
+  fmt_date(columns = dags, date_style = "day_m_year") |> 
+  fmt_number(columns = starfandi, decimals = 0) |> 
+  fmt_percent(columns = hlutf, decimals = 1) |> 
+  gt_plt_sparkline(
+    column = starfandi_gogn, type = "ref_mean",
+    same_limit = F
+  ) |> 
+  gt_plt_sparkline(
+    column = hlutf_gogn,
+    same_limit = F
+  ) |> 
+  grand_summary_rows(
+    columns = starfandi,
+    fns = list(
+      "Heildarfjöldi" = ~ sum(.) / 2
+    ),
+    fmt = ~ fmt_number(., decimals = 0)
+  ) |> 
+  grand_summary_rows(
+    columns = hlutf,
+    fns = list(
+      "Heildarfjöldi" = ~ sum(.) / 2
+    ),
+    fmt = ~ fmt_percent(., decimals = 1)
+  ) |> 
+  tab_source_note(heimild) |> 
+  tab_options(
+    table.background.color = "#fdfcfc"
+  ) 
+```
+
+# Fjöldi starfsfólks eftir vinnumarkaði
+
+```{r}
+
+
+
+plot_dat <-  d |>  
+  filter(
+    rekstrarform != "Alls starfandi", 
+    bakgrunnur == "Alls",
+    kyn == "Alls"
+    ) |>  
+  count(dags, tegund, wt = starfandi) |>  
+  pivot_wider(names_from = tegund, values_from = n) |>  
+  filter(year(dags) >= 2008)
+
+p1 <- plot_dat |> 
+  ggplot(aes(dags, Annad)) +  
+  geom_line() +  
+  scale_x_date(
+    date_breaks = "2 year", date_labels = "%Y",   
+    expand = expansion(add = 31),
+    limits = c(min(plot_dat$dags), max(plot_dat$dags) + 15)
+  ) +  
+  scale_y_tufte(
+    breaks = tufte_breaks(plot_dat$Annad),
+    limits = c(1e5, NA),
+    labels = label_number()
+  ) +
+  labs(
+    x = NULL,
+    y = NULL,
+    subtitle = "Almennur"
+  ) +
+  theme(
+    plot.margin = margin(t = 5, r = 20, b = 5, l = 5)
+  )
+
+
+plot_dat <-  d |>  
+  filter(
+    rekstrarform != "Alls starfandi", 
+    bakgrunnur == "Alls"
+  ) |>  
+  count(dags, tegund, wt = starfandi) |>  
+  pivot_wider(names_from = tegund, values_from = n)
+
+p2 <- plot_dat |> 
+  ggplot(aes(dags, Opinbert)) +  
+  geom_line() +  
+  scale_x_date(
+    date_breaks = "2 year", date_labels = "%Y",   
+    expand = expansion(add = 31),
+    limits = c(min(plot_dat$dags), max(plot_dat$dags) + 15)
+  ) +  
+  scale_y_tufte(
+    breaks = tufte_breaks(plot_dat$Opinbert),
+    labels = label_number()
+  ) +
+  labs(
+    x = NULL,
+    y = NULL,
+    subtitle = "Opinber"
+  ) +
+  theme(
+    plot.margin = margin(t = 5, r = 20, b = 5, l = 5)
+  )
+
+plot_dat <-  d |>  
+  filter(
+    rekstrarform != "Alls starfandi", 
+    bakgrunnur == "Alls"
+  ) |>  
+  count(dags, tegund, wt = starfandi) |>  
+  mutate(
+    tegund = fct_recode(
+      as_factor(tegund),
+      "Opinber" = "Opinbert",
+      "Almennur" = "Annad"
+    )
+  )
+
+p3 <- plot_dat |> 
+  ggplot(aes(dags, n)) +  
+  geom_line(aes(col = tegund)) +
+  geom_text(
+    data = plot_dat |> 
+      filter(dags == max(dags)),
+    aes(label = tegund, col = tegund), 
+    hjust = 0, 
+    nudge_x = 10
+  ) +
+  scale_x_date(
+    date_breaks = "2 year",
+    date_labels = "%Y",  
+    expand = expansion(add = 31),
+    limits = c(min(plot_dat$dags), max(plot_dat$dags) + 15)
+  ) +  
+  scale_y_tufte(
+    breaks = tufte_breaks(plot_dat$n),
+    labels = label_number(),
+    limits = c(0, NA),
+    expand = expansion()
+  ) +
+  scale_colour_brewer(type = "qual", palette = "Set1") +
+  labs(x = NULL,
+       y = NULL,
+       subtitle = "Almennur og opinber") +
+  theme(plot.margin = margin(t = 5, r = 60, b = 5, l = 5),
+        legend.position = "none")
+
+layout <- 'ABC'
+
+p <- p1 + p3 + p2 +
+  plot_layout(
+    design = layout
+  ) +
+  plot_annotation(
+    caption = "Mynd frá metill.is byggð á gögnum Hagstofu um vinnuafl frá skráargögnum"
+  )
+
+ggsave(
+  plot = p,
+  filename = "figures/figure1.png",
+  width = 8, height = 0.3 * 8, scale = 1.7
+)
+
+```
+
+![](figures/figure1.png){.column-screen-inset}
+
+# Árstíðaleiðrétt hlutfall opinbers starfsfólks
+
+:::{.panel-tabset}
+
+## Mynd
+
+```{r}
+#| fig-width: 12
+#| fig-asp: 0.621
+#| out-width: "100%"
+#| column: screen-inset
+
+
+
+theme_set(theme_metill(type = "standalone"))
+
+model_dat <- d |>  
+  filter(
+    rekstrarform != "Alls starfandi", 
+    bakgrunnur == "Alls",
+    kyn == "Alls"
+  ) |>  
+  count(dags, tegund, wt = starfandi) |>  
+  pivot_wider(names_from = tegund, values_from = n) |>  
+  mutate(Heild = Opinbert + Annad) |> 
+  filter(year(dags) >= 2008) |>  
+  mutate(manudur = month(dags),
+         timi = as.numeric(as.factor(dags)),
+         hlutf = Opinbert / (Annad + Opinbert)) |> 
+  ungroup() 
+
+m <- gam(Opinbert ~ s(manudur, bs = "cc") + s(timi, bs = "ad"), 
+         data = model_dat, offset = log(Heild), family = nb(), method = "REML")
+
+plot_dat <- emmeans(
+  m, 
+  ~ timi + manudur, 
+  at = list(
+    timi = model_dat$timi,
+    manudur = 1:12), 
+  offset = 0
+  ) |> 
+  tidy(type = "response") |> 
+  group_by(timi) |> 
+  mutate(wt = 1 / std.error,
+         wt = wt / sum(wt)) |> 
+  summarise(response = sum(response * wt)) |> 
+  inner_join(
+    model_dat,
+    by = "timi"
+  )
+
+
+opinbert_dat <- gam(Opinbert ~ s(manudur, bs = "cc") + s(timi, bs = "ad"), data = model_dat,
+                    family = nb(), method = "REML") |> 
+  emmeans(~ timi, at = list(timi = unique(model_dat$timi))) |> 
+  tidy() |> 
+  inner_join(
+    model_dat |> 
+      distinct(timi, dags)
+  ) |> 
+  mutate(change = c(0, diff(estimate)),
+         perc_change = exp(change))
+
+
+alm_dat <- gam(Annad ~ s(manudur, bs = "cc") + s(timi, bs = "ad"), data = model_dat,
+               family = nb(), method = "REML") |> 
+  emmeans(~ timi, at = list(timi = unique(model_dat$timi))) |> 
+  tidy() |> 
+  inner_join(
+    model_dat |> 
+      distinct(timi, dags)
+  ) |> 
+  mutate(change = c(0, diff(estimate)),
+         perc_change = exp(change))
+
+
+heild_dat <- gam(Heild ~ s(manudur, bs = "cc") + s(timi, bs = "ad"), data = model_dat,
+                 family = nb(), method = "REML") |> 
+  emmeans(~ timi, at = list(timi = unique(model_dat$timi))) |> 
+  tidy() |> 
+  inner_join(
+    model_dat |> 
+      distinct(timi, dags)
+  ) |> 
+  mutate(change = c(0, diff(estimate)),
+         perc_change = exp(change))
+
+plot_dat2 <- alm_dat |> 
+  mutate(tegund = "Almennur") |> 
+  bind_rows(
+    opinbert_dat |> 
+      mutate(tegund = "Opinber")
+  )
+
+
+dates <- c("2009-07-01", "2017-10-01", "2020-12-01")
+
+p1 <- plot_dat |> 
+  ggplot(aes(dags, hlutf)) +  
+  geom_vline(xintercept = ymd(dates), lty = 2, alpha = 0.5) +
+  geom_line(aes(y = hlutf), alpha = 0.1) +
+  geom_line(aes(y = response)) +  
+  scale_x_date(
+    breaks = seq.Date(from = min(plot_dat$dags), to = ymd("2022-01-01"), by = "year"), 
+    date_labels = "%Y",  
+    guide = guide_axis(n.dodge = 1),  
+    expand = expansion(),
+    limits = c(min(plot_dat$dags), max(plot_dat$dags) + 20)
+  ) +
+  scale_y_tufte(
+    breaks = tufte_breaks(plot_dat$hlutf),
+    labels = label_percent(accuracy = 0.01)
+  ) +  
+  labs(x = NULL, y = NULL,  
+       title = "Breytist hlutfall opinbers starfsfólks vegna opinbers eða almenns markaðar?",
+       subtitle = "Hlutfall opinbers starfsfólks af vinnumarkaði") +  
+  theme(
+    plot.margin = margin(t = 5, r = 60, b = 5, l = 5),
+    axis.line.x = element_blank(),
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank()
+  )
+
+p2 <- plot_dat2 |> 
+  ggplot(aes(dags, perc_change)) +
+  geom_vline(xintercept = ymd(dates), lty = 2, alpha = 0.5) +
+  geom_hline(yintercept = 1, lty = 2) +
+  geom_line(aes(col = tegund)) +
+  geom_text(
+    data = plot_dat2 |> 
+      filter(dags == max(dags)) |> 
+      mutate(
+        y = case_when(
+          tegund == "Opinber" ~ perc_change - 0.0004,
+          tegund == "Almennur" ~ perc_change + 0.0003,
+        )
+      ),
+    aes(y = y, label = tegund, col = tegund),
+    hjust = 0, nudge_x = 20
+  ) +
+  scale_x_date(
+    date_breaks = "year", date_labels = "%Y", 
+    expand = expansion(),
+    limits = c(min(plot_dat$dags), max(plot_dat$dags) + 20)
+  ) +
+  scale_y_tufte(
+    labels = function(x) percent(x - 1, prefix = ""),
+    breaks = c(1, range(plot_dat2$perc_change), 1.005, 0.995),
+    trans = "log10"
+  ) +
+  scale_colour_brewer(type = "qual", palette = "Set1") +
+  coord_cartesian(clip = "off") +
+  theme(
+    plot.margin = margin(t = 0, r = 60, b = 5, l = 5),
+    legend.position = "none",
+    plot.subtitle = element_text(margin = margin(t = 0, r = 0, b = 10, l = 0))
+  ) +
+  labs(x = NULL,
+       y = NULL,
+       subtitle = "Mánaðarleg hlutfallsleg breyting fjölda starfsfólks")
+
+
+p <- plot_grid(
+  p1, 
+  p2,
+  ncol = 1
+) +
+  theme_metill() +
+  theme(axis.line = element_blank(),
+        plot.margin = margin()) +
+  labs(caption = "Mynd frá metill.is byggð á gögnum Hagstofu um vinnuafl frá skráargögnum")
+
+ggsave(
+  plot = p,
+  filename = "figures/hlutf_opinbert.png",
+  width = 8, 
+  height = 0.621 * 8, 
+  scale = 1.3
+)
+
+
+p <- plot_grid(
+  p1 +
+    theme(plot.background = element_blank(),
+          panel.background = element_blank()), 
+  p2 +
+    theme(plot.background = element_blank(),
+          panel.background = element_blank()),
+  ncol = 1
+) +
+  labs(caption = "Mynd frá metill.is byggð á gögnum Hagstofu um vinnuafl frá skráargögnum")
+
+ggsave(
+  plot = p ,
+  filename = "figures/hlutf_opinbert_fp.png",
+  width = 8, 
+  height = 0.621 * 8, 
+  scale = 1.3
+)
+```
+
+![](figures/hlutf_opinbert.png){.column-page}
+
+## Aðferð
+
+:::{.panel-tabset}
+
+### Leiðrétting fyrir árstíðarsveiflum
+
+Við getum hugsað að þetta séu tvö ferli:
+
+1. Langtímaferli sem breytist án mjög ákveðins mynsturs
+2. Árstíðabundnar sveiflur sem eru að mestu leyti svipaðar frá ári til árs
+
+Notum GAM *(Generalized Additive Models)* til að meta bæði ferlin saman. Splæsibrúunin *(e. splines)* metur ferlið í tveimur hlutum, línulegum og ólínulegum, og notar stika til að toga ólínulega hlutann í átt að línulegu ferli.
+
+1. Þar sem hæga þróunin getur verið að breytast mishratt á mismunandi árabilum notum við aðlögunarsplæsibrúun *(e. adaptive smoother)* þar sem ólínulegi stikinn fær að breytast með tíma. Í kóðanum er þetta táknað með `s(timi, bs = "ad")`
+
+2. Árstíðarferlið hefur þær skorður að frávikið í upphafi og byrjun ársins á að stefna í sömu tölu, þ.e. $\text{31. desember} \approx \text{1. janúar}$. Pakkinn `mgcv` býður upp á slíka hringrásarsplæsara *(e. cyclic smooths)* *[alveg í ruglinu með íslenskuna núna]*. Í kóðanum er þetta táknað með `s(manudur, bs = "cc")`
+
+Þegar við erum komin með mat á þessi tvö ferli er lítið mál að heilda yfir árstíðarbundnu sveiflurnar. Við vigtum árstíðarbundna matið eftir nákvæmni matsins í hverjum mánuði *(einum deilt með staðalvillu matsins)* og reiknum svo meðaltal eftir því.
+
+Allt í allt metum við þá líkanið svona *(einfölduð útgáfa af kóða)*:
+
+`gam(Opinbert ~ s(manudur, bs = "cc") + s(timi, bs = "ad"), offset = log(Heild), family = nb())`
+
+Fjöldi opinbers starfsfólks er jákvæð fjöldatala svo fyrsta ágískunin er alltaf [neikvæða tvíkostadreifingin](https://en.wikipedia.org/wiki/Negative_binomial_distribution). Við metum líkanið á lograkvarða, bæði því það er náttúrulega matið fyrir dreifinguna, en líka því við búumst við því að útkoman breytist hlutfallslega milli ára. 
+
+Hér fyrir neðan sjáum við svo matið á árstíðaráhrifum:
+
+```{r}
+#| fig-width: 12
+#| fig-asp: 0.6
+#| out-width: "100%"
+#| column: page
+
+
+plot_dat <- emmeans(m, ~ manudur, at = list(manudur = seq(1, 12, length.out = 100))) |> 
+  tidy(type = "response") |> 
+  mutate(response = exp(log(response) - mean(log(response))))
+
+p <- plot_dat |> 
+  ggplot(aes(manudur, response)) +
+  geom_hline(yintercept = 1, lty = 2) +
+  geom_line() +
+  scale_x_tufte(breaks = 1:12,
+                labels = c("Janúar", "Febrúar", "Mars",
+                           "Apríl", "Maí", "Júní",
+                           "Júli", "Ágúst", "September",
+                           "Október", "Nóvember", "Desember")) +
+  scale_y_tufte(labels = function(x) percent(x - 1),
+                breaks = tufte_breaks(plot_dat$response),
+                limits = c(0.92, 1.08)) +
+  labs(x = "Mánuður",
+       y = "Árstíðarbundnar sveiflur",
+       title = "Árstíðarsveiflur í hlutfalli opinbers starfsfólks")
+
+ggsave(
+  plot = p ,
+  filename = "figures/yearly_sveiflur.png",
+  width = 8, 
+  height = 0.4 * 8, 
+  scale = 1.3
+)
+```
+
+![](Figures/yearly_sveiflur.png)
+
+### Teljarinn og nefnarinn
+
+Hlutall *(p)* opinbers starfsfólks *(O)* af heildarfjölda starfsfólks *(H)* má skrifa
+
+$$
+p = \frac{O}{H},
+$$
+
+Þar sem $H$ inniheldur líka starfsfólk á almennum vinnumarkaði *(A)*, s.s. $H = O + A$. 
+
+Skoðum hlutfallið á tveimur mismunandi tímapunktum, $p_1$ og $p_2$.
+
+$$
+\frac{p_2}{p_1} = \frac{O_2/H_2}{O_1/H_1} = \frac{O_2/O_1}{H_2/H_1}.
+$$
+
+Ef $p_2 > p_1$ og $p_1 \neq 0$ gildir að $p_2/p_1 > 1$ og því
+
+$$
+\begin{aligned}
+\frac{O_2/O_1}{H_2/H_1} &> 1 \\
+\rightarrow \frac{O_2}{O_1} &> \frac{H_2}{H_1},
+\end{aligned}
+$$
+
+þ.e. fjöldi opinbers starfsfólks hefur vaxið hlutfallslega hraðar en fjöldi starfsfólks alls. 
+
+Þetta er kannski augljóst, en það er gott að hafa þetta í huga þegar hlutfallið hækkar og athuga hvort það sé vegna mikilla opinberra ráðninga eða fækkunar starfa á almennum vinnumarkaði.
+
+Hér nota ég *GAM* til að smootha gögnin og nota svo árstíðaleiðrétt smooth gögn til að reikna stöðugar mánaðarlegar breytingar og teiknum þær svo.
+
+:::
+
+:::
+
+# Fjöldi starfandi á almennum vinnumarkaði
+
+![](figures/almennur_fjoldi_methaedir.png){.column-page}

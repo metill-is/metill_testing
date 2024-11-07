@@ -1,0 +1,141 @@
+---
+title: "Innflytjendur á Íslandi"
+subtitle: "Yfirlit yfir stöðu innflytjenda á Íslandi"
+description: "Íbúum á Íslandi hefur fjölgað verulega undanfarinn áratug. Að miklu leyti hefur þessi fjölgun verið drifin áfram af innflytjendum. Hvað eru þessir innflytjendur stórt hlutfall af þjóðinni? Hvernig gengur þeim á vinnumarkaðinum? Hvaðan koma þeir?"
+href: dashboards/immigration/index.qmd
+format: 
+  dashboard:
+    orientation: columns
+image: img/innfl.png
+---
+
+
+```{r setup}
+#| include: false
+library(tidyverse)
+library(scales)
+library(visitalaneysluverds)
+library(metill)
+library(patchwork)
+library(glue)
+library(eurostat)
+library(ggh4x)
+library(ggiraph)
+library(gt)
+library(rnaturalearth)
+library(sf)
+library(here)
+
+Sys.setlocale("LC_ALL", "is_IS.UTF-8")
+
+theme_set(
+  theme_metill() +
+    theme(
+      panel.background = element_rect(fill = "transparent", colour = NA),
+      plot.background = element_rect(fill = "transparent", colour = NA),
+      legend.background = element_rect(fill = "transparent", colour = NA)
+  )
+)
+
+update_cache <- TRUE
+
+source(here("dashboards", "immigration", "R", "plot1a.R"))
+source(here("dashboards", "immigration", "R", "plot1b.R"))
+source(here("dashboards", "immigration", "R", "plot2a.R"))
+source(here("dashboards", "immigration", "R", "plot2b.R"))
+source(here("dashboards", "immigration", "R", "plot3a.R"))
+source(here("dashboards", "immigration", "R", "plot3b.R"))
+source(here("dashboards", "immigration", "R", "plot4a.R"))
+source(here("dashboards", "immigration", "R", "plot4b.R"))
+
+
+caption <- "Mynd eftir @bggjonsson hjá metill.is byggð á gögnum Eurostat um fólksflutninga: https://metill.is/greinar/innflytjendur\nGögn og kóði: https://github.com/bgautijonsson/Metill.is/tree/master/greinar/innflytjendur"
+
+litur_island <- "#08306b"
+
+litur_danmork <- "#e41a1c"
+
+litur_finnland <- "#3690c0"
+
+litur_noregur <- "#7f0000"
+
+litur_svithjod <- "#fd8d3c"
+
+litur_luxemborg <- "black"
+
+litur_total <- "#005824"
+
+litur_annad <- "#737373"
+
+d <- read_csv(here("dashboards", "immigration", "data", "cbirth_eurostat.csv"))
+virkni <- read_csv(here("dashboards", "immigration", "data", "jobmarket_activity_citizen_eurostat.csv"))
+atvinna <- read_csv(here("dashboards", "immigration", "data", "jobmarket_working_citizen_eurostat.csv"))
+```
+
+# Fólksfjöldi
+
+## Column {.tabset}
+
+```{r}
+#| eval: true
+#| title: "Heild"
+make_plot1a()
+```
+
+```{r}
+#| eval: true
+#| title: "Hlutfall innflytjenda"
+make_plot1b()
+```
+
+# Upprunaland
+
+## Column {.tabset}
+
+```{r}
+#| eval: true
+#| title: "Röðun"
+make_plot3a()
+```
+
+
+```{r}
+#| eval: true
+#| title: "Landakort"
+
+make_plot3b()
+```
+
+# Atvinna
+
+## Column {width:60%} {.tabset}
+
+```{r}
+#| eval: true
+#| title: "Atvinnuþátttaka"
+make_plot2a()
+```
+
+
+```{r}
+#| eval: true
+#| title: "Hlutfall með vinnu"
+make_plot2b()
+```
+
+# Afbrot
+
+## Column {.tabset}
+
+
+```{r}
+#| eval: true
+#| title: "Grunaðir og saksóttir"
+make_plot4a()
+```
+
+```{r}
+#| eval: true
+#| title: "Fangar"
+make_plot4b()
+```

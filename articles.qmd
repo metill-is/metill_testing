@@ -1,0 +1,16 @@
+---
+pagetitle: "Articles"
+editor: source
+listing:
+    - id: articles
+      type: default
+      categories: true
+      sort: "date desc"
+      contents: articles
+---
+
+<br>
+
+::: {#posts}
+
+:::

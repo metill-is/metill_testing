@@ -1,0 +1,16 @@
+```{=html}
+<div class="container-md"></div>
+  <% for (const item of items) { %>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="<%= item.image %>" class="img-fluid" alt="<%= item.pagetitle %>">
+      </div>
+      <div class="col-md-6">
+        <h2><%= item.pagetitle %></h2>
+        <p><%= item.pagesubtitle %></p>
+        <a href="<%= item.href %>" class="btn btn-secondary">Explore Dashboard</a>
+      </div>
+    </div>
+  <% } %>
+</div>
+```

@@ -1,0 +1,906 @@
+---
+title: "Tímabundin vernd og hælisleitendur"
+pagetitle: "Tímabundin vernd og hælisleitendur"
+subtitle: "Hvað segja gögnin um fjölda hælisleitenda og umsækjendur um tímabundna vernd ás Íslandi?"
+description: "Hvar bíða flestir einstaklingar eftir niðurstöðu í hælisumsókn sinni? Hvaða land hefur tekið við flestum hælisleitendum? Hvernig tengist löggjöf skilgreiningu á gögnum? Hér eru gögn um fjölda einstaklinga sem njóta tímabundinnar verndar eða hælis, fjölda samþykktra verndar- og hælisumsókna og fjölda umsókna í bið tekin saman úr gögnum  Eurostat."
+date: "2024/10/29"
+draft: false
+categories:
+    - stjórnmál
+    - fólksflutningar
+    - flóttafólk
+    - eurostat
+    - evrópa
+href: greinar/flottafolk/index.qmd
+image: Figures/cover_fp.png
+twitter-card:
+    image: Figures/cover.png
+execute: 
+  eval: true
+toc: true
+---
+
+
+```{r setup}
+#| include: false
+library(tidyverse)
+library(scales)
+library(visitalaneysluverds)
+library(metill)
+library(patchwork)
+library(glue)
+library(eurostat)
+library(ggh4x)
+library(ggiraph)
+library(gt)
+library(gtExtras)
+library(ggtext)
+library(here)
+
+Sys.setlocale("LC_ALL", "is_IS.UTF-8")
+
+theme_set(theme_metill(type = "blog"))
+
+source("R/make_plot.R")
+source("R/ggiraph1.R")
+source("R/ggiraph2.R")
+source("R/ggiraph3.R")
+source("R/make_samantekt.R")
+
+update_cache <- TRUE
+
+
+caption <- "Mynd eftir @bggjonsson hjá metill.is byggð á gögnum Eurostat um fólksflutninga: https://metill.is/greinar/flottafolk\nGögn og kóði: https://github.com/bgautijonsson/Metill.is/tree/master/greinar/flottafolk"
+
+litur_island <- "#08306b"
+
+litur_danmork <- "#e41a1c"
+
+litur_finnland <- "#3690c0"
+
+litur_noregur <- "#7f0000"
+
+litur_svithjod <- "#fd8d3c"
+
+litur_luxemborg <- "black"
+
+litur_total <- "#005824"
+
+litur_annad <- "#737373"
+
+d <- here("articles", "asylum", "data", "raw_data.csv") |> 
+  read_csv()
+
+d <- here("articles", "asylum", "data", "raw_data.csv") |> 
+  read_csv()
+
+data_hist <- here("articles", "asylum", "data", "data_hist.csv") |> 
+  read_csv()
+```
+
+
+# Skilgreiningar
+
+Hér er unnið með gögn frá Eurostat, hagstofu Evrópusambandsins. Þar sem það er munur á löggjöf þar og á Íslandi er mikilvægt að hafa nokkrar skilgreiningar og þýðingar á hreinu. Hér verður notast við eftirfarandi skilgreiningar og þýðingar:
+
+* **Tímabundin vernd (e. temporary protection):** Þetta er kallað *sameiginleg vernd vegna fjöldaflótta* í 44. grein laga um útlendinga, en *temporary protection* hjá Evrópusambandinu og þar af leiðandi Eurostat. Dómsmálaráðherra virkjaði þessa grein vegna fjöldaflótta frá Úkraínu í mars 2022. Hér verður notast við orðatiltækið **tímabundin vernd**. Afgreiðsla umsókna um tímabundna vernd er fljótari en annarra umsókna þar sem ekki þarf að leggja jafnmikla vinnu í að rannsaka mál hvers og eins.
+* **Hæli (e. asylum):** Einstaklingur sem fær ekki tímabundna vernd þarf að ganga í gegnum persónulegra ferli þar sem málsmeðferð sker úr um hvort einstaklingur þurfi á hæli að halda. Í gögnum Útlendingastofnunar virðist þetta oftast kallað *efnisleg meðferð* og hefur ýmist verið skipt niður í flokkana *vernd*, *viðbótarvernd* og *mannúðarleyfi* í gögnum þeirra. Hér verður notast við orðið **hæli** yfir alla þessa flokka. Afgreiðsla umsókna um hæli tekur lengri tíma og því er oftast fjallað um þennan málaflokk þegar rætt er um álag á innviði sem tengjast móttöku flóttafólks.
+
+
+# Samantekt
+
+Myndir og tafla hér að neðan sýna stutta samantekt á tölunum. Fyrir neðan fylgir nánari greining.
+
+::: {.panel-tabset}
+
+## Myndir
+
+::: {.panel-tabset}
+
+### 2022
+
+![](Figures/figure_vernd_2022.png){.column-page}
+
+### 2023
+
+![](Figures/figure_vernd_2023.png){.column-page}
+
+### Samtals (2022 - 2023)
+
+![](Figures/figure_vernd_2022-2023.png){.column-page}
+
+### 2024
+
+![](Figures/figure_vernd_2024.png){.column-page}
+
+:::
+
+## Töflur
+
+::: {.panel-tabset}
+
+### 2022
+
+```{r}
+data_hist |> 
+  filter(
+    land != "Samtals",
+    year(time) == 2022
+  ) |> 
+  select(time, land, name, per_pop) |>
+  pivot_wider(values_from = per_pop) |> 
+  mutate(
+    asylum_applicants_non_ukr = asylum_applicants,
+    asylum_applicants = asylum_applicants + (total - total_non_ukr)
+  ) |> 
+  group_by(land) |> 
+  summarise_at(
+    vars(-time),
+    mean
+  ) |> 
+  mutate(
+    l = janitor::make_clean_names(land),
+    colour = case_when(
+      land == "Ísland" ~ litur_island,
+      land == "Danmörk" ~ litur_danmork,
+      land == "Finnland" ~ litur_finnland,
+      land == "Noregur" ~ litur_noregur,
+      land == "Svíþjóð" ~ litur_svithjod,
+      land == "Samtals" ~ litur_total,
+      TRUE ~ litur_annad
+    ),
+    textsize = if_else(colour == litur_annad, 12, 12),
+    fontweight = if_else(colour == litur_annad, "normal", "bold"),
+    land = glue("<span style='color:{colour};font-size:{textsize}pt;font-weight:{fontweight};'>{land}</span>")
+  ) |> 
+  arrange(l) |> 
+  select(1:5) |> 
+  gt() |> 
+  tab_header(
+    title = "Samantekt á verndarkerfum Evrópulanda (2022)",
+    subtitle = "Tölur sýndar sem fjöldi á 100.000 íbúa móttökulands"
+  ) |> 
+  tab_source_note(
+    "Tafla eftir @bggjonsson hjá metill.is byggð á gögnum Eurostat um fólksflutninga: https://metill.is/greinar/flottafolk\nGögn og kóði: https://github.com/bgautijonsson/Metill.is/tree/master/greinar/flottafolk"
+  ) |> 
+  cols_label(
+    land = "",
+    total = "Samtals",
+    total_non_ukr = "Án Úkraínu",
+    asylum_applicants = "Samtals",
+    asylum_applicants_non_ukr = "Án Úkraínu"
+  ) |> 
+  tab_spanner(
+    label = md("**Verndarveitingar**"), columns = 2:3
+  ) |> 
+  tab_spanner(
+    label = md("**Umsóknir**"), columns = 4:5
+  ) |> 
+  fmt_number(decimals = 0) |> 
+  fmt_markdown(land) |> 
+  gt_color_rows(
+    columns = -land,
+    domain = NULL,
+    palette = "Greys"
+    ) |> 
+  opt_vertical_padding(0.7) |> 
+  tab_options(
+    table.background.color = "#faf9f9"
+  )
+```
+
+### 2023
+
+```{r}
+data_hist |> 
+  filter(
+    land != "Samtals",
+    year(time) >= 2023
+  ) |> 
+  select(time, land, name, per_pop) |>
+  pivot_wider(values_from = per_pop) |> 
+  mutate(
+    asylum_applicants_non_ukr = asylum_applicants,
+    asylum_applicants = asylum_applicants + (total - total_non_ukr)
+  ) |> 
+  group_by(land) |> 
+  summarise_at(
+    vars(-time),
+    mean
+  ) |> 
+  mutate(
+    l = janitor::make_clean_names(land),
+    colour = case_when(
+      land == "Ísland" ~ litur_island,
+      land == "Danmörk" ~ litur_danmork,
+      land == "Finnland" ~ litur_finnland,
+      land == "Noregur" ~ litur_noregur,
+      land == "Svíþjóð" ~ litur_svithjod,
+      land == "Samtals" ~ litur_total,
+      TRUE ~ litur_annad
+    ),
+    textsize = if_else(colour == litur_annad, 12, 12),
+    fontweight = if_else(colour == litur_annad, "normal", "bold"),
+    land = glue("<span style='color:{colour};font-size:{textsize}pt;font-weight:{fontweight};'>{land}</span>")
+  ) |> 
+  arrange(l) |> 
+  select(1:5) |> 
+  gt() |> 
+  tab_header(
+    title = "Samantekt á verndarkerfum Evrópulanda (2023)",
+    subtitle = "Tölur sýndar sem fjöldi á 100.000 íbúa móttökulands"
+  ) |> 
+  tab_source_note(
+    "Tafla eftir @bggjonsson hjá metill.is byggð á gögnum Eurostat um fólksflutninga: https://metill.is/greinar/flottafolk\nGögn og kóði: https://github.com/bgautijonsson/Metill.is/tree/master/greinar/flottafolk"
+  ) |> 
+  cols_label(
+    land = "",
+    total = "Samtals",
+    total_non_ukr = "Án Úkraínu",
+    asylum_applicants = "Samtals",
+    asylum_applicants_non_ukr = "Án Úkraínu"
+  ) |> 
+  tab_spanner(
+    label = md("**Verndarveitingar**"), columns = 2:3
+  ) |> 
+  tab_spanner(
+    label = md("**Umsóknir**"), columns = 4:5
+  ) |> 
+  fmt_number(decimals = 0) |> 
+  fmt_markdown(land) |> 
+  gt_color_rows(
+    columns = -land,
+    domain = NULL,
+    palette = "Greys"
+    ) |> 
+  opt_vertical_padding(0.7) |> 
+  tab_options(
+    table.background.color = "#faf9f9"
+  )
+```
+
+### Samtals
+
+```{r}
+data_hist |> 
+  filter(
+    land != "Samtals",
+    year(time) >= 2022
+  ) |> 
+  select(time, land, name, per_pop) |>
+  pivot_wider(values_from = per_pop) |> 
+  mutate(
+    asylum_applicants_non_ukr = asylum_applicants,
+    asylum_applicants = asylum_applicants + (total - total_non_ukr)
+  ) |> 
+  group_by(land) |> 
+  summarise_at(
+    vars(-time),
+    mean
+  ) |> 
+  mutate(
+    l = janitor::make_clean_names(land),
+    colour = case_when(
+      land == "Ísland" ~ litur_island,
+      land == "Danmörk" ~ litur_danmork,
+      land == "Finnland" ~ litur_finnland,
+      land == "Noregur" ~ litur_noregur,
+      land == "Svíþjóð" ~ litur_svithjod,
+      land == "Samtals" ~ litur_total,
+      TRUE ~ litur_annad
+    ),
+    textsize = if_else(colour == litur_annad, 12, 12),
+    fontweight = if_else(colour == litur_annad, "normal", "bold"),
+    land = glue("<span style='color:{colour};font-size:{textsize}pt;font-weight:{fontweight};'>{land}</span>")
+  ) |> 
+  arrange(l) |> 
+  select(1:5) |> 
+  gt() |> 
+  tab_header(
+    title = "Samantekt á verndarkerfum Evrópulanda (2022 - 2023)",
+    subtitle = "Tölur sýndar sem fjöldi á 100.000 íbúa móttökulands"
+  ) |> 
+  tab_source_note(
+    "Tafla eftir @bggjonsson hjá metill.is byggð á gögnum Eurostat um fólksflutninga: https://metill.is/greinar/flottafolk\nGögn og kóði: https://github.com/bgautijonsson/Metill.is/tree/master/greinar/flottafolk"
+  ) |> 
+  cols_label(
+    land = "",
+    total = "Samtals",
+    total_non_ukr = "Án Úkraínu",
+    asylum_applicants = "Samtals",
+    asylum_applicants_non_ukr = "Án Úkraínu"
+  ) |> 
+  tab_spanner(
+    label = md("**Verndarveitingar**"), columns = 2:3
+  ) |> 
+  tab_spanner(
+    label = md("**Umsóknir**"), columns = 4:5
+  ) |> 
+  fmt_number(decimals = 0) |> 
+  fmt_markdown(land) |> 
+  gt_color_rows(
+    columns = -land,
+    domain = NULL,
+    palette = "Greys"
+    ) |> 
+  opt_vertical_padding(0.7) |> 
+  tab_options(
+    table.background.color = "#faf9f9"
+  )
+```
+
+:::
+
+
+
+
+:::
+
+
+
+# Tímabundin Vernd
+
+Í þessum kafla verður aðallega fjallað um flóttafólk frá Úkraínu. Það getur verið eitthvað af flóttafólki frá öðrum löndum eftir löggjöfum hvers svæðis, en hlutdeild Úkraínsks flóttafólks er nær 100% í öllum fjöldatölum þessa flokks.
+
+Þessi flokkur er oftast tekinn út úr sviga þegar tölur um flóttafólk eru greindar þar sem flóttafólk frá Úkraínu fær fljótari meðferð og veldur því minna álagi á innviði sem tengjast móttöku flóttafólks.
+
+-----
+
+```{r ggiraph1}
+#| column: screen
+#| classes: between-content
+
+make_ggiraph1(
+  width = 16,
+  height = 1.5 * 16
+)
+```
+
+-----
+
+## Mánaðarlegar veitingar
+
+Yfir árið 2022 var mikið flæði flóttafólks frá Úkraínu til annarra Evrópulanda, þá sérstaklega til Tékklands og Póllands, en mikill fjöldi leitaði líka til Slóvakíu og Eistlands. Síðustu mánuði ársins 2023 jókst fjöldinn sem leitaði til Noregs og tóku norsk yfirvöld við flestum í nóvember síðastliðinn.
+
+```{r}
+#| eval: true
+#| column: page-left
+
+make_plot(
+  plot_var = "grants",
+  scaling_var = "per_pop",
+  start_date = clock::date_build(2022, 3, 1),
+  end_date = clock::date_build(2024, 6, 1),
+  title = "Hvað er mörgum veitt tímabundin vernd í hverjum mánuði?",
+  subtitle = "Sýnt sem fjöldi á 100.000 íbúa hvers lands",
+  caption = caption,
+  y_upper = 200,
+  number_labels = label_number(big.mark = ".", decimal.mark = ",")
+)
+```
+
+
+
+
+## Einstaklingar sem njóta verndar
+
+Ef við leggjum saman allan fjöldann sem hafa fengið tímabundna vernd í löndum *(og drögum frá einstaklinga sem leita til annarra landa eftir að hafa verið veitt tímabundin vernd)* sjáum við að langmestur fjöldi fólks nýtur tímabundinnar verndar í Tékklandi. Noregur, Finnland og Ísland eru öll yfir meðaltali.
+
+```{r}
+#| eval: true
+#| column: page-left
+
+make_plot(
+  plot_var = "beneficiaries",
+  scaling_var = "per_pop",
+  start_date = clock::date_build(2022, 3, 1),
+  end_date = clock::date_build(2024, 6, 1),
+  title = "Hvar njóta flestir einstaklingar tímabundinnar verndar?",
+  subtitle = "Sýnt sem fjöldi á 100.000 íbúa hvers lands",
+  caption = caption,
+  # y_upper = 200,
+  number_labels = label_number(big.mark = ".", decimal.mark = ",")
+)
+```
+
+
+
+# Hæli
+
+Í þessum kafla eiga tölur við um *hæli*, það er að segja flóttafólk hvers umsóknir þurfa að fara í gegnum efnislega meðferð og úrskurður byggður á aðstæðum hvers og eins. 
+
+Þessi flokkur er helsta ágreiningsefnið í umræðum þar sem einstaklingar í þessum hóp fá ekki sömu flýtimeðferð og einstaklingar frá Úkraínu. Því er rétt að líta helst til þessa hóps þegar skoða á álag á innviði sem tengjast móttöku flóttafólks.
+
+::: {.panel-tabset}
+
+## Þróun fjölda hælisveitinga (2008 - 2023)
+
+```{r ggiraph2}
+#| layout-ncol: 1
+#| column: screen
+#| classes: between-content
+
+make_ggiraph2(
+  width = 16,
+  height = 0.85 * 16 
+)
+```
+
+## Þróun fjölda umsókna um hæli (2008 - 2023)
+
+```{r ggiraph3}
+#| layout-ncol: 1
+#| column: screen
+#| classes: between-content
+
+make_ggiraph3(
+  width = 16,
+  height = 0.85 * 16
+)
+```
+
+:::
+
+## Mánaðarlegur fjöldi umsókna
+
+Fyrst skoðum við hversu margar umsóknir um *hæli* þjóðir fá á hverjum mánuði. Frá september 2022 til júní 2023 var langur kafli þar sem Ísland fékk óvenjulega margar umsóknir, mun meira en aðrar þjóðir. Frá og með júlí 2023 hefur þetta þó aðeins róast og erum við núna farin að fá svipað magn og Lúxemborg aftur.
+
+Uppsafnaður fjöldi hælisumsókna er mun hærri á Íslandi en í öðrum löndum. Næsta land á eftir Íslandi er Grikkland, en þar hefur mánaðarlegum umsóknum fjölgað og munurinn milli Íslands og Grikklands því að minnka.
+
+::: {.panel-tabset}
+
+### Mánaðarlegar tölur
+
+```{r}
+#| eval: true
+#| column: page-left
+
+make_plot(
+  plot_var = "asylum_applicants_non_ukraine",
+  scaling_var = "per_pop",
+  start_date = clock::date_build(2022, 3, 1),
+  end_date = clock::date_build(2024, 6, 1),
+  title = "Hvar sækja flestir einstaklingar um hæli?",
+  subtitle = "Sýnt sem fjöldi á 100.000 íbúa hvers lands",
+  caption = caption
+)
+```
+
+### Uppsafnaðar tölur
+
+```{r}
+#| eval: true
+#| column: page-left
+
+make_plot(
+  plot_var = "asylum_applicants_non_ukraine",
+  scaling_var = "per_pop_cumsum",
+  start_date = clock::date_build(2022, 3, 1),
+  end_date = clock::date_build(2024, 6, 1),
+  title = "Hvar hafa flestir einstaklingar sótt um hæli? (Uppsafnaðar tölur frá mars 2022)",
+  subtitle = "Sýnt sem fjöldi á 100.000 íbúa hvers lands",
+  caption = caption,
+  # y_upper = 500,
+  number_labels = label_number(big.mark = ".", decimal.mark = ",")
+)
+```
+
+:::
+
+
+
+## Ákvarðanir í málum hælisleitenda
+
+Þjóðir fá mismargar umsóknir í hverju mánuði og því gefur að skilja að sumar þjóðir þurfa að afgreiða mál fljótar en aðrar til að forðast myndun biðraða. Gögn um ákvarðanir sýna okkur bæði hversu mörg mál eru afgreidd og hversu margir hælisleitendur fá umsókn sína samþykkta.
+
+### Samtals ákvarðanir
+
+Byrjum á að skoða hve margar ákvarðanir eru teknar í hverjum mánuði. Íslenskum yfirvöldum hefur tekist ágætlega í að afgreiða mál umsækjenda þegar tekið er tillit til höfðatölu og miðað er við önnur lönd. Frá sumri 2022 höfum við verið á toppnum eða nálægt toppnum í fjölda afgreiddra mála á höfðatölu. 
+
+Hér er þó mikilvægt að bera saman stærðargráðu á fjölda umsókna og fjölda afgreiðslna. Yfirvöld þurfa að vega kostnað vegna starfsfólks á móti kostnaði við að veita hælisleitendum skjól á meðan beðið er eftir niðurstöðu umsóknar. 
+
+::: {.panel-tabset}
+
+#### Mánaðarlegar tölur
+
+```{r}
+#| eval: true
+#| column: page-left
+
+make_plot(
+  plot_var = "total_decisions",
+  scaling_var = "per_pop",
+  start_date = clock::date_build(2022, 3, 1),
+  end_date = clock::date_build(2024, 4, 1),
+  title = "Hvar eru flestar ákvarðanir um stöðu hælisleitenda teknar á mánuði?",
+  subtitle = "Sýnt sem fjöldi á 100.000 íbúa hvers lands",
+  caption = caption,
+  # y_upper = 500,
+  number_labels = label_number(big.mark = ".", decimal.mark = ",")
+)
+```
+
+#### Uppsafnaðar tölur
+
+```{r}
+#| eval: true
+#| column: page-left
+
+make_plot(
+  plot_var = "total_decisions",
+  scaling_var = "per_pop_cumsum",
+  start_date = clock::date_build(2022, 3, 1),
+  end_date = clock::date_build(2024, 4, 1),
+  title = "Hvar hafa flestar ákvarðanir verið teknar? (Uppsafnaðar tölur frá mars 2022)",
+  subtitle = "Sýnt sem fjöldi á 100.000 íbúa hvers lands",
+  caption = caption,
+  # y_upper = 500,
+  number_labels = label_number(big.mark = ".", decimal.mark = ",")
+)
+```
+
+:::
+
+
+
+
+
+### Samþykktar umsóknir
+
+Í gögnum um ákvarðanir getum við séð hvort ákveðið var að veita einstakling hæli eða ekki. Í kringum sumarið 2022 samþykktu íslensk yfirvöld mun fleiri umsóknir um hæli en yfirvöld annarra þjóða. Frá ársbyrjun 2023 hefur þetta þó róast og eru íslensk yfirvöld nú undir meðaltali og nær hinum norðurlöndunum í samþykktum umsóknum á höfðatölu. Ef við berum okkur saman við Lúxemborg, Þýskaland og Grikkland þá hefur þessi tala verið mun stöðugri þar en á Íslandi.
+
+Ef við skoðum uppsafnaðar tölur, sést að Ísland hefur veitt flestum hæli en að Þýskaland, Grikkland og Lúxemborg eru ekki langt frá því að ná okkur ef þróunin heldur áfram.
+
+::: {.panel-tabset}
+
+#### Mánaðarlegar tölur
+
+```{r}
+#| eval: true
+#| column: page-left
+
+make_plot(
+  plot_var = "positive_decisions",
+  scaling_var = "per_pop",
+  start_date = clock::date_build(2022, 3, 1),
+  end_date = clock::date_build(2024, 4, 1),
+  title = "Hvar er flestum einstaklingum veitt hæli á mánuði?",
+  subtitle = "Sýnt sem fjöldi á 100.000 íbúa hvers lands",
+  caption = caption,
+  # y_upper = 200,
+  number_labels = label_number(big.mark = ".", decimal.mark = ",")
+)
+```
+
+#### Uppsafnaðar tölur
+
+```{r}
+#| eval: true
+#| column: page-left
+
+make_plot(
+  plot_var = "positive_decisions",
+  scaling_var = "per_pop_cumsum",
+  start_date = clock::date_build(2022, 3, 1),
+  end_date = clock::date_build(2024, 4, 1),
+  title = "Hvar hefur flestum einstaklingum verið veitt hæli? (Uppsafnaðar tölur frá mars 2022)",
+  subtitle = "Sýnt sem fjöldi á 100.000 íbúa hvers lands",
+  caption = caption,
+  number_labels = label_number(big.mark = ".", decimal.mark = ",")
+)
+```
+
+:::
+
+
+
+
+## Umsækjendur í bið
+
+Oft er talað um álag á innviði sem tengjast móttöku flóttafólks. Þar hefur fjöldi einstaklinga sem eru í bið eftir niðurstöðu umsóknar mikil áhrif. Þeir einstaklingar hafa ekki atvinnuleyfi og þurfa því að reiða sig á stuðning yfirvalda á meðan beðið er eftir ákvörðun.
+
+Í byrjun árs 2022 var fjöldi í bið á Íslandi undir meðaltali. Þetta má mögulega rekja til þess að sögulega hafa íslensk yfirvöld ekki fengið margar umsóknir um hæli miðað við önnur lönd, eins og má sjá í sögulegri samantekt gagna frá 2008 til 2022 að ofan. Upp úr 2018 fór sá fjöldi að aukast hér á landi, en það er ekki fyrr en um sumar 2022 sem Ísland fór að skera sig verulega úr hvað varðar fjölda umsókna um hæli.
+
+Þetta hefur valdið því að frá september 2022 til mars 2023 jókst þessi fjöldi einstaklinga í bið á Íslandi hraðar en í öðrum löndum og í október 2023 voru Lúxemborg og Austurríki einu löndin þar sem jafnmargir eða fleiri biðu eftir niðurstöðu. Eins og var nefnt að ofan þurfa yfirvöld að vega kostnað vegna starfsfólks á móti kostnaði þess að veita hælisleitendum skjól og uppihald á meðan beðið er eftir niðurstöðu. Mögulega þurfa yfirvöld landa að halda betur utan um þessar tölur og bregðast skjótar við til að koma í veg fyrir að langir biðlistar myndist með því að fjölga starfsfólki. 
+
+
+
+```{r}
+#| eval: true
+#| column: page-left
+
+make_plot(
+  plot_var = "applicants_non_ukraine",
+  scaling_var = "per_pop",
+  start_date = clock::date_build(2022, 3, 1),
+  end_date = clock::date_build(2024, 6, 1),
+  title = "Hvar bíða flestir einstaklingar eftir niðurstöðu hælisumsóknar sinnar?",
+  subtitle = "Sýnt sem fjöldi á 100.000 íbúa hvers lands",
+  caption = caption,
+  # y_upper = 250,
+  number_labels = label_number(big.mark = ".", decimal.mark = ",")
+)
+```
+
+-----
+
+```{r}
+#| eval: true
+#| column: screen
+#| classes: between-content 
+
+
+make_samantekt(
+  height = 1 * 16,
+  width = 16,
+  end_date = clock::date_build(c(2024, 2024, 2024), c(6, 4, 6)),
+  number_labels = label_number(big.mark = ".", decimal.mark = ",")
+)
+```
+
+-----
+
+
+# Fjöldi flóttafólks alls
+
+Þótt umsóknir um hæli valdi meiri álagi á innviði er líka lýsandi að skoða tölur um *"heildarinnflæði"* flóttafólks til landa. Það er, við viljum líka skoða hversu margir einstaklingar hafa fengið veitta annað hvort tímabundna vernd eða hæli. Með því að leggja saman tölur um *tímabundna vernd* og *hæli* getum við skoðað þetta *"heildarflæði"* flóttafólks inn í lönd. Tölurnar að neðan eiga því við um flóttafólk bæði frá Úkraínu og öðrum löndum.
+
+::: {.panel-tabset}
+
+## Mánaðarlegur fjöldi 
+
+```{r}
+#| eval: true
+#| column: page-left
+
+make_plot(
+  plot_var = "total_grants",
+  scaling_var = "per_pop",
+  start_date = clock::date_build(2022, 3, 1),
+  end_date = clock::date_build(2024, 4, 1),
+  title = "Samtals veitingar á hæli og tímabundinni vernd í hverjum mánuði",
+  subtitle = "Sýnt sem fjöldi á 100.000 íbúa hvers lands",
+  caption = caption,
+  y_upper = 250,
+  number_labels = label_number(big.mark = ".", decimal.mark = ",")
+)
+```
+
+## Uppsafnaðar tölur
+
+```{r}
+#| eval: true
+#| column: page-left
+
+make_plot(
+  plot_var = "total_grants",
+  scaling_var = "per_pop_cumsum",
+  start_date = clock::date_build(2022, 3, 1),
+  end_date = clock::date_build(2024, 4, 1),
+  title = "Hvar hefur flestum verið veitt vernd og/eða hæli? (Uppsafnaðar tölur frá mars 2022)",
+  subtitle = "Sýnt sem fjöldi á 100.000 íbúa hvers lands",
+  caption = caption,
+  # y_upper = 500,
+  number_labels = label_number(big.mark = ".", decimal.mark = ",")
+)
+```
+
+:::
+
+
+# Gögn
+
+Gögn þessarar úrvinnslu koma frá [Eurostat](https://ec.europa.eu/eurostat/en/), nánar tiltekið eru þetta eftirfarandi gagnasöfn:
+
+## Mánaðarleg gögn frá mars 2022
+
+* Tímabundin vernd
+  - [Einstaklingar sem njóta tímabundinnar verndar í lok mánaðar](https://ec.europa.eu/eurostat/databrowser/view/MIGR_ASYTPSM/default/table?lang=en&category=migr.migr_asy.migr_asytp)
+  - [Mánaðarlegur fjöldi einstaklinga sem fá veitta tímabundna vernd](https://ec.europa.eu/eurostat/databrowser/view/MIGR_ASYTPFM/default/table?lang=en&category=migr.migr_asy.migr_asytp)
+* Hæli
+  - [Mánaðarlegur fjöldi umsækjenda um hæli](https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctzm/default/table?lang=en)
+  - [Ákvarðanir teknar í málefnum umsækjenda um hæli](https://ec.europa.eu/eurostat/databrowser/view/migr_asydcfstq/default/table?lang=en&category=migr.migr_asy.migr_asydec)
+  - [Umsækjendur í bið eftir niðurstöðu hælisumsóknar í lok mánaðar](https://ec.europa.eu/eurostat/databrowser/view/TPS00190/default/table?lang=en&category=migr.migr_asy.migr_asyapp)
+  
+## Árlegar samantektir frá 2008
+
+* Tímabundin vernd
+  - [Árlegur fjöldi einstaklinga sem fá veitta tímabundna vernd (2022)](https://ec.europa.eu/eurostat/databrowser/view/migr_asytpfa/default/table?lang=en&category=migr.migr_asy.migr_asytp)
+* Hæli
+  - [Ákvarðanir teknar í málefnum umsækjenda um hæli (2008 - 2022)](https://ec.europa.eu/eurostat/databrowser/view/migr_asydcfsta/default/table?lang=en&category=migr.migr_asy.migr_asydec)
+
+Þessar upplýsingar eru svo tengdar við [gögn um mannfjölda hvers lands](https://ec.europa.eu/eurostat/databrowser/view/demo_pjan/default/table?lang=en).
+
+Til að auðvelda samanburð milli landa eru allar tölur sýndar sem fjöldi á hverja 100.000 íbúa hvers lands. Þar sem yfirvöldum á Kýpur berast mun fleiri umsóknir en yfirvöldum annarra þjóða var ákveðið að hafa það land ekki með í þessari greiningu til að auðvelda skoðun á gögnum annarra þjóða.
+
+-----
+
+Hægt er að vafra gögnin á bak við þessa greiningu í töflunni eða sækja þau með því að smella á takkann að neðan.
+
+# Gagnvirk gagnaskoðun
+
+::: {.panel-tabset}
+
+c
+## Mánaðarleg gögn
+
+::: {.panel-tabset}
+
+### Á mannfjölda
+
+```{r}
+#| column: page
+#| cache: true
+table_d <- read_csv("data/timabundin_vernd_perpop.csv")
+table_d |> 
+  gt() |> 
+  tab_header(
+    title = md("**Samantekt á gögnum um málefni flóttafólks**"),
+    subtitle = md("Tölur eru sýndar sem *fjöldi á 100.000 íbúa móttökulands*")
+  ) |> 
+  tab_spanner(
+    label = "Á 100.000 íbúa",
+    columns = 3:8
+  ) |> 
+  fmt_number(
+    3:8, 
+    decimals = 0, 
+    sep_mark = ".",
+    dec_mark = ","
+  ) |> 
+  fmt_percent(
+    9,
+    decimals = 2,
+    sep_mark = ".",
+    dec_mark = ","
+  ) |> 
+  fmt_date(
+    1,
+    date_style = "yMMM",
+    locale = "is" 
+  ) |> 
+  opt_interactive(
+    use_search = FALSE,
+    use_highlight = TRUE,
+    use_filters = TRUE
+  ) |> 
+  tab_options(
+    table.background.color = "#faf9f9"
+  ) 
+```
+
+{{< downloadthis data/timabundin_vernd_perpop.csv dname="timabundin_vernd_a_mannfjolda" label="Sækja gögn" type=primary class=downloadbutton >}}
+
+### Hreinar fjöldatölur
+
+```{r}
+#| column: page
+#| cache: true
+table_d <- read_csv("data/timabundin_vernd_raw.csv")
+table_d |> 
+  gt() |> 
+  tab_header(
+    title = md("**Samantekt á gögnum um málefni flóttafólks**"),
+    subtitle = md("Tölur eru sýndar sem hreinn fjöldi *óháð mannfjölda*")
+  ) |> 
+  fmt_number(
+    3:8, 
+    decimals = 0, 
+    sep_mark = ".",
+    dec_mark = ","
+  ) |> 
+  fmt_percent(
+    9,
+    decimals = 2,
+    sep_mark = ".",
+    dec_mark = ","
+  ) |> 
+  fmt_date(
+    1,
+    date_style = "yMMM",
+    locale = "is" 
+  ) |> 
+  opt_interactive(
+    use_search = FALSE,
+    use_highlight = TRUE,
+    use_filters = TRUE
+  ) |> 
+  tab_options(
+    table.background.color = "#faf9f9"
+  ) 
+```
+
+{{< downloadthis data/timabundin_vernd_raw.csv dname="timebundin_vernd_hreinn_fjoldi" label="Sækja gögn" type=primary class=downloadbutton >}}
+
+:::
+
+## Árleg gögn
+
+::: {.panel-tabset}
+
+### Á mannfjölda
+
+```{r}
+#| column: page
+#| cache: true
+table_d <- read_csv("data/data_hist_pretty_perpop.csv")
+table_d |> 
+  gt() |> 
+  tab_header(
+    title = md("**Samantekt á gögnum um málefni flóttafólks**"),
+    subtitle = md("Tölur eru sýndar sem *fjöldi á 100.000 íbúa móttökulands*")
+  ) |> 
+  tab_spanner(
+    label = "Á 100.000 íbúa",
+    columns = 3:5
+  ) |> 
+  fmt_number(
+    3:5, 
+    decimals = 0, 
+    sep_mark = ".",
+    dec_mark = ","
+  ) |> 
+  fmt_date(
+    1,
+    date_style = "yMMM",
+    locale = "is" 
+  ) |> 
+  opt_interactive(
+    use_search = FALSE,
+    use_highlight = TRUE,
+    use_filters = TRUE
+  ) |> 
+  tab_options(
+    table.background.color = "#faf9f9"
+  ) 
+```
+
+{{< downloadthis data/data_hist_pretty_perpop.csv dname="arleg_gogn_a_mannfjolda" label="Sækja gögn" type=primary class=downloadbutton >}}
+
+### Hreinar fjöldatölur
+
+```{r}
+#| column: page
+#| cache: true
+table_d <- read_csv("data/data_hist_pretty_rawcounts.csv")
+table_d |> 
+  gt() |> 
+  tab_header(
+    title = md("**Samantekt á gögnum um málefni flóttafólks**"),
+    subtitle = md("Tölur eru sýndar sem hreinn fjöldi *óháð mannfjölda*")
+  ) |> 
+  tab_spanner(
+    label = "Á 100.000 íbúa",
+    columns = 3:5
+  ) |> 
+  fmt_number(
+    3:5, 
+    decimals = 0, 
+    sep_mark = ".",
+    dec_mark = ","
+  ) |> 
+  fmt_date(
+    1,
+    date_style = "yMMM",
+    locale = "is" 
+  ) |> 
+  opt_interactive(
+    use_search = FALSE,
+    use_highlight = TRUE,
+    use_filters = TRUE
+  ) |> 
+  tab_options(
+    table.background.color = "#faf9f9"
+  ) 
+```
+
+{{< downloadthis data/data_hist_pretty_rawcounts.csv dname="arleg_gogn_hreinn_fjoldi" label="Sækja gögn" type=primary class=downloadbutton >}}
+
+:::
+
+:::
+
+# Þakkir
+
+Sérfræðingar hjá Hagstofu Íslands fá kærar þakkir fyrir uppbyggilega rýni og aðstoð við val á frumgögnum í undirbúningi þessarar greiningar.
+

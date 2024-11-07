@@ -1,0 +1,30 @@
+---
+title: "Fasteignir"
+description: "Yfirlit yfir fjölda fasteigna og verð þeirra"
+href: dashboards/wagesandexpenses/index.qmd
+format: 
+  dashboard:
+    orientation: columns
+image: img/image.png
+---
+
+
+```{r setup}
+library(here)
+library(metill)
+theme_set(theme_metill(type = "blog"))
+source(here("dashboards", "properties", "R", "plot_fp_interactive.R"))
+source(here("dashboards", "properties", "R", "plot_timeseries_interactive.R"))
+```
+
+# Þróun
+
+```{r}
+plot_timeseries_interactive()
+```
+
+# Samanburður
+
+```{r}
+plot_fp_interactive()
+```

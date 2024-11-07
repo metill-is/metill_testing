@@ -1,0 +1,5077 @@
+rikisfang,ar,n,country
+Ísland,1998,134100,Iceland
+Ísland,1999,135295,Iceland
+Ísland,2000,136507,Iceland
+Ísland,2001,137880,Iceland
+Ísland,2002,138891,Iceland
+Ísland,2003,139601,Iceland
+Ísland,2004,140671,Iceland
+Ísland,2005,141951,Iceland
+Ísland,2006,143586,Iceland
+Ísland,2007,145075,Iceland
+Ísland,2008,146576,Iceland
+Ísland,2009,148056,Iceland
+Ísland,2010,148317,Iceland
+Ísland,2011,146382,Iceland
+Ísland,2012,146963,Iceland
+Ísland,2013,147899,Iceland
+Ísland,2014,148975,Iceland
+Ísland,2015,149809,Iceland
+Ísland,2016,150530,Iceland
+Ísland,2017,151846,Iceland
+Ísland,2018,153301,Iceland
+Ísland,2019,154399,Iceland
+Ísland,2020,155326,Iceland
+Ísland,2021,156986,Iceland
+Ísland,2022,158872,Iceland
+Ísland,2023,159763,Iceland
+Ísland,2024,160623,Iceland
+Danmörk,1998,369,Denmark
+Danmörk,1999,387,Denmark
+Danmörk,2000,373,Denmark
+Danmörk,2001,392,Denmark
+Danmörk,2002,403,Denmark
+Danmörk,2003,378,Denmark
+Danmörk,2004,360,Denmark
+Danmörk,2005,380,Denmark
+Danmörk,2006,392,Denmark
+Danmörk,2007,406,Denmark
+Danmörk,2008,422,Denmark
+Danmörk,2009,421,Denmark
+Danmörk,2010,382,Denmark
+Danmörk,2011,353,Denmark
+Danmörk,2012,353,Denmark
+Danmörk,2013,361,Denmark
+Danmörk,2014,370,Denmark
+Danmörk,2015,377,Denmark
+Danmörk,2016,376,Denmark
+Danmörk,2017,368,Denmark
+Danmörk,2018,392,Denmark
+Danmörk,2019,405,Denmark
+Danmörk,2020,384,Denmark
+Danmörk,2021,378,Denmark
+Danmörk,2022,387,Denmark
+Danmörk,2023,389,Denmark
+Danmörk,2024,402,Denmark
+Finnland,1998,27,Finland
+Finnland,1999,33,Finland
+Finnland,2000,27,Finland
+Finnland,2001,23,Finland
+Finnland,2002,37,Finland
+Finnland,2003,26,Finland
+Finnland,2004,23,Finland
+Finnland,2005,21,Finland
+Finnland,2006,24,Finland
+Finnland,2007,35,Finland
+Finnland,2008,35,Finland
+Finnland,2009,33,Finland
+Finnland,2010,30,Finland
+Finnland,2011,23,Finland
+Finnland,2012,23,Finland
+Finnland,2013,17,Finland
+Finnland,2014,22,Finland
+Finnland,2015,27,Finland
+Finnland,2016,29,Finland
+Finnland,2017,37,Finland
+Finnland,2018,34,Finland
+Finnland,2019,39,Finland
+Finnland,2020,32,Finland
+Finnland,2021,31,Finland
+Finnland,2022,39,Finland
+Finnland,2023,47,Finland
+Finnland,2024,44,Finland
+Noregur,1998,101,Norway
+Noregur,1999,109,Norway
+Noregur,2000,112,Norway
+Noregur,2001,117,Norway
+Noregur,2002,113,Norway
+Noregur,2003,113,Norway
+Noregur,2004,129,Norway
+Noregur,2005,114,Norway
+Noregur,2006,119,Norway
+Noregur,2007,117,Norway
+Noregur,2008,118,Norway
+Noregur,2009,117,Norway
+Noregur,2010,102,Norway
+Noregur,2011,83,Norway
+Noregur,2012,82,Norway
+Noregur,2013,81,Norway
+Noregur,2014,98,Norway
+Noregur,2015,107,Norway
+Noregur,2016,98,Norway
+Noregur,2017,106,Norway
+Noregur,2018,119,Norway
+Noregur,2019,132,Norway
+Noregur,2020,121,Norway
+Noregur,2021,118,Norway
+Noregur,2022,134,Norway
+Noregur,2023,125,Norway
+Noregur,2024,128,Norway
+Svíþjóð,1998,100,Sweden
+Svíþjóð,1999,117,Sweden
+Svíþjóð,2000,130,Sweden
+Svíþjóð,2001,114,Sweden
+Svíþjóð,2002,123,Sweden
+Svíþjóð,2003,106,Sweden
+Svíþjóð,2004,126,Sweden
+Svíþjóð,2005,116,Sweden
+Svíþjóð,2006,129,Sweden
+Svíþjóð,2007,129,Sweden
+Svíþjóð,2008,171,Sweden
+Svíþjóð,2009,156,Sweden
+Svíþjóð,2010,126,Sweden
+Svíþjóð,2011,118,Sweden
+Svíþjóð,2012,105,Sweden
+Svíþjóð,2013,108,Sweden
+Svíþjóð,2014,116,Sweden
+Svíþjóð,2015,128,Sweden
+Svíþjóð,2016,131,Sweden
+Svíþjóð,2017,122,Sweden
+Svíþjóð,2018,155,Sweden
+Svíþjóð,2019,169,Sweden
+Svíþjóð,2020,155,Sweden
+Svíþjóð,2021,142,Sweden
+Svíþjóð,2022,176,Sweden
+Svíþjóð,2023,174,Sweden
+Svíþjóð,2024,192,Sweden
+Austurríki,1998,19,Austria
+Austurríki,1999,18,Austria
+Austurríki,2000,16,Austria
+Austurríki,2001,18,Austria
+Austurríki,2002,21,Austria
+Austurríki,2003,18,Austria
+Austurríki,2004,17,Austria
+Austurríki,2005,21,Austria
+Austurríki,2006,25,Austria
+Austurríki,2007,33,Austria
+Austurríki,2008,39,Austria
+Austurríki,2009,37,Austria
+Austurríki,2010,38,Austria
+Austurríki,2011,24,Austria
+Austurríki,2012,17,Austria
+Austurríki,2013,18,Austria
+Austurríki,2014,29,Austria
+Austurríki,2015,33,Austria
+Austurríki,2016,35,Austria
+Austurríki,2017,36,Austria
+Austurríki,2018,42,Austria
+Austurríki,2019,38,Austria
+Austurríki,2020,37,Austria
+Austurríki,2021,36,Austria
+Austurríki,2022,43,Austria
+Austurríki,2023,42,Austria
+Austurríki,2024,50,Austria
+Belgía,1998,13,Belgium
+Belgía,1999,14,Belgium
+Belgía,2000,17,Belgium
+Belgía,2001,26,Belgium
+Belgía,2002,30,Belgium
+Belgía,2003,31,Belgium
+Belgía,2004,24,Belgium
+Belgía,2005,13,Belgium
+Belgía,2006,16,Belgium
+Belgía,2007,15,Belgium
+Belgía,2008,17,Belgium
+Belgía,2009,23,Belgium
+Belgía,2010,23,Belgium
+Belgía,2011,12,Belgium
+Belgía,2012,9,Belgium
+Belgía,2013,14,Belgium
+Belgía,2014,12,Belgium
+Belgía,2015,20,Belgium
+Belgía,2016,21,Belgium
+Belgía,2017,34,Belgium
+Belgía,2018,45,Belgium
+Belgía,2019,51,Belgium
+Belgía,2020,48,Belgium
+Belgía,2021,46,Belgium
+Belgía,2022,47,Belgium
+Belgía,2023,45,Belgium
+Belgía,2024,49,Belgium
+Búlgaría,1998,12,Bulgaria
+Búlgaría,1999,14,Bulgaria
+Búlgaría,2000,20,Bulgaria
+Búlgaría,2001,29,Bulgaria
+Búlgaría,2002,31,Bulgaria
+Búlgaría,2003,36,Bulgaria
+Búlgaría,2004,36,Bulgaria
+Búlgaría,2005,37,Bulgaria
+Búlgaría,2006,49,Bulgaria
+Búlgaría,2007,54,Bulgaria
+Búlgaría,2008,55,Bulgaria
+Búlgaría,2009,51,Bulgaria
+Búlgaría,2010,41,Bulgaria
+Búlgaría,2011,38,Bulgaria
+Búlgaría,2012,35,Bulgaria
+Búlgaría,2013,44,Bulgaria
+Búlgaría,2014,62,Bulgaria
+Búlgaría,2015,84,Bulgaria
+Búlgaría,2016,107,Bulgaria
+Búlgaría,2017,146,Bulgaria
+Búlgaría,2018,176,Bulgaria
+Búlgaría,2019,218,Bulgaria
+Búlgaría,2020,245,Bulgaria
+Búlgaría,2021,239,Bulgaria
+Búlgaría,2022,239,Bulgaria
+Búlgaría,2023,266,Bulgaria
+Búlgaría,2024,261,Bulgaria
+Kýpur,1998,0,Cyprus
+Kýpur,1999,0,Cyprus
+Kýpur,2000,0,Cyprus
+Kýpur,2001,0,Cyprus
+Kýpur,2002,0,Cyprus
+Kýpur,2003,0,Cyprus
+Kýpur,2004,0,Cyprus
+Kýpur,2005,0,Cyprus
+Kýpur,2006,0,Cyprus
+Kýpur,2007,1,Cyprus
+Kýpur,2008,1,Cyprus
+Kýpur,2009,1,Cyprus
+Kýpur,2010,2,Cyprus
+Kýpur,2011,0,Cyprus
+Kýpur,2012,0,Cyprus
+Kýpur,2013,0,Cyprus
+Kýpur,2014,0,Cyprus
+Kýpur,2015,0,Cyprus
+Kýpur,2016,0,Cyprus
+Kýpur,2017,1,Cyprus
+Kýpur,2018,3,Cyprus
+Kýpur,2019,4,Cyprus
+Kýpur,2020,3,Cyprus
+Kýpur,2021,5,Cyprus
+Kýpur,2022,5,Cyprus
+Kýpur,2023,8,Cyprus
+Kýpur,2024,8,Cyprus
+Tékkland,1998,11,Czechia
+Tékkland,1999,13,Czechia
+Tékkland,2000,26,Czechia
+Tékkland,2001,12,Czechia
+Tékkland,2002,11,Czechia
+Tékkland,2003,13,Czechia
+Tékkland,2004,13,Czechia
+Tékkland,2005,15,Czechia
+Tékkland,2006,18,Czechia
+Tékkland,2007,99,Czechia
+Tékkland,2008,165,Czechia
+Tékkland,2009,182,Czechia
+Tékkland,2010,72,Czechia
+Tékkland,2011,44,Czechia
+Tékkland,2012,52,Czechia
+Tékkland,2013,49,Czechia
+Tékkland,2014,72,Czechia
+Tékkland,2015,111,Czechia
+Tékkland,2016,131,Czechia
+Tékkland,2017,163,Czechia
+Tékkland,2018,245,Czechia
+Tékkland,2019,328,Czechia
+Tékkland,2020,355,Czechia
+Tékkland,2021,324,Czechia
+Tékkland,2022,359,Czechia
+Tékkland,2023,407,Czechia
+Tékkland,2024,475,Czechia
+Þýskaland,1998,88,Germany
+Þýskaland,1999,91,Germany
+Þýskaland,2000,97,Germany
+Þýskaland,2001,139,Germany
+Þýskaland,2002,167,Germany
+Þýskaland,2003,182,Germany
+Þýskaland,2004,168,Germany
+Þýskaland,2005,166,Germany
+Þýskaland,2006,344,Germany
+Þýskaland,2007,452,Germany
+Þýskaland,2008,503,Germany
+Þýskaland,2009,474,Germany
+Þýskaland,2010,383,Germany
+Þýskaland,2011,274,Germany
+Þýskaland,2012,256,Germany
+Þýskaland,2013,241,Germany
+Þýskaland,2014,261,Germany
+Þýskaland,2015,291,Germany
+Þýskaland,2016,310,Germany
+Þýskaland,2017,345,Germany
+Þýskaland,2018,396,Germany
+Þýskaland,2019,398,Germany
+Þýskaland,2020,385,Germany
+Þýskaland,2021,422,Germany
+Þýskaland,2022,446,Germany
+Þýskaland,2023,480,Germany
+Þýskaland,2024,498,Germany
+Eistland,1998,5,Estonia
+Eistland,1999,8,Estonia
+Eistland,2000,8,Estonia
+Eistland,2001,21,Estonia
+Eistland,2002,24,Estonia
+Eistland,2003,21,Estonia
+Eistland,2004,24,Estonia
+Eistland,2005,23,Estonia
+Eistland,2006,25,Estonia
+Eistland,2007,37,Estonia
+Eistland,2008,46,Estonia
+Eistland,2009,57,Estonia
+Eistland,2010,51,Estonia
+Eistland,2011,41,Estonia
+Eistland,2012,38,Estonia
+Eistland,2013,32,Estonia
+Eistland,2014,33,Estonia
+Eistland,2015,32,Estonia
+Eistland,2016,39,Estonia
+Eistland,2017,41,Estonia
+Eistland,2018,50,Estonia
+Eistland,2019,50,Estonia
+Eistland,2020,50,Estonia
+Eistland,2021,68,Estonia
+Eistland,2022,90,Estonia
+Eistland,2023,94,Estonia
+Eistland,2024,142,Estonia
+Spánn,1998,43,Spain
+Spánn,1999,52,Spain
+Spánn,2000,52,Spain
+Spánn,2001,59,Spain
+Spánn,2002,64,Spain
+Spánn,2003,73,Spain
+Spánn,2004,68,Spain
+Spánn,2005,60,Spain
+Spánn,2006,70,Spain
+Spánn,2007,74,Spain
+Spánn,2008,85,Spain
+Spánn,2009,102,Spain
+Spánn,2010,107,Spain
+Spánn,2011,110,Spain
+Spánn,2012,87,Spain
+Spánn,2013,98,Spain
+Spánn,2014,160,Spain
+Spánn,2015,227,Spain
+Spánn,2016,257,Spain
+Spánn,2017,330,Spain
+Spánn,2018,427,Spain
+Spánn,2019,470,Spain
+Spánn,2020,556,Spain
+Spánn,2021,555,Spain
+Spánn,2022,648,Spain
+Spánn,2023,780,Spain
+Spánn,2024,854,Spain
+Frakkland,1998,45,France
+Frakkland,1999,53,France
+Frakkland,2000,63,France
+Frakkland,2001,78,France
+Frakkland,2002,94,France
+Frakkland,2003,80,France
+Frakkland,2004,66,France
+Frakkland,2005,70,France
+Frakkland,2006,82,France
+Frakkland,2007,85,France
+Frakkland,2008,105,France
+Frakkland,2009,130,France
+Frakkland,2010,151,France
+Frakkland,2011,114,France
+Frakkland,2012,111,France
+Frakkland,2013,106,France
+Frakkland,2014,135,France
+Frakkland,2015,162,France
+Frakkland,2016,182,France
+Frakkland,2017,201,France
+Frakkland,2018,245,France
+Frakkland,2019,292,France
+Frakkland,2020,306,France
+Frakkland,2021,313,France
+Frakkland,2022,330,France
+Frakkland,2023,364,France
+Frakkland,2024,389,France
+Bretland,1998,185,United Kingdom
+Bretland,1999,198,United Kingdom
+Bretland,2000,216,United Kingdom
+Bretland,2001,246,United Kingdom
+Bretland,2002,277,United Kingdom
+Bretland,2003,260,United Kingdom
+Bretland,2004,234,United Kingdom
+Bretland,2005,215,United Kingdom
+Bretland,2006,248,United Kingdom
+Bretland,2007,287,United Kingdom
+Bretland,2008,324,United Kingdom
+Bretland,2009,372,United Kingdom
+Bretland,2010,379,United Kingdom
+Bretland,2011,339,United Kingdom
+Bretland,2012,355,United Kingdom
+Bretland,2013,360,United Kingdom
+Bretland,2014,385,United Kingdom
+Bretland,2015,402,United Kingdom
+Bretland,2016,440,United Kingdom
+Bretland,2017,502,United Kingdom
+Bretland,2018,540,United Kingdom
+Bretland,2019,586,United Kingdom
+Bretland,2020,648,United Kingdom
+Bretland,2021,667,United Kingdom
+Bretland,2022,619,United Kingdom
+Bretland,2023,630,United Kingdom
+Bretland,2024,619,United Kingdom
+Grikkland,1998,3,Greece
+Grikkland,1999,6,Greece
+Grikkland,2000,5,Greece
+Grikkland,2001,4,Greece
+Grikkland,2002,6,Greece
+Grikkland,2003,6,Greece
+Grikkland,2004,6,Greece
+Grikkland,2005,5,Greece
+Grikkland,2006,6,Greece
+Grikkland,2007,8,Greece
+Grikkland,2008,9,Greece
+Grikkland,2009,5,Greece
+Grikkland,2010,7,Greece
+Grikkland,2011,8,Greece
+Grikkland,2012,10,Greece
+Grikkland,2013,13,Greece
+Grikkland,2014,17,Greece
+Grikkland,2015,19,Greece
+Grikkland,2016,28,Greece
+Grikkland,2017,44,Greece
+Grikkland,2018,84,Greece
+Grikkland,2019,122,Greece
+Grikkland,2020,142,Greece
+Grikkland,2021,150,Greece
+Grikkland,2022,199,Greece
+Grikkland,2023,271,Greece
+Grikkland,2024,364,Greece
+Ungverjaland,1998,18,Hungary
+Ungverjaland,1999,21,Hungary
+Ungverjaland,2000,22,Hungary
+Ungverjaland,2001,18,Hungary
+Ungverjaland,2002,18,Hungary
+Ungverjaland,2003,19,Hungary
+Ungverjaland,2004,19,Hungary
+Ungverjaland,2005,19,Hungary
+Ungverjaland,2006,21,Hungary
+Ungverjaland,2007,27,Hungary
+Ungverjaland,2008,48,Hungary
+Ungverjaland,2009,99,Hungary
+Ungverjaland,2010,69,Hungary
+Ungverjaland,2011,58,Hungary
+Ungverjaland,2012,54,Hungary
+Ungverjaland,2013,59,Hungary
+Ungverjaland,2014,69,Hungary
+Ungverjaland,2015,85,Hungary
+Ungverjaland,2016,107,Hungary
+Ungverjaland,2017,153,Hungary
+Ungverjaland,2018,235,Hungary
+Ungverjaland,2019,232,Hungary
+Ungverjaland,2020,269,Hungary
+Ungverjaland,2021,275,Hungary
+Ungverjaland,2022,296,Hungary
+Ungverjaland,2023,384,Hungary
+Ungverjaland,2024,429,Hungary
+Írland,1998,22,Ireland
+Írland,1999,30,Ireland
+Írland,2000,24,Ireland
+Írland,2001,25,Ireland
+Írland,2002,29,Ireland
+Írland,2003,26,Ireland
+Írland,2004,22,Ireland
+Írland,2005,16,Ireland
+Írland,2006,20,Ireland
+Írland,2007,26,Ireland
+Írland,2008,33,Ireland
+Írland,2009,38,Ireland
+Írland,2010,45,Ireland
+Írland,2011,34,Ireland
+Írland,2012,40,Ireland
+Írland,2013,43,Ireland
+Írland,2014,41,Ireland
+Írland,2015,38,Ireland
+Írland,2016,43,Ireland
+Írland,2017,51,Ireland
+Írland,2018,55,Ireland
+Írland,2019,60,Ireland
+Írland,2020,76,Ireland
+Írland,2021,91,Ireland
+Írland,2022,86,Ireland
+Írland,2023,101,Ireland
+Írland,2024,106,Ireland
+Ítalía,1998,19,Italy
+Ítalía,1999,21,Italy
+Ítalía,2000,25,Italy
+Ítalía,2001,44,Italy
+Ítalía,2002,53,Italy
+Ítalía,2003,62,Italy
+Ítalía,2004,67,Italy
+Ítalía,2005,183,Italy
+Ítalía,2006,233,Italy
+Ítalía,2007,242,Italy
+Ítalía,2008,185,Italy
+Ítalía,2009,159,Italy
+Ítalía,2010,112,Italy
+Ítalía,2011,90,Italy
+Ítalía,2012,71,Italy
+Ítalía,2013,82,Italy
+Ítalía,2014,101,Italy
+Ítalía,2015,118,Italy
+Ítalía,2016,137,Italy
+Ítalía,2017,161,Italy
+Ítalía,2018,213,Italy
+Ítalía,2019,246,Italy
+Ítalía,2020,277,Italy
+Ítalía,2021,295,Italy
+Ítalía,2022,403,Italy
+Ítalía,2023,483,Italy
+Ítalía,2024,525,Italy
+Litháen (Lietuva),1998,8,Lithuania
+Litháen (Lietuva),1999,14,Lithuania
+Litháen (Lietuva),2000,28,Lithuania
+Litháen (Lietuva),2001,95,Lithuania
+Litháen (Lietuva),2002,152,Lithuania
+Litháen (Lietuva),2003,183,Lithuania
+Litháen (Lietuva),2004,195,Lithuania
+Litháen (Lietuva),2005,211,Lithuania
+Litháen (Lietuva),2006,335,Lithuania
+Litháen (Lietuva),2007,616,Lithuania
+Litháen (Lietuva),2008,921,Lithuania
+Litháen (Lietuva),2009,1014,Lithuania
+Litháen (Lietuva),2010,879,Lithuania
+Litháen (Lietuva),2011,755,Lithuania
+Litháen (Lietuva),2012,761,Lithuania
+Litháen (Lietuva),2013,765,Lithuania
+Litháen (Lietuva),2014,790,Lithuania
+Litháen (Lietuva),2015,788,Lithuania
+Litháen (Lietuva),2016,887,Lithuania
+Litháen (Lietuva),2017,1324,Lithuania
+Litháen (Lietuva),2018,2002,Lithuania
+Litháen (Lietuva),2019,2375,Lithuania
+Litháen (Lietuva),2020,2466,Lithuania
+Litháen (Lietuva),2021,2389,Lithuania
+Litháen (Lietuva),2022,2491,Lithuania
+Litháen (Lietuva),2023,2753,Lithuania
+Litháen (Lietuva),2024,2960,Lithuania
+Lúxemborg,1998,0,Luxembourg
+Lúxemborg,1999,1,Luxembourg
+Lúxemborg,2000,1,Luxembourg
+Lúxemborg,2001,2,Luxembourg
+Lúxemborg,2002,2,Luxembourg
+Lúxemborg,2003,2,Luxembourg
+Lúxemborg,2004,1,Luxembourg
+Lúxemborg,2005,1,Luxembourg
+Lúxemborg,2006,1,Luxembourg
+Lúxemborg,2007,2,Luxembourg
+Lúxemborg,2008,2,Luxembourg
+Lúxemborg,2009,3,Luxembourg
+Lúxemborg,2010,3,Luxembourg
+Lúxemborg,2011,2,Luxembourg
+Lúxemborg,2012,3,Luxembourg
+Lúxemborg,2013,3,Luxembourg
+Lúxemborg,2014,3,Luxembourg
+Lúxemborg,2015,3,Luxembourg
+Lúxemborg,2016,3,Luxembourg
+Lúxemborg,2017,4,Luxembourg
+Lúxemborg,2018,6,Luxembourg
+Lúxemborg,2019,5,Luxembourg
+Lúxemborg,2020,6,Luxembourg
+Lúxemborg,2021,6,Luxembourg
+Lúxemborg,2022,8,Luxembourg
+Lúxemborg,2023,8,Luxembourg
+Lúxemborg,2024,9,Luxembourg
+Lettland (Latvija),1998,1,Latvia
+Lettland (Latvija),1999,4,Latvia
+Lettland (Latvija),2000,7,Latvia
+Lettland (Latvija),2001,26,Latvia
+Lettland (Latvija),2002,35,Latvia
+Lettland (Latvija),2003,41,Latvia
+Lettland (Latvija),2004,36,Latvia
+Lettland (Latvija),2005,36,Latvia
+Lettland (Latvija),2006,95,Latvia
+Lettland (Latvija),2007,215,Latvia
+Lettland (Latvija),2008,287,Latvia
+Lettland (Latvija),2009,366,Latvia
+Lettland (Latvija),2010,334,Latvia
+Lettland (Latvija),2011,290,Latvia
+Lettland (Latvija),2012,298,Latvia
+Lettland (Latvija),2013,297,Latvia
+Lettland (Latvija),2014,308,Latvia
+Lettland (Latvija),2015,325,Latvia
+Lettland (Latvija),2016,363,Latvia
+Lettland (Latvija),2017,430,Latvia
+Lettland (Latvija),2018,840,Latvia
+Lettland (Latvija),2019,1067,Latvia
+Lettland (Latvija),2020,1055,Latvia
+Lettland (Latvija),2021,1107,Latvia
+Lettland (Latvija),2022,1238,Latvia
+Lettland (Latvija),2023,1429,Latvia
+Lettland (Latvija),2024,1564,Latvia
+Malta,1998,0,Malta
+Malta,1999,0,Malta
+Malta,2000,0,Malta
+Malta,2001,0,Malta
+Malta,2002,0,Malta
+Malta,2003,0,Malta
+Malta,2004,0,Malta
+Malta,2005,0,Malta
+Malta,2006,0,Malta
+Malta,2007,0,Malta
+Malta,2008,3,Malta
+Malta,2009,3,Malta
+Malta,2010,2,Malta
+Malta,2011,1,Malta
+Malta,2012,1,Malta
+Malta,2013,2,Malta
+Malta,2014,3,Malta
+Malta,2015,7,Malta
+Malta,2016,5,Malta
+Malta,2017,5,Malta
+Malta,2018,6,Malta
+Malta,2019,8,Malta
+Malta,2020,8,Malta
+Malta,2021,9,Malta
+Malta,2022,14,Malta
+Malta,2023,13,Malta
+Malta,2024,11,Malta
+Holland (Niðurland),1998,47,Netherlands
+Holland (Niðurland),1999,47,Netherlands
+Holland (Niðurland),2000,55,Netherlands
+Holland (Niðurland),2001,55,Netherlands
+Holland (Niðurland),2002,61,Netherlands
+Holland (Niðurland),2003,65,Netherlands
+Holland (Niðurland),2004,63,Netherlands
+Holland (Niðurland),2005,63,Netherlands
+Holland (Niðurland),2006,64,Netherlands
+Holland (Niðurland),2007,73,Netherlands
+Holland (Niðurland),2008,85,Netherlands
+Holland (Niðurland),2009,87,Netherlands
+Holland (Niðurland),2010,92,Netherlands
+Holland (Niðurland),2011,75,Netherlands
+Holland (Niðurland),2012,74,Netherlands
+Holland (Niðurland),2013,73,Netherlands
+Holland (Niðurland),2014,77,Netherlands
+Holland (Niðurland),2015,81,Netherlands
+Holland (Niðurland),2016,84,Netherlands
+Holland (Niðurland),2017,97,Netherlands
+Holland (Niðurland),2018,111,Netherlands
+Holland (Niðurland),2019,124,Netherlands
+Holland (Niðurland),2020,132,Netherlands
+Holland (Niðurland),2021,129,Netherlands
+Holland (Niðurland),2022,138,Netherlands
+Holland (Niðurland),2023,151,Netherlands
+Holland (Niðurland),2024,165,Netherlands
+Pólland,1998,287,Poland
+Pólland,1999,432,Poland
+Pólland,2000,510,Poland
+Pólland,2001,697,Poland
+Pólland,2002,826,Poland
+Pólland,2003,909,Poland
+Pólland,2004,947,Poland
+Pólland,2005,987,Poland
+Pólland,2006,2111,Poland
+Pólland,2007,4376,Poland
+Pólland,2008,6840,Poland
+Pólland,2009,6941,Poland
+Pólland,2010,5580,Poland
+Pólland,2011,4538,Poland
+Pólland,2012,4547,Poland
+Pólland,2013,4807,Poland
+Pólland,2014,5267,Poland
+Pólland,2015,5787,Poland
+Pólland,2016,6316,Poland
+Pólland,2017,7684,Poland
+Pólland,2018,9695,Poland
+Pólland,2019,10803,Poland
+Pólland,2020,11013,Poland
+Pólland,2021,10729,Poland
+Pólland,2022,10855,Poland
+Pólland,2023,12235,Poland
+Pólland,2024,13187,Poland
+Portúgal,1998,46,Portugal
+Portúgal,1999,48,Portugal
+Portúgal,2000,52,Portugal
+Portúgal,2001,72,Portugal
+Portúgal,2002,75,Portugal
+Portúgal,2003,64,Portugal
+Portúgal,2004,64,Portugal
+Portúgal,2005,311,Portugal
+Portúgal,2006,359,Portugal
+Portúgal,2007,624,Portugal
+Portúgal,2008,778,Portugal
+Portúgal,2009,564,Portugal
+Portúgal,2010,412,Portugal
+Portúgal,2011,278,Portugal
+Portúgal,2012,268,Portugal
+Portúgal,2013,286,Portugal
+Portúgal,2014,319,Portugal
+Portúgal,2015,349,Portugal
+Portúgal,2016,381,Portugal
+Portúgal,2017,478,Portugal
+Portúgal,2018,591,Portugal
+Portúgal,2019,739,Portugal
+Portúgal,2020,768,Portugal
+Portúgal,2021,736,Portugal
+Portúgal,2022,787,Portugal
+Portúgal,2023,942,Portugal
+Portúgal,2024,1056,Portugal
+Rúmenía,1998,6,Romania
+Rúmenía,1999,10,Romania
+Rúmenía,2000,22,Romania
+Rúmenía,2001,36,Romania
+Rúmenía,2002,42,Romania
+Rúmenía,2003,45,Romania
+Rúmenía,2004,47,Romania
+Rúmenía,2005,54,Romania
+Rúmenía,2006,62,Romania
+Rúmenía,2007,69,Romania
+Rúmenía,2008,91,Romania
+Rúmenía,2009,102,Romania
+Rúmenía,2010,81,Romania
+Rúmenía,2011,68,Romania
+Rúmenía,2012,72,Romania
+Rúmenía,2013,98,Romania
+Rúmenía,2014,118,Romania
+Rúmenía,2015,156,Romania
+Rúmenía,2016,225,Romania
+Rúmenía,2017,332,Romania
+Rúmenía,2018,620,Romania
+Rúmenía,2019,916,Romania
+Rúmenía,2020,1151,Romania
+Rúmenía,2021,1200,Romania
+Rúmenía,2022,1501,Romania
+Rúmenía,2023,2052,Romania
+Rúmenía,2024,2425,Romania
+Slóvenía,1998,3,Slovenia
+Slóvenía,1999,3,Slovenia
+Slóvenía,2000,7,Slovenia
+Slóvenía,2001,6,Slovenia
+Slóvenía,2002,6,Slovenia
+Slóvenía,2003,4,Slovenia
+Slóvenía,2004,4,Slovenia
+Slóvenía,2005,4,Slovenia
+Slóvenía,2006,5,Slovenia
+Slóvenía,2007,46,Slovenia
+Slóvenía,2008,34,Slovenia
+Slóvenía,2009,22,Slovenia
+Slóvenía,2010,16,Slovenia
+Slóvenía,2011,6,Slovenia
+Slóvenía,2012,8,Slovenia
+Slóvenía,2013,7,Slovenia
+Slóvenía,2014,12,Slovenia
+Slóvenía,2015,11,Slovenia
+Slóvenía,2016,11,Slovenia
+Slóvenía,2017,11,Slovenia
+Slóvenía,2018,21,Slovenia
+Slóvenía,2019,28,Slovenia
+Slóvenía,2020,37,Slovenia
+Slóvenía,2021,37,Slovenia
+Slóvenía,2022,38,Slovenia
+Slóvenía,2023,39,Slovenia
+Slóvenía,2024,39,Slovenia
+Slóvakía,1998,6,Slovakia
+Slóvakía,1999,7,Slovakia
+Slóvakía,2000,11,Slovakia
+Slóvakía,2001,12,Slovakia
+Slóvakía,2002,23,Slovakia
+Slóvakía,2003,26,Slovakia
+Slóvakía,2004,34,Slovakia
+Slóvakía,2005,61,Slovakia
+Slóvakía,2006,68,Slovakia
+Slóvakía,2007,169,Slovakia
+Slóvakía,2008,168,Slovakia
+Slóvakía,2009,249,Slovakia
+Slóvakía,2010,164,Slovakia
+Slóvakía,2011,71,Slovakia
+Slóvakía,2012,77,Slovakia
+Slóvakía,2013,79,Slovakia
+Slóvakía,2014,103,Slovakia
+Slóvakía,2015,139,Slovakia
+Slóvakía,2016,143,Slovakia
+Slóvakía,2017,210,Slovakia
+Slóvakía,2018,246,Slovakia
+Slóvakía,2019,257,Slovakia
+Slóvakía,2020,253,Slovakia
+Slóvakía,2021,198,Slovakia
+Slóvakía,2022,239,Slovakia
+Slóvakía,2023,280,Slovakia
+Slóvakía,2024,304,Slovakia
+Andorra,1998,0,Andorra
+Andorra,1999,0,Andorra
+Andorra,2000,0,Andorra
+Andorra,2001,0,Andorra
+Andorra,2002,0,Andorra
+Andorra,2003,0,Andorra
+Andorra,2004,0,Andorra
+Andorra,2005,0,Andorra
+Andorra,2006,0,Andorra
+Andorra,2007,0,Andorra
+Andorra,2008,0,Andorra
+Andorra,2009,0,Andorra
+Andorra,2010,0,Andorra
+Andorra,2011,0,Andorra
+Andorra,2012,0,Andorra
+Andorra,2013,0,Andorra
+Andorra,2014,0,Andorra
+Andorra,2015,0,Andorra
+Andorra,2016,0,Andorra
+Andorra,2017,0,Andorra
+Andorra,2018,0,Andorra
+Andorra,2019,0,Andorra
+Andorra,2020,1,Andorra
+Andorra,2021,0,Andorra
+Andorra,2022,0,Andorra
+Andorra,2023,0,Andorra
+Andorra,2024,0,Andorra
+Albanía,1998,2,Albania
+Albanía,1999,2,Albania
+Albanía,2000,4,Albania
+Albanía,2001,7,Albania
+Albanía,2002,12,Albania
+Albanía,2003,11,Albania
+Albanía,2004,12,Albania
+Albanía,2005,12,Albania
+Albanía,2006,13,Albania
+Albanía,2007,12,Albania
+Albanía,2008,11,Albania
+Albanía,2009,7,Albania
+Albanía,2010,6,Albania
+Albanía,2011,7,Albania
+Albanía,2012,8,Albania
+Albanía,2013,7,Albania
+Albanía,2014,9,Albania
+Albanía,2015,12,Albania
+Albanía,2016,18,Albania
+Albanía,2017,34,Albania
+Albanía,2018,61,Albania
+Albanía,2019,87,Albania
+Albanía,2020,102,Albania
+Albanía,2021,120,Albania
+Albanía,2022,133,Albania
+Albanía,2023,153,Albania
+Albanía,2024,177,Albania
+Bosnia og Herzegovina,1998,10,Bosnia and Herzegovina
+Bosnia og Herzegovina,1999,14,Bosnia and Herzegovina
+Bosnia og Herzegovina,2000,17,Bosnia and Herzegovina
+Bosnia og Herzegovina,2001,33,Bosnia and Herzegovina
+Bosnia og Herzegovina,2002,37,Bosnia and Herzegovina
+Bosnia og Herzegovina,2003,43,Bosnia and Herzegovina
+Bosnia og Herzegovina,2004,42,Bosnia and Herzegovina
+Bosnia og Herzegovina,2005,47,Bosnia and Herzegovina
+Bosnia og Herzegovina,2006,52,Bosnia and Herzegovina
+Bosnia og Herzegovina,2007,60,Bosnia and Herzegovina
+Bosnia og Herzegovina,2008,45,Bosnia and Herzegovina
+Bosnia og Herzegovina,2009,41,Bosnia and Herzegovina
+Bosnia og Herzegovina,2010,34,Bosnia and Herzegovina
+Bosnia og Herzegovina,2011,28,Bosnia and Herzegovina
+Bosnia og Herzegovina,2012,25,Bosnia and Herzegovina
+Bosnia og Herzegovina,2013,17,Bosnia and Herzegovina
+Bosnia og Herzegovina,2014,14,Bosnia and Herzegovina
+Bosnia og Herzegovina,2015,12,Bosnia and Herzegovina
+Bosnia og Herzegovina,2016,11,Bosnia and Herzegovina
+Bosnia og Herzegovina,2017,15,Bosnia and Herzegovina
+Bosnia og Herzegovina,2018,48,Bosnia and Herzegovina
+Bosnia og Herzegovina,2019,28,Bosnia and Herzegovina
+Bosnia og Herzegovina,2020,50,Bosnia and Herzegovina
+Bosnia og Herzegovina,2021,56,Bosnia and Herzegovina
+Bosnia og Herzegovina,2022,69,Bosnia and Herzegovina
+Bosnia og Herzegovina,2023,48,Bosnia and Herzegovina
+Bosnia og Herzegovina,2024,48,Bosnia and Herzegovina
+Belarús (Hvíta-Rússland),1998,2,Belarus
+Belarús (Hvíta-Rússland),1999,1,Belarus
+Belarús (Hvíta-Rússland),2000,6,Belarus
+Belarús (Hvíta-Rússland),2001,8,Belarus
+Belarús (Hvíta-Rússland),2002,8,Belarus
+Belarús (Hvíta-Rússland),2003,7,Belarus
+Belarús (Hvíta-Rússland),2004,9,Belarus
+Belarús (Hvíta-Rússland),2005,9,Belarus
+Belarús (Hvíta-Rússland),2006,11,Belarus
+Belarús (Hvíta-Rússland),2007,12,Belarus
+Belarús (Hvíta-Rússland),2008,12,Belarus
+Belarús (Hvíta-Rússland),2009,10,Belarus
+Belarús (Hvíta-Rússland),2010,9,Belarus
+Belarús (Hvíta-Rússland),2011,10,Belarus
+Belarús (Hvíta-Rússland),2012,11,Belarus
+Belarús (Hvíta-Rússland),2013,6,Belarus
+Belarús (Hvíta-Rússland),2014,7,Belarus
+Belarús (Hvíta-Rússland),2015,4,Belarus
+Belarús (Hvíta-Rússland),2016,5,Belarus
+Belarús (Hvíta-Rússland),2017,5,Belarus
+Belarús (Hvíta-Rússland),2018,8,Belarus
+Belarús (Hvíta-Rússland),2019,8,Belarus
+Belarús (Hvíta-Rússland),2020,8,Belarus
+Belarús (Hvíta-Rússland),2021,8,Belarus
+Belarús (Hvíta-Rússland),2022,6,Belarus
+Belarús (Hvíta-Rússland),2023,8,Belarus
+Belarús (Hvíta-Rússland),2024,18,Belarus
+Sviss,1998,10,Switzerland
+Sviss,1999,11,Switzerland
+Sviss,2000,9,Switzerland
+Sviss,2001,10,Switzerland
+Sviss,2002,12,Switzerland
+Sviss,2003,11,Switzerland
+Sviss,2004,12,Switzerland
+Sviss,2005,13,Switzerland
+Sviss,2006,15,Switzerland
+Sviss,2007,21,Switzerland
+Sviss,2008,28,Switzerland
+Sviss,2009,37,Switzerland
+Sviss,2010,31,Switzerland
+Sviss,2011,16,Switzerland
+Sviss,2012,20,Switzerland
+Sviss,2013,20,Switzerland
+Sviss,2014,19,Switzerland
+Sviss,2015,21,Switzerland
+Sviss,2016,24,Switzerland
+Sviss,2017,30,Switzerland
+Sviss,2018,32,Switzerland
+Sviss,2019,35,Switzerland
+Sviss,2020,35,Switzerland
+Sviss,2021,37,Switzerland
+Sviss,2022,47,Switzerland
+Sviss,2023,47,Switzerland
+Sviss,2024,38,Switzerland
+Serbía og Svartfjallaland,1998,0,Serbia and Montenegro
+Serbía og Svartfjallaland,1999,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2000,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2001,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2002,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2003,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2004,1,Serbia and Montenegro
+Serbía og Svartfjallaland,2005,17,Serbia and Montenegro
+Serbía og Svartfjallaland,2006,63,Serbia and Montenegro
+Serbía og Svartfjallaland,2007,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2008,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2009,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2010,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2011,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2012,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2013,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2014,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2015,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2016,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2017,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2018,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2019,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2020,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2021,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2022,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2023,0,Serbia and Montenegro
+Serbía og Svartfjallaland,2024,0,Serbia and Montenegro
+Króatía,1998,20,Croatia
+Króatía,1999,21,Croatia
+Króatía,2000,29,Croatia
+Króatía,2001,43,Croatia
+Króatía,2002,39,Croatia
+Króatía,2003,36,Croatia
+Króatía,2004,35,Croatia
+Króatía,2005,30,Croatia
+Króatía,2006,25,Croatia
+Króatía,2007,97,Croatia
+Króatía,2008,29,Croatia
+Króatía,2009,29,Croatia
+Króatía,2010,22,Croatia
+Króatía,2011,19,Croatia
+Króatía,2012,17,Croatia
+Króatía,2013,22,Croatia
+Króatía,2014,23,Croatia
+Króatía,2015,22,Croatia
+Króatía,2016,27,Croatia
+Króatía,2017,100,Croatia
+Króatía,2018,263,Croatia
+Króatía,2019,433,Croatia
+Króatía,2020,510,Croatia
+Króatía,2021,503,Croatia
+Króatía,2022,542,Croatia
+Króatía,2023,586,Croatia
+Króatía,2024,662,Croatia
+Liechtenstein,1998,0,Liechtenstein
+Liechtenstein,1999,0,Liechtenstein
+Liechtenstein,2000,0,Liechtenstein
+Liechtenstein,2001,0,Liechtenstein
+Liechtenstein,2002,0,Liechtenstein
+Liechtenstein,2003,0,Liechtenstein
+Liechtenstein,2004,0,Liechtenstein
+Liechtenstein,2005,0,Liechtenstein
+Liechtenstein,2006,0,Liechtenstein
+Liechtenstein,2007,0,Liechtenstein
+Liechtenstein,2008,0,Liechtenstein
+Liechtenstein,2009,0,Liechtenstein
+Liechtenstein,2010,0,Liechtenstein
+Liechtenstein,2011,0,Liechtenstein
+Liechtenstein,2012,0,Liechtenstein
+Liechtenstein,2013,0,Liechtenstein
+Liechtenstein,2014,1,Liechtenstein
+Liechtenstein,2015,1,Liechtenstein
+Liechtenstein,2016,1,Liechtenstein
+Liechtenstein,2017,1,Liechtenstein
+Liechtenstein,2018,1,Liechtenstein
+Liechtenstein,2019,1,Liechtenstein
+Liechtenstein,2020,1,Liechtenstein
+Liechtenstein,2021,1,Liechtenstein
+Liechtenstein,2022,1,Liechtenstein
+Liechtenstein,2023,1,Liechtenstein
+Liechtenstein,2024,1,Liechtenstein
+Moldóva,1998,0,Moldova
+Moldóva,1999,0,Moldova
+Moldóva,2000,0,Moldova
+Moldóva,2001,4,Moldova
+Moldóva,2002,4,Moldova
+Moldóva,2003,4,Moldova
+Moldóva,2004,4,Moldova
+Moldóva,2005,4,Moldova
+Moldóva,2006,3,Moldova
+Moldóva,2007,5,Moldova
+Moldóva,2008,5,Moldova
+Moldóva,2009,3,Moldova
+Moldóva,2010,2,Moldova
+Moldóva,2011,3,Moldova
+Moldóva,2012,3,Moldova
+Moldóva,2013,3,Moldova
+Moldóva,2014,3,Moldova
+Moldóva,2015,4,Moldova
+Moldóva,2016,3,Moldova
+Moldóva,2017,3,Moldova
+Moldóva,2018,4,Moldova
+Moldóva,2019,5,Moldova
+Moldóva,2020,5,Moldova
+Moldóva,2021,7,Moldova
+Moldóva,2022,8,Moldova
+Moldóva,2023,15,Moldova
+Moldóva,2024,24,Moldova
+Montenegró (Svartfjallaland),1998,0,Montenegro
+Montenegró (Svartfjallaland),1999,0,Montenegro
+Montenegró (Svartfjallaland),2000,0,Montenegro
+Montenegró (Svartfjallaland),2001,0,Montenegro
+Montenegró (Svartfjallaland),2002,0,Montenegro
+Montenegró (Svartfjallaland),2003,0,Montenegro
+Montenegró (Svartfjallaland),2004,0,Montenegro
+Montenegró (Svartfjallaland),2005,0,Montenegro
+Montenegró (Svartfjallaland),2006,0,Montenegro
+Montenegró (Svartfjallaland),2007,0,Montenegro
+Montenegró (Svartfjallaland),2008,0,Montenegro
+Montenegró (Svartfjallaland),2009,0,Montenegro
+Montenegró (Svartfjallaland),2010,1,Montenegro
+Montenegró (Svartfjallaland),2011,1,Montenegro
+Montenegró (Svartfjallaland),2012,2,Montenegro
+Montenegró (Svartfjallaland),2013,1,Montenegro
+Montenegró (Svartfjallaland),2014,1,Montenegro
+Montenegró (Svartfjallaland),2015,0,Montenegro
+Montenegró (Svartfjallaland),2016,2,Montenegro
+Montenegró (Svartfjallaland),2017,1,Montenegro
+Montenegró (Svartfjallaland),2018,3,Montenegro
+Montenegró (Svartfjallaland),2019,4,Montenegro
+Montenegró (Svartfjallaland),2020,8,Montenegro
+Montenegró (Svartfjallaland),2021,8,Montenegro
+Montenegró (Svartfjallaland),2022,7,Montenegro
+Montenegró (Svartfjallaland),2023,10,Montenegro
+Montenegró (Svartfjallaland),2024,10,Montenegro
+Norður Makedónía,1998,1,North Macedonia
+Norður Makedónía,1999,4,North Macedonia
+Norður Makedónía,2000,7,North Macedonia
+Norður Makedónía,2001,9,North Macedonia
+Norður Makedónía,2002,8,North Macedonia
+Norður Makedónía,2003,12,North Macedonia
+Norður Makedónía,2004,9,North Macedonia
+Norður Makedónía,2005,10,North Macedonia
+Norður Makedónía,2006,14,North Macedonia
+Norður Makedónía,2007,18,North Macedonia
+Norður Makedónía,2008,19,North Macedonia
+Norður Makedónía,2009,16,North Macedonia
+Norður Makedónía,2010,12,North Macedonia
+Norður Makedónía,2011,10,North Macedonia
+Norður Makedónía,2012,9,North Macedonia
+Norður Makedónía,2013,7,North Macedonia
+Norður Makedónía,2014,11,North Macedonia
+Norður Makedónía,2015,9,North Macedonia
+Norður Makedónía,2016,9,North Macedonia
+Norður Makedónía,2017,11,North Macedonia
+Norður Makedónía,2018,15,North Macedonia
+Norður Makedónía,2019,26,North Macedonia
+Norður Makedónía,2020,28,North Macedonia
+Norður Makedónía,2021,37,North Macedonia
+Norður Makedónía,2022,31,North Macedonia
+Norður Makedónía,2023,29,North Macedonia
+Norður Makedónía,2024,33,North Macedonia
+Serbía,1998,0,Serbia
+Serbía,1999,0,Serbia
+Serbía,2000,0,Serbia
+Serbía,2001,0,Serbia
+Serbía,2002,0,Serbia
+Serbía,2003,0,Serbia
+Serbía,2004,0,Serbia
+Serbía,2005,0,Serbia
+Serbía,2006,0,Serbia
+Serbía,2007,12,Serbia
+Serbía,2008,65,Serbia
+Serbía,2009,69,Serbia
+Serbía,2010,60,Serbia
+Serbía,2011,49,Serbia
+Serbía,2012,48,Serbia
+Serbía,2013,37,Serbia
+Serbía,2014,37,Serbia
+Serbía,2015,28,Serbia
+Serbía,2016,30,Serbia
+Serbía,2017,36,Serbia
+Serbía,2018,56,Serbia
+Serbía,2019,78,Serbia
+Serbía,2020,72,Serbia
+Serbía,2021,76,Serbia
+Serbía,2022,77,Serbia
+Serbía,2023,81,Serbia
+Serbía,2024,127,Serbia
+Rússland,1998,36,Russia
+Rússland,1999,50,Russia
+Rússland,2000,59,Russia
+Rússland,2001,74,Russia
+Rússland,2002,86,Russia
+Rússland,2003,87,Russia
+Rússland,2004,77,Russia
+Rússland,2005,70,Russia
+Rússland,2006,76,Russia
+Rússland,2007,69,Russia
+Rússland,2008,67,Russia
+Rússland,2009,57,Russia
+Rússland,2010,54,Russia
+Rússland,2011,52,Russia
+Rússland,2012,47,Russia
+Rússland,2013,47,Russia
+Rússland,2014,43,Russia
+Rússland,2015,45,Russia
+Rússland,2016,46,Russia
+Rússland,2017,57,Russia
+Rússland,2018,57,Russia
+Rússland,2019,64,Russia
+Rússland,2020,66,Russia
+Rússland,2021,65,Russia
+Rússland,2022,70,Russia
+Rússland,2023,81,Russia
+Rússland,2024,90,Russia
+San Marínó,1998,0,San Marino
+San Marínó,1999,0,San Marino
+San Marínó,2000,0,San Marino
+San Marínó,2001,0,San Marino
+San Marínó,2002,0,San Marino
+San Marínó,2003,0,San Marino
+San Marínó,2004,0,San Marino
+San Marínó,2005,0,San Marino
+San Marínó,2006,0,San Marino
+San Marínó,2007,0,San Marino
+San Marínó,2008,0,San Marino
+San Marínó,2009,0,San Marino
+San Marínó,2010,0,San Marino
+San Marínó,2011,0,San Marino
+San Marínó,2012,0,San Marino
+San Marínó,2013,0,San Marino
+San Marínó,2014,0,San Marino
+San Marínó,2015,0,San Marino
+San Marínó,2016,0,San Marino
+San Marínó,2017,0,San Marino
+San Marínó,2018,1,San Marino
+San Marínó,2019,1,San Marino
+San Marínó,2020,1,San Marino
+San Marínó,2021,1,San Marino
+San Marínó,2022,1,San Marino
+San Marínó,2023,1,San Marino
+San Marínó,2024,1,San Marino
+Fyrrum Sovétríki,1998,4,Former Soviet Union
+Fyrrum Sovétríki,1999,3,Former Soviet Union
+Fyrrum Sovétríki,2000,1,Former Soviet Union
+Fyrrum Sovétríki,2001,1,Former Soviet Union
+Fyrrum Sovétríki,2002,1,Former Soviet Union
+Fyrrum Sovétríki,2003,0,Former Soviet Union
+Fyrrum Sovétríki,2004,0,Former Soviet Union
+Fyrrum Sovétríki,2005,0,Former Soviet Union
+Fyrrum Sovétríki,2006,0,Former Soviet Union
+Fyrrum Sovétríki,2007,0,Former Soviet Union
+Fyrrum Sovétríki,2008,0,Former Soviet Union
+Fyrrum Sovétríki,2009,0,Former Soviet Union
+Fyrrum Sovétríki,2010,0,Former Soviet Union
+Fyrrum Sovétríki,2011,0,Former Soviet Union
+Fyrrum Sovétríki,2012,0,Former Soviet Union
+Fyrrum Sovétríki,2013,0,Former Soviet Union
+Fyrrum Sovétríki,2014,0,Former Soviet Union
+Fyrrum Sovétríki,2015,0,Former Soviet Union
+Fyrrum Sovétríki,2016,0,Former Soviet Union
+Fyrrum Sovétríki,2017,0,Former Soviet Union
+Fyrrum Sovétríki,2018,0,Former Soviet Union
+Fyrrum Sovétríki,2019,0,Former Soviet Union
+Fyrrum Sovétríki,2020,0,Former Soviet Union
+Fyrrum Sovétríki,2021,0,Former Soviet Union
+Fyrrum Sovétríki,2022,0,Former Soviet Union
+Fyrrum Sovétríki,2023,0,Former Soviet Union
+Fyrrum Sovétríki,2024,0,Former Soviet Union
+Úkraína,1998,4,Ukraine
+Úkraína,1999,11,Ukraine
+Úkraína,2000,20,Ukraine
+Úkraína,2001,30,Ukraine
+Úkraína,2002,35,Ukraine
+Úkraína,2003,41,Ukraine
+Úkraína,2004,45,Ukraine
+Úkraína,2005,46,Ukraine
+Úkraína,2006,62,Ukraine
+Úkraína,2007,66,Ukraine
+Úkraína,2008,71,Ukraine
+Úkraína,2009,68,Ukraine
+Úkraína,2010,56,Ukraine
+Úkraína,2011,55,Ukraine
+Úkraína,2012,53,Ukraine
+Úkraína,2013,45,Ukraine
+Úkraína,2014,45,Ukraine
+Úkraína,2015,47,Ukraine
+Úkraína,2016,58,Ukraine
+Úkraína,2017,65,Ukraine
+Úkraína,2018,73,Ukraine
+Úkraína,2019,85,Ukraine
+Úkraína,2020,94,Ukraine
+Úkraína,2021,91,Ukraine
+Úkraína,2022,88,Ukraine
+Úkraína,2023,974,Ukraine
+Úkraína,2024,1532,Ukraine
+Kósovó,1998,0,Kosovo
+Kósovó,1999,0,Kosovo
+Kósovó,2000,0,Kosovo
+Kósovó,2001,0,Kosovo
+Kósovó,2002,0,Kosovo
+Kósovó,2003,0,Kosovo
+Kósovó,2004,0,Kosovo
+Kósovó,2005,0,Kosovo
+Kósovó,2006,0,Kosovo
+Kósovó,2007,0,Kosovo
+Kósovó,2008,0,Kosovo
+Kósovó,2009,0,Kosovo
+Kósovó,2010,27,Kosovo
+Kósovó,2011,46,Kosovo
+Kósovó,2012,46,Kosovo
+Kósovó,2013,41,Kosovo
+Kósovó,2014,40,Kosovo
+Kósovó,2015,32,Kosovo
+Kósovó,2016,26,Kosovo
+Kósovó,2017,24,Kosovo
+Kósovó,2018,27,Kosovo
+Kósovó,2019,34,Kosovo
+Kósovó,2020,38,Kosovo
+Kósovó,2021,44,Kosovo
+Kósovó,2022,46,Kosovo
+Kósovó,2023,43,Kosovo
+Kósovó,2024,47,Kosovo
+Evrópa ótilgreint,1998,1,"Europe, country not specified"
+Evrópa ótilgreint,1999,0,"Europe, country not specified"
+Evrópa ótilgreint,2000,0,"Europe, country not specified"
+Evrópa ótilgreint,2001,0,"Europe, country not specified"
+Evrópa ótilgreint,2002,0,"Europe, country not specified"
+Evrópa ótilgreint,2003,1,"Europe, country not specified"
+Evrópa ótilgreint,2004,0,"Europe, country not specified"
+Evrópa ótilgreint,2005,1,"Europe, country not specified"
+Evrópa ótilgreint,2006,1,"Europe, country not specified"
+Evrópa ótilgreint,2007,0,"Europe, country not specified"
+Evrópa ótilgreint,2008,0,"Europe, country not specified"
+Evrópa ótilgreint,2009,0,"Europe, country not specified"
+Evrópa ótilgreint,2010,0,"Europe, country not specified"
+Evrópa ótilgreint,2011,0,"Europe, country not specified"
+Evrópa ótilgreint,2012,0,"Europe, country not specified"
+Evrópa ótilgreint,2013,0,"Europe, country not specified"
+Evrópa ótilgreint,2014,0,"Europe, country not specified"
+Evrópa ótilgreint,2015,0,"Europe, country not specified"
+Evrópa ótilgreint,2016,0,"Europe, country not specified"
+Evrópa ótilgreint,2017,0,"Europe, country not specified"
+Evrópa ótilgreint,2018,0,"Europe, country not specified"
+Evrópa ótilgreint,2019,0,"Europe, country not specified"
+Evrópa ótilgreint,2020,0,"Europe, country not specified"
+Evrópa ótilgreint,2021,0,"Europe, country not specified"
+Evrópa ótilgreint,2022,0,"Europe, country not specified"
+Evrópa ótilgreint,2023,0,"Europe, country not specified"
+Evrópa ótilgreint,2024,0,"Europe, country not specified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",1998,0,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",1999,0,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2000,0,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2001,0,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2002,0,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2003,0,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2004,0,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2005,245,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2006,220,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2007,246,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2008,179,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2009,107,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2010,56,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2011,48,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2012,29,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2013,17,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2014,8,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2015,6,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2016,4,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2017,2,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2018,2,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2019,3,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2020,3,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2021,3,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2022,3,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2023,4,"Countries in former Yugoslavia, unspecified"
+"Ríki í fyrrum Júgóslavíu, ótilgreint",2024,4,"Countries in former Yugoslavia, unspecified"
+Júgóslavía (Serbía og Svartfjallaland),1998,78,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),1999,140,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2000,181,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2001,230,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2002,270,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2003,275,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2004,269,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2005,0,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2006,0,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2007,0,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2008,0,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2009,0,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2010,0,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2011,0,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2012,0,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2013,0,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2014,0,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2015,0,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2016,0,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2017,0,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2018,0,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2019,0,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2020,0,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2021,0,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2022,0,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2023,0,Yugoslavia (Serbia and Montenegro)
+Júgóslavía (Serbía og Svartfjallaland),2024,0,Yugoslavia (Serbia and Montenegro)
+Kanada,1998,28,Canada
+Kanada,1999,32,Canada
+Kanada,2000,34,Canada
+Kanada,2001,40,Canada
+Kanada,2002,40,Canada
+Kanada,2003,37,Canada
+Kanada,2004,36,Canada
+Kanada,2005,39,Canada
+Kanada,2006,50,Canada
+Kanada,2007,81,Canada
+Kanada,2008,137,Canada
+Kanada,2009,66,Canada
+Kanada,2010,57,Canada
+Kanada,2011,48,Canada
+Kanada,2012,51,Canada
+Kanada,2013,45,Canada
+Kanada,2014,46,Canada
+Kanada,2015,41,Canada
+Kanada,2016,41,Canada
+Kanada,2017,55,Canada
+Kanada,2018,55,Canada
+Kanada,2019,61,Canada
+Kanada,2020,56,Canada
+Kanada,2021,52,Canada
+Kanada,2022,63,Canada
+Kanada,2023,69,Canada
+Kanada,2024,79,Canada
+Bandaríkin,1998,292,United States
+Bandaríkin,1999,303,United States
+Bandaríkin,2000,289,United States
+Bandaríkin,2001,327,United States
+Bandaríkin,2002,338,United States
+Bandaríkin,2003,317,United States
+Bandaríkin,2004,287,United States
+Bandaríkin,2005,285,United States
+Bandaríkin,2006,323,United States
+Bandaríkin,2007,380,United States
+Bandaríkin,2008,371,United States
+Bandaríkin,2009,295,United States
+Bandaríkin,2010,274,United States
+Bandaríkin,2011,238,United States
+Bandaríkin,2012,217,United States
+Bandaríkin,2013,276,United States
+Bandaríkin,2014,277,United States
+Bandaríkin,2015,260,United States
+Bandaríkin,2016,277,United States
+Bandaríkin,2017,312,United States
+Bandaríkin,2018,326,United States
+Bandaríkin,2019,363,United States
+Bandaríkin,2020,374,United States
+Bandaríkin,2021,375,United States
+Bandaríkin,2022,441,United States
+Bandaríkin,2023,455,United States
+Bandaríkin,2024,489,United States
+Antigua og Barbuda,1998,0,Antigua and Barbuda
+Antigua og Barbuda,1999,0,Antigua and Barbuda
+Antigua og Barbuda,2000,0,Antigua and Barbuda
+Antigua og Barbuda,2001,0,Antigua and Barbuda
+Antigua og Barbuda,2002,0,Antigua and Barbuda
+Antigua og Barbuda,2003,0,Antigua and Barbuda
+Antigua og Barbuda,2004,0,Antigua and Barbuda
+Antigua og Barbuda,2005,0,Antigua and Barbuda
+Antigua og Barbuda,2006,0,Antigua and Barbuda
+Antigua og Barbuda,2007,0,Antigua and Barbuda
+Antigua og Barbuda,2008,0,Antigua and Barbuda
+Antigua og Barbuda,2009,0,Antigua and Barbuda
+Antigua og Barbuda,2010,0,Antigua and Barbuda
+Antigua og Barbuda,2011,0,Antigua and Barbuda
+Antigua og Barbuda,2012,0,Antigua and Barbuda
+Antigua og Barbuda,2013,0,Antigua and Barbuda
+Antigua og Barbuda,2014,0,Antigua and Barbuda
+Antigua og Barbuda,2015,0,Antigua and Barbuda
+Antigua og Barbuda,2016,1,Antigua and Barbuda
+Antigua og Barbuda,2017,0,Antigua and Barbuda
+Antigua og Barbuda,2018,0,Antigua and Barbuda
+Antigua og Barbuda,2019,0,Antigua and Barbuda
+Antigua og Barbuda,2020,0,Antigua and Barbuda
+Antigua og Barbuda,2021,0,Antigua and Barbuda
+Antigua og Barbuda,2022,0,Antigua and Barbuda
+Antigua og Barbuda,2023,0,Antigua and Barbuda
+Antigua og Barbuda,2024,0,Antigua and Barbuda
+Argentína,1998,1,Argentina
+Argentína,1999,1,Argentina
+Argentína,2000,3,Argentina
+Argentína,2001,6,Argentina
+Argentína,2002,7,Argentina
+Argentína,2003,4,Argentina
+Argentína,2004,6,Argentina
+Argentína,2005,2,Argentina
+Argentína,2006,14,Argentina
+Argentína,2007,15,Argentina
+Argentína,2008,7,Argentina
+Argentína,2009,6,Argentina
+Argentína,2010,7,Argentina
+Argentína,2011,7,Argentina
+Argentína,2012,9,Argentina
+Argentína,2013,8,Argentina
+Argentína,2014,9,Argentina
+Argentína,2015,10,Argentina
+Argentína,2016,12,Argentina
+Argentína,2017,17,Argentina
+Argentína,2018,14,Argentina
+Argentína,2019,16,Argentina
+Argentína,2020,11,Argentina
+Argentína,2021,12,Argentina
+Argentína,2022,13,Argentina
+Argentína,2023,13,Argentina
+Argentína,2024,15,Argentina
+Barbados,1998,0,Barbados
+Barbados,1999,1,Barbados
+Barbados,2000,1,Barbados
+Barbados,2001,1,Barbados
+Barbados,2002,1,Barbados
+Barbados,2003,1,Barbados
+Barbados,2004,1,Barbados
+Barbados,2005,1,Barbados
+Barbados,2006,1,Barbados
+Barbados,2007,1,Barbados
+Barbados,2008,1,Barbados
+Barbados,2009,1,Barbados
+Barbados,2010,1,Barbados
+Barbados,2011,2,Barbados
+Barbados,2012,1,Barbados
+Barbados,2013,1,Barbados
+Barbados,2014,1,Barbados
+Barbados,2015,1,Barbados
+Barbados,2016,1,Barbados
+Barbados,2017,1,Barbados
+Barbados,2018,1,Barbados
+Barbados,2019,1,Barbados
+Barbados,2020,1,Barbados
+Barbados,2021,1,Barbados
+Barbados,2022,1,Barbados
+Barbados,2023,1,Barbados
+Barbados,2024,1,Barbados
+Bólivía,1998,2,Bolivia
+Bólivía,1999,2,Bolivia
+Bólivía,2000,2,Bolivia
+Bólivía,2001,3,Bolivia
+Bólivía,2002,3,Bolivia
+Bólivía,2003,2,Bolivia
+Bólivía,2004,2,Bolivia
+Bólivía,2005,2,Bolivia
+Bólivía,2006,2,Bolivia
+Bólivía,2007,2,Bolivia
+Bólivía,2008,3,Bolivia
+Bólivía,2009,2,Bolivia
+Bólivía,2010,1,Bolivia
+Bólivía,2011,0,Bolivia
+Bólivía,2012,1,Bolivia
+Bólivía,2013,1,Bolivia
+Bólivía,2014,1,Bolivia
+Bólivía,2015,1,Bolivia
+Bólivía,2016,2,Bolivia
+Bólivía,2017,2,Bolivia
+Bólivía,2018,2,Bolivia
+Bólivía,2019,1,Bolivia
+Bólivía,2020,2,Bolivia
+Bólivía,2021,2,Bolivia
+Bólivía,2022,1,Bolivia
+Bólivía,2023,2,Bolivia
+Bólivía,2024,3,Bolivia
+Brasilía,1998,6,Brazil
+Brasilía,1999,6,Brazil
+Brasilía,2000,10,Brazil
+Brasilía,2001,11,Brazil
+Brasilía,2002,8,Brazil
+Brasilía,2003,10,Brazil
+Brasilía,2004,10,Brazil
+Brasilía,2005,14,Brazil
+Brasilía,2006,15,Brazil
+Brasilía,2007,17,Brazil
+Brasilía,2008,19,Brazil
+Brasilía,2009,20,Brazil
+Brasilía,2010,14,Brazil
+Brasilía,2011,15,Brazil
+Brasilía,2012,14,Brazil
+Brasilía,2013,12,Brazil
+Brasilía,2014,18,Brazil
+Brasilía,2015,19,Brazil
+Brasilía,2016,18,Brazil
+Brasilía,2017,23,Brazil
+Brasilía,2018,24,Brazil
+Brasilía,2019,28,Brazil
+Brasilía,2020,30,Brazil
+Brasilía,2021,33,Brazil
+Brasilía,2022,35,Brazil
+Brasilía,2023,41,Brazil
+Brasilía,2024,47,Brazil
+Bahamaeyjar,1998,0,Bahamas
+Bahamaeyjar,1999,0,Bahamas
+Bahamaeyjar,2000,0,Bahamas
+Bahamaeyjar,2001,0,Bahamas
+Bahamaeyjar,2002,0,Bahamas
+Bahamaeyjar,2003,0,Bahamas
+Bahamaeyjar,2004,0,Bahamas
+Bahamaeyjar,2005,0,Bahamas
+Bahamaeyjar,2006,0,Bahamas
+Bahamaeyjar,2007,0,Bahamas
+Bahamaeyjar,2008,0,Bahamas
+Bahamaeyjar,2009,0,Bahamas
+Bahamaeyjar,2010,0,Bahamas
+Bahamaeyjar,2011,0,Bahamas
+Bahamaeyjar,2012,0,Bahamas
+Bahamaeyjar,2013,0,Bahamas
+Bahamaeyjar,2014,0,Bahamas
+Bahamaeyjar,2015,0,Bahamas
+Bahamaeyjar,2016,1,Bahamas
+Bahamaeyjar,2017,0,Bahamas
+Bahamaeyjar,2018,0,Bahamas
+Bahamaeyjar,2019,0,Bahamas
+Bahamaeyjar,2020,0,Bahamas
+Bahamaeyjar,2021,1,Bahamas
+Bahamaeyjar,2022,1,Bahamas
+Bahamaeyjar,2023,1,Bahamas
+Bahamaeyjar,2024,1,Bahamas
+Belize,1998,0,Belize
+Belize,1999,0,Belize
+Belize,2000,0,Belize
+Belize,2001,0,Belize
+Belize,2002,0,Belize
+Belize,2003,0,Belize
+Belize,2004,0,Belize
+Belize,2005,0,Belize
+Belize,2006,0,Belize
+Belize,2007,0,Belize
+Belize,2008,0,Belize
+Belize,2009,0,Belize
+Belize,2010,1,Belize
+Belize,2011,0,Belize
+Belize,2012,0,Belize
+Belize,2013,0,Belize
+Belize,2014,0,Belize
+Belize,2015,0,Belize
+Belize,2016,0,Belize
+Belize,2017,0,Belize
+Belize,2018,0,Belize
+Belize,2019,0,Belize
+Belize,2020,1,Belize
+Belize,2021,1,Belize
+Belize,2022,0,Belize
+Belize,2023,0,Belize
+Belize,2024,0,Belize
+Chile,1998,9,Chile
+Chile,1999,9,Chile
+Chile,2000,14,Chile
+Chile,2001,21,Chile
+Chile,2002,25,Chile
+Chile,2003,26,Chile
+Chile,2004,22,Chile
+Chile,2005,27,Chile
+Chile,2006,36,Chile
+Chile,2007,40,Chile
+Chile,2008,24,Chile
+Chile,2009,19,Chile
+Chile,2010,16,Chile
+Chile,2011,13,Chile
+Chile,2012,11,Chile
+Chile,2013,10,Chile
+Chile,2014,8,Chile
+Chile,2015,11,Chile
+Chile,2016,10,Chile
+Chile,2017,11,Chile
+Chile,2018,10,Chile
+Chile,2019,12,Chile
+Chile,2020,17,Chile
+Chile,2021,17,Chile
+Chile,2022,19,Chile
+Chile,2023,21,Chile
+Chile,2024,22,Chile
+Colombia,1998,5,Colombia
+Colombia,1999,5,Colombia
+Colombia,2000,8,Colombia
+Colombia,2001,12,Colombia
+Colombia,2002,12,Colombia
+Colombia,2003,13,Colombia
+Colombia,2004,14,Colombia
+Colombia,2005,18,Colombia
+Colombia,2006,30,Colombia
+Colombia,2007,31,Colombia
+Colombia,2008,31,Colombia
+Colombia,2009,29,Colombia
+Colombia,2010,29,Colombia
+Colombia,2011,26,Colombia
+Colombia,2012,16,Colombia
+Colombia,2013,17,Colombia
+Colombia,2014,10,Colombia
+Colombia,2015,11,Colombia
+Colombia,2016,12,Colombia
+Colombia,2017,19,Colombia
+Colombia,2018,17,Colombia
+Colombia,2019,24,Colombia
+Colombia,2020,28,Colombia
+Colombia,2021,34,Colombia
+Colombia,2022,36,Colombia
+Colombia,2023,42,Colombia
+Colombia,2024,56,Colombia
+Costa Rica,1998,4,Costa Rica
+Costa Rica,1999,3,Costa Rica
+Costa Rica,2000,5,Costa Rica
+Costa Rica,2001,4,Costa Rica
+Costa Rica,2002,4,Costa Rica
+Costa Rica,2003,3,Costa Rica
+Costa Rica,2004,4,Costa Rica
+Costa Rica,2005,4,Costa Rica
+Costa Rica,2006,3,Costa Rica
+Costa Rica,2007,5,Costa Rica
+Costa Rica,2008,5,Costa Rica
+Costa Rica,2009,3,Costa Rica
+Costa Rica,2010,2,Costa Rica
+Costa Rica,2011,2,Costa Rica
+Costa Rica,2012,0,Costa Rica
+Costa Rica,2013,0,Costa Rica
+Costa Rica,2014,2,Costa Rica
+Costa Rica,2015,2,Costa Rica
+Costa Rica,2016,1,Costa Rica
+Costa Rica,2017,5,Costa Rica
+Costa Rica,2018,7,Costa Rica
+Costa Rica,2019,7,Costa Rica
+Costa Rica,2020,6,Costa Rica
+Costa Rica,2021,5,Costa Rica
+Costa Rica,2022,6,Costa Rica
+Costa Rica,2023,5,Costa Rica
+Costa Rica,2024,7,Costa Rica
+Kúba,1998,1,Cuba
+Kúba,1999,4,Cuba
+Kúba,2000,5,Cuba
+Kúba,2001,8,Cuba
+Kúba,2002,9,Cuba
+Kúba,2003,8,Cuba
+Kúba,2004,5,Cuba
+Kúba,2005,4,Cuba
+Kúba,2006,4,Cuba
+Kúba,2007,5,Cuba
+Kúba,2008,8,Cuba
+Kúba,2009,7,Cuba
+Kúba,2010,8,Cuba
+Kúba,2011,7,Cuba
+Kúba,2012,5,Cuba
+Kúba,2013,7,Cuba
+Kúba,2014,8,Cuba
+Kúba,2015,10,Cuba
+Kúba,2016,10,Cuba
+Kúba,2017,11,Cuba
+Kúba,2018,10,Cuba
+Kúba,2019,7,Cuba
+Kúba,2020,9,Cuba
+Kúba,2021,7,Cuba
+Kúba,2022,7,Cuba
+Kúba,2023,8,Cuba
+Kúba,2024,11,Cuba
+Dóminíka,1998,0,Dominica
+Dóminíka,1999,0,Dominica
+Dóminíka,2000,0,Dominica
+Dóminíka,2001,0,Dominica
+Dóminíka,2002,0,Dominica
+Dóminíka,2003,0,Dominica
+Dóminíka,2004,0,Dominica
+Dóminíka,2005,0,Dominica
+Dóminíka,2006,0,Dominica
+Dóminíka,2007,0,Dominica
+Dóminíka,2008,0,Dominica
+Dóminíka,2009,0,Dominica
+Dóminíka,2010,0,Dominica
+Dóminíka,2011,0,Dominica
+Dóminíka,2012,0,Dominica
+Dóminíka,2013,0,Dominica
+Dóminíka,2014,0,Dominica
+Dóminíka,2015,1,Dominica
+Dóminíka,2016,1,Dominica
+Dóminíka,2017,0,Dominica
+Dóminíka,2018,0,Dominica
+Dóminíka,2019,0,Dominica
+Dóminíka,2020,0,Dominica
+Dóminíka,2021,0,Dominica
+Dóminíka,2022,0,Dominica
+Dóminíka,2023,1,Dominica
+Dóminíka,2024,1,Dominica
+Dóminíska lýðveldið,1998,0,Dominican Republic
+Dóminíska lýðveldið,1999,0,Dominican Republic
+Dóminíska lýðveldið,2000,0,Dominican Republic
+Dóminíska lýðveldið,2001,0,Dominican Republic
+Dóminíska lýðveldið,2002,2,Dominican Republic
+Dóminíska lýðveldið,2003,2,Dominican Republic
+Dóminíska lýðveldið,2004,1,Dominican Republic
+Dóminíska lýðveldið,2005,1,Dominican Republic
+Dóminíska lýðveldið,2006,1,Dominican Republic
+Dóminíska lýðveldið,2007,2,Dominican Republic
+Dóminíska lýðveldið,2008,2,Dominican Republic
+Dóminíska lýðveldið,2009,4,Dominican Republic
+Dóminíska lýðveldið,2010,3,Dominican Republic
+Dóminíska lýðveldið,2011,4,Dominican Republic
+Dóminíska lýðveldið,2012,5,Dominican Republic
+Dóminíska lýðveldið,2013,3,Dominican Republic
+Dóminíska lýðveldið,2014,4,Dominican Republic
+Dóminíska lýðveldið,2015,3,Dominican Republic
+Dóminíska lýðveldið,2016,5,Dominican Republic
+Dóminíska lýðveldið,2017,6,Dominican Republic
+Dóminíska lýðveldið,2018,9,Dominican Republic
+Dóminíska lýðveldið,2019,7,Dominican Republic
+Dóminíska lýðveldið,2020,6,Dominican Republic
+Dóminíska lýðveldið,2021,5,Dominican Republic
+Dóminíska lýðveldið,2022,5,Dominican Republic
+Dóminíska lýðveldið,2023,5,Dominican Republic
+Dóminíska lýðveldið,2024,6,Dominican Republic
+Ekvador,1998,2,Ecuador
+Ekvador,1999,0,Ecuador
+Ekvador,2000,2,Ecuador
+Ekvador,2001,5,Ecuador
+Ekvador,2002,4,Ecuador
+Ekvador,2003,4,Ecuador
+Ekvador,2004,5,Ecuador
+Ekvador,2005,3,Ecuador
+Ekvador,2006,6,Ecuador
+Ekvador,2007,5,Ecuador
+Ekvador,2008,6,Ecuador
+Ekvador,2009,2,Ecuador
+Ekvador,2010,2,Ecuador
+Ekvador,2011,3,Ecuador
+Ekvador,2012,6,Ecuador
+Ekvador,2013,7,Ecuador
+Ekvador,2014,5,Ecuador
+Ekvador,2015,5,Ecuador
+Ekvador,2016,5,Ecuador
+Ekvador,2017,5,Ecuador
+Ekvador,2018,5,Ecuador
+Ekvador,2019,8,Ecuador
+Ekvador,2020,6,Ecuador
+Ekvador,2021,8,Ecuador
+Ekvador,2022,9,Ecuador
+Ekvador,2023,7,Ecuador
+Ekvador,2024,10,Ecuador
+Grenada,1998,0,Grenada
+Grenada,1999,0,Grenada
+Grenada,2000,0,Grenada
+Grenada,2001,0,Grenada
+Grenada,2002,0,Grenada
+Grenada,2003,0,Grenada
+Grenada,2004,0,Grenada
+Grenada,2005,0,Grenada
+Grenada,2006,0,Grenada
+Grenada,2007,0,Grenada
+Grenada,2008,0,Grenada
+Grenada,2009,0,Grenada
+Grenada,2010,0,Grenada
+Grenada,2011,0,Grenada
+Grenada,2012,0,Grenada
+Grenada,2013,0,Grenada
+Grenada,2014,0,Grenada
+Grenada,2015,0,Grenada
+Grenada,2016,0,Grenada
+Grenada,2017,0,Grenada
+Grenada,2018,0,Grenada
+Grenada,2019,1,Grenada
+Grenada,2020,0,Grenada
+Grenada,2021,0,Grenada
+Grenada,2022,0,Grenada
+Grenada,2023,0,Grenada
+Grenada,2024,0,Grenada
+Guatemala,1998,1,Guatemala
+Guatemala,1999,1,Guatemala
+Guatemala,2000,1,Guatemala
+Guatemala,2001,1,Guatemala
+Guatemala,2002,1,Guatemala
+Guatemala,2003,1,Guatemala
+Guatemala,2004,1,Guatemala
+Guatemala,2005,1,Guatemala
+Guatemala,2006,1,Guatemala
+Guatemala,2007,1,Guatemala
+Guatemala,2008,1,Guatemala
+Guatemala,2009,2,Guatemala
+Guatemala,2010,1,Guatemala
+Guatemala,2011,1,Guatemala
+Guatemala,2012,1,Guatemala
+Guatemala,2013,3,Guatemala
+Guatemala,2014,2,Guatemala
+Guatemala,2015,1,Guatemala
+Guatemala,2016,2,Guatemala
+Guatemala,2017,2,Guatemala
+Guatemala,2018,1,Guatemala
+Guatemala,2019,1,Guatemala
+Guatemala,2020,2,Guatemala
+Guatemala,2021,4,Guatemala
+Guatemala,2022,5,Guatemala
+Guatemala,2023,4,Guatemala
+Guatemala,2024,4,Guatemala
+Guyana,1998,2,Guyana
+Guyana,1999,5,Guyana
+Guyana,2000,5,Guyana
+Guyana,2001,5,Guyana
+Guyana,2002,3,Guyana
+Guyana,2003,3,Guyana
+Guyana,2004,4,Guyana
+Guyana,2005,4,Guyana
+Guyana,2006,2,Guyana
+Guyana,2007,2,Guyana
+Guyana,2008,2,Guyana
+Guyana,2009,2,Guyana
+Guyana,2010,2,Guyana
+Guyana,2011,1,Guyana
+Guyana,2012,1,Guyana
+Guyana,2013,0,Guyana
+Guyana,2014,0,Guyana
+Guyana,2015,0,Guyana
+Guyana,2016,1,Guyana
+Guyana,2017,1,Guyana
+Guyana,2018,1,Guyana
+Guyana,2019,3,Guyana
+Guyana,2020,3,Guyana
+Guyana,2021,3,Guyana
+Guyana,2022,1,Guyana
+Guyana,2023,1,Guyana
+Guyana,2024,1,Guyana
+Hondúras,1998,7,Honduras
+Hondúras,1999,11,Honduras
+Hondúras,2000,9,Honduras
+Hondúras,2001,10,Honduras
+Hondúras,2002,11,Honduras
+Hondúras,2003,7,Honduras
+Hondúras,2004,8,Honduras
+Hondúras,2005,6,Honduras
+Hondúras,2006,7,Honduras
+Hondúras,2007,7,Honduras
+Hondúras,2008,7,Honduras
+Hondúras,2009,5,Honduras
+Hondúras,2010,4,Honduras
+Hondúras,2011,4,Honduras
+Hondúras,2012,3,Honduras
+Hondúras,2013,3,Honduras
+Hondúras,2014,5,Honduras
+Hondúras,2015,4,Honduras
+Hondúras,2016,5,Honduras
+Hondúras,2017,9,Honduras
+Hondúras,2018,10,Honduras
+Hondúras,2019,10,Honduras
+Hondúras,2020,10,Honduras
+Hondúras,2021,13,Honduras
+Hondúras,2022,12,Honduras
+Hondúras,2023,18,Honduras
+Hondúras,2024,25,Honduras
+Haítí,1998,0,Haiti
+Haítí,1999,0,Haiti
+Haítí,2000,0,Haiti
+Haítí,2001,0,Haiti
+Haítí,2002,0,Haiti
+Haítí,2003,0,Haiti
+Haítí,2004,0,Haiti
+Haítí,2005,0,Haiti
+Haítí,2006,0,Haiti
+Haítí,2007,1,Haiti
+Haítí,2008,1,Haiti
+Haítí,2009,1,Haiti
+Haítí,2010,2,Haiti
+Haítí,2011,3,Haiti
+Haítí,2012,2,Haiti
+Haítí,2013,5,Haiti
+Haítí,2014,4,Haiti
+Haítí,2015,1,Haiti
+Haítí,2016,1,Haiti
+Haítí,2017,2,Haiti
+Haítí,2018,2,Haiti
+Haítí,2019,1,Haiti
+Haítí,2020,2,Haiti
+Haítí,2021,2,Haiti
+Haítí,2022,4,Haiti
+Haítí,2023,4,Haiti
+Haítí,2024,4,Haiti
+Jamaíka,1998,3,Jamaica
+Jamaíka,1999,2,Jamaica
+Jamaíka,2000,3,Jamaica
+Jamaíka,2001,2,Jamaica
+Jamaíka,2002,2,Jamaica
+Jamaíka,2003,2,Jamaica
+Jamaíka,2004,2,Jamaica
+Jamaíka,2005,3,Jamaica
+Jamaíka,2006,1,Jamaica
+Jamaíka,2007,1,Jamaica
+Jamaíka,2008,1,Jamaica
+Jamaíka,2009,1,Jamaica
+Jamaíka,2010,1,Jamaica
+Jamaíka,2011,2,Jamaica
+Jamaíka,2012,2,Jamaica
+Jamaíka,2013,1,Jamaica
+Jamaíka,2014,0,Jamaica
+Jamaíka,2015,1,Jamaica
+Jamaíka,2016,1,Jamaica
+Jamaíka,2017,0,Jamaica
+Jamaíka,2018,2,Jamaica
+Jamaíka,2019,1,Jamaica
+Jamaíka,2020,1,Jamaica
+Jamaíka,2021,2,Jamaica
+Jamaíka,2022,2,Jamaica
+Jamaíka,2023,3,Jamaica
+Jamaíka,2024,3,Jamaica
+Sankti Kitts og Nevis,1998,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,1999,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2000,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2001,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2002,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2003,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2004,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2005,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2006,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2007,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2008,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2009,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2010,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2011,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2012,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2013,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2014,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2015,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2016,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2017,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2018,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2019,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2020,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2021,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2022,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2023,0,Saint Kitts and Nevis
+Sankti Kitts og Nevis,2024,0,Saint Kitts and Nevis
+Mexíkó,1998,6,Mexico
+Mexíkó,1999,7,Mexico
+Mexíkó,2000,5,Mexico
+Mexíkó,2001,6,Mexico
+Mexíkó,2002,7,Mexico
+Mexíkó,2003,8,Mexico
+Mexíkó,2004,11,Mexico
+Mexíkó,2005,8,Mexico
+Mexíkó,2006,11,Mexico
+Mexíkó,2007,11,Mexico
+Mexíkó,2008,11,Mexico
+Mexíkó,2009,17,Mexico
+Mexíkó,2010,16,Mexico
+Mexíkó,2011,12,Mexico
+Mexíkó,2012,13,Mexico
+Mexíkó,2013,17,Mexico
+Mexíkó,2014,14,Mexico
+Mexíkó,2015,19,Mexico
+Mexíkó,2016,24,Mexico
+Mexíkó,2017,32,Mexico
+Mexíkó,2018,32,Mexico
+Mexíkó,2019,37,Mexico
+Mexíkó,2020,36,Mexico
+Mexíkó,2021,35,Mexico
+Mexíkó,2022,40,Mexico
+Mexíkó,2023,43,Mexico
+Mexíkó,2024,46,Mexico
+Nicaragua,1998,0,Nicaragua
+Nicaragua,1999,0,Nicaragua
+Nicaragua,2000,0,Nicaragua
+Nicaragua,2001,0,Nicaragua
+Nicaragua,2002,0,Nicaragua
+Nicaragua,2003,1,Nicaragua
+Nicaragua,2004,1,Nicaragua
+Nicaragua,2005,1,Nicaragua
+Nicaragua,2006,0,Nicaragua
+Nicaragua,2007,0,Nicaragua
+Nicaragua,2008,0,Nicaragua
+Nicaragua,2009,0,Nicaragua
+Nicaragua,2010,0,Nicaragua
+Nicaragua,2011,0,Nicaragua
+Nicaragua,2012,1,Nicaragua
+Nicaragua,2013,0,Nicaragua
+Nicaragua,2014,0,Nicaragua
+Nicaragua,2015,0,Nicaragua
+Nicaragua,2016,0,Nicaragua
+Nicaragua,2017,0,Nicaragua
+Nicaragua,2018,1,Nicaragua
+Nicaragua,2019,0,Nicaragua
+Nicaragua,2020,1,Nicaragua
+Nicaragua,2021,2,Nicaragua
+Nicaragua,2022,2,Nicaragua
+Nicaragua,2023,2,Nicaragua
+Nicaragua,2024,5,Nicaragua
+Panama,1998,0,Panama
+Panama,1999,1,Panama
+Panama,2000,1,Panama
+Panama,2001,0,Panama
+Panama,2002,0,Panama
+Panama,2003,0,Panama
+Panama,2004,1,Panama
+Panama,2005,1,Panama
+Panama,2006,1,Panama
+Panama,2007,1,Panama
+Panama,2008,0,Panama
+Panama,2009,2,Panama
+Panama,2010,2,Panama
+Panama,2011,1,Panama
+Panama,2012,1,Panama
+Panama,2013,1,Panama
+Panama,2014,1,Panama
+Panama,2015,1,Panama
+Panama,2016,1,Panama
+Panama,2017,1,Panama
+Panama,2018,1,Panama
+Panama,2019,2,Panama
+Panama,2020,2,Panama
+Panama,2021,4,Panama
+Panama,2022,2,Panama
+Panama,2023,3,Panama
+Panama,2024,5,Panama
+Perú,1998,5,Peru
+Perú,1999,7,Peru
+Perú,2000,8,Peru
+Perú,2001,10,Peru
+Perú,2002,12,Peru
+Perú,2003,15,Peru
+Perú,2004,18,Peru
+Perú,2005,19,Peru
+Perú,2006,16,Peru
+Perú,2007,17,Peru
+Perú,2008,13,Peru
+Perú,2009,12,Peru
+Perú,2010,10,Peru
+Perú,2011,9,Peru
+Perú,2012,7,Peru
+Perú,2013,7,Peru
+Perú,2014,8,Peru
+Perú,2015,6,Peru
+Perú,2016,7,Peru
+Perú,2017,2,Peru
+Perú,2018,3,Peru
+Perú,2019,4,Peru
+Perú,2020,5,Peru
+Perú,2021,5,Peru
+Perú,2022,7,Peru
+Perú,2023,11,Peru
+Perú,2024,17,Peru
+Puerto Rico,1998,0,Puerto Rico
+Puerto Rico,1999,1,Puerto Rico
+Puerto Rico,2000,1,Puerto Rico
+Puerto Rico,2001,1,Puerto Rico
+Puerto Rico,2002,1,Puerto Rico
+Puerto Rico,2003,1,Puerto Rico
+Puerto Rico,2004,0,Puerto Rico
+Puerto Rico,2005,0,Puerto Rico
+Puerto Rico,2006,0,Puerto Rico
+Puerto Rico,2007,0,Puerto Rico
+Puerto Rico,2008,0,Puerto Rico
+Puerto Rico,2009,0,Puerto Rico
+Puerto Rico,2010,0,Puerto Rico
+Puerto Rico,2011,0,Puerto Rico
+Puerto Rico,2012,0,Puerto Rico
+Puerto Rico,2013,0,Puerto Rico
+Puerto Rico,2014,0,Puerto Rico
+Puerto Rico,2015,0,Puerto Rico
+Puerto Rico,2016,0,Puerto Rico
+Puerto Rico,2017,0,Puerto Rico
+Puerto Rico,2018,0,Puerto Rico
+Puerto Rico,2019,0,Puerto Rico
+Puerto Rico,2020,0,Puerto Rico
+Puerto Rico,2021,0,Puerto Rico
+Puerto Rico,2022,0,Puerto Rico
+Puerto Rico,2023,0,Puerto Rico
+Puerto Rico,2024,0,Puerto Rico
+Paraguay,1998,0,Paraguay
+Paraguay,1999,1,Paraguay
+Paraguay,2000,0,Paraguay
+Paraguay,2001,1,Paraguay
+Paraguay,2002,2,Paraguay
+Paraguay,2003,2,Paraguay
+Paraguay,2004,1,Paraguay
+Paraguay,2005,2,Paraguay
+Paraguay,2006,3,Paraguay
+Paraguay,2007,4,Paraguay
+Paraguay,2008,4,Paraguay
+Paraguay,2009,3,Paraguay
+Paraguay,2010,3,Paraguay
+Paraguay,2011,4,Paraguay
+Paraguay,2012,4,Paraguay
+Paraguay,2013,3,Paraguay
+Paraguay,2014,2,Paraguay
+Paraguay,2015,1,Paraguay
+Paraguay,2016,1,Paraguay
+Paraguay,2017,1,Paraguay
+Paraguay,2018,1,Paraguay
+Paraguay,2019,1,Paraguay
+Paraguay,2020,1,Paraguay
+Paraguay,2021,0,Paraguay
+Paraguay,2022,1,Paraguay
+Paraguay,2023,1,Paraguay
+Paraguay,2024,1,Paraguay
+Súrinam,1998,0,Suriname
+Súrinam,1999,0,Suriname
+Súrinam,2000,0,Suriname
+Súrinam,2001,0,Suriname
+Súrinam,2002,0,Suriname
+Súrinam,2003,0,Suriname
+Súrinam,2004,0,Suriname
+Súrinam,2005,0,Suriname
+Súrinam,2006,0,Suriname
+Súrinam,2007,0,Suriname
+Súrinam,2008,0,Suriname
+Súrinam,2009,0,Suriname
+Súrinam,2010,0,Suriname
+Súrinam,2011,0,Suriname
+Súrinam,2012,0,Suriname
+Súrinam,2013,0,Suriname
+Súrinam,2014,0,Suriname
+Súrinam,2015,0,Suriname
+Súrinam,2016,0,Suriname
+Súrinam,2017,0,Suriname
+Súrinam,2018,0,Suriname
+Súrinam,2019,0,Suriname
+Súrinam,2020,0,Suriname
+Súrinam,2021,0,Suriname
+Súrinam,2022,0,Suriname
+Súrinam,2023,0,Suriname
+Súrinam,2024,0,Suriname
+El Salvador,1998,0,El Salvador
+El Salvador,1999,0,El Salvador
+El Salvador,2000,0,El Salvador
+El Salvador,2001,0,El Salvador
+El Salvador,2002,1,El Salvador
+El Salvador,2003,2,El Salvador
+El Salvador,2004,2,El Salvador
+El Salvador,2005,2,El Salvador
+El Salvador,2006,2,El Salvador
+El Salvador,2007,2,El Salvador
+El Salvador,2008,6,El Salvador
+El Salvador,2009,4,El Salvador
+El Salvador,2010,4,El Salvador
+El Salvador,2011,3,El Salvador
+El Salvador,2012,2,El Salvador
+El Salvador,2013,1,El Salvador
+El Salvador,2014,1,El Salvador
+El Salvador,2015,1,El Salvador
+El Salvador,2016,0,El Salvador
+El Salvador,2017,2,El Salvador
+El Salvador,2018,2,El Salvador
+El Salvador,2019,5,El Salvador
+El Salvador,2020,7,El Salvador
+El Salvador,2021,9,El Salvador
+El Salvador,2022,11,El Salvador
+El Salvador,2023,14,El Salvador
+El Salvador,2024,15,El Salvador
+Trínidad og Tóbagó,1998,1,Trinidad and Tobago
+Trínidad og Tóbagó,1999,1,Trinidad and Tobago
+Trínidad og Tóbagó,2000,1,Trinidad and Tobago
+Trínidad og Tóbagó,2001,1,Trinidad and Tobago
+Trínidad og Tóbagó,2002,2,Trinidad and Tobago
+Trínidad og Tóbagó,2003,2,Trinidad and Tobago
+Trínidad og Tóbagó,2004,1,Trinidad and Tobago
+Trínidad og Tóbagó,2005,0,Trinidad and Tobago
+Trínidad og Tóbagó,2006,0,Trinidad and Tobago
+Trínidad og Tóbagó,2007,0,Trinidad and Tobago
+Trínidad og Tóbagó,2008,0,Trinidad and Tobago
+Trínidad og Tóbagó,2009,0,Trinidad and Tobago
+Trínidad og Tóbagó,2010,0,Trinidad and Tobago
+Trínidad og Tóbagó,2011,0,Trinidad and Tobago
+Trínidad og Tóbagó,2012,0,Trinidad and Tobago
+Trínidad og Tóbagó,2013,0,Trinidad and Tobago
+Trínidad og Tóbagó,2014,0,Trinidad and Tobago
+Trínidad og Tóbagó,2015,0,Trinidad and Tobago
+Trínidad og Tóbagó,2016,2,Trinidad and Tobago
+Trínidad og Tóbagó,2017,2,Trinidad and Tobago
+Trínidad og Tóbagó,2018,1,Trinidad and Tobago
+Trínidad og Tóbagó,2019,1,Trinidad and Tobago
+Trínidad og Tóbagó,2020,1,Trinidad and Tobago
+Trínidad og Tóbagó,2021,1,Trinidad and Tobago
+Trínidad og Tóbagó,2022,4,Trinidad and Tobago
+Trínidad og Tóbagó,2023,4,Trinidad and Tobago
+Trínidad og Tóbagó,2024,6,Trinidad and Tobago
+Uruguay,1998,1,Uruguay
+Uruguay,1999,1,Uruguay
+Uruguay,2000,2,Uruguay
+Uruguay,2001,2,Uruguay
+Uruguay,2002,2,Uruguay
+Uruguay,2003,2,Uruguay
+Uruguay,2004,5,Uruguay
+Uruguay,2005,4,Uruguay
+Uruguay,2006,9,Uruguay
+Uruguay,2007,10,Uruguay
+Uruguay,2008,5,Uruguay
+Uruguay,2009,4,Uruguay
+Uruguay,2010,4,Uruguay
+Uruguay,2011,4,Uruguay
+Uruguay,2012,3,Uruguay
+Uruguay,2013,2,Uruguay
+Uruguay,2014,3,Uruguay
+Uruguay,2015,2,Uruguay
+Uruguay,2016,2,Uruguay
+Uruguay,2017,2,Uruguay
+Uruguay,2018,2,Uruguay
+Uruguay,2019,3,Uruguay
+Uruguay,2020,3,Uruguay
+Uruguay,2021,3,Uruguay
+Uruguay,2022,4,Uruguay
+Uruguay,2023,4,Uruguay
+Uruguay,2024,4,Uruguay
+Sankti Vinsent og Grenadínur,1998,0,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,1999,0,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2000,0,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2001,0,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2002,0,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2003,0,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2004,0,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2005,0,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2006,0,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2007,0,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2008,0,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2009,0,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2010,0,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2011,0,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2012,0,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2013,1,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2014,1,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2015,1,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2016,1,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2017,1,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2018,2,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2019,0,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2020,0,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2021,0,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2022,0,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2023,0,Saint Vincent and the Grenadines
+Sankti Vinsent og Grenadínur,2024,0,Saint Vincent and the Grenadines
+Venesúela,1998,4,Venezuela
+Venesúela,1999,1,Venezuela
+Venesúela,2000,2,Venezuela
+Venesúela,2001,4,Venezuela
+Venesúela,2002,1,Venezuela
+Venesúela,2003,5,Venezuela
+Venesúela,2004,3,Venezuela
+Venesúela,2005,3,Venezuela
+Venesúela,2006,3,Venezuela
+Venesúela,2007,11,Venezuela
+Venesúela,2008,11,Venezuela
+Venesúela,2009,8,Venezuela
+Venesúela,2010,8,Venezuela
+Venesúela,2011,9,Venezuela
+Venesúela,2012,8,Venezuela
+Venesúela,2013,8,Venezuela
+Venesúela,2014,6,Venezuela
+Venesúela,2015,5,Venezuela
+Venesúela,2016,5,Venezuela
+Venesúela,2017,6,Venezuela
+Venesúela,2018,10,Venezuela
+Venesúela,2019,20,Venezuela
+Venesúela,2020,82,Venezuela
+Venesúela,2021,174,Venezuela
+Venesúela,2022,260,Venezuela
+Venesúela,2023,698,Venezuela
+Venesúela,2024,762,Venezuela
+Angóla,1998,0,Angola
+Angóla,1999,1,Angola
+Angóla,2000,2,Angola
+Angóla,2001,2,Angola
+Angóla,2002,2,Angola
+Angóla,2003,3,Angola
+Angóla,2004,3,Angola
+Angóla,2005,4,Angola
+Angóla,2006,4,Angola
+Angóla,2007,4,Angola
+Angóla,2008,3,Angola
+Angóla,2009,1,Angola
+Angóla,2010,2,Angola
+Angóla,2011,2,Angola
+Angóla,2012,2,Angola
+Angóla,2013,2,Angola
+Angóla,2014,2,Angola
+Angóla,2015,2,Angola
+Angóla,2016,2,Angola
+Angóla,2017,3,Angola
+Angóla,2018,2,Angola
+Angóla,2019,1,Angola
+Angóla,2020,2,Angola
+Angóla,2021,2,Angola
+Angóla,2022,1,Angola
+Angóla,2023,1,Angola
+Angóla,2024,1,Angola
+Búrkína Fasó,1998,0,Burkina Faso
+Búrkína Fasó,1999,0,Burkina Faso
+Búrkína Fasó,2000,0,Burkina Faso
+Búrkína Fasó,2001,0,Burkina Faso
+Búrkína Fasó,2002,0,Burkina Faso
+Búrkína Fasó,2003,0,Burkina Faso
+Búrkína Fasó,2004,0,Burkina Faso
+Búrkína Fasó,2005,0,Burkina Faso
+Búrkína Fasó,2006,0,Burkina Faso
+Búrkína Fasó,2007,0,Burkina Faso
+Búrkína Fasó,2008,1,Burkina Faso
+Búrkína Fasó,2009,1,Burkina Faso
+Búrkína Fasó,2010,1,Burkina Faso
+Búrkína Fasó,2011,1,Burkina Faso
+Búrkína Fasó,2012,1,Burkina Faso
+Búrkína Fasó,2013,1,Burkina Faso
+Búrkína Fasó,2014,0,Burkina Faso
+Búrkína Fasó,2015,0,Burkina Faso
+Búrkína Fasó,2016,0,Burkina Faso
+Búrkína Fasó,2017,0,Burkina Faso
+Búrkína Fasó,2018,0,Burkina Faso
+Búrkína Fasó,2019,1,Burkina Faso
+Búrkína Fasó,2020,2,Burkina Faso
+Búrkína Fasó,2021,3,Burkina Faso
+Búrkína Fasó,2022,3,Burkina Faso
+Búrkína Fasó,2023,3,Burkina Faso
+Búrkína Fasó,2024,3,Burkina Faso
+Benín,1998,0,Benin
+Benín,1999,0,Benin
+Benín,2000,0,Benin
+Benín,2001,0,Benin
+Benín,2002,0,Benin
+Benín,2003,0,Benin
+Benín,2004,0,Benin
+Benín,2005,0,Benin
+Benín,2006,0,Benin
+Benín,2007,0,Benin
+Benín,2008,0,Benin
+Benín,2009,0,Benin
+Benín,2010,0,Benin
+Benín,2011,1,Benin
+Benín,2012,1,Benin
+Benín,2013,1,Benin
+Benín,2014,1,Benin
+Benín,2015,1,Benin
+Benín,2016,0,Benin
+Benín,2017,0,Benin
+Benín,2018,0,Benin
+Benín,2019,0,Benin
+Benín,2020,0,Benin
+Benín,2021,0,Benin
+Benín,2022,0,Benin
+Benín,2023,0,Benin
+Benín,2024,0,Benin
+Botswana,1998,0,Botswana
+Botswana,1999,0,Botswana
+Botswana,2000,0,Botswana
+Botswana,2001,0,Botswana
+Botswana,2002,0,Botswana
+Botswana,2003,0,Botswana
+Botswana,2004,0,Botswana
+Botswana,2005,0,Botswana
+Botswana,2006,0,Botswana
+Botswana,2007,0,Botswana
+Botswana,2008,0,Botswana
+Botswana,2009,0,Botswana
+Botswana,2010,0,Botswana
+Botswana,2011,0,Botswana
+Botswana,2012,0,Botswana
+Botswana,2013,0,Botswana
+Botswana,2014,0,Botswana
+Botswana,2015,0,Botswana
+Botswana,2016,0,Botswana
+Botswana,2017,0,Botswana
+Botswana,2018,0,Botswana
+Botswana,2019,0,Botswana
+Botswana,2020,0,Botswana
+Botswana,2021,0,Botswana
+Botswana,2022,0,Botswana
+Botswana,2023,0,Botswana
+Botswana,2024,0,Botswana
+"Kongó, Lýðstjórnarlýðveldið",1998,0,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",1999,0,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2000,1,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2001,1,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2002,1,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2003,1,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2004,1,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2005,1,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2006,1,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2007,1,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2008,1,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2009,1,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2010,1,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2011,1,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2012,1,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2013,1,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2014,1,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2015,1,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2016,1,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2017,1,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2018,1,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2019,1,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2020,1,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2021,3,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2022,2,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2023,3,"Congo, Democratic Republic of"
+"Kongó, Lýðstjórnarlýðveldið",2024,3,"Congo, Democratic Republic of"
+"Kongó, Lýðveldið",1998,0,"Congo, Republic of"
+"Kongó, Lýðveldið",1999,0,"Congo, Republic of"
+"Kongó, Lýðveldið",2000,1,"Congo, Republic of"
+"Kongó, Lýðveldið",2001,1,"Congo, Republic of"
+"Kongó, Lýðveldið",2002,1,"Congo, Republic of"
+"Kongó, Lýðveldið",2003,0,"Congo, Republic of"
+"Kongó, Lýðveldið",2004,1,"Congo, Republic of"
+"Kongó, Lýðveldið",2005,1,"Congo, Republic of"
+"Kongó, Lýðveldið",2006,1,"Congo, Republic of"
+"Kongó, Lýðveldið",2007,0,"Congo, Republic of"
+"Kongó, Lýðveldið",2008,0,"Congo, Republic of"
+"Kongó, Lýðveldið",2009,0,"Congo, Republic of"
+"Kongó, Lýðveldið",2010,0,"Congo, Republic of"
+"Kongó, Lýðveldið",2011,0,"Congo, Republic of"
+"Kongó, Lýðveldið",2012,0,"Congo, Republic of"
+"Kongó, Lýðveldið",2013,0,"Congo, Republic of"
+"Kongó, Lýðveldið",2014,0,"Congo, Republic of"
+"Kongó, Lýðveldið",2015,0,"Congo, Republic of"
+"Kongó, Lýðveldið",2016,0,"Congo, Republic of"
+"Kongó, Lýðveldið",2017,0,"Congo, Republic of"
+"Kongó, Lýðveldið",2018,0,"Congo, Republic of"
+"Kongó, Lýðveldið",2019,0,"Congo, Republic of"
+"Kongó, Lýðveldið",2020,3,"Congo, Republic of"
+"Kongó, Lýðveldið",2021,3,"Congo, Republic of"
+"Kongó, Lýðveldið",2022,3,"Congo, Republic of"
+"Kongó, Lýðveldið",2023,2,"Congo, Republic of"
+"Kongó, Lýðveldið",2024,4,"Congo, Republic of"
+Côte d'Ivoire (Fílabeinsströndin),1998,0,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),1999,0,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2000,0,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2001,0,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2002,1,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2003,1,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2004,1,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2005,1,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2006,2,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2007,2,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2008,2,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2009,2,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2010,1,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2011,1,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2012,0,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2013,0,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2014,0,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2015,0,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2016,0,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2017,1,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2018,1,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2019,2,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2020,3,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2021,3,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2022,3,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2023,2,Côte d'Ivoire
+Côte d'Ivoire (Fílabeinsströndin),2024,4,Côte d'Ivoire
+Kamerún,1998,0,Cameroon
+Kamerún,1999,0,Cameroon
+Kamerún,2000,0,Cameroon
+Kamerún,2001,1,Cameroon
+Kamerún,2002,1,Cameroon
+Kamerún,2003,0,Cameroon
+Kamerún,2004,0,Cameroon
+Kamerún,2005,0,Cameroon
+Kamerún,2006,2,Cameroon
+Kamerún,2007,2,Cameroon
+Kamerún,2008,3,Cameroon
+Kamerún,2009,3,Cameroon
+Kamerún,2010,4,Cameroon
+Kamerún,2011,6,Cameroon
+Kamerún,2012,4,Cameroon
+Kamerún,2013,5,Cameroon
+Kamerún,2014,5,Cameroon
+Kamerún,2015,4,Cameroon
+Kamerún,2016,4,Cameroon
+Kamerún,2017,4,Cameroon
+Kamerún,2018,3,Cameroon
+Kamerún,2019,2,Cameroon
+Kamerún,2020,4,Cameroon
+Kamerún,2021,6,Cameroon
+Kamerún,2022,4,Cameroon
+Kamerún,2023,7,Cameroon
+Kamerún,2024,11,Cameroon
+Cabo Verde (Grænhöfðaeyjar),1998,10,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),1999,9,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2000,10,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2001,12,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2002,11,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2003,8,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2004,7,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2005,9,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2006,6,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2007,5,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2008,8,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2009,10,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2010,10,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2011,8,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2012,5,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2013,6,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2014,6,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2015,7,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2016,7,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2017,8,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2018,8,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2019,11,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2020,9,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2021,9,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2022,9,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2023,8,Cabo Verde
+Cabo Verde (Grænhöfðaeyjar),2024,9,Cabo Verde
+Djibútí,1998,0,Djibouti
+Djibútí,1999,0,Djibouti
+Djibútí,2000,0,Djibouti
+Djibútí,2001,0,Djibouti
+Djibútí,2002,0,Djibouti
+Djibútí,2003,0,Djibouti
+Djibútí,2004,0,Djibouti
+Djibútí,2005,0,Djibouti
+Djibútí,2006,0,Djibouti
+Djibútí,2007,1,Djibouti
+Djibútí,2008,1,Djibouti
+Djibútí,2009,1,Djibouti
+Djibútí,2010,1,Djibouti
+Djibútí,2011,1,Djibouti
+Djibútí,2012,1,Djibouti
+Djibútí,2013,1,Djibouti
+Djibútí,2014,1,Djibouti
+Djibútí,2015,0,Djibouti
+Djibútí,2016,1,Djibouti
+Djibútí,2017,1,Djibouti
+Djibútí,2018,1,Djibouti
+Djibútí,2019,0,Djibouti
+Djibútí,2020,0,Djibouti
+Djibútí,2021,0,Djibouti
+Djibútí,2022,1,Djibouti
+Djibútí,2023,0,Djibouti
+Djibútí,2024,0,Djibouti
+Alsír,1998,8,Algeria
+Alsír,1999,8,Algeria
+Alsír,2000,9,Algeria
+Alsír,2001,10,Algeria
+Alsír,2002,10,Algeria
+Alsír,2003,9,Algeria
+Alsír,2004,7,Algeria
+Alsír,2005,4,Algeria
+Alsír,2006,1,Algeria
+Alsír,2007,0,Algeria
+Alsír,2008,0,Algeria
+Alsír,2009,1,Algeria
+Alsír,2010,1,Algeria
+Alsír,2011,3,Algeria
+Alsír,2012,5,Algeria
+Alsír,2013,9,Algeria
+Alsír,2014,9,Algeria
+Alsír,2015,15,Algeria
+Alsír,2016,16,Algeria
+Alsír,2017,20,Algeria
+Alsír,2018,21,Algeria
+Alsír,2019,25,Algeria
+Alsír,2020,26,Algeria
+Alsír,2021,29,Algeria
+Alsír,2022,21,Algeria
+Alsír,2023,23,Algeria
+Alsír,2024,19,Algeria
+Egyptaland,1998,4,Egypt
+Egyptaland,1999,4,Egypt
+Egyptaland,2000,4,Egypt
+Egyptaland,2001,6,Egypt
+Egyptaland,2002,6,Egypt
+Egyptaland,2003,8,Egypt
+Egyptaland,2004,7,Egypt
+Egyptaland,2005,6,Egypt
+Egyptaland,2006,5,Egypt
+Egyptaland,2007,5,Egypt
+Egyptaland,2008,5,Egypt
+Egyptaland,2009,7,Egypt
+Egyptaland,2010,9,Egypt
+Egyptaland,2011,6,Egypt
+Egyptaland,2012,7,Egypt
+Egyptaland,2013,9,Egypt
+Egyptaland,2014,5,Egypt
+Egyptaland,2015,8,Egypt
+Egyptaland,2016,12,Egypt
+Egyptaland,2017,13,Egypt
+Egyptaland,2018,12,Egypt
+Egyptaland,2019,15,Egypt
+Egyptaland,2020,19,Egypt
+Egyptaland,2021,28,Egypt
+Egyptaland,2022,29,Egypt
+Egyptaland,2023,36,Egypt
+Egyptaland,2024,39,Egypt
+Vestur-Sahara,1998,0,Western Sahara
+Vestur-Sahara,1999,0,Western Sahara
+Vestur-Sahara,2000,0,Western Sahara
+Vestur-Sahara,2001,0,Western Sahara
+Vestur-Sahara,2002,0,Western Sahara
+Vestur-Sahara,2003,0,Western Sahara
+Vestur-Sahara,2004,0,Western Sahara
+Vestur-Sahara,2005,0,Western Sahara
+Vestur-Sahara,2006,0,Western Sahara
+Vestur-Sahara,2007,0,Western Sahara
+Vestur-Sahara,2008,0,Western Sahara
+Vestur-Sahara,2009,0,Western Sahara
+Vestur-Sahara,2010,0,Western Sahara
+Vestur-Sahara,2011,0,Western Sahara
+Vestur-Sahara,2012,0,Western Sahara
+Vestur-Sahara,2013,0,Western Sahara
+Vestur-Sahara,2014,0,Western Sahara
+Vestur-Sahara,2015,0,Western Sahara
+Vestur-Sahara,2016,0,Western Sahara
+Vestur-Sahara,2017,0,Western Sahara
+Vestur-Sahara,2018,1,Western Sahara
+Vestur-Sahara,2019,1,Western Sahara
+Vestur-Sahara,2020,1,Western Sahara
+Vestur-Sahara,2021,1,Western Sahara
+Vestur-Sahara,2022,1,Western Sahara
+Vestur-Sahara,2023,0,Western Sahara
+Vestur-Sahara,2024,0,Western Sahara
+Eritrea,1998,0,Eritrea
+Eritrea,1999,0,Eritrea
+Eritrea,2000,0,Eritrea
+Eritrea,2001,0,Eritrea
+Eritrea,2002,0,Eritrea
+Eritrea,2003,0,Eritrea
+Eritrea,2004,0,Eritrea
+Eritrea,2005,2,Eritrea
+Eritrea,2006,0,Eritrea
+Eritrea,2007,0,Eritrea
+Eritrea,2008,1,Eritrea
+Eritrea,2009,2,Eritrea
+Eritrea,2010,3,Eritrea
+Eritrea,2011,3,Eritrea
+Eritrea,2012,3,Eritrea
+Eritrea,2013,5,Eritrea
+Eritrea,2014,8,Eritrea
+Eritrea,2015,3,Eritrea
+Eritrea,2016,4,Eritrea
+Eritrea,2017,4,Eritrea
+Eritrea,2018,5,Eritrea
+Eritrea,2019,5,Eritrea
+Eritrea,2020,2,Eritrea
+Eritrea,2021,2,Eritrea
+Eritrea,2022,1,Eritrea
+Eritrea,2023,1,Eritrea
+Eritrea,2024,1,Eritrea
+Eþíópía,1998,0,Ethiopia
+Eþíópía,1999,1,Ethiopia
+Eþíópía,2000,3,Ethiopia
+Eþíópía,2001,10,Ethiopia
+Eþíópía,2002,10,Ethiopia
+Eþíópía,2003,11,Ethiopia
+Eþíópía,2004,11,Ethiopia
+Eþíópía,2005,14,Ethiopia
+Eþíópía,2006,15,Ethiopia
+Eþíópía,2007,16,Ethiopia
+Eþíópía,2008,20,Ethiopia
+Eþíópía,2009,16,Ethiopia
+Eþíópía,2010,13,Ethiopia
+Eþíópía,2011,10,Ethiopia
+Eþíópía,2012,10,Ethiopia
+Eþíópía,2013,13,Ethiopia
+Eþíópía,2014,10,Ethiopia
+Eþíópía,2015,10,Ethiopia
+Eþíópía,2016,11,Ethiopia
+Eþíópía,2017,15,Ethiopia
+Eþíópía,2018,18,Ethiopia
+Eþíópía,2019,20,Ethiopia
+Eþíópía,2020,19,Ethiopia
+Eþíópía,2021,20,Ethiopia
+Eþíópía,2022,27,Ethiopia
+Eþíópía,2023,29,Ethiopia
+Eþíópía,2024,34,Ethiopia
+Gabon,1998,0,Gabon
+Gabon,1999,0,Gabon
+Gabon,2000,0,Gabon
+Gabon,2001,0,Gabon
+Gabon,2002,0,Gabon
+Gabon,2003,0,Gabon
+Gabon,2004,0,Gabon
+Gabon,2005,0,Gabon
+Gabon,2006,0,Gabon
+Gabon,2007,0,Gabon
+Gabon,2008,0,Gabon
+Gabon,2009,0,Gabon
+Gabon,2010,0,Gabon
+Gabon,2011,0,Gabon
+Gabon,2012,0,Gabon
+Gabon,2013,0,Gabon
+Gabon,2014,0,Gabon
+Gabon,2015,0,Gabon
+Gabon,2016,0,Gabon
+Gabon,2017,0,Gabon
+Gabon,2018,0,Gabon
+Gabon,2019,0,Gabon
+Gabon,2020,0,Gabon
+Gabon,2021,0,Gabon
+Gabon,2022,0,Gabon
+Gabon,2023,0,Gabon
+Gabon,2024,0,Gabon
+Ghana,1998,4,Ghana
+Ghana,1999,4,Ghana
+Ghana,2000,5,Ghana
+Ghana,2001,11,Ghana
+Ghana,2002,15,Ghana
+Ghana,2003,13,Ghana
+Ghana,2004,12,Ghana
+Ghana,2005,9,Ghana
+Ghana,2006,10,Ghana
+Ghana,2007,11,Ghana
+Ghana,2008,12,Ghana
+Ghana,2009,11,Ghana
+Ghana,2010,11,Ghana
+Ghana,2011,7,Ghana
+Ghana,2012,7,Ghana
+Ghana,2013,13,Ghana
+Ghana,2014,14,Ghana
+Ghana,2015,17,Ghana
+Ghana,2016,23,Ghana
+Ghana,2017,25,Ghana
+Ghana,2018,43,Ghana
+Ghana,2019,51,Ghana
+Ghana,2020,60,Ghana
+Ghana,2021,63,Ghana
+Ghana,2022,75,Ghana
+Ghana,2023,82,Ghana
+Ghana,2024,118,Ghana
+Gambía,1998,0,Gambia
+Gambía,1999,1,Gambia
+Gambía,2000,1,Gambia
+Gambía,2001,1,Gambia
+Gambía,2002,3,Gambia
+Gambía,2003,3,Gambia
+Gambía,2004,3,Gambia
+Gambía,2005,3,Gambia
+Gambía,2006,2,Gambia
+Gambía,2007,2,Gambia
+Gambía,2008,3,Gambia
+Gambía,2009,3,Gambia
+Gambía,2010,3,Gambia
+Gambía,2011,3,Gambia
+Gambía,2012,5,Gambia
+Gambía,2013,4,Gambia
+Gambía,2014,6,Gambia
+Gambía,2015,6,Gambia
+Gambía,2016,6,Gambia
+Gambía,2017,8,Gambia
+Gambía,2018,8,Gambia
+Gambía,2019,10,Gambia
+Gambía,2020,9,Gambia
+Gambía,2021,7,Gambia
+Gambía,2022,8,Gambia
+Gambía,2023,11,Gambia
+Gambía,2024,13,Gambia
+Gínea,1998,0,Guinea
+Gínea,1999,0,Guinea
+Gínea,2000,3,Guinea
+Gínea,2001,5,Guinea
+Gínea,2002,5,Guinea
+Gínea,2003,6,Guinea
+Gínea,2004,7,Guinea
+Gínea,2005,5,Guinea
+Gínea,2006,6,Guinea
+Gínea,2007,4,Guinea
+Gínea,2008,2,Guinea
+Gínea,2009,2,Guinea
+Gínea,2010,2,Guinea
+Gínea,2011,4,Guinea
+Gínea,2012,5,Guinea
+Gínea,2013,5,Guinea
+Gínea,2014,6,Guinea
+Gínea,2015,6,Guinea
+Gínea,2016,5,Guinea
+Gínea,2017,7,Guinea
+Gínea,2018,6,Guinea
+Gínea,2019,7,Guinea
+Gínea,2020,9,Guinea
+Gínea,2021,9,Guinea
+Gínea,2022,8,Guinea
+Gínea,2023,8,Guinea
+Gínea,2024,9,Guinea
+Miðbaugs-Gínea,1998,0,Equatorial Guinea
+Miðbaugs-Gínea,1999,0,Equatorial Guinea
+Miðbaugs-Gínea,2000,0,Equatorial Guinea
+Miðbaugs-Gínea,2001,0,Equatorial Guinea
+Miðbaugs-Gínea,2002,1,Equatorial Guinea
+Miðbaugs-Gínea,2003,1,Equatorial Guinea
+Miðbaugs-Gínea,2004,0,Equatorial Guinea
+Miðbaugs-Gínea,2005,0,Equatorial Guinea
+Miðbaugs-Gínea,2006,0,Equatorial Guinea
+Miðbaugs-Gínea,2007,0,Equatorial Guinea
+Miðbaugs-Gínea,2008,0,Equatorial Guinea
+Miðbaugs-Gínea,2009,0,Equatorial Guinea
+Miðbaugs-Gínea,2010,1,Equatorial Guinea
+Miðbaugs-Gínea,2011,1,Equatorial Guinea
+Miðbaugs-Gínea,2012,1,Equatorial Guinea
+Miðbaugs-Gínea,2013,1,Equatorial Guinea
+Miðbaugs-Gínea,2014,1,Equatorial Guinea
+Miðbaugs-Gínea,2015,1,Equatorial Guinea
+Miðbaugs-Gínea,2016,0,Equatorial Guinea
+Miðbaugs-Gínea,2017,1,Equatorial Guinea
+Miðbaugs-Gínea,2018,2,Equatorial Guinea
+Miðbaugs-Gínea,2019,1,Equatorial Guinea
+Miðbaugs-Gínea,2020,1,Equatorial Guinea
+Miðbaugs-Gínea,2021,1,Equatorial Guinea
+Miðbaugs-Gínea,2022,1,Equatorial Guinea
+Miðbaugs-Gínea,2023,1,Equatorial Guinea
+Miðbaugs-Gínea,2024,1,Equatorial Guinea
+Gínea-Bissaú,1998,1,Guinea-Bissau
+Gínea-Bissaú,1999,1,Guinea-Bissau
+Gínea-Bissaú,2000,1,Guinea-Bissau
+Gínea-Bissaú,2001,1,Guinea-Bissau
+Gínea-Bissaú,2002,1,Guinea-Bissau
+Gínea-Bissaú,2003,0,Guinea-Bissau
+Gínea-Bissaú,2004,0,Guinea-Bissau
+Gínea-Bissaú,2005,0,Guinea-Bissau
+Gínea-Bissaú,2006,0,Guinea-Bissau
+Gínea-Bissaú,2007,0,Guinea-Bissau
+Gínea-Bissaú,2008,0,Guinea-Bissau
+Gínea-Bissaú,2009,0,Guinea-Bissau
+Gínea-Bissaú,2010,0,Guinea-Bissau
+Gínea-Bissaú,2011,0,Guinea-Bissau
+Gínea-Bissaú,2012,0,Guinea-Bissau
+Gínea-Bissaú,2013,0,Guinea-Bissau
+Gínea-Bissaú,2014,0,Guinea-Bissau
+Gínea-Bissaú,2015,0,Guinea-Bissau
+Gínea-Bissaú,2016,0,Guinea-Bissau
+Gínea-Bissaú,2017,1,Guinea-Bissau
+Gínea-Bissaú,2018,1,Guinea-Bissau
+Gínea-Bissaú,2019,0,Guinea-Bissau
+Gínea-Bissaú,2020,0,Guinea-Bissau
+Gínea-Bissaú,2021,0,Guinea-Bissau
+Gínea-Bissaú,2022,0,Guinea-Bissau
+Gínea-Bissaú,2023,0,Guinea-Bissau
+Gínea-Bissaú,2024,0,Guinea-Bissau
+Kenya,1998,1,Kenya
+Kenya,1999,1,Kenya
+Kenya,2000,1,Kenya
+Kenya,2001,3,Kenya
+Kenya,2002,5,Kenya
+Kenya,2003,4,Kenya
+Kenya,2004,5,Kenya
+Kenya,2005,5,Kenya
+Kenya,2006,7,Kenya
+Kenya,2007,8,Kenya
+Kenya,2008,14,Kenya
+Kenya,2009,9,Kenya
+Kenya,2010,9,Kenya
+Kenya,2011,8,Kenya
+Kenya,2012,12,Kenya
+Kenya,2013,18,Kenya
+Kenya,2014,21,Kenya
+Kenya,2015,16,Kenya
+Kenya,2016,14,Kenya
+Kenya,2017,15,Kenya
+Kenya,2018,11,Kenya
+Kenya,2019,9,Kenya
+Kenya,2020,10,Kenya
+Kenya,2021,12,Kenya
+Kenya,2022,16,Kenya
+Kenya,2023,17,Kenya
+Kenya,2024,24,Kenya
+Sankti Lúsía,1998,0,Saint Lucia
+Sankti Lúsía,1999,0,Saint Lucia
+Sankti Lúsía,2000,0,Saint Lucia
+Sankti Lúsía,2001,0,Saint Lucia
+Sankti Lúsía,2002,0,Saint Lucia
+Sankti Lúsía,2003,0,Saint Lucia
+Sankti Lúsía,2004,0,Saint Lucia
+Sankti Lúsía,2005,0,Saint Lucia
+Sankti Lúsía,2006,0,Saint Lucia
+Sankti Lúsía,2007,0,Saint Lucia
+Sankti Lúsía,2008,0,Saint Lucia
+Sankti Lúsía,2009,0,Saint Lucia
+Sankti Lúsía,2010,0,Saint Lucia
+Sankti Lúsía,2011,0,Saint Lucia
+Sankti Lúsía,2012,0,Saint Lucia
+Sankti Lúsía,2013,0,Saint Lucia
+Sankti Lúsía,2014,0,Saint Lucia
+Sankti Lúsía,2015,0,Saint Lucia
+Sankti Lúsía,2016,0,Saint Lucia
+Sankti Lúsía,2017,0,Saint Lucia
+Sankti Lúsía,2018,0,Saint Lucia
+Sankti Lúsía,2019,0,Saint Lucia
+Sankti Lúsía,2020,1,Saint Lucia
+Sankti Lúsía,2021,0,Saint Lucia
+Sankti Lúsía,2022,0,Saint Lucia
+Sankti Lúsía,2023,0,Saint Lucia
+Sankti Lúsía,2024,0,Saint Lucia
+Líbería,1998,0,Liberia
+Líbería,1999,0,Liberia
+Líbería,2000,0,Liberia
+Líbería,2001,0,Liberia
+Líbería,2002,0,Liberia
+Líbería,2003,0,Liberia
+Líbería,2004,0,Liberia
+Líbería,2005,0,Liberia
+Líbería,2006,0,Liberia
+Líbería,2007,0,Liberia
+Líbería,2008,0,Liberia
+Líbería,2009,1,Liberia
+Líbería,2010,0,Liberia
+Líbería,2011,1,Liberia
+Líbería,2012,0,Liberia
+Líbería,2013,1,Liberia
+Líbería,2014,0,Liberia
+Líbería,2015,0,Liberia
+Líbería,2016,0,Liberia
+Líbería,2017,1,Liberia
+Líbería,2018,2,Liberia
+Líbería,2019,5,Liberia
+Líbería,2020,2,Liberia
+Líbería,2021,2,Liberia
+Líbería,2022,3,Liberia
+Líbería,2023,2,Liberia
+Líbería,2024,1,Liberia
+Lesótó,1998,0,Lesotho
+Lesótó,1999,0,Lesotho
+Lesótó,2000,0,Lesotho
+Lesótó,2001,0,Lesotho
+Lesótó,2002,0,Lesotho
+Lesótó,2003,0,Lesotho
+Lesótó,2004,0,Lesotho
+Lesótó,2005,0,Lesotho
+Lesótó,2006,4,Lesotho
+Lesótó,2007,4,Lesotho
+Lesótó,2008,0,Lesotho
+Lesótó,2009,0,Lesotho
+Lesótó,2010,0,Lesotho
+Lesótó,2011,0,Lesotho
+Lesótó,2012,0,Lesotho
+Lesótó,2013,0,Lesotho
+Lesótó,2014,0,Lesotho
+Lesótó,2015,0,Lesotho
+Lesótó,2016,0,Lesotho
+Lesótó,2017,0,Lesotho
+Lesótó,2018,0,Lesotho
+Lesótó,2019,0,Lesotho
+Lesótó,2020,0,Lesotho
+Lesótó,2021,0,Lesotho
+Lesótó,2022,0,Lesotho
+Lesótó,2023,0,Lesotho
+Lesótó,2024,1,Lesotho
+Líbía,1998,0,Libya
+Líbía,1999,0,Libya
+Líbía,2000,0,Libya
+Líbía,2001,0,Libya
+Líbía,2002,0,Libya
+Líbía,2003,0,Libya
+Líbía,2004,1,Libya
+Líbía,2005,1,Libya
+Líbía,2006,1,Libya
+Líbía,2007,1,Libya
+Líbía,2008,1,Libya
+Líbía,2009,1,Libya
+Líbía,2010,2,Libya
+Líbía,2011,2,Libya
+Líbía,2012,2,Libya
+Líbía,2013,2,Libya
+Líbía,2014,1,Libya
+Líbía,2015,1,Libya
+Líbía,2016,2,Libya
+Líbía,2017,4,Libya
+Líbía,2018,3,Libya
+Líbía,2019,2,Libya
+Líbía,2020,4,Libya
+Líbía,2021,5,Libya
+Líbía,2022,7,Libya
+Líbía,2023,8,Libya
+Líbía,2024,11,Libya
+Marokkó,1998,23,Morocco
+Marokkó,1999,26,Morocco
+Marokkó,2000,28,Morocco
+Marokkó,2001,36,Morocco
+Marokkó,2002,39,Morocco
+Marokkó,2003,42,Morocco
+Marokkó,2004,42,Morocco
+Marokkó,2005,38,Morocco
+Marokkó,2006,49,Morocco
+Marokkó,2007,60,Morocco
+Marokkó,2008,55,Morocco
+Marokkó,2009,43,Morocco
+Marokkó,2010,46,Morocco
+Marokkó,2011,40,Morocco
+Marokkó,2012,42,Morocco
+Marokkó,2013,38,Morocco
+Marokkó,2014,38,Morocco
+Marokkó,2015,38,Morocco
+Marokkó,2016,40,Morocco
+Marokkó,2017,45,Morocco
+Marokkó,2018,56,Morocco
+Marokkó,2019,59,Morocco
+Marokkó,2020,62,Morocco
+Marokkó,2021,71,Morocco
+Marokkó,2022,72,Morocco
+Marokkó,2023,70,Morocco
+Marokkó,2024,81,Morocco
+Madagaskar,1998,1,Madagascar
+Madagaskar,1999,1,Madagascar
+Madagaskar,2000,1,Madagascar
+Madagaskar,2001,1,Madagascar
+Madagaskar,2002,0,Madagascar
+Madagaskar,2003,0,Madagascar
+Madagaskar,2004,0,Madagascar
+Madagaskar,2005,0,Madagascar
+Madagaskar,2006,0,Madagascar
+Madagaskar,2007,0,Madagascar
+Madagaskar,2008,0,Madagascar
+Madagaskar,2009,0,Madagascar
+Madagaskar,2010,0,Madagascar
+Madagaskar,2011,0,Madagascar
+Madagaskar,2012,0,Madagascar
+Madagaskar,2013,0,Madagascar
+Madagaskar,2014,0,Madagascar
+Madagaskar,2015,0,Madagascar
+Madagaskar,2016,0,Madagascar
+Madagaskar,2017,0,Madagascar
+Madagaskar,2018,0,Madagascar
+Madagaskar,2019,0,Madagascar
+Madagaskar,2020,0,Madagascar
+Madagaskar,2021,0,Madagascar
+Madagaskar,2022,0,Madagascar
+Madagaskar,2023,0,Madagascar
+Madagaskar,2024,0,Madagascar
+Malí,1998,0,Mali
+Malí,1999,0,Mali
+Malí,2000,0,Mali
+Malí,2001,0,Mali
+Malí,2002,0,Mali
+Malí,2003,0,Mali
+Malí,2004,0,Mali
+Malí,2005,0,Mali
+Malí,2006,0,Mali
+Malí,2007,0,Mali
+Malí,2008,0,Mali
+Malí,2009,1,Mali
+Malí,2010,1,Mali
+Malí,2011,1,Mali
+Malí,2012,1,Mali
+Malí,2013,1,Mali
+Malí,2014,1,Mali
+Malí,2015,1,Mali
+Malí,2016,2,Mali
+Malí,2017,2,Mali
+Malí,2018,3,Mali
+Malí,2019,3,Mali
+Malí,2020,2,Mali
+Malí,2021,3,Mali
+Malí,2022,2,Mali
+Malí,2023,3,Mali
+Malí,2024,3,Mali
+Máritanía,1998,0,Mauritania
+Máritanía,1999,0,Mauritania
+Máritanía,2000,0,Mauritania
+Máritanía,2001,0,Mauritania
+Máritanía,2002,0,Mauritania
+Máritanía,2003,0,Mauritania
+Máritanía,2004,0,Mauritania
+Máritanía,2005,0,Mauritania
+Máritanía,2006,0,Mauritania
+Máritanía,2007,0,Mauritania
+Máritanía,2008,0,Mauritania
+Máritanía,2009,0,Mauritania
+Máritanía,2010,0,Mauritania
+Máritanía,2011,0,Mauritania
+Máritanía,2012,0,Mauritania
+Máritanía,2013,0,Mauritania
+Máritanía,2014,0,Mauritania
+Máritanía,2015,0,Mauritania
+Máritanía,2016,1,Mauritania
+Máritanía,2017,1,Mauritania
+Máritanía,2018,1,Mauritania
+Máritanía,2019,1,Mauritania
+Máritanía,2020,0,Mauritania
+Máritanía,2021,1,Mauritania
+Máritanía,2022,2,Mauritania
+Máritanía,2023,1,Mauritania
+Máritanía,2024,0,Mauritania
+Máritíus,1998,1,Mauritius
+Máritíus,1999,1,Mauritius
+Máritíus,2000,1,Mauritius
+Máritíus,2001,2,Mauritius
+Máritíus,2002,2,Mauritius
+Máritíus,2003,1,Mauritius
+Máritíus,2004,3,Mauritius
+Máritíus,2005,2,Mauritius
+Máritíus,2006,2,Mauritius
+Máritíus,2007,3,Mauritius
+Máritíus,2008,3,Mauritius
+Máritíus,2009,1,Mauritius
+Máritíus,2010,2,Mauritius
+Máritíus,2011,1,Mauritius
+Máritíus,2012,1,Mauritius
+Máritíus,2013,1,Mauritius
+Máritíus,2014,1,Mauritius
+Máritíus,2015,1,Mauritius
+Máritíus,2016,1,Mauritius
+Máritíus,2017,2,Mauritius
+Máritíus,2018,2,Mauritius
+Máritíus,2019,2,Mauritius
+Máritíus,2020,2,Mauritius
+Máritíus,2021,2,Mauritius
+Máritíus,2022,1,Mauritius
+Máritíus,2023,2,Mauritius
+Máritíus,2024,2,Mauritius
+Malaví,1998,0,Malawi
+Malaví,1999,0,Malawi
+Malaví,2000,0,Malawi
+Malaví,2001,0,Malawi
+Malaví,2002,0,Malawi
+Malaví,2003,0,Malawi
+Malaví,2004,2,Malawi
+Malaví,2005,1,Malawi
+Malaví,2006,1,Malawi
+Malaví,2007,1,Malawi
+Malaví,2008,0,Malawi
+Malaví,2009,0,Malawi
+Malaví,2010,0,Malawi
+Malaví,2011,0,Malawi
+Malaví,2012,0,Malawi
+Malaví,2013,0,Malawi
+Malaví,2014,0,Malawi
+Malaví,2015,2,Malawi
+Malaví,2016,2,Malawi
+Malaví,2017,1,Malawi
+Malaví,2018,0,Malawi
+Malaví,2019,0,Malawi
+Malaví,2020,5,Malawi
+Malaví,2021,4,Malawi
+Malaví,2022,6,Malawi
+Malaví,2023,5,Malawi
+Malaví,2024,7,Malawi
+Mósambík,1998,0,Mozambique
+Mósambík,1999,0,Mozambique
+Mósambík,2000,0,Mozambique
+Mósambík,2001,0,Mozambique
+Mósambík,2002,0,Mozambique
+Mósambík,2003,0,Mozambique
+Mósambík,2004,1,Mozambique
+Mósambík,2005,0,Mozambique
+Mósambík,2006,0,Mozambique
+Mósambík,2007,0,Mozambique
+Mósambík,2008,0,Mozambique
+Mósambík,2009,0,Mozambique
+Mósambík,2010,1,Mozambique
+Mósambík,2011,1,Mozambique
+Mósambík,2012,1,Mozambique
+Mósambík,2013,3,Mozambique
+Mósambík,2014,3,Mozambique
+Mósambík,2015,4,Mozambique
+Mósambík,2016,4,Mozambique
+Mósambík,2017,4,Mozambique
+Mósambík,2018,4,Mozambique
+Mósambík,2019,4,Mozambique
+Mósambík,2020,2,Mozambique
+Mósambík,2021,3,Mozambique
+Mósambík,2022,4,Mozambique
+Mósambík,2023,3,Mozambique
+Mósambík,2024,3,Mozambique
+Namibía,1998,4,Namibia
+Namibía,1999,2,Namibia
+Namibía,2000,4,Namibia
+Namibía,2001,5,Namibia
+Namibía,2002,9,Namibia
+Namibía,2003,8,Namibia
+Namibía,2004,10,Namibia
+Namibía,2005,6,Namibia
+Namibía,2006,4,Namibia
+Namibía,2007,3,Namibia
+Namibía,2008,3,Namibia
+Namibía,2009,5,Namibia
+Namibía,2010,4,Namibia
+Namibía,2011,4,Namibia
+Namibía,2012,3,Namibia
+Namibía,2013,1,Namibia
+Namibía,2014,3,Namibia
+Namibía,2015,1,Namibia
+Namibía,2016,2,Namibia
+Namibía,2017,2,Namibia
+Namibía,2018,3,Namibia
+Namibía,2019,1,Namibia
+Namibía,2020,1,Namibia
+Namibía,2021,0,Namibia
+Namibía,2022,3,Namibia
+Namibía,2023,4,Namibia
+Namibía,2024,3,Namibia
+Níger,1998,0,Niger
+Níger,1999,0,Niger
+Níger,2000,0,Niger
+Níger,2001,0,Niger
+Níger,2002,0,Niger
+Níger,2003,0,Niger
+Níger,2004,0,Niger
+Níger,2005,0,Niger
+Níger,2006,1,Niger
+Níger,2007,1,Niger
+Níger,2008,0,Niger
+Níger,2009,0,Niger
+Níger,2010,0,Niger
+Níger,2011,0,Niger
+Níger,2012,0,Niger
+Níger,2013,0,Niger
+Níger,2014,0,Niger
+Níger,2015,0,Niger
+Níger,2016,0,Niger
+Níger,2017,0,Niger
+Níger,2018,0,Niger
+Níger,2019,0,Niger
+Níger,2020,0,Niger
+Níger,2021,0,Niger
+Níger,2022,0,Niger
+Níger,2023,0,Niger
+Níger,2024,0,Niger
+Nígería,1998,4,Nigeria
+Nígería,1999,8,Nigeria
+Nígería,2000,9,Nigeria
+Nígería,2001,20,Nigeria
+Nígería,2002,18,Nigeria
+Nígería,2003,19,Nigeria
+Nígería,2004,17,Nigeria
+Nígería,2005,17,Nigeria
+Nígería,2006,15,Nigeria
+Nígería,2007,15,Nigeria
+Nígería,2008,17,Nigeria
+Nígería,2009,16,Nigeria
+Nígería,2010,13,Nigeria
+Nígería,2011,16,Nigeria
+Nígería,2012,16,Nigeria
+Nígería,2013,20,Nigeria
+Nígería,2014,22,Nigeria
+Nígería,2015,30,Nigeria
+Nígería,2016,37,Nigeria
+Nígería,2017,40,Nigeria
+Nígería,2018,55,Nigeria
+Nígería,2019,56,Nigeria
+Nígería,2020,73,Nigeria
+Nígería,2021,91,Nigeria
+Nígería,2022,109,Nigeria
+Nígería,2023,117,Nigeria
+Nígería,2024,150,Nigeria
+Rwanda,1998,0,Rwanda
+Rwanda,1999,1,Rwanda
+Rwanda,2000,1,Rwanda
+Rwanda,2001,1,Rwanda
+Rwanda,2002,1,Rwanda
+Rwanda,2003,1,Rwanda
+Rwanda,2004,1,Rwanda
+Rwanda,2005,1,Rwanda
+Rwanda,2006,1,Rwanda
+Rwanda,2007,1,Rwanda
+Rwanda,2008,1,Rwanda
+Rwanda,2009,1,Rwanda
+Rwanda,2010,1,Rwanda
+Rwanda,2011,1,Rwanda
+Rwanda,2012,1,Rwanda
+Rwanda,2013,1,Rwanda
+Rwanda,2014,2,Rwanda
+Rwanda,2015,2,Rwanda
+Rwanda,2016,1,Rwanda
+Rwanda,2017,1,Rwanda
+Rwanda,2018,1,Rwanda
+Rwanda,2019,1,Rwanda
+Rwanda,2020,2,Rwanda
+Rwanda,2021,2,Rwanda
+Rwanda,2022,2,Rwanda
+Rwanda,2023,1,Rwanda
+Rwanda,2024,2,Rwanda
+Seychelles-eyjar,1998,0,Seychelles
+Seychelles-eyjar,1999,0,Seychelles
+Seychelles-eyjar,2000,0,Seychelles
+Seychelles-eyjar,2001,0,Seychelles
+Seychelles-eyjar,2002,0,Seychelles
+Seychelles-eyjar,2003,0,Seychelles
+Seychelles-eyjar,2004,0,Seychelles
+Seychelles-eyjar,2005,0,Seychelles
+Seychelles-eyjar,2006,0,Seychelles
+Seychelles-eyjar,2007,0,Seychelles
+Seychelles-eyjar,2008,0,Seychelles
+Seychelles-eyjar,2009,0,Seychelles
+Seychelles-eyjar,2010,0,Seychelles
+Seychelles-eyjar,2011,0,Seychelles
+Seychelles-eyjar,2012,0,Seychelles
+Seychelles-eyjar,2013,0,Seychelles
+Seychelles-eyjar,2014,0,Seychelles
+Seychelles-eyjar,2015,0,Seychelles
+Seychelles-eyjar,2016,0,Seychelles
+Seychelles-eyjar,2017,0,Seychelles
+Seychelles-eyjar,2018,0,Seychelles
+Seychelles-eyjar,2019,0,Seychelles
+Seychelles-eyjar,2020,0,Seychelles
+Seychelles-eyjar,2021,0,Seychelles
+Seychelles-eyjar,2022,0,Seychelles
+Seychelles-eyjar,2023,0,Seychelles
+Seychelles-eyjar,2024,0,Seychelles
+Súdan,1998,0,Sudan
+Súdan,1999,0,Sudan
+Súdan,2000,0,Sudan
+Súdan,2001,0,Sudan
+Súdan,2002,0,Sudan
+Súdan,2003,0,Sudan
+Súdan,2004,0,Sudan
+Súdan,2005,0,Sudan
+Súdan,2006,0,Sudan
+Súdan,2007,0,Sudan
+Súdan,2008,0,Sudan
+Súdan,2009,0,Sudan
+Súdan,2010,0,Sudan
+Súdan,2011,0,Sudan
+Súdan,2012,0,Sudan
+Súdan,2013,0,Sudan
+Súdan,2014,0,Sudan
+Súdan,2015,0,Sudan
+Súdan,2016,1,Sudan
+Súdan,2017,2,Sudan
+Súdan,2018,2,Sudan
+Súdan,2019,3,Sudan
+Súdan,2020,7,Sudan
+Súdan,2021,8,Sudan
+Súdan,2022,8,Sudan
+Súdan,2023,6,Sudan
+Súdan,2024,7,Sudan
+Síerra Leóne,1998,2,Sierra Leone
+Síerra Leóne,1999,2,Sierra Leone
+Síerra Leóne,2000,3,Sierra Leone
+Síerra Leóne,2001,5,Sierra Leone
+Síerra Leóne,2002,5,Sierra Leone
+Síerra Leóne,2003,4,Sierra Leone
+Síerra Leóne,2004,3,Sierra Leone
+Síerra Leóne,2005,3,Sierra Leone
+Síerra Leóne,2006,3,Sierra Leone
+Síerra Leóne,2007,3,Sierra Leone
+Síerra Leóne,2008,4,Sierra Leone
+Síerra Leóne,2009,4,Sierra Leone
+Síerra Leóne,2010,4,Sierra Leone
+Síerra Leóne,2011,5,Sierra Leone
+Síerra Leóne,2012,5,Sierra Leone
+Síerra Leóne,2013,5,Sierra Leone
+Síerra Leóne,2014,5,Sierra Leone
+Síerra Leóne,2015,5,Sierra Leone
+Síerra Leóne,2016,5,Sierra Leone
+Síerra Leóne,2017,5,Sierra Leone
+Síerra Leóne,2018,5,Sierra Leone
+Síerra Leóne,2019,7,Sierra Leone
+Síerra Leóne,2020,8,Sierra Leone
+Síerra Leóne,2021,5,Sierra Leone
+Síerra Leóne,2022,8,Sierra Leone
+Síerra Leóne,2023,6,Sierra Leone
+Síerra Leóne,2024,8,Sierra Leone
+Senegal,1998,0,Senegal
+Senegal,1999,1,Senegal
+Senegal,2000,2,Senegal
+Senegal,2001,3,Senegal
+Senegal,2002,4,Senegal
+Senegal,2003,3,Senegal
+Senegal,2004,5,Senegal
+Senegal,2005,4,Senegal
+Senegal,2006,3,Senegal
+Senegal,2007,3,Senegal
+Senegal,2008,4,Senegal
+Senegal,2009,3,Senegal
+Senegal,2010,3,Senegal
+Senegal,2011,5,Senegal
+Senegal,2012,5,Senegal
+Senegal,2013,6,Senegal
+Senegal,2014,5,Senegal
+Senegal,2015,5,Senegal
+Senegal,2016,6,Senegal
+Senegal,2017,5,Senegal
+Senegal,2018,6,Senegal
+Senegal,2019,7,Senegal
+Senegal,2020,9,Senegal
+Senegal,2021,10,Senegal
+Senegal,2022,13,Senegal
+Senegal,2023,11,Senegal
+Senegal,2024,14,Senegal
+Sómalía,1998,1,Somalia
+Sómalía,1999,1,Somalia
+Sómalía,2000,1,Somalia
+Sómalía,2001,1,Somalia
+Sómalía,2002,1,Somalia
+Sómalía,2003,1,Somalia
+Sómalía,2004,1,Somalia
+Sómalía,2005,1,Somalia
+Sómalía,2006,1,Somalia
+Sómalía,2007,1,Somalia
+Sómalía,2008,0,Somalia
+Sómalía,2009,0,Somalia
+Sómalía,2010,0,Somalia
+Sómalía,2011,0,Somalia
+Sómalía,2012,0,Somalia
+Sómalía,2013,0,Somalia
+Sómalía,2014,0,Somalia
+Sómalía,2015,0,Somalia
+Sómalía,2016,2,Somalia
+Sómalía,2017,5,Somalia
+Sómalía,2018,9,Somalia
+Sómalía,2019,18,Somalia
+Sómalía,2020,38,Somalia
+Sómalía,2021,75,Somalia
+Sómalía,2022,91,Somalia
+Sómalía,2023,109,Somalia
+Sómalía,2024,136,Somalia
+Suður-Súdan,1998,0,South Sudan
+Suður-Súdan,1999,0,South Sudan
+Suður-Súdan,2000,0,South Sudan
+Suður-Súdan,2001,0,South Sudan
+Suður-Súdan,2002,0,South Sudan
+Suður-Súdan,2003,0,South Sudan
+Suður-Súdan,2004,0,South Sudan
+Suður-Súdan,2005,0,South Sudan
+Suður-Súdan,2006,0,South Sudan
+Suður-Súdan,2007,0,South Sudan
+Suður-Súdan,2008,0,South Sudan
+Suður-Súdan,2009,0,South Sudan
+Suður-Súdan,2010,0,South Sudan
+Suður-Súdan,2011,0,South Sudan
+Suður-Súdan,2012,0,South Sudan
+Suður-Súdan,2013,0,South Sudan
+Suður-Súdan,2014,0,South Sudan
+Suður-Súdan,2015,0,South Sudan
+Suður-Súdan,2016,0,South Sudan
+Suður-Súdan,2017,0,South Sudan
+Suður-Súdan,2018,0,South Sudan
+Suður-Súdan,2019,3,South Sudan
+Suður-Súdan,2020,3,South Sudan
+Suður-Súdan,2021,3,South Sudan
+Suður-Súdan,2022,3,South Sudan
+Suður-Súdan,2023,4,South Sudan
+Suður-Súdan,2024,5,South Sudan
+Chad,1998,0,Chad
+Chad,1999,0,Chad
+Chad,2000,0,Chad
+Chad,2001,0,Chad
+Chad,2002,0,Chad
+Chad,2003,0,Chad
+Chad,2004,0,Chad
+Chad,2005,0,Chad
+Chad,2006,0,Chad
+Chad,2007,0,Chad
+Chad,2008,0,Chad
+Chad,2009,0,Chad
+Chad,2010,0,Chad
+Chad,2011,0,Chad
+Chad,2012,0,Chad
+Chad,2013,0,Chad
+Chad,2014,0,Chad
+Chad,2015,0,Chad
+Chad,2016,0,Chad
+Chad,2017,0,Chad
+Chad,2018,1,Chad
+Chad,2019,2,Chad
+Chad,2020,2,Chad
+Chad,2021,2,Chad
+Chad,2022,4,Chad
+Chad,2023,4,Chad
+Chad,2024,2,Chad
+Tógó,1998,0,Togo
+Tógó,1999,0,Togo
+Tógó,2000,0,Togo
+Tógó,2001,0,Togo
+Tógó,2002,0,Togo
+Tógó,2003,0,Togo
+Tógó,2004,0,Togo
+Tógó,2005,0,Togo
+Tógó,2006,0,Togo
+Tógó,2007,1,Togo
+Tógó,2008,0,Togo
+Tógó,2009,0,Togo
+Tógó,2010,0,Togo
+Tógó,2011,0,Togo
+Tógó,2012,0,Togo
+Tógó,2013,1,Togo
+Tógó,2014,2,Togo
+Tógó,2015,0,Togo
+Tógó,2016,0,Togo
+Tógó,2017,1,Togo
+Tógó,2018,2,Togo
+Tógó,2019,2,Togo
+Tógó,2020,2,Togo
+Tógó,2021,2,Togo
+Tógó,2022,2,Togo
+Tógó,2023,2,Togo
+Tógó,2024,2,Togo
+Túnis,1998,3,Tunisia
+Túnis,1999,4,Tunisia
+Túnis,2000,5,Tunisia
+Túnis,2001,8,Tunisia
+Túnis,2002,8,Tunisia
+Túnis,2003,7,Tunisia
+Túnis,2004,7,Tunisia
+Túnis,2005,7,Tunisia
+Túnis,2006,2,Tunisia
+Túnis,2007,3,Tunisia
+Túnis,2008,3,Tunisia
+Túnis,2009,4,Tunisia
+Túnis,2010,4,Tunisia
+Túnis,2011,4,Tunisia
+Túnis,2012,3,Tunisia
+Túnis,2013,5,Tunisia
+Túnis,2014,5,Tunisia
+Túnis,2015,6,Tunisia
+Túnis,2016,9,Tunisia
+Túnis,2017,10,Tunisia
+Túnis,2018,12,Tunisia
+Túnis,2019,13,Tunisia
+Túnis,2020,18,Tunisia
+Túnis,2021,22,Tunisia
+Túnis,2022,23,Tunisia
+Túnis,2023,23,Tunisia
+Túnis,2024,25,Tunisia
+Tansanía,1998,0,Tanzania
+Tansanía,1999,0,Tanzania
+Tansanía,2000,1,Tanzania
+Tansanía,2001,1,Tanzania
+Tansanía,2002,1,Tanzania
+Tansanía,2003,0,Tanzania
+Tansanía,2004,0,Tanzania
+Tansanía,2005,0,Tanzania
+Tansanía,2006,1,Tanzania
+Tansanía,2007,1,Tanzania
+Tansanía,2008,3,Tanzania
+Tansanía,2009,3,Tanzania
+Tansanía,2010,3,Tanzania
+Tansanía,2011,2,Tanzania
+Tansanía,2012,2,Tanzania
+Tansanía,2013,4,Tanzania
+Tansanía,2014,5,Tanzania
+Tansanía,2015,6,Tanzania
+Tansanía,2016,5,Tanzania
+Tansanía,2017,2,Tanzania
+Tansanía,2018,2,Tanzania
+Tansanía,2019,3,Tanzania
+Tansanía,2020,5,Tanzania
+Tansanía,2021,4,Tanzania
+Tansanía,2022,8,Tanzania
+Tansanía,2023,6,Tanzania
+Tansanía,2024,5,Tanzania
+Úganda,1998,0,Uganda
+Úganda,1999,0,Uganda
+Úganda,2000,0,Uganda
+Úganda,2001,0,Uganda
+Úganda,2002,0,Uganda
+Úganda,2003,0,Uganda
+Úganda,2004,1,Uganda
+Úganda,2005,1,Uganda
+Úganda,2006,2,Uganda
+Úganda,2007,5,Uganda
+Úganda,2008,6,Uganda
+Úganda,2009,7,Uganda
+Úganda,2010,4,Uganda
+Úganda,2011,7,Uganda
+Úganda,2012,7,Uganda
+Úganda,2013,5,Uganda
+Úganda,2014,4,Uganda
+Úganda,2015,7,Uganda
+Úganda,2016,8,Uganda
+Úganda,2017,8,Uganda
+Úganda,2018,12,Uganda
+Úganda,2019,14,Uganda
+Úganda,2020,31,Uganda
+Úganda,2021,36,Uganda
+Úganda,2022,31,Uganda
+Úganda,2023,33,Uganda
+Úganda,2024,40,Uganda
+Suður-Afríka,1998,9,South Africa
+Suður-Afríka,1999,7,South Africa
+Suður-Afríka,2000,10,South Africa
+Suður-Afríka,2001,10,South Africa
+Suður-Afríka,2002,12,South Africa
+Suður-Afríka,2003,13,South Africa
+Suður-Afríka,2004,12,South Africa
+Suður-Afríka,2005,8,South Africa
+Suður-Afríka,2006,10,South Africa
+Suður-Afríka,2007,11,South Africa
+Suður-Afríka,2008,11,South Africa
+Suður-Afríka,2009,9,South Africa
+Suður-Afríka,2010,9,South Africa
+Suður-Afríka,2011,8,South Africa
+Suður-Afríka,2012,11,South Africa
+Suður-Afríka,2013,17,South Africa
+Suður-Afríka,2014,9,South Africa
+Suður-Afríka,2015,8,South Africa
+Suður-Afríka,2016,6,South Africa
+Suður-Afríka,2017,12,South Africa
+Suður-Afríka,2018,10,South Africa
+Suður-Afríka,2019,11,South Africa
+Suður-Afríka,2020,14,South Africa
+Suður-Afríka,2021,17,South Africa
+Suður-Afríka,2022,17,South Africa
+Suður-Afríka,2023,19,South Africa
+Suður-Afríka,2024,17,South Africa
+Zambia,1998,1,Zambia
+Zambia,1999,1,Zambia
+Zambia,2000,1,Zambia
+Zambia,2001,1,Zambia
+Zambia,2002,0,Zambia
+Zambia,2003,0,Zambia
+Zambia,2004,0,Zambia
+Zambia,2005,0,Zambia
+Zambia,2006,0,Zambia
+Zambia,2007,0,Zambia
+Zambia,2008,0,Zambia
+Zambia,2009,0,Zambia
+Zambia,2010,0,Zambia
+Zambia,2011,0,Zambia
+Zambia,2012,0,Zambia
+Zambia,2013,0,Zambia
+Zambia,2014,0,Zambia
+Zambia,2015,0,Zambia
+Zambia,2016,0,Zambia
+Zambia,2017,0,Zambia
+Zambia,2018,0,Zambia
+Zambia,2019,1,Zambia
+Zambia,2020,1,Zambia
+Zambia,2021,1,Zambia
+Zambia,2022,1,Zambia
+Zambia,2023,1,Zambia
+Zambia,2024,1,Zambia
+Saír,1998,1,Zaire
+Saír,1999,1,Zaire
+Saír,2000,1,Zaire
+Saír,2001,1,Zaire
+Saír,2002,1,Zaire
+Saír,2003,1,Zaire
+Saír,2004,0,Zaire
+Saír,2005,0,Zaire
+Saír,2006,0,Zaire
+Saír,2007,0,Zaire
+Saír,2008,0,Zaire
+Saír,2009,0,Zaire
+Saír,2010,0,Zaire
+Saír,2011,0,Zaire
+Saír,2012,0,Zaire
+Saír,2013,0,Zaire
+Saír,2014,0,Zaire
+Saír,2015,0,Zaire
+Saír,2016,0,Zaire
+Saír,2017,0,Zaire
+Saír,2018,0,Zaire
+Saír,2019,0,Zaire
+Saír,2020,0,Zaire
+Saír,2021,0,Zaire
+Saír,2022,0,Zaire
+Saír,2023,0,Zaire
+Saír,2024,0,Zaire
+Zimbabwe,1998,0,Zimbabwe
+Zimbabwe,1999,0,Zimbabwe
+Zimbabwe,2000,0,Zimbabwe
+Zimbabwe,2001,0,Zimbabwe
+Zimbabwe,2002,0,Zimbabwe
+Zimbabwe,2003,0,Zimbabwe
+Zimbabwe,2004,0,Zimbabwe
+Zimbabwe,2005,0,Zimbabwe
+Zimbabwe,2006,0,Zimbabwe
+Zimbabwe,2007,1,Zimbabwe
+Zimbabwe,2008,1,Zimbabwe
+Zimbabwe,2009,0,Zimbabwe
+Zimbabwe,2010,0,Zimbabwe
+Zimbabwe,2011,0,Zimbabwe
+Zimbabwe,2012,0,Zimbabwe
+Zimbabwe,2013,0,Zimbabwe
+Zimbabwe,2014,0,Zimbabwe
+Zimbabwe,2015,0,Zimbabwe
+Zimbabwe,2016,1,Zimbabwe
+Zimbabwe,2017,1,Zimbabwe
+Zimbabwe,2018,1,Zimbabwe
+Zimbabwe,2019,1,Zimbabwe
+Zimbabwe,2020,4,Zimbabwe
+Zimbabwe,2021,4,Zimbabwe
+Zimbabwe,2022,4,Zimbabwe
+Zimbabwe,2023,5,Zimbabwe
+Zimbabwe,2024,7,Zimbabwe
+Afganistan,1998,0,Afghanistan
+Afganistan,1999,0,Afghanistan
+Afganistan,2000,0,Afghanistan
+Afganistan,2001,0,Afghanistan
+Afganistan,2002,3,Afghanistan
+Afganistan,2003,3,Afghanistan
+Afganistan,2004,3,Afghanistan
+Afganistan,2005,3,Afghanistan
+Afganistan,2006,3,Afghanistan
+Afganistan,2007,3,Afghanistan
+Afganistan,2008,3,Afghanistan
+Afganistan,2009,0,Afghanistan
+Afganistan,2010,1,Afghanistan
+Afganistan,2011,3,Afghanistan
+Afganistan,2012,2,Afghanistan
+Afganistan,2013,3,Afghanistan
+Afganistan,2014,4,Afghanistan
+Afganistan,2015,7,Afghanistan
+Afganistan,2016,8,Afghanistan
+Afganistan,2017,15,Afghanistan
+Afganistan,2018,36,Afghanistan
+Afganistan,2019,52,Afghanistan
+Afganistan,2020,85,Afghanistan
+Afganistan,2021,112,Afghanistan
+Afganistan,2022,133,Afghanistan
+Afganistan,2023,191,Afghanistan
+Afganistan,2024,221,Afghanistan
+Armenía,1998,0,Armenia
+Armenía,1999,1,Armenia
+Armenía,2000,1,Armenia
+Armenía,2001,1,Armenia
+Armenía,2002,1,Armenia
+Armenía,2003,1,Armenia
+Armenía,2004,1,Armenia
+Armenía,2005,1,Armenia
+Armenía,2006,1,Armenia
+Armenía,2007,1,Armenia
+Armenía,2008,1,Armenia
+Armenía,2009,1,Armenia
+Armenía,2010,0,Armenia
+Armenía,2011,0,Armenia
+Armenía,2012,0,Armenia
+Armenía,2013,0,Armenia
+Armenía,2014,0,Armenia
+Armenía,2015,2,Armenia
+Armenía,2016,2,Armenia
+Armenía,2017,2,Armenia
+Armenía,2018,1,Armenia
+Armenía,2019,2,Armenia
+Armenía,2020,2,Armenia
+Armenía,2021,2,Armenia
+Armenía,2022,1,Armenia
+Armenía,2023,1,Armenia
+Armenía,2024,1,Armenia
+Azerbaijan,1998,0,Azerbaijan
+Azerbaijan,1999,0,Azerbaijan
+Azerbaijan,2000,0,Azerbaijan
+Azerbaijan,2001,0,Azerbaijan
+Azerbaijan,2002,1,Azerbaijan
+Azerbaijan,2003,1,Azerbaijan
+Azerbaijan,2004,1,Azerbaijan
+Azerbaijan,2005,2,Azerbaijan
+Azerbaijan,2006,1,Azerbaijan
+Azerbaijan,2007,1,Azerbaijan
+Azerbaijan,2008,1,Azerbaijan
+Azerbaijan,2009,1,Azerbaijan
+Azerbaijan,2010,1,Azerbaijan
+Azerbaijan,2011,1,Azerbaijan
+Azerbaijan,2012,1,Azerbaijan
+Azerbaijan,2013,0,Azerbaijan
+Azerbaijan,2014,0,Azerbaijan
+Azerbaijan,2015,0,Azerbaijan
+Azerbaijan,2016,0,Azerbaijan
+Azerbaijan,2017,3,Azerbaijan
+Azerbaijan,2018,3,Azerbaijan
+Azerbaijan,2019,4,Azerbaijan
+Azerbaijan,2020,6,Azerbaijan
+Azerbaijan,2021,6,Azerbaijan
+Azerbaijan,2022,6,Azerbaijan
+Azerbaijan,2023,6,Azerbaijan
+Azerbaijan,2024,7,Azerbaijan
+Bangladesh,1998,0,Bangladesh
+Bangladesh,1999,0,Bangladesh
+Bangladesh,2000,0,Bangladesh
+Bangladesh,2001,0,Bangladesh
+Bangladesh,2002,0,Bangladesh
+Bangladesh,2003,0,Bangladesh
+Bangladesh,2004,0,Bangladesh
+Bangladesh,2005,0,Bangladesh
+Bangladesh,2006,0,Bangladesh
+Bangladesh,2007,0,Bangladesh
+Bangladesh,2008,1,Bangladesh
+Bangladesh,2009,1,Bangladesh
+Bangladesh,2010,0,Bangladesh
+Bangladesh,2011,2,Bangladesh
+Bangladesh,2012,2,Bangladesh
+Bangladesh,2013,3,Bangladesh
+Bangladesh,2014,5,Bangladesh
+Bangladesh,2015,4,Bangladesh
+Bangladesh,2016,3,Bangladesh
+Bangladesh,2017,2,Bangladesh
+Bangladesh,2018,2,Bangladesh
+Bangladesh,2019,6,Bangladesh
+Bangladesh,2020,17,Bangladesh
+Bangladesh,2021,4,Bangladesh
+Bangladesh,2022,6,Bangladesh
+Bangladesh,2023,10,Bangladesh
+Bangladesh,2024,11,Bangladesh
+Kína,1998,37,China
+Kína,1999,43,China
+Kína,2000,51,China
+Kína,2001,64,China
+Kína,2002,62,China
+Kína,2003,70,China
+Kína,2004,83,China
+Kína,2005,132,China
+Kína,2006,470,China
+Kína,2007,620,China
+Kína,2008,259,China
+Kína,2009,105,China
+Kína,2010,106,China
+Kína,2011,118,China
+Kína,2012,84,China
+Kína,2013,75,China
+Kína,2014,77,China
+Kína,2015,77,China
+Kína,2016,87,China
+Kína,2017,90,China
+Kína,2018,104,China
+Kína,2019,121,China
+Kína,2020,125,China
+Kína,2021,123,China
+Kína,2022,135,China
+Kína,2023,138,China
+Kína,2024,141,China
+Georgía,1998,0,Georgia
+Georgía,1999,1,Georgia
+Georgía,2000,2,Georgia
+Georgía,2001,4,Georgia
+Georgía,2002,7,Georgia
+Georgía,2003,7,Georgia
+Georgía,2004,8,Georgia
+Georgía,2005,6,Georgia
+Georgía,2006,5,Georgia
+Georgía,2007,5,Georgia
+Georgía,2008,6,Georgia
+Georgía,2009,3,Georgia
+Georgía,2010,2,Georgia
+Georgía,2011,1,Georgia
+Georgía,2012,0,Georgia
+Georgía,2013,0,Georgia
+Georgía,2014,1,Georgia
+Georgía,2015,0,Georgia
+Georgía,2016,2,Georgia
+Georgía,2017,3,Georgia
+Georgía,2018,11,Georgia
+Georgía,2019,18,Georgia
+Georgía,2020,22,Georgia
+Georgía,2021,27,Georgia
+Georgía,2022,35,Georgia
+Georgía,2023,48,Georgia
+Georgía,2024,59,Georgia
+Indónesía,1998,3,Indonesia
+Indónesía,1999,2,Indonesia
+Indónesía,2000,2,Indonesia
+Indónesía,2001,4,Indonesia
+Indónesía,2002,6,Indonesia
+Indónesía,2003,7,Indonesia
+Indónesía,2004,5,Indonesia
+Indónesía,2005,7,Indonesia
+Indónesía,2006,5,Indonesia
+Indónesía,2007,41,Indonesia
+Indónesía,2008,47,Indonesia
+Indónesía,2009,11,Indonesia
+Indónesía,2010,9,Indonesia
+Indónesía,2011,6,Indonesia
+Indónesía,2012,5,Indonesia
+Indónesía,2013,8,Indonesia
+Indónesía,2014,7,Indonesia
+Indónesía,2015,6,Indonesia
+Indónesía,2016,8,Indonesia
+Indónesía,2017,7,Indonesia
+Indónesía,2018,8,Indonesia
+Indónesía,2019,7,Indonesia
+Indónesía,2020,14,Indonesia
+Indónesía,2021,15,Indonesia
+Indónesía,2022,16,Indonesia
+Indónesía,2023,14,Indonesia
+Indónesía,2024,18,Indonesia
+Ísrael,1998,3,Israel
+Ísrael,1999,3,Israel
+Ísrael,2000,2,Israel
+Ísrael,2001,3,Israel
+Ísrael,2002,4,Israel
+Ísrael,2003,5,Israel
+Ísrael,2004,5,Israel
+Ísrael,2005,4,Israel
+Ísrael,2006,5,Israel
+Ísrael,2007,7,Israel
+Ísrael,2008,7,Israel
+Ísrael,2009,6,Israel
+Ísrael,2010,6,Israel
+Ísrael,2011,6,Israel
+Ísrael,2012,3,Israel
+Ísrael,2013,6,Israel
+Ísrael,2014,6,Israel
+Ísrael,2015,5,Israel
+Ísrael,2016,7,Israel
+Ísrael,2017,8,Israel
+Ísrael,2018,6,Israel
+Ísrael,2019,7,Israel
+Ísrael,2020,3,Israel
+Ísrael,2021,3,Israel
+Ísrael,2022,3,Israel
+Ísrael,2023,6,Israel
+Ísrael,2024,10,Israel
+Indland,1998,13,India
+Indland,1999,13,India
+Indland,2000,12,India
+Indland,2001,23,India
+Indland,2002,27,India
+Indland,2003,27,India
+Indland,2004,30,India
+Indland,2005,31,India
+Indland,2006,42,India
+Indland,2007,68,India
+Indland,2008,83,India
+Indland,2009,78,India
+Indland,2010,48,India
+Indland,2011,44,India
+Indland,2012,48,India
+Indland,2013,50,India
+Indland,2014,53,India
+Indland,2015,58,India
+Indland,2016,53,India
+Indland,2017,59,India
+Indland,2018,59,India
+Indland,2019,66,India
+Indland,2020,73,India
+Indland,2021,103,India
+Indland,2022,156,India
+Indland,2023,232,India
+Indland,2024,278,India
+Írak,1998,3,Iraq
+Írak,1999,4,Iraq
+Írak,2000,6,Iraq
+Írak,2001,7,Iraq
+Írak,2002,7,Iraq
+Írak,2003,6,Iraq
+Írak,2004,6,Iraq
+Írak,2005,5,Iraq
+Írak,2006,4,Iraq
+Írak,2007,4,Iraq
+Írak,2008,6,Iraq
+Írak,2009,8,Iraq
+Írak,2010,6,Iraq
+Írak,2011,6,Iraq
+Írak,2012,5,Iraq
+Írak,2013,10,Iraq
+Írak,2014,9,Iraq
+Írak,2015,6,Iraq
+Írak,2016,6,Iraq
+Írak,2017,27,Iraq
+Írak,2018,56,Iraq
+Írak,2019,100,Iraq
+Írak,2020,133,Iraq
+Írak,2021,205,Iraq
+Írak,2022,218,Iraq
+Írak,2023,244,Iraq
+Írak,2024,259,Iraq
+Íran,1998,5,Iran
+Íran,1999,5,Iran
+Íran,2000,7,Iran
+Íran,2001,6,Iran
+Íran,2002,2,Iran
+Íran,2003,3,Iran
+Íran,2004,6,Iran
+Íran,2005,6,Iran
+Íran,2006,4,Iran
+Íran,2007,6,Iran
+Íran,2008,10,Iran
+Íran,2009,7,Iran
+Íran,2010,5,Iran
+Íran,2011,8,Iran
+Íran,2012,14,Iran
+Íran,2013,17,Iran
+Íran,2014,19,Iran
+Íran,2015,18,Iran
+Íran,2016,24,Iran
+Íran,2017,40,Iran
+Íran,2018,42,Iran
+Íran,2019,64,Iran
+Íran,2020,87,Iran
+Íran,2021,99,Iran
+Íran,2022,101,Iran
+Íran,2023,113,Iran
+Íran,2024,126,Iran
+Jórdanía,1998,3,Jordan
+Jórdanía,1999,3,Jordan
+Jórdanía,2000,6,Jordan
+Jórdanía,2001,5,Jordan
+Jórdanía,2002,4,Jordan
+Jórdanía,2003,6,Jordan
+Jórdanía,2004,6,Jordan
+Jórdanía,2005,5,Jordan
+Jórdanía,2006,5,Jordan
+Jórdanía,2007,2,Jordan
+Jórdanía,2008,4,Jordan
+Jórdanía,2009,2,Jordan
+Jórdanía,2010,2,Jordan
+Jórdanía,2011,2,Jordan
+Jórdanía,2012,1,Jordan
+Jórdanía,2013,2,Jordan
+Jórdanía,2014,1,Jordan
+Jórdanía,2015,1,Jordan
+Jórdanía,2016,1,Jordan
+Jórdanía,2017,2,Jordan
+Jórdanía,2018,2,Jordan
+Jórdanía,2019,2,Jordan
+Jórdanía,2020,4,Jordan
+Jórdanía,2021,5,Jordan
+Jórdanía,2022,6,Jordan
+Jórdanía,2023,4,Jordan
+Jórdanía,2024,4,Jordan
+Japan,1998,5,Japan
+Japan,1999,6,Japan
+Japan,2000,5,Japan
+Japan,2001,6,Japan
+Japan,2002,9,Japan
+Japan,2003,9,Japan
+Japan,2004,9,Japan
+Japan,2005,10,Japan
+Japan,2006,12,Japan
+Japan,2007,12,Japan
+Japan,2008,14,Japan
+Japan,2009,13,Japan
+Japan,2010,12,Japan
+Japan,2011,11,Japan
+Japan,2012,18,Japan
+Japan,2013,15,Japan
+Japan,2014,12,Japan
+Japan,2015,18,Japan
+Japan,2016,20,Japan
+Japan,2017,15,Japan
+Japan,2018,24,Japan
+Japan,2019,9,Japan
+Japan,2020,14,Japan
+Japan,2021,11,Japan
+Japan,2022,11,Japan
+Japan,2023,13,Japan
+Japan,2024,17,Japan
+Kyrgyzstan,1998,0,Kyrgyzstan
+Kyrgyzstan,1999,0,Kyrgyzstan
+Kyrgyzstan,2000,0,Kyrgyzstan
+Kyrgyzstan,2001,0,Kyrgyzstan
+Kyrgyzstan,2002,0,Kyrgyzstan
+Kyrgyzstan,2003,0,Kyrgyzstan
+Kyrgyzstan,2004,0,Kyrgyzstan
+Kyrgyzstan,2005,0,Kyrgyzstan
+Kyrgyzstan,2006,0,Kyrgyzstan
+Kyrgyzstan,2007,0,Kyrgyzstan
+Kyrgyzstan,2008,0,Kyrgyzstan
+Kyrgyzstan,2009,0,Kyrgyzstan
+Kyrgyzstan,2010,0,Kyrgyzstan
+Kyrgyzstan,2011,0,Kyrgyzstan
+Kyrgyzstan,2012,0,Kyrgyzstan
+Kyrgyzstan,2013,0,Kyrgyzstan
+Kyrgyzstan,2014,0,Kyrgyzstan
+Kyrgyzstan,2015,0,Kyrgyzstan
+Kyrgyzstan,2016,0,Kyrgyzstan
+Kyrgyzstan,2017,0,Kyrgyzstan
+Kyrgyzstan,2018,0,Kyrgyzstan
+Kyrgyzstan,2019,1,Kyrgyzstan
+Kyrgyzstan,2020,1,Kyrgyzstan
+Kyrgyzstan,2021,3,Kyrgyzstan
+Kyrgyzstan,2022,3,Kyrgyzstan
+Kyrgyzstan,2023,5,Kyrgyzstan
+Kyrgyzstan,2024,5,Kyrgyzstan
+Kambódía,1998,0,Cambodia
+Kambódía,1999,0,Cambodia
+Kambódía,2000,0,Cambodia
+Kambódía,2001,0,Cambodia
+Kambódía,2002,0,Cambodia
+Kambódía,2003,1,Cambodia
+Kambódía,2004,1,Cambodia
+Kambódía,2005,1,Cambodia
+Kambódía,2006,1,Cambodia
+Kambódía,2007,1,Cambodia
+Kambódía,2008,2,Cambodia
+Kambódía,2009,1,Cambodia
+Kambódía,2010,1,Cambodia
+Kambódía,2011,0,Cambodia
+Kambódía,2012,0,Cambodia
+Kambódía,2013,0,Cambodia
+Kambódía,2014,0,Cambodia
+Kambódía,2015,0,Cambodia
+Kambódía,2016,0,Cambodia
+Kambódía,2017,0,Cambodia
+Kambódía,2018,0,Cambodia
+Kambódía,2019,0,Cambodia
+Kambódía,2020,0,Cambodia
+Kambódía,2021,0,Cambodia
+Kambódía,2022,0,Cambodia
+Kambódía,2023,0,Cambodia
+Kambódía,2024,1,Cambodia
+"Kórea, Norður-",1998,0,"Korea, North-"
+"Kórea, Norður-",1999,0,"Korea, North-"
+"Kórea, Norður-",2000,0,"Korea, North-"
+"Kórea, Norður-",2001,0,"Korea, North-"
+"Kórea, Norður-",2002,0,"Korea, North-"
+"Kórea, Norður-",2003,0,"Korea, North-"
+"Kórea, Norður-",2004,0,"Korea, North-"
+"Kórea, Norður-",2005,0,"Korea, North-"
+"Kórea, Norður-",2006,0,"Korea, North-"
+"Kórea, Norður-",2007,0,"Korea, North-"
+"Kórea, Norður-",2008,0,"Korea, North-"
+"Kórea, Norður-",2009,0,"Korea, North-"
+"Kórea, Norður-",2010,2,"Korea, North-"
+"Kórea, Norður-",2011,0,"Korea, North-"
+"Kórea, Norður-",2012,0,"Korea, North-"
+"Kórea, Norður-",2013,0,"Korea, North-"
+"Kórea, Norður-",2014,0,"Korea, North-"
+"Kórea, Norður-",2015,0,"Korea, North-"
+"Kórea, Norður-",2016,0,"Korea, North-"
+"Kórea, Norður-",2017,0,"Korea, North-"
+"Kórea, Norður-",2018,0,"Korea, North-"
+"Kórea, Norður-",2019,0,"Korea, North-"
+"Kórea, Norður-",2020,0,"Korea, North-"
+"Kórea, Norður-",2021,0,"Korea, North-"
+"Kórea, Norður-",2022,0,"Korea, North-"
+"Kórea, Norður-",2023,0,"Korea, North-"
+"Kórea, Norður-",2024,0,"Korea, North-"
+"Kórea, Suður-",1998,2,"Korea, South-"
+"Kórea, Suður-",1999,2,"Korea, South-"
+"Kórea, Suður-",2000,4,"Korea, South-"
+"Kórea, Suður-",2001,4,"Korea, South-"
+"Kórea, Suður-",2002,2,"Korea, South-"
+"Kórea, Suður-",2003,1,"Korea, South-"
+"Kórea, Suður-",2004,1,"Korea, South-"
+"Kórea, Suður-",2005,1,"Korea, South-"
+"Kórea, Suður-",2006,1,"Korea, South-"
+"Kórea, Suður-",2007,1,"Korea, South-"
+"Kórea, Suður-",2008,1,"Korea, South-"
+"Kórea, Suður-",2009,2,"Korea, South-"
+"Kórea, Suður-",2010,3,"Korea, South-"
+"Kórea, Suður-",2011,1,"Korea, South-"
+"Kórea, Suður-",2012,2,"Korea, South-"
+"Kórea, Suður-",2013,1,"Korea, South-"
+"Kórea, Suður-",2014,2,"Korea, South-"
+"Kórea, Suður-",2015,1,"Korea, South-"
+"Kórea, Suður-",2016,1,"Korea, South-"
+"Kórea, Suður-",2017,1,"Korea, South-"
+"Kórea, Suður-",2018,1,"Korea, South-"
+"Kórea, Suður-",2019,3,"Korea, South-"
+"Kórea, Suður-",2020,4,"Korea, South-"
+"Kórea, Suður-",2021,4,"Korea, South-"
+"Kórea, Suður-",2022,5,"Korea, South-"
+"Kórea, Suður-",2023,3,"Korea, South-"
+"Kórea, Suður-",2024,4,"Korea, South-"
+Kasakstan,1998,2,Kazakhstan
+Kasakstan,1999,0,Kazakhstan
+Kasakstan,2000,0,Kazakhstan
+Kasakstan,2001,0,Kazakhstan
+Kasakstan,2002,0,Kazakhstan
+Kasakstan,2003,0,Kazakhstan
+Kasakstan,2004,0,Kazakhstan
+Kasakstan,2005,0,Kazakhstan
+Kasakstan,2006,0,Kazakhstan
+Kasakstan,2007,0,Kazakhstan
+Kasakstan,2008,0,Kazakhstan
+Kasakstan,2009,0,Kazakhstan
+Kasakstan,2010,1,Kazakhstan
+Kasakstan,2011,1,Kazakhstan
+Kasakstan,2012,1,Kazakhstan
+Kasakstan,2013,1,Kazakhstan
+Kasakstan,2014,1,Kazakhstan
+Kasakstan,2015,1,Kazakhstan
+Kasakstan,2016,1,Kazakhstan
+Kasakstan,2017,3,Kazakhstan
+Kasakstan,2018,3,Kazakhstan
+Kasakstan,2019,3,Kazakhstan
+Kasakstan,2020,3,Kazakhstan
+Kasakstan,2021,3,Kazakhstan
+Kasakstan,2022,3,Kazakhstan
+Kasakstan,2023,4,Kazakhstan
+Kasakstan,2024,7,Kazakhstan
+Laos,1998,0,Laos
+Laos,1999,0,Laos
+Laos,2000,0,Laos
+Laos,2001,0,Laos
+Laos,2002,0,Laos
+Laos,2003,0,Laos
+Laos,2004,0,Laos
+Laos,2005,0,Laos
+Laos,2006,0,Laos
+Laos,2007,0,Laos
+Laos,2008,0,Laos
+Laos,2009,0,Laos
+Laos,2010,0,Laos
+Laos,2011,0,Laos
+Laos,2012,0,Laos
+Laos,2013,0,Laos
+Laos,2014,0,Laos
+Laos,2015,0,Laos
+Laos,2016,0,Laos
+Laos,2017,0,Laos
+Laos,2018,0,Laos
+Laos,2019,0,Laos
+Laos,2020,0,Laos
+Laos,2021,0,Laos
+Laos,2022,0,Laos
+Laos,2023,0,Laos
+Laos,2024,0,Laos
+Líbanon,1998,2,Lebanon
+Líbanon,1999,4,Lebanon
+Líbanon,2000,2,Lebanon
+Líbanon,2001,3,Lebanon
+Líbanon,2002,3,Lebanon
+Líbanon,2003,2,Lebanon
+Líbanon,2004,2,Lebanon
+Líbanon,2005,2,Lebanon
+Líbanon,2006,1,Lebanon
+Líbanon,2007,2,Lebanon
+Líbanon,2008,3,Lebanon
+Líbanon,2009,3,Lebanon
+Líbanon,2010,1,Lebanon
+Líbanon,2011,0,Lebanon
+Líbanon,2012,0,Lebanon
+Líbanon,2013,0,Lebanon
+Líbanon,2014,1,Lebanon
+Líbanon,2015,1,Lebanon
+Líbanon,2016,3,Lebanon
+Líbanon,2017,2,Lebanon
+Líbanon,2018,3,Lebanon
+Líbanon,2019,5,Lebanon
+Líbanon,2020,5,Lebanon
+Líbanon,2021,8,Lebanon
+Líbanon,2022,7,Lebanon
+Líbanon,2023,7,Lebanon
+Líbanon,2024,8,Lebanon
+Srí Lanka,1998,3,Sri Lanka
+Srí Lanka,1999,3,Sri Lanka
+Srí Lanka,2000,3,Sri Lanka
+Srí Lanka,2001,9,Sri Lanka
+Srí Lanka,2002,12,Sri Lanka
+Srí Lanka,2003,11,Sri Lanka
+Srí Lanka,2004,17,Sri Lanka
+Srí Lanka,2005,16,Sri Lanka
+Srí Lanka,2006,19,Sri Lanka
+Srí Lanka,2007,22,Sri Lanka
+Srí Lanka,2008,33,Sri Lanka
+Srí Lanka,2009,35,Sri Lanka
+Srí Lanka,2010,35,Sri Lanka
+Srí Lanka,2011,34,Sri Lanka
+Srí Lanka,2012,34,Sri Lanka
+Srí Lanka,2013,38,Sri Lanka
+Srí Lanka,2014,37,Sri Lanka
+Srí Lanka,2015,36,Sri Lanka
+Srí Lanka,2016,30,Sri Lanka
+Srí Lanka,2017,29,Sri Lanka
+Srí Lanka,2018,27,Sri Lanka
+Srí Lanka,2019,28,Sri Lanka
+Srí Lanka,2020,25,Sri Lanka
+Srí Lanka,2021,29,Sri Lanka
+Srí Lanka,2022,31,Sri Lanka
+Srí Lanka,2023,34,Sri Lanka
+Srí Lanka,2024,33,Sri Lanka
+Myanmar,1998,0,Myanmar
+Myanmar,1999,0,Myanmar
+Myanmar,2000,0,Myanmar
+Myanmar,2001,0,Myanmar
+Myanmar,2002,0,Myanmar
+Myanmar,2003,0,Myanmar
+Myanmar,2004,0,Myanmar
+Myanmar,2005,0,Myanmar
+Myanmar,2006,0,Myanmar
+Myanmar,2007,0,Myanmar
+Myanmar,2008,1,Myanmar
+Myanmar,2009,0,Myanmar
+Myanmar,2010,0,Myanmar
+Myanmar,2011,0,Myanmar
+Myanmar,2012,0,Myanmar
+Myanmar,2013,0,Myanmar
+Myanmar,2014,0,Myanmar
+Myanmar,2015,0,Myanmar
+Myanmar,2016,0,Myanmar
+Myanmar,2017,0,Myanmar
+Myanmar,2018,0,Myanmar
+Myanmar,2019,1,Myanmar
+Myanmar,2020,1,Myanmar
+Myanmar,2021,2,Myanmar
+Myanmar,2022,2,Myanmar
+Myanmar,2023,1,Myanmar
+Myanmar,2024,1,Myanmar
+Mongólía,1998,3,Mongolia
+Mongólía,1999,7,Mongolia
+Mongólía,2000,8,Mongolia
+Mongólía,2001,6,Mongolia
+Mongólía,2002,4,Mongolia
+Mongólía,2003,7,Mongolia
+Mongólía,2004,10,Mongolia
+Mongólía,2005,12,Mongolia
+Mongólía,2006,12,Mongolia
+Mongólía,2007,13,Mongolia
+Mongólía,2008,12,Mongolia
+Mongólía,2009,13,Mongolia
+Mongólía,2010,12,Mongolia
+Mongólía,2011,9,Mongolia
+Mongólía,2012,9,Mongolia
+Mongólía,2013,8,Mongolia
+Mongólía,2014,7,Mongolia
+Mongólía,2015,7,Mongolia
+Mongólía,2016,7,Mongolia
+Mongólía,2017,7,Mongolia
+Mongólía,2018,7,Mongolia
+Mongólía,2019,8,Mongolia
+Mongólía,2020,7,Mongolia
+Mongólía,2021,7,Mongolia
+Mongólía,2022,6,Mongolia
+Mongólía,2023,6,Mongolia
+Mongólía,2024,6,Mongolia
+Maldívur,1998,0,Maldives
+Maldívur,1999,0,Maldives
+Maldívur,2000,0,Maldives
+Maldívur,2001,0,Maldives
+Maldívur,2002,0,Maldives
+Maldívur,2003,0,Maldives
+Maldívur,2004,0,Maldives
+Maldívur,2005,0,Maldives
+Maldívur,2006,0,Maldives
+Maldívur,2007,0,Maldives
+Maldívur,2008,0,Maldives
+Maldívur,2009,0,Maldives
+Maldívur,2010,0,Maldives
+Maldívur,2011,0,Maldives
+Maldívur,2012,0,Maldives
+Maldívur,2013,0,Maldives
+Maldívur,2014,0,Maldives
+Maldívur,2015,0,Maldives
+Maldívur,2016,0,Maldives
+Maldívur,2017,0,Maldives
+Maldívur,2018,0,Maldives
+Maldívur,2019,0,Maldives
+Maldívur,2020,1,Maldives
+Maldívur,2021,1,Maldives
+Maldívur,2022,1,Maldives
+Maldívur,2023,1,Maldives
+Maldívur,2024,1,Maldives
+Malasía,1998,3,Malaysia
+Malasía,1999,4,Malaysia
+Malasía,2000,6,Malaysia
+Malasía,2001,5,Malaysia
+Malasía,2002,6,Malaysia
+Malasía,2003,6,Malaysia
+Malasía,2004,7,Malaysia
+Malasía,2005,7,Malaysia
+Malasía,2006,9,Malaysia
+Malasía,2007,11,Malaysia
+Malasía,2008,13,Malaysia
+Malasía,2009,13,Malaysia
+Malasía,2010,11,Malaysia
+Malasía,2011,13,Malaysia
+Malasía,2012,10,Malaysia
+Malasía,2013,10,Malaysia
+Malasía,2014,9,Malaysia
+Malasía,2015,9,Malaysia
+Malasía,2016,10,Malaysia
+Malasía,2017,10,Malaysia
+Malasía,2018,10,Malaysia
+Malasía,2019,10,Malaysia
+Malasía,2020,9,Malaysia
+Malasía,2021,8,Malaysia
+Malasía,2022,11,Malaysia
+Malasía,2023,14,Malaysia
+Malasía,2024,17,Malaysia
+Nepal,1998,2,Nepal
+Nepal,1999,3,Nepal
+Nepal,2000,9,Nepal
+Nepal,2001,12,Nepal
+Nepal,2002,17,Nepal
+Nepal,2003,25,Nepal
+Nepal,2004,27,Nepal
+Nepal,2005,34,Nepal
+Nepal,2006,46,Nepal
+Nepal,2007,43,Nepal
+Nepal,2008,37,Nepal
+Nepal,2009,34,Nepal
+Nepal,2010,25,Nepal
+Nepal,2011,24,Nepal
+Nepal,2012,20,Nepal
+Nepal,2013,17,Nepal
+Nepal,2014,15,Nepal
+Nepal,2015,14,Nepal
+Nepal,2016,11,Nepal
+Nepal,2017,16,Nepal
+Nepal,2018,17,Nepal
+Nepal,2019,18,Nepal
+Nepal,2020,19,Nepal
+Nepal,2021,14,Nepal
+Nepal,2022,14,Nepal
+Nepal,2023,22,Nepal
+Nepal,2024,22,Nepal
+Óman,1998,0,Oman
+Óman,1999,0,Oman
+Óman,2000,0,Oman
+Óman,2001,0,Oman
+Óman,2002,0,Oman
+Óman,2003,0,Oman
+Óman,2004,0,Oman
+Óman,2005,0,Oman
+Óman,2006,0,Oman
+Óman,2007,0,Oman
+Óman,2008,0,Oman
+Óman,2009,0,Oman
+Óman,2010,0,Oman
+Óman,2011,2,Oman
+Óman,2012,0,Oman
+Óman,2013,0,Oman
+Óman,2014,0,Oman
+Óman,2015,0,Oman
+Óman,2016,0,Oman
+Óman,2017,0,Oman
+Óman,2018,0,Oman
+Óman,2019,0,Oman
+Óman,2020,1,Oman
+Óman,2021,1,Oman
+Óman,2022,1,Oman
+Óman,2023,1,Oman
+Óman,2024,1,Oman
+Filippseyjar,1998,50,Philippines
+Filippseyjar,1999,67,Philippines
+Filippseyjar,2000,92,Philippines
+Filippseyjar,2001,152,Philippines
+Filippseyjar,2002,194,Philippines
+Filippseyjar,2003,223,Philippines
+Filippseyjar,2004,232,Philippines
+Filippseyjar,2005,251,Philippines
+Filippseyjar,2006,311,Philippines
+Filippseyjar,2007,340,Philippines
+Filippseyjar,2008,315,Philippines
+Filippseyjar,2009,291,Philippines
+Filippseyjar,2010,248,Philippines
+Filippseyjar,2011,241,Philippines
+Filippseyjar,2012,254,Philippines
+Filippseyjar,2013,244,Philippines
+Filippseyjar,2014,240,Philippines
+Filippseyjar,2015,241,Philippines
+Filippseyjar,2016,220,Philippines
+Filippseyjar,2017,228,Philippines
+Filippseyjar,2018,262,Philippines
+Filippseyjar,2019,335,Philippines
+Filippseyjar,2020,353,Philippines
+Filippseyjar,2021,393,Philippines
+Filippseyjar,2022,408,Philippines
+Filippseyjar,2023,449,Philippines
+Filippseyjar,2024,516,Philippines
+Pakistan,1998,2,Pakistan
+Pakistan,1999,5,Pakistan
+Pakistan,2000,5,Pakistan
+Pakistan,2001,6,Pakistan
+Pakistan,2002,7,Pakistan
+Pakistan,2003,9,Pakistan
+Pakistan,2004,13,Pakistan
+Pakistan,2005,22,Pakistan
+Pakistan,2006,70,Pakistan
+Pakistan,2007,95,Pakistan
+Pakistan,2008,48,Pakistan
+Pakistan,2009,10,Pakistan
+Pakistan,2010,5,Pakistan
+Pakistan,2011,5,Pakistan
+Pakistan,2012,5,Pakistan
+Pakistan,2013,6,Pakistan
+Pakistan,2014,7,Pakistan
+Pakistan,2015,6,Pakistan
+Pakistan,2016,13,Pakistan
+Pakistan,2017,20,Pakistan
+Pakistan,2018,35,Pakistan
+Pakistan,2019,45,Pakistan
+Pakistan,2020,49,Pakistan
+Pakistan,2021,56,Pakistan
+Pakistan,2022,67,Pakistan
+Pakistan,2023,64,Pakistan
+Pakistan,2024,96,Pakistan
+Palestína,1998,0,Palestine
+Palestína,1999,0,Palestine
+Palestína,2000,0,Palestine
+Palestína,2001,0,Palestine
+Palestína,2002,0,Palestine
+Palestína,2003,0,Palestine
+Palestína,2004,0,Palestine
+Palestína,2005,0,Palestine
+Palestína,2006,0,Palestine
+Palestína,2007,0,Palestine
+Palestína,2008,0,Palestine
+Palestína,2009,0,Palestine
+Palestína,2010,0,Palestine
+Palestína,2011,1,Palestine
+Palestína,2012,0,Palestine
+Palestína,2013,1,Palestine
+Palestína,2014,1,Palestine
+Palestína,2015,1,Palestine
+Palestína,2016,6,Palestine
+Palestína,2017,12,Palestine
+Palestína,2018,16,Palestine
+Palestína,2019,19,Palestine
+Palestína,2020,35,Palestine
+Palestína,2021,69,Palestine
+Palestína,2022,115,Palestine
+Palestína,2023,231,Palestine
+Palestína,2024,371,Palestine
+Sádi-Arabía,1998,0,Saudi Arabia
+Sádi-Arabía,1999,0,Saudi Arabia
+Sádi-Arabía,2000,0,Saudi Arabia
+Sádi-Arabía,2001,0,Saudi Arabia
+Sádi-Arabía,2002,0,Saudi Arabia
+Sádi-Arabía,2003,0,Saudi Arabia
+Sádi-Arabía,2004,0,Saudi Arabia
+Sádi-Arabía,2005,0,Saudi Arabia
+Sádi-Arabía,2006,0,Saudi Arabia
+Sádi-Arabía,2007,0,Saudi Arabia
+Sádi-Arabía,2008,0,Saudi Arabia
+Sádi-Arabía,2009,0,Saudi Arabia
+Sádi-Arabía,2010,0,Saudi Arabia
+Sádi-Arabía,2011,0,Saudi Arabia
+Sádi-Arabía,2012,0,Saudi Arabia
+Sádi-Arabía,2013,0,Saudi Arabia
+Sádi-Arabía,2014,0,Saudi Arabia
+Sádi-Arabía,2015,0,Saudi Arabia
+Sádi-Arabía,2016,0,Saudi Arabia
+Sádi-Arabía,2017,0,Saudi Arabia
+Sádi-Arabía,2018,0,Saudi Arabia
+Sádi-Arabía,2019,0,Saudi Arabia
+Sádi-Arabía,2020,0,Saudi Arabia
+Sádi-Arabía,2021,0,Saudi Arabia
+Sádi-Arabía,2022,0,Saudi Arabia
+Sádi-Arabía,2023,0,Saudi Arabia
+Sádi-Arabía,2024,0,Saudi Arabia
+Singapore,1998,1,Singapore
+Singapore,1999,2,Singapore
+Singapore,2000,2,Singapore
+Singapore,2001,2,Singapore
+Singapore,2002,2,Singapore
+Singapore,2003,0,Singapore
+Singapore,2004,0,Singapore
+Singapore,2005,0,Singapore
+Singapore,2006,1,Singapore
+Singapore,2007,1,Singapore
+Singapore,2008,1,Singapore
+Singapore,2009,0,Singapore
+Singapore,2010,0,Singapore
+Singapore,2011,0,Singapore
+Singapore,2012,0,Singapore
+Singapore,2013,1,Singapore
+Singapore,2014,1,Singapore
+Singapore,2015,0,Singapore
+Singapore,2016,1,Singapore
+Singapore,2017,1,Singapore
+Singapore,2018,0,Singapore
+Singapore,2019,2,Singapore
+Singapore,2020,1,Singapore
+Singapore,2021,2,Singapore
+Singapore,2022,3,Singapore
+Singapore,2023,4,Singapore
+Singapore,2024,1,Singapore
+Sýrland,1998,2,Syria
+Sýrland,1999,2,Syria
+Sýrland,2000,2,Syria
+Sýrland,2001,7,Syria
+Sýrland,2002,7,Syria
+Sýrland,2003,7,Syria
+Sýrland,2004,7,Syria
+Sýrland,2005,5,Syria
+Sýrland,2006,4,Syria
+Sýrland,2007,5,Syria
+Sýrland,2008,6,Syria
+Sýrland,2009,4,Syria
+Sýrland,2010,3,Syria
+Sýrland,2011,2,Syria
+Sýrland,2012,4,Syria
+Sýrland,2013,5,Syria
+Sýrland,2014,11,Syria
+Sýrland,2015,11,Syria
+Sýrland,2016,25,Syria
+Sýrland,2017,79,Syria
+Sýrland,2018,124,Syria
+Sýrland,2019,126,Syria
+Sýrland,2020,176,Syria
+Sýrland,2021,201,Syria
+Sýrland,2022,232,Syria
+Sýrland,2023,276,Syria
+Sýrland,2024,327,Syria
+Thailand,1998,63,Thailand
+Thailand,1999,76,Thailand
+Thailand,2000,99,Thailand
+Thailand,2001,116,Thailand
+Thailand,2002,135,Thailand
+Thailand,2003,142,Thailand
+Thailand,2004,148,Thailand
+Thailand,2005,157,Thailand
+Thailand,2006,177,Thailand
+Thailand,2007,180,Thailand
+Thailand,2008,179,Thailand
+Thailand,2009,188,Thailand
+Thailand,2010,173,Thailand
+Thailand,2011,163,Thailand
+Thailand,2012,156,Thailand
+Thailand,2013,161,Thailand
+Thailand,2014,159,Thailand
+Thailand,2015,156,Thailand
+Thailand,2016,151,Thailand
+Thailand,2017,152,Thailand
+Thailand,2018,159,Thailand
+Thailand,2019,164,Thailand
+Thailand,2020,168,Thailand
+Thailand,2021,167,Thailand
+Thailand,2022,166,Thailand
+Thailand,2023,172,Thailand
+Thailand,2024,170,Thailand
+Tadsíkistan,1998,0,Tajikistan
+Tadsíkistan,1999,0,Tajikistan
+Tadsíkistan,2000,0,Tajikistan
+Tadsíkistan,2001,0,Tajikistan
+Tadsíkistan,2002,0,Tajikistan
+Tadsíkistan,2003,0,Tajikistan
+Tadsíkistan,2004,0,Tajikistan
+Tadsíkistan,2005,0,Tajikistan
+Tadsíkistan,2006,0,Tajikistan
+Tadsíkistan,2007,0,Tajikistan
+Tadsíkistan,2008,0,Tajikistan
+Tadsíkistan,2009,0,Tajikistan
+Tadsíkistan,2010,0,Tajikistan
+Tadsíkistan,2011,0,Tajikistan
+Tadsíkistan,2012,0,Tajikistan
+Tadsíkistan,2013,0,Tajikistan
+Tadsíkistan,2014,0,Tajikistan
+Tadsíkistan,2015,0,Tajikistan
+Tadsíkistan,2016,0,Tajikistan
+Tadsíkistan,2017,1,Tajikistan
+Tadsíkistan,2018,1,Tajikistan
+Tadsíkistan,2019,1,Tajikistan
+Tadsíkistan,2020,2,Tajikistan
+Tadsíkistan,2021,3,Tajikistan
+Tadsíkistan,2022,5,Tajikistan
+Tadsíkistan,2023,5,Tajikistan
+Tadsíkistan,2024,7,Tajikistan
+Tímor-Leste,1998,0,Timor-Leste
+Tímor-Leste,1999,0,Timor-Leste
+Tímor-Leste,2000,0,Timor-Leste
+Tímor-Leste,2001,0,Timor-Leste
+Tímor-Leste,2002,0,Timor-Leste
+Tímor-Leste,2003,0,Timor-Leste
+Tímor-Leste,2004,0,Timor-Leste
+Tímor-Leste,2005,0,Timor-Leste
+Tímor-Leste,2006,0,Timor-Leste
+Tímor-Leste,2007,0,Timor-Leste
+Tímor-Leste,2008,0,Timor-Leste
+Tímor-Leste,2009,0,Timor-Leste
+Tímor-Leste,2010,0,Timor-Leste
+Tímor-Leste,2011,0,Timor-Leste
+Tímor-Leste,2012,0,Timor-Leste
+Tímor-Leste,2013,0,Timor-Leste
+Tímor-Leste,2014,0,Timor-Leste
+Tímor-Leste,2015,1,Timor-Leste
+Tímor-Leste,2016,0,Timor-Leste
+Tímor-Leste,2017,0,Timor-Leste
+Tímor-Leste,2018,0,Timor-Leste
+Tímor-Leste,2019,0,Timor-Leste
+Tímor-Leste,2020,0,Timor-Leste
+Tímor-Leste,2021,0,Timor-Leste
+Tímor-Leste,2022,0,Timor-Leste
+Tímor-Leste,2023,0,Timor-Leste
+Tímor-Leste,2024,0,Timor-Leste
+Túrkmenistan,1998,0,Turkmenistan
+Túrkmenistan,1999,0,Turkmenistan
+Túrkmenistan,2000,0,Turkmenistan
+Túrkmenistan,2001,0,Turkmenistan
+Túrkmenistan,2002,0,Turkmenistan
+Túrkmenistan,2003,0,Turkmenistan
+Túrkmenistan,2004,0,Turkmenistan
+Túrkmenistan,2005,0,Turkmenistan
+Túrkmenistan,2006,0,Turkmenistan
+Túrkmenistan,2007,0,Turkmenistan
+Túrkmenistan,2008,0,Turkmenistan
+Túrkmenistan,2009,0,Turkmenistan
+Túrkmenistan,2010,0,Turkmenistan
+Túrkmenistan,2011,0,Turkmenistan
+Túrkmenistan,2012,0,Turkmenistan
+Túrkmenistan,2013,0,Turkmenistan
+Túrkmenistan,2014,0,Turkmenistan
+Túrkmenistan,2015,0,Turkmenistan
+Túrkmenistan,2016,0,Turkmenistan
+Túrkmenistan,2017,0,Turkmenistan
+Túrkmenistan,2018,0,Turkmenistan
+Túrkmenistan,2019,0,Turkmenistan
+Túrkmenistan,2020,0,Turkmenistan
+Túrkmenistan,2021,0,Turkmenistan
+Túrkmenistan,2022,0,Turkmenistan
+Túrkmenistan,2023,0,Turkmenistan
+Túrkmenistan,2024,1,Turkmenistan
+Tyrkland,1998,4,Turkey
+Tyrkland,1999,4,Turkey
+Tyrkland,2000,7,Turkey
+Tyrkland,2001,9,Turkey
+Tyrkland,2002,14,Turkey
+Tyrkland,2003,14,Turkey
+Tyrkland,2004,20,Turkey
+Tyrkland,2005,20,Turkey
+Tyrkland,2006,23,Turkey
+Tyrkland,2007,21,Turkey
+Tyrkland,2008,18,Turkey
+Tyrkland,2009,19,Turkey
+Tyrkland,2010,19,Turkey
+Tyrkland,2011,20,Turkey
+Tyrkland,2012,19,Turkey
+Tyrkland,2013,19,Turkey
+Tyrkland,2014,17,Turkey
+Tyrkland,2015,16,Turkey
+Tyrkland,2016,17,Turkey
+Tyrkland,2017,16,Turkey
+Tyrkland,2018,20,Turkey
+Tyrkland,2019,24,Turkey
+Tyrkland,2020,27,Turkey
+Tyrkland,2021,38,Turkey
+Tyrkland,2022,34,Turkey
+Tyrkland,2023,38,Turkey
+Tyrkland,2024,54,Turkey
+Taiwan,1998,0,Taiwan
+Taiwan,1999,0,Taiwan
+Taiwan,2000,0,Taiwan
+Taiwan,2001,0,Taiwan
+Taiwan,2002,0,Taiwan
+Taiwan,2003,0,Taiwan
+Taiwan,2004,0,Taiwan
+Taiwan,2005,0,Taiwan
+Taiwan,2006,0,Taiwan
+Taiwan,2007,0,Taiwan
+Taiwan,2008,0,Taiwan
+Taiwan,2009,0,Taiwan
+Taiwan,2010,0,Taiwan
+Taiwan,2011,2,Taiwan
+Taiwan,2012,0,Taiwan
+Taiwan,2013,0,Taiwan
+Taiwan,2014,0,Taiwan
+Taiwan,2015,0,Taiwan
+Taiwan,2016,0,Taiwan
+Taiwan,2017,0,Taiwan
+Taiwan,2018,0,Taiwan
+Taiwan,2019,0,Taiwan
+Taiwan,2020,0,Taiwan
+Taiwan,2021,0,Taiwan
+Taiwan,2022,0,Taiwan
+Taiwan,2023,0,Taiwan
+Taiwan,2024,0,Taiwan
+Úsbekistan,1998,0,Uzbekistan
+Úsbekistan,1999,0,Uzbekistan
+Úsbekistan,2000,0,Uzbekistan
+Úsbekistan,2001,0,Uzbekistan
+Úsbekistan,2002,0,Uzbekistan
+Úsbekistan,2003,0,Uzbekistan
+Úsbekistan,2004,0,Uzbekistan
+Úsbekistan,2005,1,Uzbekistan
+Úsbekistan,2006,1,Uzbekistan
+Úsbekistan,2007,0,Uzbekistan
+Úsbekistan,2008,0,Uzbekistan
+Úsbekistan,2009,1,Uzbekistan
+Úsbekistan,2010,1,Uzbekistan
+Úsbekistan,2011,1,Uzbekistan
+Úsbekistan,2012,1,Uzbekistan
+Úsbekistan,2013,2,Uzbekistan
+Úsbekistan,2014,2,Uzbekistan
+Úsbekistan,2015,2,Uzbekistan
+Úsbekistan,2016,2,Uzbekistan
+Úsbekistan,2017,1,Uzbekistan
+Úsbekistan,2018,2,Uzbekistan
+Úsbekistan,2019,3,Uzbekistan
+Úsbekistan,2020,0,Uzbekistan
+Úsbekistan,2021,0,Uzbekistan
+Úsbekistan,2022,0,Uzbekistan
+Úsbekistan,2023,0,Uzbekistan
+Úsbekistan,2024,1,Uzbekistan
+Víetnam,1998,15,Viet Nam
+Víetnam,1999,21,Viet Nam
+Víetnam,2000,29,Viet Nam
+Víetnam,2001,59,Viet Nam
+Víetnam,2002,79,Viet Nam
+Víetnam,2003,94,Viet Nam
+Víetnam,2004,102,Viet Nam
+Víetnam,2005,109,Viet Nam
+Víetnam,2006,119,Viet Nam
+Víetnam,2007,121,Viet Nam
+Víetnam,2008,127,Viet Nam
+Víetnam,2009,122,Viet Nam
+Víetnam,2010,102,Viet Nam
+Víetnam,2011,103,Viet Nam
+Víetnam,2012,105,Viet Nam
+Víetnam,2013,111,Viet Nam
+Víetnam,2014,103,Viet Nam
+Víetnam,2015,111,Viet Nam
+Víetnam,2016,117,Viet Nam
+Víetnam,2017,122,Viet Nam
+Víetnam,2018,147,Viet Nam
+Víetnam,2019,163,Viet Nam
+Víetnam,2020,181,Viet Nam
+Víetnam,2021,222,Viet Nam
+Víetnam,2022,236,Viet Nam
+Víetnam,2023,292,Viet Nam
+Víetnam,2024,487,Viet Nam
+Jemen,1998,0,Yemen
+Jemen,1999,0,Yemen
+Jemen,2000,0,Yemen
+Jemen,2001,0,Yemen
+Jemen,2002,0,Yemen
+Jemen,2003,0,Yemen
+Jemen,2004,0,Yemen
+Jemen,2005,0,Yemen
+Jemen,2006,0,Yemen
+Jemen,2007,0,Yemen
+Jemen,2008,0,Yemen
+Jemen,2009,0,Yemen
+Jemen,2010,0,Yemen
+Jemen,2011,0,Yemen
+Jemen,2012,0,Yemen
+Jemen,2013,0,Yemen
+Jemen,2014,0,Yemen
+Jemen,2015,0,Yemen
+Jemen,2016,0,Yemen
+Jemen,2017,1,Yemen
+Jemen,2018,0,Yemen
+Jemen,2019,2,Yemen
+Jemen,2020,4,Yemen
+Jemen,2021,9,Yemen
+Jemen,2022,14,Yemen
+Jemen,2023,17,Yemen
+Jemen,2024,23,Yemen
+Ástralía,1998,3,Australia
+Ástralía,1999,6,Australia
+Ástralía,2000,11,Australia
+Ástralía,2001,13,Australia
+Ástralía,2002,16,Australia
+Ástralía,2003,15,Australia
+Ástralía,2004,15,Australia
+Ástralía,2005,16,Australia
+Ástralía,2006,29,Australia
+Ástralía,2007,38,Australia
+Ástralía,2008,43,Australia
+Ástralía,2009,24,Australia
+Ástralía,2010,19,Australia
+Ástralía,2011,16,Australia
+Ástralía,2012,22,Australia
+Ástralía,2013,28,Australia
+Ástralía,2014,25,Australia
+Ástralía,2015,24,Australia
+Ástralía,2016,26,Australia
+Ástralía,2017,23,Australia
+Ástralía,2018,28,Australia
+Ástralía,2019,27,Australia
+Ástralía,2020,26,Australia
+Ástralía,2021,27,Australia
+Ástralía,2022,37,Australia
+Ástralía,2023,36,Australia
+Ástralía,2024,36,Australia
+Fiji,1998,0,Fiji
+Fiji,1999,0,Fiji
+Fiji,2000,0,Fiji
+Fiji,2001,0,Fiji
+Fiji,2002,0,Fiji
+Fiji,2003,0,Fiji
+Fiji,2004,0,Fiji
+Fiji,2005,0,Fiji
+Fiji,2006,0,Fiji
+Fiji,2007,0,Fiji
+Fiji,2008,0,Fiji
+Fiji,2009,0,Fiji
+Fiji,2010,0,Fiji
+Fiji,2011,0,Fiji
+Fiji,2012,0,Fiji
+Fiji,2013,0,Fiji
+Fiji,2014,0,Fiji
+Fiji,2015,0,Fiji
+Fiji,2016,0,Fiji
+Fiji,2017,0,Fiji
+Fiji,2018,0,Fiji
+Fiji,2019,0,Fiji
+Fiji,2020,0,Fiji
+Fiji,2021,0,Fiji
+Fiji,2022,0,Fiji
+Fiji,2023,0,Fiji
+Fiji,2024,1,Fiji
+Naúrú,1998,0,Nauru
+Naúrú,1999,0,Nauru
+Naúrú,2000,0,Nauru
+Naúrú,2001,0,Nauru
+Naúrú,2002,0,Nauru
+Naúrú,2003,0,Nauru
+Naúrú,2004,0,Nauru
+Naúrú,2005,0,Nauru
+Naúrú,2006,0,Nauru
+Naúrú,2007,0,Nauru
+Naúrú,2008,0,Nauru
+Naúrú,2009,0,Nauru
+Naúrú,2010,0,Nauru
+Naúrú,2011,0,Nauru
+Naúrú,2012,0,Nauru
+Naúrú,2013,0,Nauru
+Naúrú,2014,0,Nauru
+Naúrú,2015,0,Nauru
+Naúrú,2016,0,Nauru
+Naúrú,2017,0,Nauru
+Naúrú,2018,0,Nauru
+Naúrú,2019,0,Nauru
+Naúrú,2020,0,Nauru
+Naúrú,2021,0,Nauru
+Naúrú,2022,0,Nauru
+Naúrú,2023,0,Nauru
+Naúrú,2024,0,Nauru
+Nýja-Sjáland,1998,3,New Zealand
+Nýja-Sjáland,1999,3,New Zealand
+Nýja-Sjáland,2000,3,New Zealand
+Nýja-Sjáland,2001,6,New Zealand
+Nýja-Sjáland,2002,7,New Zealand
+Nýja-Sjáland,2003,8,New Zealand
+Nýja-Sjáland,2004,10,New Zealand
+Nýja-Sjáland,2005,8,New Zealand
+Nýja-Sjáland,2006,11,New Zealand
+Nýja-Sjáland,2007,23,New Zealand
+Nýja-Sjáland,2008,21,New Zealand
+Nýja-Sjáland,2009,17,New Zealand
+Nýja-Sjáland,2010,12,New Zealand
+Nýja-Sjáland,2011,10,New Zealand
+Nýja-Sjáland,2012,10,New Zealand
+Nýja-Sjáland,2013,10,New Zealand
+Nýja-Sjáland,2014,6,New Zealand
+Nýja-Sjáland,2015,8,New Zealand
+Nýja-Sjáland,2016,11,New Zealand
+Nýja-Sjáland,2017,13,New Zealand
+Nýja-Sjáland,2018,18,New Zealand
+Nýja-Sjáland,2019,20,New Zealand
+Nýja-Sjáland,2020,15,New Zealand
+Nýja-Sjáland,2021,12,New Zealand
+Nýja-Sjáland,2022,12,New Zealand
+Nýja-Sjáland,2023,11,New Zealand
+Nýja-Sjáland,2024,12,New Zealand
+Papúa Nýja-Gínea,1998,0,Papua New Guinea
+Papúa Nýja-Gínea,1999,0,Papua New Guinea
+Papúa Nýja-Gínea,2000,0,Papua New Guinea
+Papúa Nýja-Gínea,2001,0,Papua New Guinea
+Papúa Nýja-Gínea,2002,0,Papua New Guinea
+Papúa Nýja-Gínea,2003,0,Papua New Guinea
+Papúa Nýja-Gínea,2004,0,Papua New Guinea
+Papúa Nýja-Gínea,2005,0,Papua New Guinea
+Papúa Nýja-Gínea,2006,0,Papua New Guinea
+Papúa Nýja-Gínea,2007,0,Papua New Guinea
+Papúa Nýja-Gínea,2008,0,Papua New Guinea
+Papúa Nýja-Gínea,2009,0,Papua New Guinea
+Papúa Nýja-Gínea,2010,0,Papua New Guinea
+Papúa Nýja-Gínea,2011,0,Papua New Guinea
+Papúa Nýja-Gínea,2012,0,Papua New Guinea
+Papúa Nýja-Gínea,2013,0,Papua New Guinea
+Papúa Nýja-Gínea,2014,0,Papua New Guinea
+Papúa Nýja-Gínea,2015,0,Papua New Guinea
+Papúa Nýja-Gínea,2016,0,Papua New Guinea
+Papúa Nýja-Gínea,2017,0,Papua New Guinea
+Papúa Nýja-Gínea,2018,0,Papua New Guinea
+Papúa Nýja-Gínea,2019,1,Papua New Guinea
+Papúa Nýja-Gínea,2020,0,Papua New Guinea
+Papúa Nýja-Gínea,2021,0,Papua New Guinea
+Papúa Nýja-Gínea,2022,2,Papua New Guinea
+Papúa Nýja-Gínea,2023,0,Papua New Guinea
+Papúa Nýja-Gínea,2024,2,Papua New Guinea
+Salómonseyjar,1998,0,Solomon Islands
+Salómonseyjar,1999,0,Solomon Islands
+Salómonseyjar,2000,0,Solomon Islands
+Salómonseyjar,2001,0,Solomon Islands
+Salómonseyjar,2002,0,Solomon Islands
+Salómonseyjar,2003,0,Solomon Islands
+Salómonseyjar,2004,0,Solomon Islands
+Salómonseyjar,2005,0,Solomon Islands
+Salómonseyjar,2006,0,Solomon Islands
+Salómonseyjar,2007,0,Solomon Islands
+Salómonseyjar,2008,0,Solomon Islands
+Salómonseyjar,2009,0,Solomon Islands
+Salómonseyjar,2010,0,Solomon Islands
+Salómonseyjar,2011,0,Solomon Islands
+Salómonseyjar,2012,0,Solomon Islands
+Salómonseyjar,2013,0,Solomon Islands
+Salómonseyjar,2014,0,Solomon Islands
+Salómonseyjar,2015,0,Solomon Islands
+Salómonseyjar,2016,0,Solomon Islands
+Salómonseyjar,2017,0,Solomon Islands
+Salómonseyjar,2018,0,Solomon Islands
+Salómonseyjar,2019,0,Solomon Islands
+Salómonseyjar,2020,0,Solomon Islands
+Salómonseyjar,2021,0,Solomon Islands
+Salómonseyjar,2022,0,Solomon Islands
+Salómonseyjar,2023,0,Solomon Islands
+Salómonseyjar,2024,2,Solomon Islands
+Tonga,1998,0,Tonga
+Tonga,1999,0,Tonga
+Tonga,2000,0,Tonga
+Tonga,2001,0,Tonga
+Tonga,2002,0,Tonga
+Tonga,2003,0,Tonga
+Tonga,2004,0,Tonga
+Tonga,2005,1,Tonga
+Tonga,2006,1,Tonga
+Tonga,2007,1,Tonga
+Tonga,2008,1,Tonga
+Tonga,2009,1,Tonga
+Tonga,2010,0,Tonga
+Tonga,2011,0,Tonga
+Tonga,2012,0,Tonga
+Tonga,2013,0,Tonga
+Tonga,2014,0,Tonga
+Tonga,2015,0,Tonga
+Tonga,2016,0,Tonga
+Tonga,2017,0,Tonga
+Tonga,2018,0,Tonga
+Tonga,2019,0,Tonga
+Tonga,2020,0,Tonga
+Tonga,2021,0,Tonga
+Tonga,2022,0,Tonga
+Tonga,2023,0,Tonga
+Tonga,2024,0,Tonga
+Vanúatú,1998,0,Vanuatu
+Vanúatú,1999,0,Vanuatu
+Vanúatú,2000,0,Vanuatu
+Vanúatú,2001,0,Vanuatu
+Vanúatú,2002,0,Vanuatu
+Vanúatú,2003,0,Vanuatu
+Vanúatú,2004,0,Vanuatu
+Vanúatú,2005,0,Vanuatu
+Vanúatú,2006,0,Vanuatu
+Vanúatú,2007,0,Vanuatu
+Vanúatú,2008,0,Vanuatu
+Vanúatú,2009,0,Vanuatu
+Vanúatú,2010,0,Vanuatu
+Vanúatú,2011,0,Vanuatu
+Vanúatú,2012,0,Vanuatu
+Vanúatú,2013,0,Vanuatu
+Vanúatú,2014,0,Vanuatu
+Vanúatú,2015,0,Vanuatu
+Vanúatú,2016,0,Vanuatu
+Vanúatú,2017,0,Vanuatu
+Vanúatú,2018,0,Vanuatu
+Vanúatú,2019,0,Vanuatu
+Vanúatú,2020,0,Vanuatu
+Vanúatú,2021,0,Vanuatu
+Vanúatú,2022,0,Vanuatu
+Vanúatú,2023,2,Vanuatu
+Vanúatú,2024,2,Vanuatu
+"Útlönd, ótilgreint land",1998,0,Foreign country not specified
+"Útlönd, ótilgreint land",1999,0,Foreign country not specified
+"Útlönd, ótilgreint land",2000,1,Foreign country not specified
+"Útlönd, ótilgreint land",2001,1,Foreign country not specified
+"Útlönd, ótilgreint land",2002,1,Foreign country not specified
+"Útlönd, ótilgreint land",2003,1,Foreign country not specified
+"Útlönd, ótilgreint land",2004,12,Foreign country not specified
+"Útlönd, ótilgreint land",2005,15,Foreign country not specified
+"Útlönd, ótilgreint land",2006,17,Foreign country not specified
+"Útlönd, ótilgreint land",2007,0,Foreign country not specified
+"Útlönd, ótilgreint land",2008,0,Foreign country not specified
+"Útlönd, ótilgreint land",2009,0,Foreign country not specified
+"Útlönd, ótilgreint land",2010,0,Foreign country not specified
+"Útlönd, ótilgreint land",2011,0,Foreign country not specified
+"Útlönd, ótilgreint land",2012,0,Foreign country not specified
+"Útlönd, ótilgreint land",2013,0,Foreign country not specified
+"Útlönd, ótilgreint land",2014,0,Foreign country not specified
+"Útlönd, ótilgreint land",2015,0,Foreign country not specified
+"Útlönd, ótilgreint land",2016,0,Foreign country not specified
+"Útlönd, ótilgreint land",2017,0,Foreign country not specified
+"Útlönd, ótilgreint land",2018,0,Foreign country not specified
+"Útlönd, ótilgreint land",2019,0,Foreign country not specified
+"Útlönd, ótilgreint land",2020,0,Foreign country not specified
+"Útlönd, ótilgreint land",2021,0,Foreign country not specified
+"Útlönd, ótilgreint land",2022,0,Foreign country not specified
+"Útlönd, ótilgreint land",2023,0,Foreign country not specified
+"Útlönd, ótilgreint land",2024,0,Foreign country not specified
+Ríkisfangslaus,1998,2,Stateless
+Ríkisfangslaus,1999,2,Stateless
+Ríkisfangslaus,2000,2,Stateless
+Ríkisfangslaus,2001,2,Stateless
+Ríkisfangslaus,2002,13,Stateless
+Ríkisfangslaus,2003,12,Stateless
+Ríkisfangslaus,2004,13,Stateless
+Ríkisfangslaus,2005,15,Stateless
+Ríkisfangslaus,2006,27,Stateless
+Ríkisfangslaus,2007,47,Stateless
+Ríkisfangslaus,2008,52,Stateless
+Ríkisfangslaus,2009,62,Stateless
+Ríkisfangslaus,2010,54,Stateless
+Ríkisfangslaus,2011,46,Stateless
+Ríkisfangslaus,2012,58,Stateless
+Ríkisfangslaus,2013,62,Stateless
+Ríkisfangslaus,2014,68,Stateless
+Ríkisfangslaus,2015,77,Stateless
+Ríkisfangslaus,2016,74,Stateless
+Ríkisfangslaus,2017,50,Stateless
+Ríkisfangslaus,2018,37,Stateless
+Ríkisfangslaus,2019,28,Stateless
+Ríkisfangslaus,2020,34,Stateless
+Ríkisfangslaus,2021,32,Stateless
+Ríkisfangslaus,2022,27,Stateless
+Ríkisfangslaus,2023,27,Stateless
+Ríkisfangslaus,2024,23,Stateless

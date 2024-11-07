@@ -1,0 +1,33 @@
+---
+title-block-style: none
+pagetitle: "Fjármál sveitarfélaga"
+pagesubtitle: "Gagnvirk samantekt á ársreikningum sveitarfélaga úr gögnum Sambands Íslenskra Sveitarfélaga"
+image: image.png
+href: maelabord/sveitarfelog/index.qmd
+pagedate: "2024/05/02"
+css: style.css
+---
+
+```{r}
+#| echo: false
+#| output: false
+
+# width <- 1500
+# height <- round(0.621 * width)
+# webshot2::webshot(
+#   "https://bggj.shinyapps.io/shiny_sveitarfelog/", 
+#   delay = 3, 
+#   cliprect = "viewport",
+#   vwidth = width,
+#   vheight = height, 
+#   file = "image.png"
+# )
+
+```
+
+
+::: {.column-screen}
+<iframe
+  src="https://bggj.shinyapps.io/shiny_sveitarfelog/">
+</iframe>
+:::

@@ -1,0 +1,36 @@
+project:
+  type: website
+  resources: 
+    - "*.png"
+  output-dir: docs
+  preview:
+    port: 4212
+
+website:
+  title: Metill
+  description: Notum gögn til að upplýsa, ekki sannfæra.
+  site-url: https://metill.is
+  favicon: "favicon/favicon-32x32.png"
+  search: false
+  navbar: false
+  open-graph: true
+  reader-mode: true
+  twitter-card: 
+    creator: "@bggjonsson"
+    card-style: summary_large_image
+    site: "@bggjonsson"
+  page-footer:
+    background: primary
+    foreground: secondary
+    center:
+      - text: "About"
+        href: about.qmd
+
+editor: source
+include-in-header: header/header.html
+theme: [flatly, theme.scss]
+css: style.css
+execute: 
+  freeze: auto
+  echo: false
+  warning: false

@@ -1,0 +1,17 @@
+---
+title-block-style: none
+pagetitle: "Eignir, skuldir og skattar"
+pagesubtitle: "Gagnvirkt tól til að skoða eignir, tekjur og skuldir Íslendinga í skattframtalsgögnum Hagstofunnar"
+image: image.png
+href: maelabord/skattagogn/index.qmd
+pagedate: "2024/11/04"
+css: style.css
+---
+
+
+::: {.column-screen}
+<iframe
+  src="https://bggj.shinyapps.io/skattagogn/"
+  >
+</iframe>
+:::

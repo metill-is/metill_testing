@@ -1,0 +1,563 @@
+---
+title: "Verðbólga"
+description: "Þróun verðbólgu á Íslandi"
+href: dashboards/inflation/index.qmd
+format: 
+  dashboard:
+    orientation: columns
+image: img/img.png
+---
+
+
+```{r setup}
+library(cowplot)
+library(tidyverse)
+library(scales)
+library(pxweb)
+library(ggthemes)
+library(kableExtra)
+library(gganimate)
+library(lubridate)
+library(plotly)
+library(metill)
+library(glue)
+library(ggh4x)
+theme_set(theme_metill(type = "blog"))
+```
+
+```{r}
+
+roll_fun <- function(x) { 
+  x <- log(1 + x)
+  out <- x
+  
+  for (i in 1:11) out <- out + lag(x, n = i)
+  
+  exp(out) - 1
+}
+
+d <- pxweb_get(
+  url = "https://px.hagstofa.is:443/pxis/api/v1/is/Efnahagur/visitolur/1_vnv/2_undirvisitolur/VIS01301.px", 
+  query = list(
+    "Mánuður" = c("*"),
+    "Liður"  = c("effect", "change_M", "breakdown"),
+    "Undirvísitala" = c("*")
+  ),
+  verbose = FALSE
+) |> 
+  as.data.frame() |> 
+  as_tibble() |> 
+  janitor::clean_names() |> 
+  separate(manudur, into = c("ar", "manudur"), sep = "M", convert = T) |> 
+  mutate(manudur = str_pad(manudur, width = 2, side = "left", pad = "0"),
+         date = str_c(ar, "-", manudur, "-01") |> ymd(),
+         visitala_neysluverds = visitala_neysluverds / 100) |> 
+  select(date, undirvisitala, lidur, value = visitala_neysluverds) |> 
+  filter(str_detect(undirvisitala, "^[0-9]{2} |Vísitala neysluverðs")) |>
+  arrange(date) |> 
+  mutate(undirvisitala = str_replace(undirvisitala, "^[0-9]{2} ", ""),
+         lidur = fct_recode(lidur,
+                            "vaegi" = "Vægi, %",
+                            "breyting" = "Mánaðarbreyting, %",
+                            "ahrif" = "Áhrif á vísitölu, %")) |> 
+  pivot_wider(names_from = lidur, values_from = value) |> 
+  arrange(date) |> 
+  group_by(undirvisitala) |> 
+  mutate(year_ahrif = roll_fun(ahrif),
+         year_breyting = roll_fun(breyting)) |> 
+  ungroup() |> 
+  # filter(year(date) >= 2012) |> 
+  mutate(undirvisitala = fct_reorder(undirvisitala, year_ahrif, .fun = sum))
+
+d_undir <- pxweb_get(
+  url = "https://px.hagstofa.is:443/pxis/api/v1/is/Efnahagur/visitolur/1_vnv/2_undirvisitolur/VIS01301.px", 
+  query = list(
+    "Mánuður" = c("*"),
+    "Liður"  = c("effect", "change_M", "breakdown"),
+    "Undirvísitala" = c("*")
+  ),
+  verbose = FALSE
+) |> 
+  as.data.frame() |> 
+  as_tibble() |> 
+  janitor::clean_names() |> 
+  separate(manudur, into = c("ar", "manudur"), sep = "M", convert = T) |> 
+  mutate(manudur = str_pad(manudur, width = 2, side = "left", pad = "0"),
+         date = str_c(ar, "-", manudur, "-01") |> ymd(),
+         visitala_neysluverds = visitala_neysluverds / 100) |> 
+  select(date, undirvisitala, lidur, value = visitala_neysluverds) |> 
+  mutate(
+    flokkur_1 = ifelse(
+      str_detect(undirvisitala, "^[0-9]{2} "),
+      undirvisitala,
+      NA
+    ),
+    flokkur_2 = ifelse(
+      str_detect(undirvisitala, "^[0-9]{3} "),
+      undirvisitala,
+      NA
+    ),
+    flokkur_3 = ifelse(
+      str_detect(undirvisitala, "^[0-9]{4} "),
+      undirvisitala,
+      NA
+    )
+  ) |> 
+  group_by(date, lidur) |> 
+  fill(flokkur_1, .direction = "down") |> 
+  group_by(date, lidur, flokkur_1) |> 
+  fill(flokkur_2, .direction = "down") |> 
+  group_by(date, lidur, flokkur_1, flokkur_2) |> 
+  fill(flokkur_3, .direction = "down") |> 
+  ungroup() |> 
+  group_by(flokkur_1) |> 
+  mutate(
+    flokkur_2 = case_when(
+      all(is.na(flokkur_2)) ~ flokkur_1,
+      is.na(flokkur_2) ~ NA_character_,
+      TRUE ~ flokkur_2
+    )
+  ) |> 
+  group_by(flokkur_2) |> 
+  mutate(
+    flokkur_3 = case_when(
+      all(is.na(flokkur_3)) ~ flokkur_2,
+      is.na(flokkur_3) ~ NA_character_,
+      TRUE ~ flokkur_3
+    )
+  ) |> 
+  ungroup() |> 
+  mutate(flokkur_3 = ifelse(undirvisitala == "Vísitala neysluverðs", undirvisitala, flokkur_3)) |> 
+  drop_na(flokkur_3) |> 
+  select(date, starts_with("flokkur"), name = lidur, value) |> 
+  pivot_wider(names_from = name, values_from = value) |> 
+  janitor::clean_names() |> 
+  rename(vaegi = "vaegi_percent", "breyting" = "manadarbreyting_percent", "ahrif" = "ahrif_a_visitolu_percent")  |> 
+  filter(flokkur_3 != "Vísitala neysluverðs") |> 
+  mutate_at(vars(starts_with("flokkur")), ~ str_replace(.x, "[0-9]{2,4} ", "")) |> 
+  arrange(date) |> 
+  group_by(flokkur_3) |> 
+  mutate(
+    year_ahrif = roll_fun(ahrif),
+    year_breyting = roll_fun(breyting),
+  ) |> 
+  ungroup() |> 
+  # filter(year(date) >= 2012) |> 
+  mutate(
+    hlutf = ahrif / sum(ahrif),
+    year_hlutf = year_ahrif / sum(year_ahrif),
+    .by = date
+  )
+
+
+
+
+colours <- d |> 
+  distinct(undirvisitala) |> 
+  filter(undirvisitala != "Vísitala neysluverðs") |> 
+  arrange(undirvisitala) |> 
+  mutate(
+    flokkur_1 = as.character(undirvisitala),
+    colour = RColorBrewer::brewer.pal(n(), name = "Paired")
+  )
+
+
+d_undir <- d_undir |> 
+  left_join(
+    colours,
+    by = "flokkur_1"
+  )
+
+```
+
+# Undirflokkar
+
+
+## Vísitala {.tabset}
+
+```{r}
+#| fig.asp: 1
+#| out-width: "100%"
+#| title: Vísitala
+
+plot_dat <- d |> 
+  mutate(
+    text = str_c(
+      "<b>", undirvisitala, "</b>\n",
+      "Dagsetning: ", format(date, "%B, %Y"), "\n",
+      "Hrein breyting (ár): ", percent(year_breyting, accuracy = 0.01), "\n",
+      "Hrein breyting (mánuður): ", percent(breyting, accuracy = 0.01), "\n",
+      "Vægi í vísitölu: ", percent(vaegi, accuracy = 0.01), "\n",
+      "<b>Áhrif á vísitölu (ár): ", percent(year_ahrif, accuracy = 0.01), "</b>\n",
+      "<b>Áhrif á vísitölu (mánuður): ", percent(ahrif, accuracy = 0.01), "</b>"
+    )
+  )
+
+
+
+p <- plot_dat |> 
+  filter(
+    undirvisitala != "Vísitala neysluverðs",
+    year(date) > min(year(date))
+  ) |> 
+  ggplot(aes(date, year_ahrif, text = text)) +
+  geom_hline(yintercept = 0, lty = 2) +
+  geom_col(aes(fill = undirvisitala, col = undirvisitala), position = "stack", width = 30) +
+  geom_line(
+    data = plot_dat |> 
+      filter(
+        undirvisitala == "Vísitala neysluverðs",
+        year(date) > min(year(date))
+      ) |> 
+      mutate(
+        text = str_c("<b>", undirvisitala, "</b>\n",
+                     "Dagsetning: ", format(date, "%B, %Y"), "\n",
+                     "Hrein breyting (ár): ", percent(year_breyting, accuracy = 0.01), "\n",
+                     "Hrein breyting (mánuður): ", percent(breyting, accuracy = 0.01), "\n",
+                     "Vægi í vísitölu: ", percent(vaegi, accuracy = 0.01), "\n",
+                     "<b>Áhrif á vísitölu (ár): ", percent(year_ahrif, accuracy = 0.01), "</b>\n",
+                     "<b>Áhrif á vísitölu (mánuður): ", percent(ahrif, accuracy = 0.01), "</b>\n")
+      ), 
+    aes(group = "none")) +
+  scale_x_date(expand = expansion(),
+               date_breaks = "year",
+               date_labels = "%Y") +
+  scale_y_continuous(labels = label_percent(),
+                     breaks = c(-0.02, 0, 0.04, 0.06, 0.08, 0.1)) +
+  scale_colour_brewer(type = "qual", palette = "Paired") +
+  scale_fill_brewer(type = "qual", palette = "Paired") +
+  labs(
+    x = NULL,
+    y = NULL,
+    title = "Árleg breyting vísitölu og áhrif undirtalna",
+    fill = "Undirflokkur",
+    col = "Undirflokkur"
+  )
+
+ggsave(
+  plot = p, 
+  filename = "undirtolur.png",
+  width = 8, 
+  height = 0.621 * 8,
+  scale = 1
+)
+
+
+ggsave(
+  plot = p + 
+    theme(
+      plot.background = element_blank(),
+      panel.background = element_blank(),
+      panel.grid = element_blank()
+    ), 
+  filename = "undirtolur_fp.png",
+  width = 8, 
+  height = 0.621 * 8,
+  scale = 1
+)
+
+ggplotly(
+  p,
+  tooltip = "text"
+) |> 
+  layout(
+    hoverlabel = list(align = "left"),
+    xaxis = list(
+      rangeslider = list(type = "date")
+    )
+  ) |> 
+  config(displayModeBar = FALSE)
+```
+
+```{r}
+#| fig.asp: 1 
+#| out-width: "100%"
+#| title: Vægi
+
+roll_fun <- function(x) {
+  x <- log(1 + x) 
+  out <- x
+  
+  for (i in 1:11) out <- out + lag(x, n = i)
+  
+  exp(out) - 1
+}
+
+
+plot_dat <- d |> 
+  filter(
+    undirvisitala != "Vísitala neysluverðs"
+  ) |> 
+  mutate(
+    year_hlutf = year_ahrif / sum(year_ahrif[year_ahrif > 0]),
+    hlutf = ahrif / sum(ahrif[ahrif > 0]),
+    .by = date
+  ) |> 
+  filter(year_hlutf > 0) |> 
+  mutate(
+    text = str_c(
+      "<b>", undirvisitala, "</b>\n",
+      "Dagsetning: ", format(date, "%B, %Y"), "\n",
+      "Hrein breyting (ár): ", percent(year_breyting, accuracy = 0.01), "\n",
+      "Hrein breyting (mánuður): ", percent(breyting, accuracy = 0.01), "\n",
+      "Áhrif á vísitölu (ár): ", percent(year_ahrif, accuracy = 0.01), "\n",
+      "Áhrif á vísitölu (mánuður): ", percent(ahrif, accuracy = 0.01), "\n",
+      "<b>Hlutfall af hækkun (ár): ", hlutf(year_hlutf), "</b>", "\n",
+      "<b>Hlutfall af hækkun (mánuður): ", hlutf(hlutf), "</b>", "\n"
+    )
+  )
+
+
+
+p <- plot_dat |> 
+  ggplot(aes(date, year_hlutf, text = text)) +
+  geom_hline(yintercept = 0, lty = 2) +
+  geom_col(aes(fill = undirvisitala, col = undirvisitala), position = "stack", width = 30) +
+  scale_x_date(expand = expansion(),
+               date_breaks = "year",
+               date_labels = "%Y") +
+  scale_y_continuous(labels = label_percent(),
+                     breaks = pretty_breaks(8),
+                     expand = expansion()) +
+  scale_colour_brewer(type = "qual", palette = "Paired") +
+  scale_fill_brewer(type = "qual", palette = "Paired") +
+  labs(
+    x = NULL,
+    y = NULL,
+    title = "Hvaða hlutfall hækkunar má rekja til hvers undirflokks?",
+    fill = "Undirflokkur",
+    col = "Undirflokkur"
+  )
+
+ggplotly(
+  p,
+  tooltip = "text"
+) |> 
+  layout(
+    hoverlabel = list(align = "left"),
+    xaxis = list(
+      rangeslider = list(type = "date")
+    )
+  ) |> 
+  config(displayModeBar = FALSE)
+```
+
+
+# Grunnur
+
+
+```{r}
+#| fig.asp: 1
+#| out-width: "100%"
+
+values <- c(0.025, 0.05, 0.075, 0.1)
+
+plot_dat <- d_undir |> 
+  crossing(
+    value = values
+  ) |> 
+  summarise(
+    hlutf_haekkun = mean(year_breyting > value),
+    fj_haekkun = sum(year_breyting > value),
+    .by = c(date, value)
+  ) |> 
+  drop_na() |> 
+  mutate(
+    text = glue(
+      str_c(
+        "<b> % viðmið: {hlutf(value)}</b>\n",
+        "Dagsetning: {format(date, '%B, %Y')}\n",
+        "% undirflokka: {hlutf(hlutf_haekkun)}"
+      )
+    )
+  ) |>
+  arrange(date, value)
+
+p <- plot_dat |> 
+  ggplot(aes(date, hlutf_haekkun, text = text)) +
+  geom_col(
+    aes(group = value, fill = value, col = value), 
+    position = "identity",
+    alpha = 0.5,
+    linewidth = 2,
+    width = 28
+  ) +
+  scale_x_date(
+    labels = label_date_short(),
+    breaks = breaks_width("4 year"),
+    expand = expansion()
+  ) +
+  scale_y_continuous(
+    labels = label_hlutf(),
+    limits = c(0, 1),
+    expand = expansion()
+  ) +
+  scale_fill_distiller(
+    palette = "Reds",
+    direction = 1,
+    breaks = values,
+    labels = label_hlutf(),
+    guide = guide_colorbar(
+      nbin = 4,
+      reverse = T
+    )
+  ) +
+  scale_color_distiller(
+    palette = "Reds",
+    direction = 1,
+    breaks = values,
+    labels = label_hlutf(),
+    guide = guide_colorbar(
+      nbin = 4,
+      reverse = T
+    )
+  ) +
+  labs(
+    x = NULL,
+    y = "% undirflokka",
+    title = "Hversu breiður er grunnur verðbólgunnar?",
+    subtitle = "Myndin sýnir hvaða hlutfall undirflokka hefur hækkað sem nemur prósentuhækkun litarins",
+    fill = "Verðhækkun",
+    col = "Verðhækkun"
+  )
+
+ggplotly(
+  p,
+  tooltip = "text"
+) |> 
+  layout(
+    hoverlabel = list(align = "left"),
+    legend = list(traceorder = "reversed"),
+    xaxis = list(
+      rangeslider = list(type = "date")
+    )
+  ) |> 
+  config(displayModeBar = FALSE)
+```
+
+# Skammtímaverðbólga
+
+```{r}
+p <- d |> 
+  filter(
+    undirvisitala == "Vísitala neysluverðs"
+  ) |> 
+  select(date, breyting) |> 
+  crossing(
+    window_size = c(3, 6, 9, 12)
+  ) |> 
+  mutate(
+    sliding_breyting = slider::slide_dbl(
+      breyting,
+      \(x) exp(mean(log(1 + x)) * 12) - 1, 
+      .before = unique(window_size) - 1
+    ),
+    .by = window_size
+  ) |> 
+  mutate(
+    label = glue("{window_size} mánaða verðbólga (á árs grundvelli)") |> 
+      fct_reorder(window_size),
+    text = glue(
+      str_c(
+        "<b>{label}</b> <br>",
+        "Dagsetning: {date} <br>",
+        "Gildi: {hlutf(sliding_breyting)}"
+      )
+    )
+  ) |> 
+  ggplot(aes(date, sliding_breyting, text = text)) +
+  geom_hline(
+    yintercept = 0.02,
+    lty = 2,
+    alpha = 0.3,
+    linewidth = 0.5,
+    label = "Markmið",
+    hjust = 0.8,
+    inherit.aes = FALSE
+  ) +
+  geom_line(
+    data = ~ rename(.x, wz = label),
+    aes(group = wz),
+    alpha = 0.2,
+    linewidth = 0.3
+  ) +
+  geom_line(
+    aes(group = label),
+    linewidth = 1
+  ) +
+  scale_x_date(
+    guide = guide_axis_truncated(),
+    breaks = breaks_width("1 year"),
+    labels = label_date_short()
+  ) +
+  scale_y_continuous(
+    breaks = c(0, 0.02, 0.05, 0.1, 0.15),
+    labels = label_hlutf(),
+    guide = guide_axis_truncated()
+  ) +
+  facet_wrap("label") +
+  coord_cartesian(
+    xlim = clock::date_build(c(2018, NA)),
+    ylim = c(0, 0.15)
+  ) +
+  labs(
+    x = NULL,
+    y = NULL,
+    title = "Samanburður á skammtíma- og ársverðbólgu"
+  )
+
+ggplotly(
+  p,
+  tooltip = "text"
+) |> 
+  layout(hoverlabel = list(align = "left")) |> 
+  config(displayModeBar = FALSE)
+```
+
+# Reiknuð húsaleiga
+
+```{r}
+
+litur <- colours |> 
+  filter(undirvisitala == "Húsnæði, hiti og rafmagn") |> 
+  pull(colour)
+
+p <- d_undir |> 
+  filter(flokkur_3 == "Reiknuð húsaleiga") |> 
+  select(date, breyting, year_breyting) |> 
+  rename("Mánaðarleg" = breyting, "Árleg" = year_breyting) |> 
+  pivot_longer(c(-date)) |> 
+  group_by(date) |> 
+  mutate(
+    text = str_c(
+      "Dagsetning: ", format(date, "%B, %Y"), "\n",
+      ifelse(name == "Árleg", "<b>", ""),
+      "Verðbreyting (árleg): ", percent(value[name=="Árleg"], accuracy = 0.01, big.mark = ".", decimal.mark = ","), 
+      ifelse(name == "Árleg", "</b>", ""),
+      "\n",
+      ifelse(name == "Mánaðarleg", "<b>", ""),
+      "Verðbreyting (mánaðarleg): ", percent(value[name=="Mánaðarleg"], accuracy = 0.01, big.mark = ".", decimal.mark = ","),
+      ifelse(name == "Mánaðarleg", "</b>", "")
+    )
+  ) |> 
+  ungroup() |> 
+  ggplot(aes(date, value, text = text)) +
+  geom_hline(yintercept = 0, lty = 2, alpha = 0.3) +
+  geom_line(aes(group = name)) +
+  scale_y_continuous(
+    labels = label_percent()
+  ) +
+  facet_wrap("name", scales = "free_y", ncol = 1) +
+  labs(
+    x = NULL,
+    y = NULL,
+    title = "Verðbreytingar á reiknaðri húsaleigu"
+  )
+
+ggplotly(
+  p,
+  tooltip = "text"
+) |> 
+  layout(hoverlabel = list(align = "left")) |> 
+  config(displayModeBar = FALSE)
+```

@@ -1,0 +1,16 @@
+```{=html}
+<div class="container-md">
+  <% for (const item of items) { %>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="<%= item.image %>" class="img-fluid" alt="<%= item.title %>">
+      </div>
+      <div class="col-md-6">
+        <h2><%= item.title %></h2>
+        <p><%= item.description %></p>
+        <a href="<%= item.href %>" class="btn btn-secondary">Read Full Article</a>
+      </div>
+    </div>
+  <% } %>
+</div>
+```
