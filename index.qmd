@@ -39,7 +39,7 @@ Við vonum að líkanið komi að notum við að greina stöðu mála í íslens
 
 :::
 
-:::{.panel-tabset}
+
 
 ## Spá {.column-page}
 
@@ -67,7 +67,7 @@ source("R/election_tracker_plot.R")
 make_election_tracker_plot()
 ```
 
-:::
+
 
 ::: {.photo-of-the-week .column-screen}
 
