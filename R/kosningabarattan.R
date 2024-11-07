@@ -84,9 +84,6 @@ make_kosningabarattan_plot <- function() {
     ) |>
     inner_join(
       colors
-    ) |>
-    filter(
-      dags <= max(polling_data$dags)
     )
 
   p <- d |>
@@ -119,9 +116,23 @@ make_kosningabarattan_plot <- function() {
       angle = 90,
       fill = "#faf9f9"
     ) +
+    geom_ribbon_interactive(
+      data = coverage_data,
+      aes(
+        x = dags,
+        ymin = lower,
+        ymax = upper,
+        alpha = -coverage,
+        fill = litur,
+        data_id = flokkur,
+        group = str_c(flokkur, coverage)
+      ),
+      inherit.aes = FALSE
+    ) +
     geom_line_interactive(
       data = ~ filter(.x, dags <= max(polling_data$dags)),
-      linewidth = 1
+      linewidth = 0.6,
+      alpha = 0.5
     ) +
     geom_point_interactive(
       aes(y = p_poll, shape = fyrirtaeki, fill = litur),
@@ -166,11 +177,19 @@ make_kosningabarattan_plot <- function() {
       name = "Könnunarfyrirtæki:",
       na.translate = FALSE
     ) +
+    guides(
+      fill = "none",
+      alpha = "none",
+      shape = guide_legend(override.aes = list(alpha = 0.8))
+    ) +
     coord_cartesian(
       xlim = clock::date_build(2024, c(8, 11), c(1, 30))
     ) +
     theme(
-      legend.position = "none"
+      legend.position = "bottom",
+      legend.background = element_rect(fill = "transparent", color = NA),
+      legend.key.size = unit(1.5, "lines"),
+      legend.box.margin = margin(6, 6, 6, 6)
     ) +
     labs(
       x = NULL,

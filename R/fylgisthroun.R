@@ -74,7 +74,7 @@ make_fylgisthroun_plot <- function() {
     here("data", "y_rep_draws.parquet")
   ) |>
     reframe(
-      coverage = c(0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.95),
+      coverage = c(0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9),
       lower = quantile(value, 0.5 - coverage / 2),
       upper = quantile(value, 0.5 + coverage / 2),
       .by = c(dags, flokkur)
@@ -84,9 +84,6 @@ make_fylgisthroun_plot <- function() {
     ) |>
     inner_join(
       colors
-    ) |>
-    filter(
-      dags <= max(polling_data$dags)
     )
 
 
@@ -121,8 +118,22 @@ make_fylgisthroun_plot <- function() {
       angle = 90,
       fill = "#faf9f9"
     ) +
+    geom_ribbon_interactive(
+      data = coverage_data,
+      aes(
+        x = dags,
+        ymin = lower,
+        ymax = upper,
+        alpha = -coverage,
+        fill = litur,
+        data_id = flokkur,
+        group = str_c(flokkur, coverage)
+      ),
+      inherit.aes = FALSE
+    ) +
     geom_line_interactive(
-      linewidth = 1
+      linewidth = 0.3,
+      alpha = 0.5
     ) +
     geom_point_interactive(
       aes(
@@ -139,13 +150,20 @@ make_fylgisthroun_plot <- function() {
       alpha = 1,
       size = 4
     ) +
+    scale_alpha_continuous(
+      range = c(0.01, 0.12)
+    ) +
     scale_shape_manual(
       values = point_shapes,
       name = "Könnunarfyrirtæki:"
     ) +
     scale_color_identity() +
     scale_fill_identity() +
-    guides(shape = guide_legend(override.aes = list(alpha = 0.8))) +
+    guides(
+      fill = "none",
+      alpha = "none",
+      shape = guide_legend(override.aes = list(alpha = 0.8))
+    ) +
     scale_x_date(
       guide = ggh4x::guide_axis_truncated(
         trunc_upper = clock::date_build(2024, 11, 30)
