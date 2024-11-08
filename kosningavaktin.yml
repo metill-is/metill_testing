@@ -1,0 +1,11 @@
+- category: Kosningalíkanið
+  description: Umfjallanir um kosningalíkanið
+  tiles:
+    - title: "Um kosningalíkanið"
+      href: Kosningar/UmLikanid.qmd
+      description: "Umfjöllun um spálíkanið á mannamáli"
+      image: Figures/election_prediction.png
+    - title: "Tölfræðileg aðferð"
+      href: Kosningar/Adferdir.qmd
+      description: "Tölfræðin á bak við kosningalíkanið"
+      image: Kosningar/Figures/model_math.png

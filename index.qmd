@@ -6,12 +6,17 @@ listing:
     - id: election-content
       template: ejs/election-content.ejs
       contents: elections.yml
+    - id: kosningavakt-content
+      template: ejs/election-content.ejs
+      contents: kosningavaktin.yml
 filters:
   - collapse-callout
 collapse-callout:
   all: true
 callout-appearance: simple
 callout-icon: true
+execute:
+  freeze: false
 ---
 
 # Hvernig fara alþingiskosningarnar 30. nóvember næstkomandi?
@@ -76,6 +81,9 @@ make_fylgisthroun_plot()
 ```
 
 -----
+
+::: {#kosningavakt-content .column-page}
+:::
 
 -----
 
