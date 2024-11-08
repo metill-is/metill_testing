@@ -40,8 +40,8 @@ make_fylgisthroun_plot <- function(d, coverage_data, colors, polling_data, point
         arrange(label) |>
         mutate(
           x = seq.Date(
-            from = clock::date_build(2022, 3, 1),
-            to = clock::date_build(2024, 3, 1),
+            from = clock::date_build(2021, 11, 1),
+            to = clock::date_build(2024, 9, 1),
             length.out = 10
           ),
           flokkur = str_to_sentence(flokkur)
@@ -50,11 +50,13 @@ make_fylgisthroun_plot <- function(d, coverage_data, colors, polling_data, point
         x = x,
         label = label,
         col = litur,
-        y = 0.31,
+        y = 0.3,
         data_id = flokkur
       ),
       inherit.aes = FALSE,
-      size = 7
+      size = 11,
+      vjust = 0,
+      fontface = "bold"
     ) +
     geom_line_interactive(
       linewidth = 1

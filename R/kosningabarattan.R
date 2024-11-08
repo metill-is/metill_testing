@@ -39,8 +39,8 @@ make_kosningabarattan_plot <- function(d, coverage_data, colors, polling_data, p
         arrange(label) |>
         mutate(
           x = seq.Date(
-            from = clock::date_build(2024, 8, 25),
-            to = clock::date_build(2024, 11, 5),
+            from = clock::date_build(2024, 8, 8),
+            to = clock::date_build(2024, 11, 23),
             length.out = 10
           ),
           flokkur = str_to_sentence(flokkur)
@@ -49,11 +49,13 @@ make_kosningabarattan_plot <- function(d, coverage_data, colors, polling_data, p
         x = x,
         label = label,
         col = litur,
-        y = 0.31,
+        y = 0.3,
         data_id = flokkur
       ),
       inherit.aes = FALSE,
-      size = 7
+      size = 11,
+      vjust = 0,
+      fontface = "bold"
     ) +
     geom_ribbon_interactive(
       data = coverage_data |>
