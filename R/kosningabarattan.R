@@ -30,9 +30,37 @@ make_kosningabarattan_plot <- function(d, coverage_data, colors, polling_data, p
       angle = 90,
       fill = "#faf9f9"
     ) +
+    geom_text_interactive(
+      data = colors |>
+        filter(flokkur != "Annað") |>
+        mutate(
+          label = str_c("x", c("D", "B", "S", "V", "C", "P", "M", "F", "J", "L"))
+        ) |>
+        arrange(label) |>
+        mutate(
+          x = seq.Date(
+            from = clock::date_build(2024, 8, 25),
+            to = clock::date_build(2024, 11, 5),
+            length.out = 10
+          ),
+          flokkur = str_to_sentence(flokkur)
+        ),
+      aes(
+        x = x,
+        label = label,
+        col = litur,
+        y = 0.31,
+        data_id = flokkur
+      ),
+      inherit.aes = FALSE,
+      size = 7
+    ) +
     geom_ribbon_interactive(
       data = coverage_data |>
-        filter(dags <= max(polling_data$dags)),
+        filter(
+          dags <= max(polling_data$dags),
+          coverage <= 0.7
+        ),
       aes(
         x = dags,
         ymin = lower,
@@ -78,14 +106,14 @@ make_kosningabarattan_plot <- function(d, coverage_data, colors, polling_data, p
     ) +
     scale_y_continuous(
       breaks = seq(0, 0.3, by = 0.05),
-      limits = c(0, 0.3),
+      limits = c(0, NA),
       guide = ggh4x::guide_axis_truncated(),
       labels = label_percent()
     ) +
     scale_colour_identity() +
     scale_fill_identity() +
     scale_alpha_continuous(
-      range = c(0, 0.15)
+      range = c(0.05, 0.15)
     ) +
     scale_shape_manual(
       values = point_shapes,
@@ -98,7 +126,8 @@ make_kosningabarattan_plot <- function(d, coverage_data, colors, polling_data, p
       shape = guide_legend(override.aes = list(alpha = 0.8))
     ) +
     coord_cartesian(
-      xlim = clock::date_build(2024, c(8, 11), c(1, 30))
+      xlim = clock::date_build(2024, c(8, 11), c(1, 30)),
+      ylim = c(0, 0.31)
     ) +
     theme(
       legend.position = "bottom",

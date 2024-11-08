@@ -31,19 +31,31 @@ make_fylgisthroun_plot <- function(d, coverage_data, colors, polling_data, point
       angle = 90,
       fill = "#faf9f9"
     ) +
-    #    geom_ribbon_interactive(
-    #      data = coverage_data,
-    #      aes(
-    #        x = dags,
-    #        ymin = lower,
-    #        ymax = upper,
-    #        alpha = -coverage,
-    #        fill = litur,
-    #        data_id = flokkur,
-    #        group = str_c(flokkur, coverage)
-    #      ),
-    #      inherit.aes = FALSE
-    #    ) +
+    geom_text_interactive(
+      data = colors |>
+        filter(flokkur != "Annað") |>
+        mutate(
+          label = str_c("x", c("D", "B", "S", "V", "C", "P", "M", "F", "J", "L"))
+        ) |>
+        arrange(label) |>
+        mutate(
+          x = seq.Date(
+            from = clock::date_build(2022, 3, 1),
+            to = clock::date_build(2024, 3, 1),
+            length.out = 10
+          ),
+          flokkur = str_to_sentence(flokkur)
+        ),
+      aes(
+        x = x,
+        label = label,
+        col = litur,
+        y = 0.31,
+        data_id = flokkur
+      ),
+      inherit.aes = FALSE,
+      size = 7
+    ) +
     geom_line_interactive(
       linewidth = 1
     ) +
@@ -96,7 +108,7 @@ make_fylgisthroun_plot <- function(d, coverage_data, colors, polling_data, point
       expand = expansion()
     ) +
     coord_cartesian(
-      xlim = clock::date_build(c(2021, 2024), c(9, 11), c(1, 30)),
+      xlim = clock::date_build(c(2021, 2024), c(8, 11), c(1, 30)),
       ylim = c(0, 0.32)
     ) +
     labs(

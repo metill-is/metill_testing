@@ -79,8 +79,8 @@ p <- coverage_data |>
     aes(
       x = lower,
       xend = lower,
-      y = as.integer(flokkur_ordered) - 0.18,
-      yend = as.integer(flokkur_ordered) + 0.18,
+      y = as.integer(flokkur_ordered) - 0.15,
+      yend = as.integer(flokkur_ordered) + 0.15,
       alpha = -coverage
     ),
     linewidth = 0.2
@@ -89,8 +89,8 @@ p <- coverage_data |>
     aes(
       x = upper,
       xend = upper,
-      y = as.integer(flokkur_ordered) - 0.18,
-      yend = as.integer(flokkur_ordered) + 0.18,
+      y = as.integer(flokkur_ordered) - 0.15,
+      yend = as.integer(flokkur_ordered) + 0.15,
       alpha = -coverage
     ),
     linewidth = 0.2
@@ -125,7 +125,7 @@ p <- coverage_data |>
   ) +
   theme(
     legend.position = "none",
-    axis.text.y = element_markdown(size = 18),
+    axis.text.y = element_markdown(size = 20),
     plot.margin = margin(0, 0, 0, 0)
   ) +
   labs(
@@ -162,7 +162,7 @@ table <- coverage_data |>
     column_labels.hidden = FALSE,
     table.border.top.style = "0px",
     table.border.bottom.style = "0px",
-    table.font.size = px(22),
+    table.font.size = px(24),
     # table_body.hlines.style = "0px",
     table_body.border.bottom.style = "0px",
     table_body.border.top.style = "0px"
@@ -171,7 +171,8 @@ table <- coverage_data |>
     font = google_font("Lato"),
     weight = "bold"
   ) |>
-  opt_vertical_padding(1.56)
+  opt_horizontal_padding(0) |>
+  opt_vertical_padding(1.9)
 
 for (row in seq_len(nrow(colors))) {
   table <- table |>
