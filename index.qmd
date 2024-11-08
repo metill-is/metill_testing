@@ -259,19 +259,21 @@ make_fylgisthroun_plot(d, coverage_data, colors, polling_data, point_shapes)
 ::: {#kosningavakt-content .column-page}
 :::
 
-::: {.between-content .column-screen}
+::: {.under-election-conent .column-screen}
 
+<div class="d-flex align-items-center justify-content-center my-5">
+  <div class="border-top flex-grow-1" style="max-width: 200px;"></div>
+  <img src="favicon/android-chrome-512x512.png" class="mx-4" style="width: 48px; height: 48px; border-radius: 4px;">
+  <div class="border-top flex-grow-1" style="max-width: 200px;"></div>
+</div>
 
+:::
 
-<br>
+::: {.photo-of-the-week .column-screen}
 
-<br>
+# Mynd vikunnar
 
-<br>
-
-<br>
-
-
+![](Figures/col_plot_applicants_monthly_fp.png)
 
 :::
 
@@ -281,10 +283,3 @@ make_fylgisthroun_plot(d, coverage_data, colors, polling_data, point_shapes)
 :::
 
 
-::: {.photo-of-the-week .column-screen}
-
-# Mynd vikunnar
-
-![](Figures/col_plot_applicants_monthly_fp.png)
-
-:::
