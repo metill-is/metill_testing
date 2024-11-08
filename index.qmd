@@ -52,7 +52,7 @@ Hér að neðan má sjá nýjustu spánna um úrslit alþingiskosninganna tekur 
 source("R/spa.R")
 ```
 
-![](Figures/Preds/election_prediction.png){.column-page}
+![](Figures/election_prediction.png){.column-page}
 
 ## Raunfylgi flokkanna frá byrjun ágúst 2024
 

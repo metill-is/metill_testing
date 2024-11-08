@@ -17,9 +17,8 @@ vote_date <- clock::date_build(2024, 11, 30)
 days_until_vote <- as.numeric(vote_date - today_date)
 
 caption <- str_c(
-  "Samantektin byggir á fylgiskönnunum Félagsvísindastofnunar, Gallup, Maskínu og Prósents ",
-  "ásamt niðurstöðum kosninga og kjörsókn 2021", "\n",
-  "Unnið af Agnari Frey Helgasyni, Brynjólfi Gauta Guðrúnar Jónssyni, Hafsteini Einarssyni og Rafael Daniel Vias"
+  "Mynd frá kosningavakt metill.is", "\n",
+  "Unnið af Brynjólfi Gauta Guðrúnar Jónssyni, ásamt Agnari Frey Helgasyni, Hafsteini Einarssyni og Rafael Daniel Vias"
 )
 
 colors <- tribble(
@@ -212,6 +211,7 @@ p_tab <- p + wrap_table(table, space = "fixed") +
   plot_annotation(
     title = glue("Fylgisspá þegar {days_until_vote} dagar eru til kosninga"),
     subtitle = "Spáð fylgi stjórnmálaflokkanna 30. nóvember",
+    caption = caption,
     theme = theme(
       plot.title = element_text(margin = margin(-20, 5, 5, 5)),
       plot.subtitle = element_text(margin = margin(5, 5, -10, 5)),
@@ -220,7 +220,8 @@ p_tab <- p + wrap_table(table, space = "fixed") +
   )
 
 ggsave(
-  here("Figures", "election_prediction.png"),
+  plot = p_tab,
+  filename = here("Figures", "election_prediction.png"),
   width = 8,
   height = 0.4 * 8,
   scale = 1.4
