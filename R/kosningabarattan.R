@@ -6,6 +6,7 @@ make_kosningabarattan_plot <- function() {
   library(patchwork)
   library(here)
   library(arrow)
+  library(clock)
   Sys.setlocale("LC_ALL", "is_IS.UTF-8")
 
   theme_set(theme_metill(type = "blog"))
@@ -32,6 +33,34 @@ make_kosningabarattan_plot <- function() {
     "Sósíalistaflokkurinn", "#a50f15",
     "Annað", "grey50"
   )
+
+  annotations <- tribble(
+    ~flokkur, ~litur, ~x,
+    "Sjálfstæðisflokkurinn", "#377eb8", date_build(2024, 8, 8),
+    "Framsóknarflokkurinn", "#41ab5d", date_build(2024, 8, 22),
+    "Samfylkingin", "#e41a1c", date_build(2024, 8, 8),
+    "Vinstri græn", "#006d2c", date_build(2024, 9, 8),
+    "Viðreisn", "#f16913", date_build(2024, 9, 15),
+    "Píratar", "#6a51a3", date_build(2024, 9, 22),
+    "Miðflokkurinn", "#08306b", date_build(2024, 10, 1),
+    "Flokkur fólksins", "#FBB829", date_build(2024, 10, 8),
+    "Sósíalistaflokkurinn", "#a50f15", date_build(2024, 10, 15),
+    "Annað", "grey50", date_build(2024, 10, 22)
+  )
+
+  x_locs <- c(
+    "2024-08-08",
+    "2024-08-22",
+    "2024-09-01",
+    "2024-09-08",
+    "2024-09-15",
+    "2024-09-22",
+    "2024-10-01",
+    "2024-10-08",
+    "2024-10-15",
+    "2024-10-22"
+  ) |>
+    ymd()
 
   point_shapes <- c(
     "Gallup" = 21,
