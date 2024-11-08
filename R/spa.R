@@ -17,7 +17,7 @@ vote_date <- clock::date_build(2024, 11, 30)
 days_until_vote <- as.numeric(vote_date - today_date)
 
 caption <- str_c(
-  "Mynd frá kosningavakt metill.is", "\n",
+  "Mynd frá kosningavaktinni á metill.is", "\n",
   "Unnið af Brynjólfi Gauta Guðrúnar Jónssyni, ásamt Agnari Frey Helgasyni, Hafsteini Einarssyni og Rafael Daniel Vias"
 )
 
@@ -36,33 +36,13 @@ colors <- tribble(
   "Lýðræðisflokkurinn", "grey30"
 )
 
-coverage_data <- read_parquet(here("data", "y_rep_draws.parquet")) |>
-  filter(dags == max(dags)) |>
-  reframe(
-    mean = median(value),
-    coverage = c(0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9),
-    lower = quantile(value, 0.5 - coverage / 2),
-    upper = quantile(value, 0.5 + coverage / 2),
-    .by = c(dags, flokkur)
-  ) |>
-  inner_join(
-    colors
-  ) |>
-  mutate(
-    flokkur = if_else(
-      flokkur == "Annað",
-      "Lýðræðisflokkurinn",
-      flokkur
-    ),
-    flokkur = str_to_sentence(flokkur),
-    flokkur_ordered = glue("<b style='color:{litur}'>{flokkur}</b>"),
-    flokkur_ordered = fct_reorder(flokkur_ordered, mean)
-  )
-
-
 p <- coverage_data |>
   filter(
     dags == max(dags)
+  ) |>
+  mutate(
+    flokkur_ordered = glue("<b style='color:{litur}'>{flokkur}</b>"),
+    flokkur_ordered = fct_reorder(flokkur_ordered, mean)
   ) |>
   ggplot(aes(
     y = flokkur_ordered,
@@ -99,8 +79,8 @@ p <- coverage_data |>
     aes(
       x = lower,
       xend = lower,
-      y = as.integer(flokkur_ordered) - 0.255,
-      yend = as.integer(flokkur_ordered) + 0.255,
+      y = as.integer(flokkur_ordered) - 0.18,
+      yend = as.integer(flokkur_ordered) + 0.18,
       alpha = -coverage
     ),
     linewidth = 0.2
@@ -109,8 +89,8 @@ p <- coverage_data |>
     aes(
       x = upper,
       xend = upper,
-      y = as.integer(flokkur_ordered) - 0.2,
-      yend = as.integer(flokkur_ordered) + 0.2,
+      y = as.integer(flokkur_ordered) - 0.18,
+      yend = as.integer(flokkur_ordered) + 0.18,
       alpha = -coverage
     ),
     linewidth = 0.2
@@ -145,7 +125,7 @@ p <- coverage_data |>
   ) +
   theme(
     legend.position = "none",
-    axis.text.y = element_markdown(size = 12),
+    axis.text.y = element_markdown(size = 18),
     plot.margin = margin(0, 0, 0, 0)
   ) +
   labs(
@@ -172,6 +152,7 @@ table <- coverage_data |>
     lower = "Neðri",
     upper = "Efri"
   ) |>
+  cols_hide(flokkur) |>
   tab_spanner(
     label = md("90% Óvissubil"),
     columns = lower:upper
@@ -181,7 +162,7 @@ table <- coverage_data |>
     column_labels.hidden = FALSE,
     table.border.top.style = "0px",
     table.border.bottom.style = "0px",
-    table.font.size = "16px",
+    table.font.size = px(22),
     # table_body.hlines.style = "0px",
     table_body.border.bottom.style = "0px",
     table_body.border.top.style = "0px"
@@ -189,7 +170,8 @@ table <- coverage_data |>
   opt_table_font(
     font = google_font("Lato"),
     weight = "bold"
-  )
+  ) |>
+  opt_vertical_padding(1.56)
 
 for (row in seq_len(nrow(colors))) {
   table <- table |>
@@ -212,17 +194,23 @@ p_tab <- p + wrap_table(table, space = "fixed") +
     title = glue("Fylgisspá þegar {days_until_vote} dagar eru til kosninga"),
     subtitle = "Spáð fylgi stjórnmálaflokkanna 30. nóvember",
     caption = caption,
-    theme = theme(
-      plot.title = element_text(margin = margin(-20, 5, 5, 5)),
-      plot.subtitle = element_text(margin = margin(5, 5, -10, 5)),
-      plot.margin = margin(-15, 0, -30, 0)
-    )
+    theme = theme()
   )
 
 ggsave(
   plot = p_tab,
   filename = here("Figures", "election_prediction.png"),
   width = 8,
-  height = 0.4 * 8,
-  scale = 1.4
+  height = 0.55 * 8,
+  scale = 1.4,
+  bg = "#fdfcfc"
+)
+
+ggsave(
+  plot = p_tab,
+  filename = here("Figures", "election_prediction_transparent.png"),
+  width = 8,
+  height = 0.55 * 8,
+  scale = 1.4,
+  bg = "transparent"
 )
