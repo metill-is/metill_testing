@@ -19,6 +19,12 @@ execute:
   freeze: false
 ---
 
+```{r}
+library(tidyverse)
+library(gt)
+library(gtUtils)
+```
+
 # Hvernig fara alþingiskosningarnar 30. nóvember næstkomandi?
 
 Hér kynnum við til sögunnar spennandi nýjung á Íslandi - kosningalíkan sem spáir fyrir um úrslit komandi alþingiskosninganna á grundvelli tölfræðilegra aðferða og rannsókna í stjórnmálafræði. Líkanið byggir á gögnum úr fylgiskönnunum, en einnig kosningaúrslitum fyrri ára og sögulegum gögnum um efnahagsmál og árangur ríkisstjórnarflokka í kosningum, auk fleiri þátta.
@@ -58,6 +64,73 @@ source("R/spa.R")
 ```
 
 ![](Figures/election_prediction.png){.column-page}
+
+::: {.column-margin}
+
+```{r}
+tribble(
+  ~Fyrirtæki,  ~Frá, ~Til, ~Birt,
+  "Gallup", "1. okt", "31. okt", "1. nóv",
+  "Maskína", "1. nóv", "6. nóv", "7. nóv",
+  "Prósent", "25. okt", "31. okt", "1. nóv"
+) |> 
+  gt() |> 
+  cols_align(
+    columns = -1,
+    "center"
+  ) |> 
+  tab_header(
+    "Nýjustu kannanir í spálíkani"
+  ) |> 
+  tab_spanner(
+    columns = -1,
+    label = "Dagsetning"
+  ) |> 
+  opt_row_striping(FALSE) |> 
+  opt_horizontal_padding(0.2) |> 
+  opt_vertical_padding(0.2) |>  
+  tab_style(
+    locations = cells_title(),
+    style = cell_text(
+      font = google_font("Lato"),
+      size = "17px"
+    )
+  ) |> 
+  tab_style(
+    locations = cells_body(),
+    style = cell_text(
+      font = google_font("Lato"),
+      size = "14px"
+    )
+  ) |> 
+  tab_style(
+    locations = cells_column_labels(),
+    style = cell_text(
+      font = google_font("Lato"),
+      size = "14px"
+    )
+  ) |> 
+  tab_style(
+    locations = cells_column_spanners(),
+    style = cell_text(
+      font = google_font("Lato"),
+      size = "14px"
+    )
+  ) |> 
+  tab_style(
+    locations = cells_body(),
+    style = cell_fill(
+      alpha = 0
+    )
+  ) |> 
+  tab_options(
+    table.width = pct(100),
+    quarto.disable_processing = TRUE,
+    table.background.color = "#fdfcfc"
+  )
+```
+
+:::
 
 ## Raunfylgi flokkanna frá byrjun ágúst 2024
 
