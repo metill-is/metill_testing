@@ -14,7 +14,7 @@ format:
     toc: true
 ---
 
-Spálíkanið okkar er byggt upp af tveimur meginþáttum sem vinna saman til að spá fyrir um úrslit Alþingiskosninga 2024:
+Spálíkanið okkar er byggt upp af tveimur meginþáttum sem vinna saman til að spá fyrir um úrslit alþingiskosninga 2024:
 
 1. Skoðanakannanir og þróun fylgis samkvæmt þeim
 2. Niðurstöður fyrri kosninga, söguleg gögn og efnahagsástand
@@ -34,11 +34,7 @@ Líkanið gerir ráð fyrir að hver könnunaraðili geti haft sína eigin kerfi
 
 ### Hvernig er tekið tillit til stjórnarslita?
 
-Líkanið tekur tillit til stjórnarslita á tvo vegu:
-
-1. Líkanið metur hvort stjórnarslitin hafi leitt til kerfisbundinna breytinga á fylgi flokkanna. Það er, hvort einhverjir flokkar hafi almennt bætt við sig fylgi eða tapað fylgi í kjölfar stjórnarslitanna.
-
-2. Þegar stjórnarslit verða eykst óvissan í spánni því slíkir atburðir geta haft veruleg áhrif á fylgi flokkanna. Líkanið tekur tillit til þessa með því að leyfa meiri sveiflur í fylgi á tímabilinu eftir stjórnarslit.
+Þegar stjórnarslit verða eykst óvissan í spánni því slíkir atburðir geta haft veruleg áhrif á fylgi flokkanna. Líkanið tekur tillit til þessa með því að leyfa meiri sveiflur í fylgi á tímabilinu eftir stjórnarslit.
 
 ## Grunnbreytur og söguleg gögn
 
@@ -47,9 +43,7 @@ Seinni hluti líkansins byggir á:
 - Úrslitum síðustu kosninga
 - Stöðu flokka (hvort þeir eru í stjórn eða stjórnarandstöðu)
 - Hversu lengi flokkar hafa verið við völd
-- Efnahagslegum breytum eins og:
-  * Verðbólgu
-  * Hagvexti
+- Efnahagslegum breytum eins og verðbólgu og hagvexti
 
 ### Hvernig vinna þessir þættir saman?
 

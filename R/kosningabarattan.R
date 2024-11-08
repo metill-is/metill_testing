@@ -31,7 +31,8 @@ make_kosningabarattan_plot <- function(d, coverage_data, colors, polling_data, p
       fill = "#faf9f9"
     ) +
     geom_ribbon_interactive(
-      data = coverage_data,
+      data = coverage_data |>
+        filter(dags <= max(polling_data$dags)),
       aes(
         x = dags,
         ymin = lower,
@@ -84,11 +85,11 @@ make_kosningabarattan_plot <- function(d, coverage_data, colors, polling_data, p
     scale_colour_identity() +
     scale_fill_identity() +
     scale_alpha_continuous(
-      range = c(0, 0.1)
+      range = c(0, 0.15)
     ) +
     scale_shape_manual(
       values = point_shapes,
-      name = "Könnunarfyrirtæki:",
+      name = "Framkvæmd:",
       na.translate = FALSE
     ) +
     guides(

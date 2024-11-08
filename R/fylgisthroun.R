@@ -67,7 +67,7 @@ make_fylgisthroun_plot <- function(d, coverage_data, colors, polling_data, point
     ) +
     scale_shape_manual(
       values = point_shapes,
-      name = "Könnunarfyrirtæki:"
+      name = "Framkvæmd:"
     ) +
     scale_color_identity() +
     scale_fill_identity() +

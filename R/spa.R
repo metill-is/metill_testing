@@ -191,9 +191,6 @@ for (row in seq_len(nrow(colors))) {
 
 p_tab <- p + wrap_table(table, space = "fixed") +
   plot_annotation(
-    title = glue("Fylgisspá þegar {days_until_vote} dagar eru til kosninga"),
-    subtitle = "Spáð fylgi stjórnmálaflokkanna 30. nóvember",
-    caption = caption,
     theme = theme()
   )
 
