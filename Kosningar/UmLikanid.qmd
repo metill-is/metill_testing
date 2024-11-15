@@ -28,9 +28,9 @@ Fyrri hluti líkansins fylgist með þróun fylgis flokkanna yfir tíma og tekur
 - Aukinnar óvissu í kjölfar stjórnarslita
 - Hvernig fylgisbreytingar eins flokks hafa áhrif á aðra flokka
 
-### Hvernig er tekið tillit til skekkja í könnunum?
+### Hvernig er tekið tillit til mismunar í könnunum?
 
-Líkanið gerir ráð fyrir að hver könnunaraðili geti haft sína eigin kerfisbundnu skekkju. Til dæmis gæti eitt fyrirtæki alltaf mælt aðeins hærra fylgi hjá sumum flokkum en öðrum. Með því að bera saman kannanir frá mismunandi fyrirtækjum og raunveruleg úrslit síðustu kosninga getum við metið þessar skekkjur og leiðrétt fyrir þeim.
+Hver könnunaraðili hefur sinn eigin hóp þátttakenda sem tekur þátt í könnunum þeirra. Líkanið tekur tillit til þess að hver könnunaraðili hefur sína eigin aðferðafræði við val á úrtaki og framkvæmd kannana. Til dæmis getur mismunandi samsetning þátttakenda leitt til þess að sumir flokkar mælast með aðeins hærra eða lægra fylgi hjá ákveðnum könnunaraðilum. Með því að bera saman kannanir frá mismunandi fyrirtækjum og raunveruleg úrslit síðustu kosninga getum við greint þessi mynstur og tekið tillit til þeirra í spánni.
 
 ### Hvernig er tekið tillit til stjórnarslita?
 

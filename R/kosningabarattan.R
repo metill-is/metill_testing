@@ -60,14 +60,14 @@ make_kosningabarattan_plot <- function(d, coverage_data, colors, polling_data, p
     geom_ribbon_interactive(
       data = coverage_data |>
         filter(
-          dags <= max(polling_data$dags),
-          coverage <= 0.7
+          # dags <= max(polling_data$dags)
+          coverage >= 0.3
         ),
       aes(
         x = dags,
         ymin = lower,
         ymax = upper,
-        alpha = -coverage,
+        alpha = -sqrt(coverage),
         fill = litur,
         data_id = flokkur,
         group = str_c(flokkur, coverage)
@@ -115,7 +115,7 @@ make_kosningabarattan_plot <- function(d, coverage_data, colors, polling_data, p
     scale_colour_identity() +
     scale_fill_identity() +
     scale_alpha_continuous(
-      range = c(0.05, 0.15)
+      range = c(0.03, 0.04)
     ) +
     scale_shape_manual(
       values = point_shapes,

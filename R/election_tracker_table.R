@@ -33,7 +33,7 @@ make_election_tracker_table <- function() {
     ) |>
     rename(dags = date)
 
-  d <- read_parquet(here("data", "y_rep_draws.parquet")) |>
+  d <- read_parquet(here("data", "y_rep_draws_no_polling_bias.parquet")) |>
     summarise(
       mean = mean(value),
       q5 = quantile(value, 0.05),

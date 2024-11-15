@@ -258,11 +258,8 @@ make_election_tracker_plot <- function() {
       angle = 90,
       fill = "#faf9f9"
     ) +
-    geom_smooth_interactive(
-      method = "loess",
-      span = 0.12,
-      se = 0,
-      n = 500
+    geom_line_interactive(
+      linewidth = 1
     ) +
     geom_point_interactive(
       aes(

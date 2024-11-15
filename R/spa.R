@@ -148,10 +148,11 @@ table <- coverage_data |>
   ) |>
   cols_label(
     flokkur = "",
-    mean = "Spá",
+    mean = "Miðgildi",
     lower = "Neðri",
     upper = "Efri"
   ) |>
+  cols_align("center") |>
   cols_hide(flokkur) |>
   tab_spanner(
     label = md("90% Óvissubil"),
@@ -190,10 +191,7 @@ for (row in seq_len(nrow(colors))) {
 
 
 
-p_tab <- p + wrap_table(table, space = "fixed") +
-  plot_annotation(
-    theme = theme()
-  )
+p_tab <- p + wrap_table(table, space = "fixed")
 
 ggsave(
   plot = p_tab,

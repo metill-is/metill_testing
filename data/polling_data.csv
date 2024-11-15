@@ -2349,16 +2349,6 @@ date,fyrirtaeki,flokkur,n
 2021-08-18,Maskína,Sósíalistaflokkurinn,6.9
 2021-08-18,Maskína,Vinstri Græn,14.2
 2021-08-18,Maskína,Viðreisn,10.7
-2021-08-19,Maskína,Annað,-1.4210854715202004e-14
-2021-08-19,Maskína,Flokkur Fólksins,4.5
-2021-08-19,Maskína,Framsóknarflokkurinn,11.5
-2021-08-19,Maskína,Miðflokkurinn,4.5
-2021-08-19,Maskína,Píratar,11.2
-2021-08-19,Maskína,Samfylkingin,12.3
-2021-08-19,Maskína,Sjálfstæðisflokkurinn,23.9
-2021-08-19,Maskína,Sósíalistaflokkurinn,7.9
-2021-08-19,Maskína,Vinstri Græn,12.5
-2021-08-19,Maskína,Viðreisn,11.7
 2021-08-21,MMR,Annað,1.2000000000000028
 2021-08-21,MMR,Flokkur Fólksins,5.1
 2021-08-21,MMR,Framsóknarflokkurinn,12.5
@@ -2389,6 +2379,16 @@ date,fyrirtaeki,flokkur,n
 2021-09-02,MMR,Sósíalistaflokkurinn,8.1
 2021-09-02,MMR,Vinstri Græn,10.8
 2021-09-02,MMR,Viðreisn,8.4
+2021-09-03,Maskína,Annað,-1.4210854715202004e-14
+2021-09-03,Maskína,Flokkur Fólksins,4.5
+2021-09-03,Maskína,Framsóknarflokkurinn,11.5
+2021-09-03,Maskína,Miðflokkurinn,4.5
+2021-09-03,Maskína,Píratar,11.2
+2021-09-03,Maskína,Samfylkingin,12.3
+2021-09-03,Maskína,Sjálfstæðisflokkurinn,23.9
+2021-09-03,Maskína,Sósíalistaflokkurinn,7.9
+2021-09-03,Maskína,Vinstri Græn,12.5
+2021-09-03,Maskína,Viðreisn,11.7
 2021-09-05,Gallup,Annað,0.7000000000000028
 2021-09-05,Gallup,Flokkur Fólksins,4.9
 2021-09-05,Gallup,Framsóknarflokkurinn,12.9
@@ -2479,6 +2479,16 @@ date,fyrirtaeki,flokkur,n
 2021-09-21,MMR,Sósíalistaflokkurinn,6
 2021-09-21,MMR,Vinstri Græn,11
 2021-09-21,MMR,Viðreisn,10.1
+2021-09-22,Gallup,Annað,0.5999999999999943
+2021-09-22,Gallup,Flokkur Fólksins,6.4
+2021-09-22,Gallup,Framsóknarflokkurinn,14.9
+2021-09-22,Gallup,Miðflokkurinn,6.8
+2021-09-22,Gallup,Píratar,8.8
+2021-09-22,Gallup,Samfylkingin,12.6
+2021-09-22,Gallup,Sjálfstæðisflokkurinn,23.4
+2021-09-22,Gallup,Sósíalistaflokkurinn,5.3
+2021-09-22,Gallup,Vinstri Græn,12
+2021-09-22,Gallup,Viðreisn,9.2
 2021-09-22,MMR,Annað,0.5000000000000142
 2021-09-22,MMR,Flokkur Fólksins,6.2
 2021-09-22,MMR,Framsóknarflokkurinn,16.4
@@ -2499,26 +2509,6 @@ date,fyrirtaeki,flokkur,n
 2021-09-23,Maskína,Sósíalistaflokkurinn,6.2
 2021-09-23,Maskína,Vinstri Græn,10.5
 2021-09-23,Maskína,Viðreisn,10.1
-2021-09-24,Maskína,Annað,46.688
-2021-09-24,Maskína,Flokkur Fólksins,361.832
-2021-09-24,Maskína,Framsóknarflokkurinn,898.744
-2021-09-24,Maskína,Miðflokkurinn,320.98
-2021-09-24,Maskína,Píratar,595.2719999999999
-2021-09-24,Maskína,Samfylkingin,805.368
-2021-09-24,Maskína,Sjálfstæðisflokkurinn,1248.904
-2021-09-24,Maskína,Sósíalistaflokkurinn,355.996
-2021-09-24,Maskína,Vinstri Græn,612.78
-2021-09-24,Maskína,Viðreisn,589.436
-2021-09-24,Gallup,Annað,28.854
-2021-09-24,Gallup,Flokkur Fólksins,307.776
-2021-09-24,Gallup,Framsóknarflokkurinn,716.5409999999999
-2021-09-24,Gallup,Miðflokkurinn,327.012
-2021-09-24,Gallup,Píratar,423.19199999999995
-2021-09-24,Gallup,Samfylkingin,605.934
-2021-09-24,Gallup,Sjálfstæðisflokkurinn,1125.306
-2021-09-24,Gallup,Sósíalistaflokkurinn,254.87699999999998
-2021-09-24,Gallup,Vinstri Græn,577.0799999999999
-2021-09-24,Gallup,Viðreisn,442.428
 2021-09-25,Kosning,Annað,1198.3800000000233
 2021-09-25,Kosning,Flokkur Fólksins,16689.023999999998
 2021-09-25,Kosning,Framsóknarflokkurinn,34553.29
@@ -2529,7 +2519,7 @@ date,fyrirtaeki,flokkur,n
 2021-09-25,Kosning,Sósíalistaflokkurinn,7775.568
 2021-09-25,Kosning,Vinstri Græn,24728.634000000002
 2021-09-25,Kosning,Viðreisn,16577.59
-2021-10-16,Gallup,Annað,16
+2021-10-16,Gallup,Annað,16.000000000000377
 2021-10-16,Gallup,Flokkur Fólksins,626
 2021-10-16,Gallup,Framsóknarflokkurinn,1364
 2021-10-16,Gallup,Miðflokkurinn,341
@@ -2549,36 +2539,36 @@ date,fyrirtaeki,flokkur,n
 2021-11-15,Maskína,Sósíalistaflokkurinn,115.45499999999998
 2021-11-15,Maskína,Vinstri Græn,370.53000000000003
 2021-11-15,Maskína,Viðreisn,289.98
-2021-11-15,Gallup,Annað,18
-2021-11-15,Gallup,Flokkur Fólksins,706.9999999999999
-2021-11-15,Gallup,Framsóknarflokkurinn,1503
-2021-11-15,Gallup,Miðflokkurinn,336
-2021-11-15,Gallup,Píratar,1043
-2021-11-15,Gallup,Samfylkingin,946
-2021-11-15,Gallup,Sjálfstæðisflokkurinn,2006.9999999999998
-2021-11-15,Gallup,Sósíalistaflokkurinn,388.99999999999994
-2021-11-15,Gallup,Vinstri Græn,1149
-2021-11-15,Gallup,Viðreisn,743
-2021-12-15,Maskína,Annað,0
+2021-11-15,Gallup,Annað,18.000000000000902
+2021-11-15,Gallup,Flokkur Fólksins,706.9999999999998
+2021-11-15,Gallup,Framsóknarflokkurinn,1502.9999999999998
+2021-11-15,Gallup,Miðflokkurinn,335.99999999999994
+2021-11-15,Gallup,Píratar,1042.9999999999998
+2021-11-15,Gallup,Samfylkingin,945.9999999999998
+2021-11-15,Gallup,Sjálfstæðisflokkurinn,2006.9999999999993
+2021-11-15,Gallup,Sósíalistaflokkurinn,388.9999999999999
+2021-11-15,Gallup,Vinstri Græn,1148.9999999999998
+2021-11-15,Gallup,Viðreisn,742.9999999999999
+2021-12-15,Maskína,Annað,-1.616484723854228e-13
 2021-12-15,Maskína,Flokkur Fólksins,71.34400000000001
-2021-12-15,Maskína,Framsóknarflokkurinn,108.472
-2021-12-15,Maskína,Miðflokkurinn,32.76
-2021-12-15,Maskína,Píratar,93.912
-2021-12-15,Maskína,Samfylkingin,68.432
-2021-12-15,Maskína,Sjálfstæðisflokkurinn,171.808
-2021-12-15,Maskína,Sósíalistaflokkurinn,55.327999999999996
-2021-12-15,Maskína,Vinstri Græn,65.52
-2021-12-15,Maskína,Viðreisn,60.42400000000001
-2021-12-15,Gallup,Annað,21
+2021-12-15,Maskína,Framsóknarflokkurinn,108.47200000000001
+2021-12-15,Maskína,Miðflokkurinn,32.760000000000005
+2021-12-15,Maskína,Píratar,93.91200000000002
+2021-12-15,Maskína,Samfylkingin,68.43200000000002
+2021-12-15,Maskína,Sjálfstæðisflokkurinn,171.80800000000002
+2021-12-15,Maskína,Sósíalistaflokkurinn,55.32800000000001
+2021-12-15,Maskína,Vinstri Græn,65.52000000000001
+2021-12-15,Maskína,Viðreisn,60.424000000000014
+2021-12-15,Gallup,Annað,20.99999999999975
 2021-12-15,Gallup,Flokkur Fólksins,598
-2021-12-15,Gallup,Framsóknarflokkurinn,1230
-2021-12-15,Gallup,Miðflokkurinn,236
-2021-12-15,Gallup,Píratar,869
+2021-12-15,Gallup,Framsóknarflokkurinn,1230.0000000000002
+2021-12-15,Gallup,Miðflokkurinn,236.00000000000006
+2021-12-15,Gallup,Píratar,869.0000000000001
 2021-12-15,Gallup,Samfylkingin,730
-2021-12-15,Gallup,Sjálfstæðisflokkurinn,1619
-2021-12-15,Gallup,Sósíalistaflokkurinn,313
-2021-12-15,Gallup,Vinstri Græn,737
-2021-12-15,Gallup,Viðreisn,605
+2021-12-15,Gallup,Sjálfstæðisflokkurinn,1619.0000000000002
+2021-12-15,Gallup,Sósíalistaflokkurinn,313.00000000000006
+2021-12-15,Gallup,Vinstri Græn,737.0000000000001
+2021-12-15,Gallup,Viðreisn,605.0000000000001
 2022-01-15,Maskína,Annað,0
 2022-01-15,Maskína,Flokkur Fólksins,131.58
 2022-01-15,Maskína,Framsóknarflokkurinn,275.544
@@ -2589,7 +2579,7 @@ date,fyrirtaeki,flokkur,n
 2022-01-15,Maskína,Sósíalistaflokkurinn,57.275999999999996
 2022-01-15,Maskína,Vinstri Græn,173.376
 2022-01-15,Maskína,Viðreisn,142.416
-2022-01-16,Gallup,Annað,19
+2022-01-16,Gallup,Annað,19.000000000000206
 2022-01-16,Gallup,Flokkur Fólksins,407.00000000000006
 2022-01-16,Gallup,Framsóknarflokkurinn,787
 2022-01-16,Gallup,Miðflokkurinn,171
@@ -2599,7 +2589,7 @@ date,fyrirtaeki,flokkur,n
 2022-01-16,Gallup,Sósíalistaflokkurinn,199
 2022-01-16,Gallup,Vinstri Græn,495
 2022-01-16,Gallup,Viðreisn,435
-2022-02-14,Gallup,Annað,8
+2022-02-14,Gallup,Annað,7.999999999999634
 2022-02-14,Gallup,Flokkur Fólksins,304
 2022-02-14,Gallup,Framsóknarflokkurinn,735
 2022-02-14,Gallup,Miðflokkurinn,158
@@ -2620,16 +2610,16 @@ date,fyrirtaeki,flokkur,n
 2022-02-15,Maskína,Vinstri Græn,249.174
 2022-02-15,Maskína,Viðreisn,208.02599999999998
 2022-03-15,Maskína,Annað,0
-2022-03-15,Maskína,Flokkur Fólksins,165.64299999999997
-2022-03-15,Maskína,Framsóknarflokkurinn,401.27599999999995
-2022-03-15,Maskína,Miðflokkurinn,100.31899999999999
-2022-03-15,Maskína,Píratar,317.288
+2022-03-15,Maskína,Flokkur Fólksins,165.64300000000003
+2022-03-15,Maskína,Framsóknarflokkurinn,401.276
+2022-03-15,Maskína,Miðflokkurinn,100.319
+2022-03-15,Maskína,Píratar,317.28800000000007
 2022-03-15,Maskína,Samfylkingin,282.293
 2022-03-15,Maskína,Sjálfstæðisflokkurinn,571.585
-2022-03-15,Maskína,Sósíalistaflokkurinn,79.322
-2022-03-15,Maskína,Vinstri Græn,216.969
-2022-03-15,Maskína,Viðreisn,198.305
-2022-03-16,Gallup,Annað,14
+2022-03-15,Maskína,Sósíalistaflokkurinn,79.32200000000002
+2022-03-15,Maskína,Vinstri Græn,216.96900000000002
+2022-03-15,Maskína,Viðreisn,198.30500000000004
+2022-03-16,Gallup,Annað,14.000000000000236
 2022-03-16,Gallup,Flokkur Fólksins,376
 2022-03-16,Gallup,Framsóknarflokkurinn,825.9999999999999
 2022-03-16,Gallup,Miðflokkurinn,170
@@ -2649,7 +2639,7 @@ date,fyrirtaeki,flokkur,n
 2022-04-15,Maskína,Sósíalistaflokkurinn,62.836
 2022-04-15,Maskína,Vinstri Græn,120.208
 2022-04-15,Maskína,Viðreisn,143.43
-2022-04-15,Gallup,Annað,16
+2022-04-15,Gallup,Annað,15.99999999999984
 2022-04-15,Gallup,Flokkur Fólksins,317
 2022-04-15,Gallup,Framsóknarflokkurinn,643
 2022-04-15,Gallup,Miðflokkurinn,169
@@ -2669,17 +2659,17 @@ date,fyrirtaeki,flokkur,n
 2022-05-15,Maskína,Sósíalistaflokkurinn,112.32000000000001
 2022-05-15,Maskína,Vinstri Græn,196.56
 2022-05-15,Maskína,Viðreisn,203.57999999999998
-2022-05-16,Gallup,Annað,9
-2022-05-16,Gallup,Flokkur Fólksins,296
-2022-05-16,Gallup,Framsóknarflokkurinn,810
-2022-05-16,Gallup,Miðflokkurinn,199
-2022-05-16,Gallup,Píratar,681
-2022-05-16,Gallup,Samfylkingin,653
-2022-05-16,Gallup,Sjálfstæðisflokkurinn,931
-2022-05-16,Gallup,Sósíalistaflokkurinn,232
-2022-05-16,Gallup,Vinstri Græn,375
-2022-05-16,Gallup,Viðreisn,440
-2022-06-15,Gallup,Annað,15
+2022-05-16,Gallup,Annað,9.000000000000995
+2022-05-16,Gallup,Flokkur Fólksins,295.9999999999999
+2022-05-16,Gallup,Framsóknarflokkurinn,809.9999999999998
+2022-05-16,Gallup,Miðflokkurinn,198.99999999999997
+2022-05-16,Gallup,Píratar,680.9999999999999
+2022-05-16,Gallup,Samfylkingin,652.9999999999999
+2022-05-16,Gallup,Sjálfstæðisflokkurinn,930.9999999999998
+2022-05-16,Gallup,Sósíalistaflokkurinn,231.99999999999994
+2022-05-16,Gallup,Vinstri Græn,374.99999999999994
+2022-05-16,Gallup,Viðreisn,439.99999999999983
+2022-06-15,Gallup,Annað,15.000000000000016
 2022-06-15,Gallup,Flokkur Fólksins,269
 2022-06-15,Gallup,Framsóknarflokkurinn,672
 2022-06-15,Gallup,Miðflokkurinn,177
@@ -2699,17 +2689,17 @@ date,fyrirtaeki,flokkur,n
 2022-06-23,Maskína,Sósíalistaflokkurinn,101.199
 2022-06-23,Maskína,Vinstri Græn,141.01500000000001
 2022-06-23,Maskína,Viðreisn,145.992
-2022-07-15,Maskína,Annað,0
-2022-07-15,Maskína,Flokkur Fólksins,61.617000000000004
-2022-07-15,Maskína,Framsóknarflokkurinn,160.73999999999998
-2022-07-15,Maskína,Miðflokkurinn,53.58
-2022-07-15,Maskína,Píratar,113.411
-2022-07-15,Maskína,Samfylkingin,97.337
-2022-07-15,Maskína,Sjálfstæðisflokkurinn,217.892
-2022-07-15,Maskína,Sósíalistaflokkurinn,45.543
-2022-07-15,Maskína,Vinstri Græn,68.761
-2022-07-15,Maskína,Viðreisn,74.119
-2022-07-16,Gallup,Annað,15
+2022-07-15,Maskína,Annað,-1.9828583219805296e-13
+2022-07-15,Maskína,Flokkur Fólksins,61.61700000000002
+2022-07-15,Maskína,Framsóknarflokkurinn,160.74
+2022-07-15,Maskína,Miðflokkurinn,53.580000000000005
+2022-07-15,Maskína,Píratar,113.41100000000003
+2022-07-15,Maskína,Samfylkingin,97.33700000000002
+2022-07-15,Maskína,Sjálfstæðisflokkurinn,217.89200000000002
+2022-07-15,Maskína,Sósíalistaflokkurinn,45.543000000000006
+2022-07-15,Maskína,Vinstri Græn,68.76100000000001
+2022-07-15,Maskína,Viðreisn,74.11900000000001
+2022-07-16,Gallup,Annað,14.99999999999995
 2022-07-16,Gallup,Flokkur Fólksins,253
 2022-07-16,Gallup,Framsóknarflokkurinn,590
 2022-07-16,Gallup,Miðflokkurinn,169
@@ -2719,16 +2709,16 @@ date,fyrirtaeki,flokkur,n
 2022-07-16,Gallup,Sósíalistaflokkurinn,203
 2022-07-16,Gallup,Vinstri Græn,329
 2022-07-16,Gallup,Viðreisn,329
-2022-08-16,Gallup,Annað,8
-2022-08-16,Gallup,Flokkur Fólksins,231
-2022-08-16,Gallup,Framsóknarflokkurinn,644
-2022-08-16,Gallup,Miðflokkurinn,190
-2022-08-16,Gallup,Píratar,611
-2022-08-16,Gallup,Samfylkingin,640
-2022-08-16,Gallup,Sjálfstæðisflokkurinn,900
-2022-08-16,Gallup,Sósíalistaflokkurinn,211
-2022-08-16,Gallup,Vinstri Græn,347
-2022-08-16,Gallup,Viðreisn,347
+2022-08-16,Gallup,Annað,7.99999999999969
+2022-08-16,Gallup,Flokkur Fólksins,231.00000000000003
+2022-08-16,Gallup,Framsóknarflokkurinn,644.0000000000001
+2022-08-16,Gallup,Miðflokkurinn,190.00000000000003
+2022-08-16,Gallup,Píratar,611.0000000000001
+2022-08-16,Gallup,Samfylkingin,640.0000000000001
+2022-08-16,Gallup,Sjálfstæðisflokkurinn,900.0000000000001
+2022-08-16,Gallup,Sósíalistaflokkurinn,211.00000000000003
+2022-08-16,Gallup,Vinstri Græn,347.00000000000006
+2022-08-16,Gallup,Viðreisn,347.00000000000006
 2022-08-17,Maskína,Annað,0
 2022-08-17,Maskína,Flokkur Fólksins,40.94
 2022-08-17,Maskína,Framsóknarflokkurinn,174.44
@@ -2739,7 +2729,7 @@ date,fyrirtaeki,flokkur,n
 2022-08-17,Maskína,Sósíalistaflokkurinn,64.97
 2022-08-17,Maskína,Vinstri Græn,66.75
 2022-08-17,Maskína,Viðreisn,79.21
-2022-09-15,Gallup,Annað,4
+2022-09-15,Gallup,Annað,3.999999999999544
 2022-09-15,Gallup,Flokkur Fólksins,212
 2022-09-15,Gallup,Framsóknarflokkurinn,556
 2022-09-15,Gallup,Miðflokkurinn,224
@@ -2749,17 +2739,17 @@ date,fyrirtaeki,flokkur,n
 2022-09-15,Gallup,Sósíalistaflokkurinn,212
 2022-09-15,Gallup,Vinstri Græn,340
 2022-09-15,Gallup,Viðreisn,353
-2022-09-27,Maskína,Annað,0
-2022-09-27,Maskína,Flokkur Fólksins,93.75
-2022-09-27,Maskína,Framsóknarflokkurinn,292.5
-2022-09-27,Maskína,Miðflokkurinn,99.375
-2022-09-27,Maskína,Píratar,230.625
-2022-09-27,Maskína,Samfylkingin,285
-2022-09-27,Maskína,Sjálfstæðisflokkurinn,390
-2022-09-27,Maskína,Sósíalistaflokkurinn,127.50000000000001
-2022-09-27,Maskína,Vinstri Græn,163.125
-2022-09-27,Maskína,Viðreisn,195
-2022-10-16,Gallup,Annað,3
+2022-09-27,Maskína,Annað,4.163336342344337e-13
+2022-09-27,Maskína,Flokkur Fólksins,93.65634365634365
+2022-09-27,Maskína,Framsóknarflokkurinn,292.2077922077921
+2022-09-27,Maskína,Miðflokkurinn,99.27572427572426
+2022-09-27,Maskína,Píratar,230.39460539460538
+2022-09-27,Maskína,Samfylkingin,284.7152847152847
+2022-09-27,Maskína,Sjálfstæðisflokkurinn,389.6103896103895
+2022-09-27,Maskína,Sósíalistaflokkurinn,127.37262737262738
+2022-09-27,Maskína,Vinstri Græn,162.96203796203793
+2022-09-27,Maskína,Viðreisn,194.80519480519476
+2022-10-16,Gallup,Annað,2.9999999999996616
 2022-10-16,Gallup,Flokkur Fólksins,164
 2022-10-16,Gallup,Framsóknarflokkurinn,427.99999999999994
 2022-10-16,Gallup,Miðflokkurinn,155
@@ -2770,25 +2760,25 @@ date,fyrirtaeki,flokkur,n
 2022-10-16,Gallup,Vinstri Græn,260
 2022-10-16,Gallup,Viðreisn,260
 2022-10-17,Maskína,Annað,0
-2022-10-17,Maskína,Flokkur Fólksins,75.30199999999999
-2022-10-17,Maskína,Framsóknarflokkurinn,245.54999999999998
-2022-10-17,Maskína,Miðflokkurinn,81.85000000000001
-2022-10-17,Maskína,Píratar,234.09099999999998
-2022-10-17,Maskína,Samfylkingin,235.72799999999998
-2022-10-17,Maskína,Sjálfstæðisflokkurinn,373.236
-2022-10-17,Maskína,Sósíalistaflokkurinn,106.405
-2022-10-17,Maskína,Vinstri Græn,126.04899999999999
-2022-10-17,Maskína,Viðreisn,155.51500000000001
-2022-11-15,Gallup,Annað,8
-2022-11-15,Gallup,Flokkur Fólksins,187
-2022-11-15,Gallup,Framsóknarflokkurinn,508
-2022-11-15,Gallup,Miðflokkurinn,233
-2022-11-15,Gallup,Píratar,508
-2022-11-15,Gallup,Samfylkingin,878
-2022-11-15,Gallup,Sjálfstæðisflokkurinn,1003
-2022-11-15,Gallup,Sósíalistaflokkurinn,216
-2022-11-15,Gallup,Vinstri Græn,312
-2022-11-15,Gallup,Viðreisn,308
+2022-10-17,Maskína,Flokkur Fólksins,75.45290581162324
+2022-10-17,Maskína,Framsóknarflokkurinn,246.04208416833666
+2022-10-17,Maskína,Miðflokkurinn,82.01402805611222
+2022-10-17,Maskína,Píratar,234.56012024048093
+2022-10-17,Maskína,Samfylkingin,236.20040080160317
+2022-10-17,Maskína,Sjálfstæðisflokkurinn,373.98396793587176
+2022-10-17,Maskína,Sósíalistaflokkurinn,106.61823647294588
+2022-10-17,Maskína,Vinstri Græn,126.30160320641282
+2022-10-17,Maskína,Viðreisn,155.82665330661322
+2022-11-15,Gallup,Annað,7.999999999999537
+2022-11-15,Gallup,Flokkur Fólksins,187.00000000000003
+2022-11-15,Gallup,Framsóknarflokkurinn,508.00000000000006
+2022-11-15,Gallup,Miðflokkurinn,233.00000000000003
+2022-11-15,Gallup,Píratar,508.00000000000006
+2022-11-15,Gallup,Samfylkingin,878.0000000000001
+2022-11-15,Gallup,Sjálfstæðisflokkurinn,1003.0000000000001
+2022-11-15,Gallup,Sósíalistaflokkurinn,216.00000000000003
+2022-11-15,Gallup,Vinstri Græn,312.00000000000006
+2022-11-15,Gallup,Viðreisn,308.00000000000006
 2022-11-22,Maskína,Annað,0
 2022-11-22,Maskína,Flokkur Fólksins,124.15
 2022-11-22,Maskína,Framsóknarflokkurinn,367.484
@@ -2800,16 +2790,16 @@ date,fyrirtaeki,flokkur,n
 2022-11-22,Maskína,Vinstri Græn,176.29299999999998
 2022-11-22,Maskína,Viðreisn,223.47
 2022-12-15,Maskína,Annað,0
-2022-12-15,Maskína,Flokkur Fólksins,119.28000000000002
-2022-12-15,Maskína,Framsóknarflokkurinn,207.888
-2022-12-15,Maskína,Miðflokkurinn,114.168
-2022-12-15,Maskína,Píratar,213
-2022-12-15,Maskína,Samfylkingin,342.504
-2022-12-15,Maskína,Sjálfstæðisflokkurinn,340.8
-2022-12-15,Maskína,Sósíalistaflokkurinn,103.944
-2022-12-15,Maskína,Vinstri Græn,132.912
-2022-12-15,Maskína,Viðreisn,127.8
-2022-12-16,Gallup,Annað,8
+2022-12-15,Maskína,Flokkur Fólksins,119.3993993993994
+2022-12-15,Maskína,Framsóknarflokkurinn,208.0960960960961
+2022-12-15,Maskína,Miðflokkurinn,114.28228228228228
+2022-12-15,Maskína,Píratar,213.21321321321324
+2022-12-15,Maskína,Samfylkingin,342.84684684684686
+2022-12-15,Maskína,Sjálfstæðisflokkurinn,341.14114114114113
+2022-12-15,Maskína,Sósíalistaflokkurinn,104.04804804804805
+2022-12-15,Maskína,Vinstri Græn,133.04504504504504
+2022-12-15,Maskína,Viðreisn,127.92792792792793
+2022-12-16,Gallup,Annað,7.9999999999999805
 2022-12-16,Gallup,Flokkur Fólksins,159
 2022-12-16,Gallup,Framsóknarflokkurinn,310
 2022-12-16,Gallup,Miðflokkurinn,117.99999999999999
@@ -2829,16 +2819,16 @@ date,fyrirtaeki,flokkur,n
 2023-01-16,Gallup,Sósíalistaflokkurinn,156
 2023-01-16,Gallup,Vinstri Græn,241
 2023-01-16,Gallup,Viðreisn,258
-2023-01-18,Maskína,Annað,0
-2023-01-18,Maskína,Flokkur Fólksins,41.004
-2023-01-18,Maskína,Framsóknarflokkurinn,97.28399999999999
-2023-01-18,Maskína,Miðflokkurinn,47.436
-2023-01-18,Maskína,Píratar,83.616
-2023-01-18,Maskína,Samfylkingin,189.744
-2023-01-18,Maskína,Sjálfstæðisflokkurinn,175.272
-2023-01-18,Maskína,Sósíalistaflokkurinn,28.944
-2023-01-18,Maskína,Vinstri Græn,66.732
-2023-01-18,Maskína,Viðreisn,73.164
+2023-01-18,Maskína,Annað,8.926193117986259e-14
+2023-01-18,Maskína,Flokkur Fólksins,41.04504504504504
+2023-01-18,Maskína,Framsóknarflokkurinn,97.38138138138137
+2023-01-18,Maskína,Miðflokkurinn,47.48348348348348
+2023-01-18,Maskína,Píratar,83.69969969969969
+2023-01-18,Maskína,Samfylkingin,189.93393393393393
+2023-01-18,Maskína,Sjálfstæðisflokkurinn,175.44744744744744
+2023-01-18,Maskína,Sósíalistaflokkurinn,28.972972972972972
+2023-01-18,Maskína,Vinstri Græn,66.7987987987988
+2023-01-18,Maskína,Viðreisn,73.23723723723724
 2023-02-13,Maskína,Annað,0
 2023-02-13,Maskína,Flokkur Fólksins,111.50999999999999
 2023-02-13,Maskína,Framsóknarflokkurinn,232.47
@@ -2849,7 +2839,7 @@ date,fyrirtaeki,flokkur,n
 2023-02-13,Maskína,Sósíalistaflokkurinn,94.5
 2023-02-13,Maskína,Vinstri Græn,126.63000000000001
 2023-02-13,Maskína,Viðreisn,154.98000000000002
-2023-02-14,Gallup,Annað,11
+2023-02-14,Gallup,Annað,10.99999999999979
 2023-02-14,Gallup,Flokkur Fólksins,200
 2023-02-14,Gallup,Framsóknarflokkurinn,386
 2023-02-14,Gallup,Miðflokkurinn,189
@@ -2859,56 +2849,56 @@ date,fyrirtaeki,flokkur,n
 2023-02-14,Gallup,Sósíalistaflokkurinn,178
 2023-02-14,Gallup,Vinstri Græn,243.00000000000003
 2023-02-14,Gallup,Viðreisn,275
-2023-03-16,Gallup,Annað,0
-2023-03-16,Gallup,Flokkur Fólksins,240
-2023-03-16,Gallup,Framsóknarflokkurinn,425
-2023-03-16,Gallup,Miðflokkurinn,270
-2023-03-16,Gallup,Píratar,403
-2023-03-16,Gallup,Samfylkingin,1077
-2023-03-16,Gallup,Sjálfstæðisflokkurinn,957
-2023-03-16,Gallup,Sósíalistaflokkurinn,219
-2023-03-16,Gallup,Vinstri Græn,305
-2023-03-16,Gallup,Viðreisn,390
-2023-03-20,Maskína,Annað,0
-2023-03-20,Maskína,Flokkur Fólksins,83.044
-2023-03-20,Maskína,Framsóknarflokkurinn,210.804
-2023-03-20,Maskína,Miðflokkurinn,91.029
-2023-03-20,Maskína,Píratar,162.89399999999998
-2023-03-20,Maskína,Samfylkingin,389.668
-2023-03-20,Maskína,Sjálfstæðisflokkurinn,322.594
-2023-03-20,Maskína,Sósíalistaflokkurinn,95.82
-2023-03-20,Maskína,Vinstri Græn,95.82
-2023-03-20,Maskína,Viðreisn,145.327
-2023-04-15,Gallup,Annað,0
-2023-04-15,Gallup,Flokkur Fólksins,220
-2023-04-15,Gallup,Framsóknarflokkurinn,351
-2023-04-15,Gallup,Miðflokkurinn,227
-2023-04-15,Gallup,Píratar,366
-2023-04-15,Gallup,Samfylkingin,1017
-2023-04-15,Gallup,Sjálfstæðisflokkurinn,802
-2023-04-15,Gallup,Sósíalistaflokkurinn,161
-2023-04-15,Gallup,Vinstri Græn,242.00000000000003
-2023-04-15,Gallup,Viðreisn,271
-2023-04-19,Maskína,Annað,0
-2023-04-19,Maskína,Flokkur Fólksins,37.532
-2023-04-19,Maskína,Framsóknarflokkurinn,87.006
-2023-04-19,Maskína,Miðflokkurinn,51.18
-2023-04-19,Maskína,Píratar,97.242
-2023-04-19,Maskína,Samfylkingin,219.221
-2023-04-19,Maskína,Sjálfstæðisflokkurinn,159.511
-2023-04-19,Maskína,Sósíalistaflokkurinn,41.797000000000004
-2023-04-19,Maskína,Vinstri Græn,69.946
-2023-04-19,Maskína,Viðreisn,90.41799999999999
-2023-05-15,Maskína,Annað,0
-2023-05-15,Maskína,Flokkur Fólksins,96.768
-2023-05-15,Maskína,Framsóknarflokkurinn,172.8
-2023-05-15,Maskína,Miðflokkurinn,110.592
-2023-05-15,Maskína,Píratar,190.08
-2023-05-15,Maskína,Samfylkingin,471.744
-2023-05-15,Maskína,Sjálfstæðisflokkurinn,331.776
-2023-05-15,Maskína,Sósíalistaflokkurinn,89.856
-2023-05-15,Maskína,Vinstri Græn,105.408
-2023-05-15,Maskína,Viðreisn,157.248
+2023-03-16,Gallup,Annað,-9.516831767086842e-13
+2023-03-16,Gallup,Flokkur Fólksins,240.00000000000003
+2023-03-16,Gallup,Framsóknarflokkurinn,425.00000000000006
+2023-03-16,Gallup,Miðflokkurinn,270.00000000000006
+2023-03-16,Gallup,Píratar,403.00000000000006
+2023-03-16,Gallup,Samfylkingin,1077.0000000000002
+2023-03-16,Gallup,Sjálfstæðisflokkurinn,957.0000000000001
+2023-03-16,Gallup,Sósíalistaflokkurinn,219.00000000000003
+2023-03-16,Gallup,Vinstri Græn,305.00000000000006
+2023-03-16,Gallup,Viðreisn,390.00000000000006
+2023-03-20,Maskína,Annað,5.319078510979125e-13
+2023-03-20,Maskína,Flokkur Fólksins,83.04399999999997
+2023-03-20,Maskína,Framsóknarflokkurinn,210.80399999999997
+2023-03-20,Maskína,Miðflokkurinn,91.02899999999998
+2023-03-20,Maskína,Píratar,162.89399999999995
+2023-03-20,Maskína,Samfylkingin,389.6679999999999
+2023-03-20,Maskína,Sjálfstæðisflokkurinn,322.59399999999994
+2023-03-20,Maskína,Sósíalistaflokkurinn,95.81999999999998
+2023-03-20,Maskína,Vinstri Græn,95.81999999999998
+2023-03-20,Maskína,Viðreisn,145.32699999999997
+2023-04-15,Gallup,Annað,-8.120171202108395e-13
+2023-04-15,Gallup,Flokkur Fólksins,220.00000000000003
+2023-04-15,Gallup,Framsóknarflokkurinn,351.00000000000006
+2023-04-15,Gallup,Miðflokkurinn,227.00000000000003
+2023-04-15,Gallup,Píratar,366.00000000000006
+2023-04-15,Gallup,Samfylkingin,1017.0000000000001
+2023-04-15,Gallup,Sjálfstæðisflokkurinn,802.0000000000001
+2023-04-15,Gallup,Sósíalistaflokkurinn,161.00000000000003
+2023-04-15,Gallup,Vinstri Græn,242.00000000000006
+2023-04-15,Gallup,Viðreisn,271.00000000000006
+2023-04-19,Maskína,Annað,9.470202400052585e-14
+2023-04-19,Maskína,Flokkur Fólksins,37.49450549450548
+2023-04-19,Maskína,Framsóknarflokkurinn,86.9190809190809
+2023-04-19,Maskína,Miðflokkurinn,51.12887112887112
+2023-04-19,Maskína,Píratar,97.14485514485513
+2023-04-19,Maskína,Samfylkingin,219.00199800199798
+2023-04-19,Maskína,Sjálfstæðisflokkurinn,159.35164835164832
+2023-04-19,Maskína,Sósíalistaflokkurinn,41.75524475524475
+2023-04-19,Maskína,Vinstri Græn,69.87612387612387
+2023-04-19,Maskína,Viðreisn,90.32767232767232
+2023-05-15,Maskína,Annað,1.9184653865522705e-13
+2023-05-15,Maskína,Flokkur Fólksins,96.86486486486486
+2023-05-15,Maskína,Framsóknarflokkurinn,172.97297297297297
+2023-05-15,Maskína,Miðflokkurinn,110.70270270270271
+2023-05-15,Maskína,Píratar,190.27027027027026
+2023-05-15,Maskína,Samfylkingin,472.2162162162162
+2023-05-15,Maskína,Sjálfstæðisflokkurinn,332.10810810810807
+2023-05-15,Maskína,Sósíalistaflokkurinn,89.94594594594594
+2023-05-15,Maskína,Vinstri Græn,105.5135135135135
+2023-05-15,Maskína,Viðreisn,157.4054054054054
 2023-05-16,Gallup,Annað,0
 2023-05-16,Gallup,Flokkur Fólksins,210
 2023-05-16,Gallup,Framsóknarflokkurinn,389
@@ -2919,16 +2909,16 @@ date,fyrirtaeki,flokkur,n
 2023-05-16,Gallup,Sósíalistaflokkurinn,187
 2023-05-16,Gallup,Vinstri Græn,217
 2023-05-16,Gallup,Viðreisn,290
-2023-06-15,Maskína,Annað,0
-2023-06-15,Maskína,Flokkur Fólksins,111.67200000000001
-2023-06-15,Maskína,Framsóknarflokkurinn,148.896
-2023-06-15,Maskína,Miðflokkurinn,106.596
-2023-06-15,Maskína,Píratar,191.196
-2023-06-15,Maskína,Samfylkingin,460.22400000000005
-2023-06-15,Maskína,Sjálfstæðisflokkurinn,313.02
-2023-06-15,Maskína,Sósíalistaflokkurinn,79.524
-2023-06-15,Maskína,Vinstri Græn,118.44000000000001
-2023-06-15,Maskína,Viðreisn,164.124
+2023-06-15,Maskína,Annað,-3.7569947153315297e-13
+2023-06-15,Maskína,Flokkur Fólksins,111.56043956043959
+2023-06-15,Maskína,Framsóknarflokkurinn,148.74725274725276
+2023-06-15,Maskína,Miðflokkurinn,106.4895104895105
+2023-06-15,Maskína,Píratar,191.00499500499504
+2023-06-15,Maskína,Samfylkingin,459.7642357642359
+2023-06-15,Maskína,Sjálfstæðisflokkurinn,312.7072927072927
+2023-06-15,Maskína,Sósíalistaflokkurinn,79.44455544455545
+2023-06-15,Maskína,Vinstri Græn,118.32167832167835
+2023-06-15,Maskína,Viðreisn,163.96003996003998
 2023-06-15,Gallup,Annað,0
 2023-06-15,Gallup,Flokkur Fólksins,234
 2023-06-15,Gallup,Framsóknarflokkurinn,357
@@ -2949,36 +2939,36 @@ date,fyrirtaeki,flokkur,n
 2023-07-15,Maskína,Sósíalistaflokkurinn,37.665
 2023-07-15,Maskína,Vinstri Græn,66.96000000000001
 2023-07-15,Maskína,Viðreisn,87.048
-2023-07-15,Prósent,Annað,0
-2023-07-15,Prósent,Flokkur Fólksins,77.01
-2023-07-15,Prósent,Framsóknarflokkurinn,64.326
-2023-07-15,Prósent,Miðflokkurinn,65.232
-2023-07-15,Prósent,Píratar,131.37
-2023-07-15,Prósent,Samfylkingin,248.24400000000003
-2023-07-15,Prósent,Sjálfstæðisflokkurinn,145.866
-2023-07-15,Prósent,Sósíalistaflokkurinn,26.274
-2023-07-15,Prósent,Vinstri Græn,66.13799999999999
-2023-07-15,Prósent,Viðreisn,80.634
-2023-07-16,Gallup,Annað,4
-2023-07-16,Gallup,Flokkur Fólksins,207
-2023-07-16,Gallup,Framsóknarflokkurinn,324
-2023-07-16,Gallup,Miðflokkurinn,309
-2023-07-16,Gallup,Píratar,382
-2023-07-16,Gallup,Samfylkingin,1041
-2023-07-16,Gallup,Sjálfstæðisflokkurinn,764
-2023-07-16,Gallup,Sósíalistaflokkurinn,131
-2023-07-16,Gallup,Vinstri Græn,222
-2023-07-16,Gallup,Viðreisn,255
-2023-08-15,Maskína,Annað,0
-2023-08-15,Maskína,Flokkur Fólksins,56.227
-2023-08-15,Maskína,Framsóknarflokkurinn,87.676
-2023-08-15,Maskína,Miðflokkurinn,75.287
-2023-08-15,Maskína,Píratar,124.843
-2023-08-15,Maskína,Samfylkingin,248.733
-2023-08-15,Maskína,Sjálfstæðisflokkurinn,167.72799999999998
-2023-08-15,Maskína,Sósíalistaflokkurinn,40.026
-2023-08-15,Maskína,Vinstri Græn,60.992000000000004
-2023-08-15,Maskína,Viðreisn,90.535
+2023-07-15,Prósent,Annað,1.0058620603103918e-13
+2023-07-15,Prósent,Flokkur Fólksins,77.0870870870871
+2023-07-15,Prósent,Framsóknarflokkurinn,64.39039039039038
+2023-07-15,Prósent,Miðflokkurinn,65.29729729729729
+2023-07-15,Prósent,Píratar,131.5015015015015
+2023-07-15,Prósent,Samfylkingin,248.49249249249252
+2023-07-15,Prósent,Sjálfstæðisflokkurinn,146.012012012012
+2023-07-15,Prósent,Sósíalistaflokkurinn,26.3003003003003
+2023-07-15,Prósent,Vinstri Græn,66.2042042042042
+2023-07-15,Prósent,Viðreisn,80.7147147147147
+2023-07-16,Gallup,Annað,4.000000000001011
+2023-07-16,Gallup,Flokkur Fólksins,206.99999999999994
+2023-07-16,Gallup,Framsóknarflokkurinn,323.99999999999994
+2023-07-16,Gallup,Miðflokkurinn,308.99999999999994
+2023-07-16,Gallup,Píratar,381.9999999999999
+2023-07-16,Gallup,Samfylkingin,1040.9999999999998
+2023-07-16,Gallup,Sjálfstæðisflokkurinn,763.9999999999998
+2023-07-16,Gallup,Sósíalistaflokkurinn,130.99999999999997
+2023-07-16,Gallup,Vinstri Græn,221.99999999999997
+2023-07-16,Gallup,Viðreisn,254.99999999999994
+2023-08-15,Maskína,Annað,1.0580425424677742e-13
+2023-08-15,Maskína,Flokkur Fólksins,56.28328328328327
+2023-08-15,Maskína,Framsóknarflokkurinn,87.76376376376376
+2023-08-15,Maskína,Miðflokkurinn,75.36236236236236
+2023-08-15,Maskína,Píratar,124.96796796796795
+2023-08-15,Maskína,Samfylkingin,248.981981981982
+2023-08-15,Maskína,Sjálfstæðisflokkurinn,167.89589589589588
+2023-08-15,Maskína,Sósíalistaflokkurinn,40.066066066066064
+2023-08-15,Maskína,Vinstri Græn,61.053053053053056
+2023-08-15,Maskína,Viðreisn,90.62562562562562
 2023-08-16,Gallup,Annað,0
 2023-08-16,Gallup,Flokkur Fólksins,231
 2023-08-16,Gallup,Framsóknarflokkurinn,275
@@ -3010,15 +3000,15 @@ date,fyrirtaeki,flokkur,n
 2023-09-15,Gallup,Vinstri Græn,229
 2023-09-15,Gallup,Viðreisn,318
 2023-10-15,Maskína,Annað,0
-2023-10-15,Maskína,Flokkur Fólksins,118.096
-2023-10-15,Maskína,Framsóknarflokkurinn,189.728
-2023-10-15,Maskína,Miðflokkurinn,158.752
-2023-10-15,Maskína,Píratar,209.088
-2023-10-15,Maskína,Samfylkingin,538.2080000000001
-2023-10-15,Maskína,Sjálfstæðisflokkurinn,342.67199999999997
-2023-10-15,Maskína,Sósíalistaflokkurinn,83.24799999999999
-2023-10-15,Maskína,Vinstri Græn,114.22399999999999
-2023-10-15,Maskína,Viðreisn,180.048
+2023-10-15,Maskína,Flokkur Fólksins,118.2142142142142
+2023-10-15,Maskína,Framsóknarflokkurinn,189.91791791791792
+2023-10-15,Maskína,Miðflokkurinn,158.9109109109109
+2023-10-15,Maskína,Píratar,209.2972972972973
+2023-10-15,Maskína,Samfylkingin,538.7467467467468
+2023-10-15,Maskína,Sjálfstæðisflokkurinn,343.01501501501497
+2023-10-15,Maskína,Sósíalistaflokkurinn,83.33133133133133
+2023-10-15,Maskína,Vinstri Græn,114.33833833833832
+2023-10-15,Maskína,Viðreisn,180.2282282282282
 2023-10-16,Gallup,Annað,0
 2023-10-16,Gallup,Flokkur Fólksins,255
 2023-10-16,Gallup,Framsóknarflokkurinn,290
@@ -3029,17 +3019,17 @@ date,fyrirtaeki,flokkur,n
 2023-10-16,Gallup,Sósíalistaflokkurinn,161
 2023-10-16,Gallup,Vinstri Græn,235
 2023-10-16,Gallup,Viðreisn,294
-2023-11-15,Maskína,Annað,0
-2023-11-15,Maskína,Flokkur Fólksins,152.064
-2023-11-15,Maskína,Framsóknarflokkurinn,247.10399999999998
-2023-11-15,Maskína,Miðflokkurinn,199.584
-2023-11-15,Maskína,Píratar,237.60000000000002
-2023-11-15,Maskína,Samfylkingin,617.76
-2023-11-15,Maskína,Sjálfstæðisflokkurinn,425.304
-2023-11-15,Maskína,Sósíalistaflokkurinn,104.544
-2023-11-15,Maskína,Vinstri Græn,144.936
-2023-11-15,Maskína,Viðreisn,244.72799999999998
-2023-11-15,Gallup,Annað,28.000000000000004
+2023-11-15,Maskína,Annað,-5.275779813018744e-13
+2023-11-15,Maskína,Flokkur Fólksins,152.21621621621625
+2023-11-15,Maskína,Framsóknarflokkurinn,247.35135135135138
+2023-11-15,Maskína,Miðflokkurinn,199.78378378378383
+2023-11-15,Maskína,Píratar,237.8378378378379
+2023-11-15,Maskína,Samfylkingin,618.3783783783784
+2023-11-15,Maskína,Sjálfstæðisflokkurinn,425.72972972972974
+2023-11-15,Maskína,Sósíalistaflokkurinn,104.64864864864865
+2023-11-15,Maskína,Vinstri Græn,145.0810810810811
+2023-11-15,Maskína,Viðreisn,244.972972972973
+2023-11-15,Gallup,Annað,28.000000000000178
 2023-11-15,Gallup,Flokkur Fólksins,239
 2023-11-15,Gallup,Framsóknarflokkurinn,298
 2023-11-15,Gallup,Miðflokkurinn,325
@@ -3049,16 +3039,16 @@ date,fyrirtaeki,flokkur,n
 2023-11-15,Gallup,Sósíalistaflokkurinn,145
 2023-11-15,Gallup,Vinstri Græn,176
 2023-11-15,Gallup,Viðreisn,273
-2023-12-15,Maskína,Annað,0
-2023-12-15,Maskína,Flokkur Fólksins,132.26000000000002
-2023-12-15,Maskína,Framsóknarflokkurinn,192.555
-2023-12-15,Maskína,Miðflokkurinn,182.83
-2023-12-15,Maskína,Píratar,157.54500000000002
-2023-12-15,Maskína,Samfylkingin,511.535
-2023-12-15,Maskína,Sjálfstæðisflokkurinn,336.48499999999996
-2023-12-15,Maskína,Sósíalistaflokkurinn,83.63499999999999
-2023-12-15,Maskína,Vinstri Græn,108.92
-2023-12-15,Maskína,Viðreisn,237.29
+2023-12-15,Maskína,Annað,2.1593837828959295e-13
+2023-12-15,Maskína,Flokkur Fólksins,132.3923923923924
+2023-12-15,Maskína,Framsóknarflokkurinn,192.74774774774775
+2023-12-15,Maskína,Miðflokkurinn,183.01301301301302
+2023-12-15,Maskína,Píratar,157.7027027027027
+2023-12-15,Maskína,Samfylkingin,512.047047047047
+2023-12-15,Maskína,Sjálfstæðisflokkurinn,336.8218218218218
+2023-12-15,Maskína,Sósíalistaflokkurinn,83.7187187187187
+2023-12-15,Maskína,Vinstri Græn,109.02902902902903
+2023-12-15,Maskína,Viðreisn,237.52752752752752
 2023-12-16,Gallup,Annað,0
 2023-12-16,Gallup,Flokkur Fólksins,240.99999999999997
 2023-12-16,Gallup,Framsóknarflokkurinn,333
@@ -3139,17 +3129,17 @@ date,fyrirtaeki,flokkur,n
 2024-04-15,Gallup,Sósíalistaflokkurinn,128
 2024-04-15,Gallup,Vinstri Græn,165
 2024-04-15,Gallup,Viðreisn,282
-2024-04-16,Maskína,Annað,0
-2024-04-16,Maskína,Flokkur Fólksins,97.785
-2024-04-16,Maskína,Framsóknarflokkurinn,197.415
-2024-04-16,Maskína,Miðflokkurinn,214.02
-2024-04-16,Maskína,Píratar,156.82500000000002
-2024-04-16,Maskína,Samfylkingin,503.68500000000006
-2024-04-16,Maskína,Sjálfstæðisflokkurinn,317.34
-2024-04-16,Maskína,Sósíalistaflokkurinn,75.64500000000001
-2024-04-16,Maskína,Vinstri Græn,92.25
-2024-04-16,Maskína,Viðreisn,188.19
-2024-04-30,Félagsvísindastofnun,Annað,5.276
+2024-04-16,Maskína,Annað,2.0483614804334138e-13
+2024-04-16,Maskína,Flokkur Fólksins,97.88288288288287
+2024-04-16,Maskína,Framsóknarflokkurinn,197.6126126126126
+2024-04-16,Maskína,Miðflokkurinn,214.2342342342342
+2024-04-16,Maskína,Píratar,156.981981981982
+2024-04-16,Maskína,Samfylkingin,504.1891891891892
+2024-04-16,Maskína,Sjálfstæðisflokkurinn,317.65765765765764
+2024-04-16,Maskína,Sósíalistaflokkurinn,75.72072072072072
+2024-04-16,Maskína,Vinstri Græn,92.34234234234233
+2024-04-16,Maskína,Viðreisn,188.37837837837836
+2024-04-30,Félagsvísindastofnun,Annað,5.276000000000005
 2024-04-30,Félagsvísindastofnun,Flokkur Fólksins,192.57399999999998
 2024-04-30,Félagsvísindastofnun,Framsóknarflokkurinn,263.8
 2024-04-30,Félagsvísindastofnun,Miðflokkurinn,353.492
@@ -3159,26 +3149,26 @@ date,fyrirtaeki,flokkur,n
 2024-04-30,Félagsvísindastofnun,Sósíalistaflokkurinn,116.07199999999999
 2024-04-30,Félagsvísindastofnun,Vinstri Græn,113.434
 2024-04-30,Félagsvísindastofnun,Viðreisn,208.40200000000002
-2024-05-16,Gallup,Annað,0
-2024-05-16,Gallup,Flokkur Fólksins,310
-2024-05-16,Gallup,Framsóknarflokkurinn,462
-2024-05-16,Gallup,Miðflokkurinn,686
-2024-05-16,Gallup,Píratar,447
-2024-05-16,Gallup,Samfylkingin,1519
-2024-05-16,Gallup,Sjálfstæðisflokkurinn,913.9999999999999
-2024-05-16,Gallup,Sósíalistaflokkurinn,187.99999999999997
-2024-05-16,Gallup,Vinstri Græn,168
-2024-05-16,Gallup,Viðreisn,390.99999999999994
-2024-05-23,Maskína,Annað,0
-2024-05-23,Maskína,Flokkur Fólksins,187.6
-2024-05-23,Maskína,Framsóknarflokkurinn,348.4
-2024-05-23,Maskína,Miðflokkurinn,422.1
-2024-05-23,Maskína,Píratar,281.40000000000003
-2024-05-23,Maskína,Samfylkingin,914.5500000000001
-2024-05-23,Maskína,Sjálfstæðisflokkurinn,586.25
-2024-05-23,Maskína,Sósíalistaflokkurinn,130.65
-2024-05-23,Maskína,Vinstri Græn,170.85
-2024-05-23,Maskína,Viðreisn,311.55
+2024-05-16,Gallup,Annað,-1.1290968160437842e-12
+2024-05-16,Gallup,Flokkur Fólksins,310.00000000000006
+2024-05-16,Gallup,Framsóknarflokkurinn,462.00000000000006
+2024-05-16,Gallup,Miðflokkurinn,686.0000000000001
+2024-05-16,Gallup,Píratar,447.00000000000006
+2024-05-16,Gallup,Samfylkingin,1519.0000000000005
+2024-05-16,Gallup,Sjálfstæðisflokkurinn,914.0000000000001
+2024-05-16,Gallup,Sósíalistaflokkurinn,188.00000000000003
+2024-05-16,Gallup,Vinstri Græn,168.00000000000003
+2024-05-16,Gallup,Viðreisn,391.00000000000006
+2024-05-23,Maskína,Annað,7.438494264988549e-13
+2024-05-23,Maskína,Flokkur Fólksins,187.41258741258738
+2024-05-23,Maskína,Framsóknarflokkurinn,348.051948051948
+2024-05-23,Maskína,Miðflokkurinn,421.67832167832165
+2024-05-23,Maskína,Píratar,281.11888111888106
+2024-05-23,Maskína,Samfylkingin,913.6363636363635
+2024-05-23,Maskína,Sjálfstæðisflokkurinn,585.6643356643356
+2024-05-23,Maskína,Sósíalistaflokkurinn,130.51948051948048
+2024-05-23,Maskína,Vinstri Græn,170.67932067932065
+2024-05-23,Maskína,Viðreisn,311.2387612387612
 2024-06-10,Maskína,Annað,0
 2024-06-10,Maskína,Flokkur Fólksins,92.25
 2024-06-10,Maskína,Framsóknarflokkurinn,188.19
@@ -3189,25 +3179,25 @@ date,fyrirtaeki,flokkur,n
 2024-06-10,Maskína,Sósíalistaflokkurinn,108.85499999999999
 2024-06-10,Maskína,Vinstri Græn,92.25
 2024-06-10,Maskína,Viðreisn,186.345
-2024-06-15,Gallup,Annað,0
-2024-06-15,Gallup,Flokkur Fólksins,252
-2024-06-15,Gallup,Framsóknarflokkurinn,216
-2024-06-15,Gallup,Miðflokkurinn,474.00000000000006
-2024-06-15,Gallup,Píratar,288
-2024-06-15,Gallup,Samfylkingin,880
-2024-06-15,Gallup,Sjálfstæðisflokkurinn,605
-2024-06-15,Gallup,Sósíalistaflokkurinn,114.00000000000001
+2024-06-15,Gallup,Annað,-7.254197242900773e-13
+2024-06-15,Gallup,Flokkur Fólksins,252.00000000000006
+2024-06-15,Gallup,Framsóknarflokkurinn,216.00000000000006
+2024-06-15,Gallup,Miðflokkurinn,474.0000000000001
+2024-06-15,Gallup,Píratar,288.00000000000006
+2024-06-15,Gallup,Samfylkingin,880.0000000000001
+2024-06-15,Gallup,Sjálfstæðisflokkurinn,605.0000000000001
+2024-06-15,Gallup,Sósíalistaflokkurinn,114.00000000000003
 2024-06-15,Gallup,Vinstri Græn,131
-2024-06-15,Gallup,Viðreisn,307
-2024-07-16,Gallup,Annað,0
+2024-06-15,Gallup,Viðreisn,307.00000000000006
+2024-07-16,Gallup,Annað,-7.371880883511039e-13
 2024-07-16,Gallup,Flokkur Fólksins,286
-2024-07-16,Gallup,Framsóknarflokkurinn,239
-2024-07-16,Gallup,Miðflokkurinn,485.00000000000006
-2024-07-16,Gallup,Píratar,259
-2024-07-16,Gallup,Samfylkingin,916.0000000000001
-2024-07-16,Gallup,Sjálfstæðisflokkurinn,571
-2024-07-16,Gallup,Sósíalistaflokkurinn,156
-2024-07-16,Gallup,Vinstri Græn,116.00000000000001
+2024-07-16,Gallup,Framsóknarflokkurinn,239.00000000000006
+2024-07-16,Gallup,Miðflokkurinn,485.0000000000001
+2024-07-16,Gallup,Píratar,259.00000000000006
+2024-07-16,Gallup,Samfylkingin,916.0000000000002
+2024-07-16,Gallup,Sjálfstæðisflokkurinn,571.0000000000001
+2024-07-16,Gallup,Sósíalistaflokkurinn,156.00000000000003
+2024-07-16,Gallup,Vinstri Græn,116.00000000000003
 2024-07-16,Gallup,Viðreisn,292
 2024-07-20,Maskína,Annað,0
 2024-07-20,Maskína,Flokkur Fólksins,147.4
@@ -3229,17 +3219,17 @@ date,fyrirtaeki,flokkur,n
 2024-08-16,Gallup,Sósíalistaflokkurinn,225
 2024-08-16,Gallup,Vinstri Græn,134
 2024-08-16,Gallup,Viðreisn,398
-2024-08-17,Maskína,Annað,0
-2024-08-17,Maskína,Flokkur Fólksins,122.82999999999998
-2024-08-17,Maskína,Framsóknarflokkurinn,155.7
-2024-08-17,Maskína,Miðflokkurinn,264.69
-2024-08-17,Maskína,Píratar,148.78
-2024-08-17,Maskína,Samfylkingin,441.15000000000003
-2024-08-17,Maskína,Sjálfstæðisflokkurinn,240.47000000000003
-2024-08-17,Maskína,Sósíalistaflokkurinn,89.96
-2024-08-17,Maskína,Vinstri Græn,79.58
-2024-08-17,Maskína,Viðreisn,185.10999999999999
-2024-09-15,Prósent,Annað,20.25
+2024-08-17,Maskína,Annað,1.9206858326015208e-13
+2024-08-17,Maskína,Flokkur Fólksins,122.95295295295294
+2024-08-17,Maskína,Framsóknarflokkurinn,155.85585585585585
+2024-08-17,Maskína,Miðflokkurinn,264.95495495495493
+2024-08-17,Maskína,Píratar,148.9289289289289
+2024-08-17,Maskína,Samfylkingin,441.5915915915916
+2024-08-17,Maskína,Sjálfstæðisflokkurinn,240.7107107107107
+2024-08-17,Maskína,Sósíalistaflokkurinn,90.05005005005005
+2024-08-17,Maskína,Vinstri Græn,79.65965965965965
+2024-08-17,Maskína,Viðreisn,185.2952952952953
+2024-09-15,Prósent,Annað,20.249999999999794
 2024-09-15,Prósent,Flokkur Fólksins,222.75
 2024-09-15,Prósent,Framsóknarflokkurinn,101.25
 2024-09-15,Prósent,Miðflokkurinn,364.5
@@ -3279,6 +3269,16 @@ date,fyrirtaeki,flokkur,n
 2024-09-26,Prósent,Sósíalistaflokkurinn,45.864000000000004
 2024-09-26,Prósent,Vinstri Græn,24.023999999999997
 2024-09-26,Prósent,Viðreisn,153.97199999999998
+2024-10-07,Gallup,Annað,5.999999999999783
+2024-10-07,Gallup,Flokkur Fólksins,144
+2024-10-07,Gallup,Framsóknarflokkurinn,126
+2024-10-07,Gallup,Miðflokkurinn,342
+2024-10-07,Gallup,Píratar,124
+2024-10-07,Gallup,Samfylkingin,506
+2024-10-07,Gallup,Sjálfstæðisflokkurinn,338
+2024-10-07,Gallup,Sósíalistaflokkurinn,94
+2024-10-07,Gallup,Vinstri Græn,98
+2024-10-07,Gallup,Viðreisn,222
 2024-10-09,Maskína,Annað,37.49999999999953
 2024-10-09,Maskína,Flokkur Fólksins,99
 2024-10-09,Maskína,Framsóknarflokkurinn,105.00000000000001
@@ -3289,26 +3289,46 @@ date,fyrirtaeki,flokkur,n
 2024-10-09,Maskína,Sósíalistaflokkurinn,79.5
 2024-10-09,Maskína,Vinstri Græn,67.5
 2024-10-09,Maskína,Viðreisn,207.00000000000003
-2024-10-16,Gallup,Annað,30.0639375
-2024-10-16,Gallup,Flokkur Fólksins,390.8311875
-2024-10-16,Gallup,Framsóknarflokkurinn,325.69265625
-2024-10-16,Gallup,Miðflokkurinn,826.7582812500001
-2024-10-16,Gallup,Píratar,270.5754375
-2024-10-16,Gallup,Samfylkingin,1192.5361874999999
-2024-10-16,Gallup,Sjálfstæðisflokkurinn,866.84353125
-2024-10-16,Gallup,Sósíalistaflokkurinn,225.47953124999998
-2024-10-16,Gallup,Vinstri Græn,205.43690625000002
-2024-10-16,Gallup,Viðreisn,676.43859375
-2024-10-21,Prósent,Annað,13.75
-2024-10-21,Prósent,Flokkur Fólksins,142.5
-2024-10-21,Prósent,Framsóknarflokkurinn,72.5
-2024-10-21,Prósent,Miðflokkurinn,201.25
-2024-10-21,Prósent,Píratar,72.5
-2024-10-21,Prósent,Samfylkingin,302.5
-2024-10-21,Prósent,Sjálfstæðisflokkurinn,166.25
-2024-10-21,Prósent,Sósíalistaflokkurinn,53.74999999999999
-2024-10-21,Prósent,Vinstri Græn,30
-2024-10-21,Prósent,Viðreisn,187.5
+2024-10-10,Prósent,Annað,10.909090909091024
+2024-10-10,Prósent,Flokkur Fólksins,112.36363636363635
+2024-10-10,Prósent,Framsóknarflokkurinn,54.54545454545454
+2024-10-10,Prósent,Miðflokkurinn,184.36363636363637
+2024-10-10,Prósent,Píratar,68.72727272727272
+2024-10-10,Prósent,Samfylkingin,286.9090909090909
+2024-10-10,Prósent,Sjálfstæðisflokkurinn,144
+2024-10-10,Prósent,Sósíalistaflokkurinn,41.45454545454545
+2024-10-10,Prósent,Vinstri Græn,44.72727272727272
+2024-10-10,Prósent,Viðreisn,144
+2024-10-16,Prósent,Annað,9.80838323353295
+2024-10-16,Prósent,Flokkur Fólksins,117.70059880239522
+2024-10-16,Prósent,Framsóknarflokkurinn,67.56886227544909
+2024-10-16,Prósent,Miðflokkurinn,164.562874251497
+2024-10-16,Prósent,Píratar,67.56886227544909
+2024-10-16,Prósent,Samfylkingin,270.27544910179637
+2024-10-16,Prósent,Sjálfstæðisflokkurinn,170.0119760479042
+2024-10-16,Prósent,Sósíalistaflokkurinn,45.77245508982036
+2024-10-16,Prósent,Vinstri Græn,25.065868263473053
+2024-10-16,Prósent,Viðreisn,153.66467065868264
+2024-10-21,Prósent,Annað,13.832997987927447
+2024-10-21,Prósent,Flokkur Fólksins,143.36016096579473
+2024-10-21,Prósent,Framsóknarflokkurinn,72.93762575452716
+2024-10-21,Prósent,Miðflokkurinn,202.46478873239434
+2024-10-21,Prósent,Píratar,72.93762575452716
+2024-10-21,Prósent,Samfylkingin,304.32595573440636
+2024-10-21,Prósent,Sjálfstæðisflokkurinn,167.25352112676055
+2024-10-21,Prósent,Sósíalistaflokkurinn,54.07444668008046
+2024-10-21,Prósent,Vinstri Græn,30.181086519114682
+2024-10-21,Prósent,Viðreisn,188.63179074446674
+2024-10-23,Gallup,Annað,24.02402402402448
+2024-10-23,Gallup,Flokkur Fólksins,243.24324324324323
+2024-10-23,Gallup,Framsóknarflokkurinn,192.19219219219218
+2024-10-23,Gallup,Miðflokkurinn,483.48348348348344
+2024-10-23,Gallup,Píratar,150.15015015015013
+2024-10-23,Gallup,Samfylkingin,690.6906906906906
+2024-10-23,Gallup,Sjálfstæðisflokkurinn,531.5315315315314
+2024-10-23,Gallup,Sósíalistaflokkurinn,129.12912912912913
+2024-10-23,Gallup,Vinstri Græn,108.10810810810808
+2024-10-23,Gallup,Viðreisn,447.44744744744736
 2024-10-25,Maskína,Annað,31.499999999999694
 2024-10-25,Maskína,Flokkur Fólksins,139.5
 2024-10-25,Maskína,Framsóknarflokkurinn,103.50000000000001
@@ -3319,16 +3339,16 @@ date,fyrirtaeki,flokkur,n
 2024-10-25,Maskína,Sósíalistaflokkurinn,78
 2024-10-25,Maskína,Vinstri Græn,57
 2024-10-25,Maskína,Viðreisn,243
-2024-10-28,Prósent,Annað,17.925
-2024-10-28,Prósent,Flokkur Fólksins,133.84
-2024-10-28,Prósent,Framsóknarflokkurinn,69.31
-2024-10-28,Prósent,Miðflokkurinn,172.07999999999998
-2024-10-28,Prósent,Píratar,58.555
-2024-10-28,Prósent,Samfylkingin,266.485
-2024-10-28,Prósent,Sjálfstæðisflokkurinn,168.49499999999998
-2024-10-28,Prósent,Sósíalistaflokkurinn,47.800000000000004
-2024-10-28,Prósent,Vinstri Græn,31.07
-2024-10-28,Prósent,Viðreisn,221.075
+2024-10-28,Prósent,Annað,18.051359516616696
+2024-10-28,Prósent,Flokkur Fólksins,134.7834843907351
+2024-10-28,Prósent,Framsóknarflokkurinn,69.7985901309164
+2024-10-28,Prósent,Miðflokkurinn,173.29305135951657
+2024-10-28,Prósent,Píratar,58.96777442094662
+2024-10-28,Prósent,Samfylkingin,268.3635448136958
+2024-10-28,Prósent,Sjálfstæðisflokkurinn,169.6827794561933
+2024-10-28,Prósent,Sósíalistaflokkurinn,48.13695871097683
+2024-10-28,Prósent,Vinstri Græn,31.28902316213494
+2024-10-28,Prósent,Viðreisn,222.63343403826784
 2024-11-03,Maskína,Annað,35.174999999999876
 2024-11-03,Maskína,Flokkur Fólksins,125.223
 2024-11-03,Maskína,Framsóknarflokkurinn,105.52499999999999
@@ -3339,3 +3359,43 @@ date,fyrirtaeki,flokkur,n
 2024-11-03,Maskína,Sósíalistaflokkurinn,63.315
 2024-11-03,Maskína,Vinstri Græn,45.024
 2024-11-03,Maskína,Viðreisn,272.958
+2024-11-04,Prósent,Annað,19.31200000000042
+2024-11-04,Prósent,Flokkur Fólksins,138.80499999999998
+2024-11-04,Prósent,Framsóknarflokkurinn,68.79899999999999
+2024-11-04,Prósent,Miðflokkurinn,182.25699999999995
+2024-11-04,Prósent,Píratar,70.00599999999999
+2024-11-04,Prósent,Samfylkingin,260.71199999999993
+2024-11-04,Prósent,Sjálfstæðisflokkurinn,148.46099999999996
+2024-11-04,Prósent,Sósíalistaflokkurinn,80.86899999999999
+2024-11-04,Prósent,Vinstri Græn,31.38199999999999
+2024-11-04,Prósent,Viðreisn,206.397
+2024-11-07,Gallup,Annað,23.096192384769562
+2024-11-07,Gallup,Flokkur Fólksins,235.58116232464926
+2024-11-07,Gallup,Framsóknarflokkurinn,136.26753507014027
+2024-11-07,Gallup,Miðflokkurinn,330.27555110220436
+2024-11-07,Gallup,Píratar,127.02905811623245
+2024-11-07,Gallup,Samfylkingin,480.40080160320633
+2024-11-07,Gallup,Sjálfstæðisflokkurinn,378.7775551102204
+2024-11-07,Gallup,Sósíalistaflokkurinn,143.19639278557113
+2024-11-07,Gallup,Vinstri Græn,92.38476953907815
+2024-11-07,Gallup,Viðreisn,357.9909819639278
+2024-11-10,Maskína,Annað,39.50099999999987
+2024-11-10,Maskína,Flokkur Fólksins,134.596
+2024-11-10,Maskína,Framsóknarflokkurinn,106.79899999999999
+2024-11-10,Maskína,Miðflokkurinn,184.338
+2024-11-10,Maskína,Píratar,74.613
+2024-11-10,Maskína,Samfylkingin,294.06300000000005
+2024-11-10,Maskína,Sjálfstæðisflokkurinn,196.042
+2024-11-10,Maskína,Sósíalistaflokkurinn,92.169
+2024-11-10,Maskína,Vinstri Græn,49.742000000000004
+2024-11-10,Maskína,Viðreisn,291.137
+2024-11-11,Prósent,Annað,13.601609657947474
+2024-11-11,Prósent,Flokkur Fólksins,138.73641851106638
+2024-11-11,Prósent,Framsóknarflokkurinn,76.16901408450704
+2024-11-11,Prósent,Miðflokkurinn,210.82494969818913
+2024-11-11,Prósent,Píratar,46.245472837022135
+2024-11-11,Prósent,Samfylkingin,304.67605633802816
+2024-11-11,Prósent,Sjálfstæðisflokkurinn,163.2193158953722
+2024-11-11,Prósent,Sósíalistaflokkurinn,73.4486921529175
+2024-11-11,Prósent,Vinstri Græn,32.643863179074444
+2024-11-11,Prósent,Viðreisn,292.4346076458752

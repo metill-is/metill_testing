@@ -10,8 +10,6 @@ categories:
     - ársreikningar
 href: greinar/stjornmalaflokkar/index.qmd
 image: Figures/eigidfe_page.png
-execute: 
-  freeze: false
 ---
 
 

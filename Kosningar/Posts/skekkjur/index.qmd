@@ -1,0 +1,171 @@
+---
+title: "Skekkjur og kannanir"
+subtitle: "Hvernig finnur maður skekkjumörk í könnunum á fylgi stjórnmálaflokka?"
+description: "Þegar við sjáum niðurstöður úr skoðanakönnunum á fylgi stjórnmálaflokka, þá eru þær byggðar á svörum ákveðins hóps fólks. En hvernig vitum við hversu nákvæmar þessar niðurstöður eru? Til að átta okkur á því, þurfum við að skilja hvað skekkjumörk eru og hvernig þau eru fundin."
+title-block-banner: true 
+draft: true
+language:
+  title-block-author-single: "Höfundur"
+  title-block-author-plural: "Höfundar"
+  title-block-affiliation-single: "Stofnun"
+  title-block-affiliation-plural: "Stofnun"
+  title-block-published: "Síðast uppfært"
+  toc-title-website: "Efnisyfirlit"
+format:
+  html:
+    toc: true
+---
+
+Þegar við sjáum niðurstöður úr skoðanakönnunum á fylgi stjórnmálaflokka, þá eru þær byggðar á svörum ákveðins hóps fólks. En hvernig vitum við hversu nákvæmar þessar niðurstöður eru? Til að átta okkur á því, þurfum við að skilja hvað skekkjumörk eru og hvernig þau eru fundin.
+
+# Tilviljunarkennd og kerfisbundin skekkja
+
+Skekkja í könnunum getur verið tvenns konar:
+
+1. **Tilviljunarkennd skekkja**: Þetta er sú óvissa sem stafar af því að við erum aðeins að taka sýnishorn af heildinni, ekki að spyrja alla. Ef við myndum endurtaka könnunina með nýju úrtaki, gætu niðurstöðurnar breyst örlítið vegna tilviljunar. Þessi skekkja minnkar þegar úrtakið stækkar. Stærra úrtak gefur nákvæmari mynd af heildinni.
+
+2. **Kerfisbundin skekkja**: Þetta er skekkja sem stafar af því að eitthvað í ferlinu veldur því að niðurstöðurnar skekkjast í ákveðna átt. Til dæmis ef hópurinn sem var spurður er ekki lýsandi fyrir fyrir allt samfélagið, eða ef ákveðnir hópar svara síður könnunum. Stærð úrtaksins hjálpar ekki við að minnka þessa skekkju; við þurfum að tryggja að úrtakið sé rétt valið og að svarhlutfallið sé hátt.
+
+## Tilviljanakennd skekkja
+
+Til að finna skekkjumörk fyrir tilviljunarkennda skekkju er oft notuð einföld formúla sem tekur tillit til stærðar úrtaksins og niðurstöðunnar úr könnuninni.
+
+**1. Stærð úrtaksins skiptir máli**
+
+Því fleiri sem taka þátt í könnuninni, því minni verður tilviljunarkennda skekkjan. Þetta er vegna þess að tölfræðileg óvissa minnkar með stærð úrtaks.
+
+**2. Hlutfallið sem mælt er**
+
+Skekkjumörkin eru einnig háð því hversu hátt hlutfallið er sem verið er að mæla. Skekkjan er mest þegar hlutfallið er nálægt 50% og minnst þegar það er nálægt 0% eða 100%. Þetta er vegna þess að dreifing hlutfalla fylgir tvíkostadreifingu.
+
+Fyrir dæmigerða skoðanakönnun með 1000 manna úrtaki eru skekkjumörkin u.þ.b.:
+- $\pm 3,1\%$ fyrir flokk með 50% fylgi
+- $\pm 2,7\%$ fyrir flokk með 30% eða 70% fylgi
+- $\pm 1,9\%$ fyrir flokk með 10% eða 90% fylgi
+
+**3. Dæmi um útreikning**
+
+Algeng formúla fyrir skekkjumörk er:
+
+$$
+\pm 1,96 \times \sqrt{\frac{p(1-p)}{n}}
+$$
+
+Þar sem:
+
+* $p$ er hlutfallið sem mælist (t.d. 0,3 fyrir 30%)
+* $n$ er fjöldi svarenda
+* 1,96 er gildið sem gefur 95% öryggisbil þegar við nálgum hlutfallið með normaldreifingu
+
+**Dæmi:** Ef flokkur mælist með 30% fylgi í 1000 manna könnun:
+$\pm 1.96 \times \sqrt{\frac{0.3 \times 0.7}{1000}} = \pm 2.8\%$
+
+Þetta þýðir að með 95% vissu er raunverulegt fylgi flokksins á bilinu 27,2% til 32,8%.
+
+## Kerfisbundin Skekkja
+
+Tilviljunarkennd skekkja er aðeins hluti af sögunni. Kerfisbundin skekkja getur haft jafnvel meiri áhrif á niðurstöðurnar.
+
+* **Úrtaksskekkja**: Ef hópurinn sem var spurður er ekki dæmigerður fyrir allt samfélagið, þá geta niðurstöðurnar skekkst. Til dæmis ef aðeins fólk á ákveðnum aldri eða búsetusvæði er spurt.
+
+* **Svarhlutfall**: Ef aðeins hluti þeirra sem voru valdir til að taka þátt svara könnuninni, og þeir sem svara eru frábrugðnir þeim sem svara ekki, þá getur það valdið skekkju. Til dæmis gætu þeir sem hafa sterkar skoðanir verið líklegri til að svara.
+
+### Hvernig má draga úr kerfisbundinni skekkju?
+
+Þó ekki sé hægt að losna alveg við kerfisbundna skekkju, þá eru nokkrar leiðir til að draga úr henni. Mikilvægast er að huga vel að framkvæmd könnunarinnar frá upphafi til enda og nota viðurkenndar aðferðir við val á úrtaki og úrvinnslu gagna. Helstu leiðirnar eru:
+
+#### Gæta að úrtakinu
+
+Velja úrtak sem er sem líkast samfélaginu í heild, með tilliti til:
+
+* Aldurs, kyns og búsetu
+* Menntunarstigs og tekna
+* Atvinnu og starfsstéttar
+* Fjölskyldugerðar
+* Búsetumynsturs (þéttbýli/dreifbýli)
+
+Þetta má gera með því að:
+
+* Nota lagskipt úrtak þar sem þýðinu er skipt í hópa og hlutfallslega er valið úr hverjum þessara hópa
+* Nota kvótaúrtak þar sem tryggt er að ákveðið hlutfall þátttakenda komi úr hverjum hópi
+* Nota tilviljunarkennt úrtak úr þjóðskrá með góðri dreifingu
+
+#### Auka svarhlutfall
+
+Hvetja fólk til að svara könnuninni með því að:
+
+* Gera könnunina stutta og hnitmiðaða
+* Bjóða upp á svörun í gegnum síma, tölvupóst eða á netinu
+* Senda ítrekanir á kurteislegan hátt
+* Útskýra tilgang könnunarinnar og mikilvægi þátttöku
+* Tryggja nafnleynd og trúnað
+* Velja hentugan tíma fyrir könnunina (forðast t.d. sumarfrí)
+* Bjóða upp á hvata eins og þátttöku í happdrætti (þó þarf að gæta að því að það hafi ekki áhrif á niðurstöður)
+
+#### Vigtun
+
+Vigtun er algeng aðferð til að leiðrétta fyrir skekkju í úrtaki. Hún virkar þannig að við notum tölfræðilegar aðferðir til að leiðrétta fyrir skekkju, til dæmis með því að vega svör þannig að þau endurspegli betur samsetningu samfélagsins:
+
+1. **Þekktar breytur**: Við berum saman hlutföll í úrtakinu við þekkt hlutföll í samfélaginu fyrir breytur eins og:
+   - Aldursdreifingu
+   - Kynjahlutföll
+   - Búsetu
+   - Menntunarstig
+
+2. **Útreikningur vægis**: Hver þátttakandi fær vægi sem endurspeglar hversu vel hann fulltrúar sinn hóp. Til dæmis:
+   - Ef ungt fólk er vanmetið í úrtakinu fá svör þeirra hærra vægi
+   - Ef eldra fólk er ofmetið fá svör þeirra lægra vægi
+
+3. **Takmarkanir**: Vigtun getur aðeins leiðrétt fyrir þær breytur sem við þekkjum. Ef aðrar mikilvægar breytur hafa áhrif á fylgi flokkanna en eru ekki notaðar í vigtuninni, getur skekkjan enn verið til staðar.
+
+##### Dæmi um vigtun
+
+Segjum að við séum að kanna viðhorf til lengingar fæðingarorlofs. Við fáum 1000 svör í könnunina, en úrtakið er ekki alveg dæmigert fyrir samfélagið:
+
+* Konur eru 70% svarenda (en eru 50% þjóðarinnar)
+* Fólk 50 ára og eldra er 60% svarenda (en er 35% þjóðarinnar)
+
+Ef við vitum að:
+
+* Konur eru almennt hlynntari lengingu fæðingarorlofs en karlar
+* Yngra fólk er almennt hlynntara lengingu en eldra fólk
+
+Þá gætu óvigtuð svör gefið skakka mynd af raunverulegum viðhorfum þjóðarinnar. Með vigtun getum við leiðrétt fyrir þessu með því að:
+
+* Gefa svörum karla meira vægi (þar sem þeir eru vanmetinn hópur í úrtakinu)
+* Gefa svörum yngra fólks meira vægi (þar sem það er vanmetinn hópur í úrtakinu)
+
+Þannig fáum við niðurstöður sem endurspegla betur raunveruleg viðhorf í samfélaginu.
+
+
+# Samantekt
+
+Þegar við skoðum kannanir á fylgi stjórnmálaflokka er mikilvægt að hafa í huga:
+
+1. **Tilviljunarkennd skekkja**
+  - Minnkar með stærra úrtaki
+  - Er mest þegar fylgi er nálægt 50%
+  - Hægt að reikna nákvæm skekkjumörk
+
+2. **Kerfisbundin skekkja**
+  - Getur haft meiri áhrif en tilviljunarkennd skekkja
+  - Stærra úrtak lagar ekki vandann
+  - Helstu orsakir:
+    * Úrtak ekki dæmigert fyrir samfélagið
+    * Lágt svarhlutfall
+    * Mismunandi svarhneigð ólíkra hópa
+  - Skekkjumörk endurspegla ekki óvissuna rétt
+
+3. **Leiðir til úrbóta**
+  - Vanda val á úrtaki
+  - Auka svarhlutfall
+  - Nota vigtun til að leiðrétta fyrir þekktum skekkjum
+  - Bera saman niðurstöður frá mörgum könnunaraðilum
+
+4. **Túlkun niðurstaðna**
+  - Skoða alltaf skekkjumörk
+  - Hafa í huga mögulegar kerfisbundnar skekkjur og áhrif þeirra á skekkjumörk
+  - Varast að oftúlka litlar breytingar
+  - Meta áreiðanleika könnunaraðila
+
+Með þessum atriðum í huga erum við betur í stakk búin til að túlka niðurstöður skoðanakannana og meta áreiðanleika þeirra.
