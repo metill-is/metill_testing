@@ -96,10 +96,34 @@ body > nav > div > div.col-12.d-flex.justify-content-center {
   .nav-link {
     color: $primary;
     background-color: $secondary !important;
-    margin-right: 0.5rem;
+    margin-right: 0.25rem;
+    padding: 0.375rem 0.75rem;
     border-radius: 0.25rem;
     transition: all 0.3s ease;
     border: 2px solid transparent;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    
+    // Mobile styles
+    @media (max-width: 576px) {
+      padding: 0.25rem 0.5rem;
+      margin-right: 0.15rem;
+      font-size: 0.85rem;
+    }
+    
+    // Tablet styles
+    @media (min-width: 577px) and (max-width: 991px) {
+      padding: 0.5rem 1rem;
+      margin-right: 0.3rem;
+      font-size: 1rem;
+    }
+    
+    // Desktop styles
+    @media (min-width: 992px) {
+      padding: 0.75rem 1.5rem;
+      margin-right: 0.5rem;
+      font-size: 1.1rem;
+    }
     
     &:hover {
       background-color: hsla(0, 12%, 96%, 1);
@@ -119,6 +143,20 @@ body > nav > div > div.col-12.d-flex.justify-content-center {
 
   .nav-item {
     background-color: transparent !important;
+  }
+}
+
+.panel-tabset > .nav-pills {
+  @media (max-width: 576px) {
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    scrollbar-width: none;
+    margin-bottom: 1rem;
   }
 }
 
