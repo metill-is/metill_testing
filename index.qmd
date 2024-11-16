@@ -209,20 +209,20 @@ source("R/spa.R")
 
 ::: {.panel-tabset .nav-pills}
 
-#### 15. nóvember
+#### 16. nóv
 
 Nýjasta könnun í spánni eru kannanir Gallup og Prósent sem voru birtar 15. nóvember
 
 ![](Figures/Prediction/Background/2024-11-11_background.png){.column-page}
 
-#### 8. nóvember
+#### 8. nóv
 
 Nýjasta könnun í spánni er könnun Prósent sem var birt 8. nóvember
 
 ![](Figures/Prediction/Background/2024-11-04_background.png){.column-page}
 
 
-#### 7. nóvember
+#### 7. nóv
 
 Nýjasta könnun í spánni er könnun Maskínu sem var birt 7. nóvember
 

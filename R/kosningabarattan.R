@@ -4,6 +4,16 @@ make_kosningabarattan_plot <- function(d, coverage_data, colors, polling_data, p
     ggplot(aes(dags, median, colour = litur, data_id = flokkur)) +
     annotate(
       geom = "segment",
+      x = clock::date_build(2024, 8, 1),
+      xend = clock::date_build(2024, 11, 30),
+      y = 0.05,
+      yend = 0.05,
+      alpha = 0.4,
+      linewidth = 0.4,
+      linetype = "dashed"
+    ) +
+    annotate(
+      geom = "segment",
       x = clock::date_build(2021, 8, 1),
       xend = clock::date_build(2024, 11, 30),
       y = seq(0, 0.3, by = 0.05),
