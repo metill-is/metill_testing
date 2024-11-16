@@ -59,7 +59,8 @@ make_fylgisthroun_plot <- function(d, coverage_data, colors, polling_data, point
       fontface = "bold"
     ) +
     geom_line_interactive(
-      linewidth = 1
+      linewidth = 1,
+      aes(data_id = flokkur)
     ) +
     geom_point_interactive(
       aes(

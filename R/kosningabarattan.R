@@ -58,7 +58,7 @@ make_kosningabarattan_plot <- function(d, coverage_data, colors, polling_data, p
       aes(
         x = x,
         label = label,
-        col = litur,
+        colour = litur,
         y = 0.3,
         data_id = flokkur
       ),
@@ -85,9 +85,10 @@ make_kosningabarattan_plot <- function(d, coverage_data, colors, polling_data, p
       inherit.aes = FALSE
     ) +
     geom_line_interactive(
-      data = ~ filter(.x, dags <= max(polling_data$dags)),
+      #data = ~ filter(.x, dags <= max(polling_data$dags)),
       linewidth = 0.6,
-      alpha = 0.5
+      alpha = 0.5,
+      aes(data_id = flokkur)
     ) +
     geom_point_interactive(
       aes(y = p_poll, shape = fyrirtaeki, fill = litur),

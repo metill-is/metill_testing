@@ -172,11 +172,15 @@ d <- read_parquet(here("data", "y_rep_draws.parquet")) |>
 
 ![](Figures/Prediction/Background/2024-11-11_background.png){.column-page}
 
+::: {.latest-update}
+
 Í vikunni birtust fylgiskannanir frá Gallup, Maskínu og Prósent sem höfðu sameiginlega nokkur áhrif á fylgisspánna okkar. Samfylkingin dalar lítillega í nýjustu uppfærslu líkansins og er spáð fylgi nú 17%, eins og spáð fylgi Sjálfstæðisflokksins. Enn er þó langt til kosninga og margt getur gerst sem endurspeglast í breiðu öryggisbili fyrir fylgi flokkanna. 
 
 Gott gengi Viðreisnar í könnunum leiðir til þess að spáð fylgi flokksins hækkar í 16%, en fylgi Pírata dalar lítillega. Miðgildisfylgi Sósíalistaflokksins er ennþá 4%, en efri mörk óvissubilsins eru komin upp í 7% eftir ágætt gengi í fylgiskönnunum vikunnar. Líkurnar á því að Sósíalistar nái inn á þing hafa því aukist á milli vikna, þó að við teljum ennþá líklegra en ekki að flokkurinn verði undir 5% þröskuldinum. 
 
 Í næstu uppfærslu líkansins gerum við ráð fyrir að bæta við þingsætaspá fyrir flokkana, það er því um að gera að fylgjast vel með.
+
+:::
 
 ## 8. nóv
 
