@@ -165,32 +165,42 @@ d <- read_parquet(here("data", "y_rep_draws.parquet")) |>
 
 # Kosningaspá Metils
 
+
 ::: {.panel-tabset .nav-pills}
 
-#### 16. nóv
-
-Nýjasta könnun í spánni eru kannanir Gallup og Prósent sem voru birtar 15. nóvember
+## 16. nóv
 
 ![](Figures/Prediction/Background/2024-11-11_background.png){.column-page}
 
-#### 8. nóv
+Í vikunni birtust fylgiskannanir frá Gallup, Maskínu og Prósent sem höfðu sameiginlega nokkur áhrif á fylgisspánna okkar. Samfylkingin dalar lítillega í nýjustu uppfærslu líkansins og er spáð fylgi nú 17%, eins og spáð fylgi Sjálfstæðisflokksins. Enn er þó langt til kosninga og margt getur gerst sem endurspeglast í breiðu öryggisbili fyrir fylgi flokkanna. 
 
-Nýjasta könnun í spánni er könnun Prósent sem var birt 8. nóvember
+Gott gengi Viðreisnar í könnunum leiðir til þess að spáð fylgi flokksins hækkar í 16%, en fylgi Pírata dalar lítillega. Miðgildisfylgi Sósíalistaflokksins er ennþá 4%, en efri mörk óvissubilsins eru komin upp í 7% eftir ágætt gengi í fylgiskönnunum vikunnar. Líkurnar á því að Sósíalistar nái inn á þing hafa því aukist á milli vikna, þó að við teljum ennþá líklegra en ekki að flokkurinn verði undir 5% þröskuldinum. 
+
+Í næstu uppfærslu líkansins gerum við ráð fyrir að bæta við þingsætaspá fyrir flokkana, það er því um að gera að fylgjast vel með.
+
+## 8. nóv
+
 
 ![](Figures/Prediction/Background/2024-11-04_background.png){.column-page}
 
+Nýjasta könnun í spánni er könnun Prósent sem var birt 8. nóvember
 
-#### 7. nóv
 
-Nýjasta könnun í spánni er könnun Maskínu sem var birt 7. nóvember
+## 7. nóv
 
 ![](Figures/Prediction/Background/2024-11-03_background.png){.column-page}
 
+Nýjasta könnun í spánni er könnun Maskínu sem var birt 7. nóvember
+
 :::
 
-Hér að ofan má sjá matið okkar á mögulegum úrslitum kosninganna. Til að forðast ímynd um meiri vissu en er til staðar námundum við fylgið í næstu heiltölu. Vegna þess geta tölur í töflunni hækkað eða lækkað þótt matið á fylgi hafi breyst lítið. Sömuleiðis getur summa alls fylgis verið önnur en 100%.
+### Um líkanið
 
-Spálíkanið gefur okkur ekki aðeins eina tölu heldur líkindadreifingu yfir mögulegar útkomur kosninganna.Taflan við hlið myndarinnar sýnir „miðgildi“ og „90% óvissubil“. Miðgildi er skilgreint þannig að jafnlíklegt er að útkoma fyrir ofan og neðan það verði raunin, og því getum við sagt að miðgildið skipti líkindadreifingunni í tvennt. 
+Hér kynnum við til sögunnar spennandi nýjung á Íslandi - kosningalíkan sem spáir fyrir um úrslit komandi alþingiskosninga á grundvelli tölfræðilegra aðferða og rannsókna í stjórnmálafræði. Líkanið byggir á gögnum úr fylgiskönnunum, en einnig kosningaúrslitum fyrri ára og sögulegum gögnum um áhrif efnahagsmála og árangur ríkisstjórnarflokka í kosningum, auk fleiri þátta.
+
+Hér að ofan má sjá nýjasta matið okkar á mögulegum úrslitum kosninganna. Til að forðast ímynd um meiri vissu en er til staðar námundum við fylgið í næstu heiltölu. Vegna þess geta tölur í töflunni hækkað eða lækkað þótt matið á fylgi hafi breyst lítið. Sömuleiðis getur summa alls fylgis verið önnur en 100% vegna námundunar.
+
+Spálíkanið gefur okkur ekki aðeins eina tölu heldur líkindadreifingu yfir mögulegar útkomur kosninganna. Taflan við hlið myndarinnar sýnir „miðgildi“ og „90% óvissubil“. Miðgildi er skilgreint þannig að jafnlíklegt er að útkoma fyrir ofan og neðan það verði raunin, og því getum við sagt að miðgildið skipti líkindadreifingunni í tvennt.
 
 Sömuleiðis þýðir 90% óvissubil að af 100 sviðsmyndum sem við reiknum út frá líkindadreifingunni, lenda 90 innan þess bils. Hins vegar lenda líka fimm fyrir neðan það bil og fimm fyrir ofan. Öll gildi á þessu bili má segja að séu raunhæf þegar kemur að líklegum niðurstöðum kosninganna eins og staðan er í dag.
 
@@ -221,73 +231,6 @@ Til að meta áhrif þessara þátta notum við fylgiskannanir fyrir alþingisko
 Við vonum að líkanið komi að notum við að greina stöðu mála í íslenskum stjórnmálum í aðdraganda alþingiskosninganna. Eins og sjá má á vikmörkum fylgisspáa er mikilvægasta niðurstaða líkansins við birtingu sú að óvissan er gríðarlega mikil – það á ekki að koma okkur á óvart þó fylgi flokkanna breytist um nokkur prósentustig á lokametrunum. Á næstu vikum kynnum við til sögunnar fleiri gögn byggð á kosningaspánni, svo sem spár yfir fjölda þingmanna og möguleg stjórnarmynstur.
 
 [Um líkanið](Kosningar/UmLikanid.qmd){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Smelltu hér til að lesa um aðferðafræði spálíkansins"}
-
-:::
-
-
-::: {.callout-note collapse="true"}
-
-### Nýjustu kannanir í líkaninu
-
-```{r}
-tribble(
-  ~Fyrirtæki,  ~Frá, ~Til, ~Birt,
-  "Gallup", "1. nóv", "14. nóv", "7. nóv",
-  "Maskína", "8. nóv", "13. nóv", "10. nóv",
-  "Prósent", "8. nóv", "14. nóv", "11. nóv"
-) |> 
-  gt() |> 
-  cols_align(
-    columns = -1,
-    "center"
-  ) |> 
-  tab_spanner(
-    columns = -1,
-    label = "Dagsetning"
-  ) |> 
-  opt_row_striping(FALSE) |> 
-  opt_horizontal_padding(0.2) |> 
-  opt_vertical_padding(0.2) |>  
-  tab_style(
-    locations = cells_title(),
-    style = cell_text(
-      font = google_font("Lato"),
-      size = "17px"
-    )
-  ) |> 
-  tab_style(
-    locations = cells_body(),
-    style = cell_text(
-      font = google_font("Lato"),
-      size = "14px"
-    )
-  ) |> 
-  tab_style(
-    locations = cells_column_labels(),
-    style = cell_text(
-      font = google_font("Lato"),
-      size = "14px"
-    )
-  ) |> 
-  tab_style(
-    locations = cells_column_spanners(),
-    style = cell_text(
-      font = google_font("Lato"),
-      size = "14px"
-    )
-  ) |> 
-  tab_style(
-    locations = cells_body(),
-    style = cell_fill(
-      alpha = 0
-    )
-  ) |> 
-  tab_options(
-    table.width = pct(100),
-    quarto.disable_processing = TRUE,
-    table.background.color = "#fdfcfc"
-  )
-```
 
 :::
 
