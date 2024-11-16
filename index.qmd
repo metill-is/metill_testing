@@ -185,13 +185,6 @@ Gott gengi Viðreisnar í könnunum leiðir til þess að spáð fylgi flokksins
 
 Nýjasta könnun í spánni er könnun Prósent sem var birt 8. nóvember
 
-
-## 7. nóv
-
-![](Figures/Prediction/Background/2024-11-03_background.png){.column-page}
-
-Nýjasta könnun í spánni er könnun Maskínu sem var birt 7. nóvember
-
 :::
 
 ### Um líkanið
@@ -234,6 +227,31 @@ Við vonum að líkanið komi að notum við að greina stöðu mála í íslens
 
 :::
 
+## Allar spár
+
+::: {.panel-tabset .nav-pills}
+
+### 16. nóv
+
+![](Figures/Prediction/Background/2024-11-11_background.png){.column-page}
+
+Nýjustu kannanir í spánni eru kannanir Prósent og Gallup sem birtust 15. nóvember
+
+### 8. nóv
+
+
+![](Figures/Prediction/Background/2024-11-04_background.png){.column-page}
+
+Nýjasta könnun í spánni er könnun Prósent sem var birt 8. nóvember
+
+
+### 7. nóv
+
+![](Figures/Prediction/Background/2024-11-03_background.png){.column-page}
+
+Nýjasta könnun í spánni er könnun Maskínu sem var birt 7. nóvember
+
+:::
 
 ## Mat á fylgi flokka frá byrjun ágúst 2024
 
