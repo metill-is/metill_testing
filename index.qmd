@@ -175,11 +175,15 @@ d <- read_parquet(here("data", "y_rep_draws.parquet")) |>
 
 ![](Figures/Prediction/Background/2024-11-18_background.png){.column-page}
 
+Nýjasta könnun í spánni er könnun Prósent sem var birt 22. nóvember
+
 
 ### 16. nóv
 
 
 ![](Figures/Prediction/Background/2024-11-11_background.png){.column-page}
+
+Nýjustu kannanir í spánni eru kannanir Prósent og Gallup sem birtust 15. nóvember
 
 :::
 
@@ -193,7 +197,7 @@ d <- read_parquet(here("data", "y_rep_draws.parquet")) |>
 
 ::: {.latest-update}
 
-Í vikunni birtust nýjar kannanir frá Maskínu og Prósent sem sýna áhugaverðar breytingar á fylgi flokkanna. Viðreisn hefur tekið fram úr bæði Sjálfstæðisflokknum og Samfylkingunni og er nú spáð mestu fylgi allra flokka. Þó er mikilvægt að hafa í huga að óvissubilin fyrir þessa þrjá flokka skarast að nær öllu leyti, svo erfitt er að fullyrða um hver þeirra muni hljóta mest fylgi í kosningunum.
+Í vikunni birtust nýjar kannanir frá Maskínu og Prósent og niðurstöður þeirra endurspeglast í nýrri spá líkansins okkar. Viðreisn hefur tekið fram úr bæði Sjálfstæðisflokknum og Samfylkingunni og er nú spáð mestu fylgi allra flokka. Þó er mikilvægt að hafa í huga að óvissubilin fyrir þessa þrjá flokka skarast að nær öllu leyti, svo erfitt er að fullyrða um hver þeirra muni hljóta mest fylgi í kosningunum.
 
 Flokkur fólksins hefur einnig bætt við sig fylgi og er nú spáð meira fylgi en Miðflokknum. Þó eru óvissubilin fyrir þessa tvo flokka keimlík, svo staða þeirra er enn óljós.
 
