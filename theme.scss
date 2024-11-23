@@ -48,6 +48,9 @@ $icelandic-white: #FFFFFF;
 
 /*-- scss:rules --*/  
 
+html {
+  scroll-behavior: smooth !important;
+}
 
 .icelandic-text {
   font-weight: bold; /* Optional: makes the text bold */

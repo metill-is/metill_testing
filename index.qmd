@@ -15,11 +15,12 @@ collapse-callout:
   all: true
 callout-appearance: simple
 callout-icon: true
+
 execute:
   freeze: false
 citation-location: margin
 reference-location: margin
-image: Figures/Predictions/Sharing/2024-11-11.png
+image: Figures/Prediction/Sharing/2024-11-18.png
 ---
 
 ```{r setup}
@@ -165,14 +166,20 @@ d <- read_parquet(here("data", "y_rep_draws.parquet")) |>
 
 # Kosningaspá Metils
 
+## Fylgisspá
+
 
 ::: {.panel-tabset .nav-pills}
 
-## 16. nóv
+### 23. nóv
+
+![](Figures/Prediction/Background/2024-11-18_background.png){.column-page}
+
+
+### 16. nóv
+
 
 ![](Figures/Prediction/Background/2024-11-11_background.png){.column-page}
-
-::: {.latest-update}
 
 Í vikunni birtust fylgiskannanir frá Gallup, Maskínu og Prósent sem höfðu sameiginlega nokkur áhrif á fylgisspánna okkar. Samfylkingin dalar lítillega í nýjustu uppfærslu líkansins og er spáð fylgi nú 17%, eins og spáð fylgi Sjálfstæðisflokksins. Enn er þó langt til kosninga og margt getur gerst sem endurspeglast í breiðu öryggisbili fyrir fylgi flokkanna. 
 
@@ -180,14 +187,22 @@ Gott gengi Viðreisnar í könnunum leiðir til þess að spáð fylgi flokksins
 
 Í næstu uppfærslu líkansins gerum við ráð fyrir að bæta við þingsætaspá fyrir flokkana, það er því um að gera að fylgjast vel með.
 
+
 :::
 
-## 8. nóv
+## Þingsætaspá
 
+### 23. nóv
 
-![](Figures/Prediction/Background/2024-11-04_background.png){.column-page}
+![](Figures/Prediction/Background/2024-11-18_seats_background.png){.column-page}
 
-Nýjasta könnun í spánni er könnun Prósent sem var birt 8. nóvember
+::: {.latest-update}
+
+Í vikunni birtust nýjar kannanir frá Maskínu og Prósent sem sýna áhugaverðar breytingar á fylgi flokkanna. Viðreisn hefur tekið fram úr bæði Sjálfstæðisflokknum og Samfylkingunni og er nú spáð mestu fylgi allra flokka. Þó er mikilvægt að hafa í huga að óvissubilin fyrir þessa þrjá flokka skarast að nær öllu leyti, svo erfitt er að fullyrða um hver þeirra muni hljóta mest fylgi í kosningunum.
+
+Flokkur fólksins hefur einnig bætt við sig fylgi og er nú spáð meira fylgi en Miðflokknum. Þó eru óvissubilin fyrir þessa tvo flokka keimlík, svo staða þeirra er enn óljós.
+
+Í þessari uppfærslu kynnum við til sögunnar spá um þingsætafjölda flokkanna. Spáin byggir á mati okkar á fylgi flokkanna í einstökum kjördæmum, sem við notum bæði til að reikna út líklegan þingsætafjölda og til að bæta nákvæmni fylgisspárinnar á landsvísu. Með þessu móti tökum við tillit til þess að fylgi flokkanna er oft ójafnt dreift milli kjördæma, sem getur haft veruleg áhrif á úthlutun þingsæta.
 
 :::
 
@@ -234,6 +249,12 @@ Við vonum að líkanið komi að notum við að greina stöðu mála í íslens
 ## Allar spár
 
 ::: {.panel-tabset .nav-pills}
+
+### 23. nóv
+
+![](Figures/Prediction/Background/2024-11-18_background.png){.column-page}
+
+Nýjasta könnun í spánni er könnun Prósent sem var birt 22. nóvember
 
 ### 16. nóv
 
@@ -300,7 +321,9 @@ make_fylgisthroun_plot(d, coverage_data, colors, polling_data, point_shapes)
 
 # Mynd vikunnar
 
-![](Figures/col_plot_applicants_monthly_fp.png)
+Föstudaginn 15. nóvember uppfærði Hagstofa Íslands gögn um [starfandi samkvæmt skrám eftir rekstrarformum](https://hagstofa.is/utgafur/frettasafn/vinnumarkadur/uppfaerdar-tolur-um-fjolda-starfandi-samkvaemt-skram-eftir-rekstrarformum/) eftir að upp komst að einstaklingar í fæðingarorlofi voru ranglega skráðir sem opinbert starfsfólk. Þetta hafði þó lítil sem engin áhrif á myndina að neðan, enda lækkuðu tölurnar um fjölda opinbers starfsfólks frekar jafnt yfir öll árin. 
+
+![](Figures/hlutf_opinbert_fp.png)
 
 :::
 

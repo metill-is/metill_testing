@@ -132,7 +132,7 @@ d |>
   filter(
     bakgrunnur != "Alls",
     dags %in% clock::date_build(c(2023, 2018, 2013), 1, 1),
-    str_detect(atv, "^[A-Z]+ |Alls")
+    str_detect(atv, "^[A-Z]+ |Alls|^O-Q")
   ) |> 
   janitor::remove_constant() |> 
   mutate(
@@ -147,7 +147,7 @@ d |>
     values_from = c(starfandi, hlutf), 
     names_vary = "slowest"
   ) |> 
-  slice(c(1, 3:17, 2)) |> 
+  slice(c(1, 3:18, 2)) |> 
   gt() |> 
   tab_header(
     title = "Fjöldi og hlutfall innflytjenda meðal starfandi eftir atvinnugrein"
@@ -180,3 +180,35 @@ d |>
     palette = "Greys"
   ) |> 
   sub_missing() 
+
+
+
+
+d |> 
+  rename(
+    atv = atvinnugrein_balkar
+  ) |> 
+  mutate(
+    starfandi = slider::slide_dbl(starfandi, mean, .before = 11),
+    .by = c(atv, bakgrunnur)
+  ) |> 
+  filter(
+    bakgrunnur != "Alls",
+    dags <= clock::date_build(2023, 1, 1),
+    str_detect(atv, "^[A-Z]+ |^O-Q")
+  ) |> 
+  janitor::remove_constant() |> 
+  mutate(
+    hlutf = starfandi / sum(starfandi),
+    .by = c(atv, dags)
+  ) |>
+  filter(bakgrunnur == "Innflytjendur") |> 
+  janitor::clean_names() |> 
+  select(atv, dags, starfandi, hlutf) |> 
+  mutate(
+    atv = fct_reorder(atv, starfandi)
+  ) |> 
+  ggplot(aes(dags, starfandi)) +
+  geom_area(
+    aes(group = atv, fill = atv,col = atv, position = "stack")
+    )

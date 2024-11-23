@@ -1,3 +1,5 @@
+
+
 d |> 
   filter(
     rekstrarform != "Alls starfandi",
@@ -87,6 +89,6 @@ d |>
 
 
 ggsave(
-  filename = "greinar/vinnuafl/Figures/arleg_breyting.png",
-  width = 8, height = 8, scale = 0.7
+  filename = here::here("articles", "workforce", "Figures", "arleg_breyting.png"),
+  width = 8, height = 0.621 * 8, scale = 1
 )

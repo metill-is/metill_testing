@@ -25,6 +25,7 @@ website:
     center:
       - text: "About"
         href: about.qmd
+  google-analytics: "G-J28QQV8PN9"
 
 editor: source
 include-in-header: header/header.html

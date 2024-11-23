@@ -2,6 +2,10 @@ library(here)
 library(tidyverse)
 library(geomtextpath)
 library(ggh4x)
+library(scales)
+library(metill)
+
+theme_set(theme_metill())
 
 d_wf <- read_csv(here("articles", "workforce", "data", "vinnuafl.csv"))
 
