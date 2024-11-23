@@ -213,7 +213,7 @@ Hér kynnum við til sögunnar spennandi nýjung á Íslandi - kosningalíkan se
 
 Líkanið spáir bæði fyrir um fylgi flokkanna á landsvísu og fjölda þingsæta sem hver flokkur fær. Þingsætaspáin byggir á mati okkar á fylgi flokkanna í einstökum kjördæmum og tekur tillit til þess hvernig kjördæmaskipting og úthlutun jöfnunarsæta hefur áhrif á endanlegan þingmannafjölda.
 
-Hér að ofan má sjá nýjasta matið okkar á mögulegum úrslitum kosninganna. Til að forðast ímynd um meiri vissu en er til staðar námundum við fylgið í næstu heiltölu. Vegna þess geta tölur í töflunni hækkað eða lækkað þótt matið á fylgi hafi breyst lítið. Sömuleiðis getur summa alls fylgis verið önnur en 100% vegna námundunar.
+Hér að ofan má sjá nýjasta matið okkar á mögulegum úrslitum kosninganna. Til að forðast ímynd um meiri vissu en er til staðar námundum við fylgið í næstu heiltölu. Vegna þess geta tölur í töflunni hækkað eða lækkað þótt matið á fylgi hafi breyst lítið. Sömuleiðis getur summa alls fylgis verið önnur en 100% vegna námundunar, og summa miðgilda þingsætadreifingar verið önnur en 63.
 
 Spálíkanið gefur okkur ekki aðeins eina tölu heldur líkindadreifingu yfir mögulegar útkomur kosninganna. Taflan við hlið myndarinnar sýnir „miðgildi“ og „90% óvissubil“. Miðgildi er skilgreint þannig að jafnlíklegt er að útkoma fyrir ofan og neðan það verði raunin, og því getum við sagt að miðgildið skipti líkindadreifingunni í tvennt.
 
