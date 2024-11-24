@@ -195,7 +195,7 @@ Nýjustu kannanir í spánni eru kannanir Prósent og Gallup sem birtust 15. nó
 
 ![](Figures/Prediction/Background/2024-11-18_seats_background.png){.column-page}
 
-Miðgildin að ofan summast ekki endilega upp í 63 og því er ekki ráðlagt að nota þá mynd til að athuga mögulega meirihluta.
+Miðgildin að ofan summast ekki endilega upp í 63 og því er ekki ráðlagt að nota þessa mynd til að athuga mögulega meirihluta. Að neðan má sjá útreikninga um líkindadreifingar mismunandi meirihluta.
 
 :::
 
