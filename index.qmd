@@ -199,7 +199,7 @@ Miðgildin að ofan summast ekki endilega upp í 63 og því er ekki ráðlagt a
 
 :::
 
-## Meirihlutaspá
+## Samanlögð þingsætaspá
 
 ::: {.panel-tabset .nav-pills}
 
