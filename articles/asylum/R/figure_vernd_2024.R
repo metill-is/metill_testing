@@ -47,7 +47,7 @@ d |>
 plot_dat <- d |>
   filter(
     year(time) >= 2024,
-    month(time) <= 6,
+    month(time) <= 8,
     land != "Spánn",
     name %in% c("grants", "asylum_applicants_non_ukraine")
   ) |>
@@ -186,7 +186,7 @@ p3 <- plot_dat |>
 
 p <- p1 + p2 + p3 +
   plot_annotation(
-    title = "Umsóknir um vernd í Evrópulöndum (2024 janúar - júlí)",
+    title = "Umsóknir um vernd í Evrópulöndum (2024 janúar - ágúst)",
     subtitle = "Sýnt sem fjöldi á 100.000 íbúa móttökulands",
     caption = caption
   )

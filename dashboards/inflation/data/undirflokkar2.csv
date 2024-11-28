@@ -800,6 +800,9 @@ date,undirvisitala,lidur,value,flokkur_1,flokkur_2,flokkur_3
 2024-10-01,011 Matur,"Vægi, %",0.1354,01 Matur og drykkjarvörur,011 Matur,Samtals
 2024-10-01,011 Matur,"Mánaðarbreyting, %",0.0097,01 Matur og drykkjarvörur,011 Matur,Samtals
 2024-10-01,011 Matur,"Áhrif á vísitölu, %",0.0013,01 Matur og drykkjarvörur,011 Matur,Samtals
+2024-11-01,011 Matur,"Vægi, %",0.1352,01 Matur og drykkjarvörur,011 Matur,Samtals
+2024-11-01,011 Matur,"Mánaðarbreyting, %",-7.000000000000001e-4,01 Matur og drykkjarvörur,011 Matur,Samtals
+2024-11-01,011 Matur,"Áhrif á vísitölu, %",-1e-4,01 Matur og drykkjarvörur,011 Matur,Samtals
 2002-08-01,012 Drykkjarvörur,"Vægi, %",0.0182,01 Matur og drykkjarvörur,012 Drykkjarvörur,Samtals
 2002-08-01,012 Drykkjarvörur,"Mánaðarbreyting, %",-0.0265,01 Matur og drykkjarvörur,012 Drykkjarvörur,Samtals
 2002-08-01,012 Drykkjarvörur,"Áhrif á vísitölu, %",-5e-4,01 Matur og drykkjarvörur,012 Drykkjarvörur,Samtals
@@ -1601,6 +1604,9 @@ date,undirvisitala,lidur,value,flokkur_1,flokkur_2,flokkur_3
 2024-10-01,012 Drykkjarvörur,"Vægi, %",0.0143,01 Matur og drykkjarvörur,012 Drykkjarvörur,Samtals
 2024-10-01,012 Drykkjarvörur,"Mánaðarbreyting, %",-0.0038,01 Matur og drykkjarvörur,012 Drykkjarvörur,Samtals
 2024-10-01,012 Drykkjarvörur,"Áhrif á vísitölu, %",-1e-4,01 Matur og drykkjarvörur,012 Drykkjarvörur,Samtals
+2024-11-01,012 Drykkjarvörur,"Vægi, %",0.0143,01 Matur og drykkjarvörur,012 Drykkjarvörur,Samtals
+2024-11-01,012 Drykkjarvörur,"Mánaðarbreyting, %",0.0026,01 Matur og drykkjarvörur,012 Drykkjarvörur,Samtals
+2024-11-01,012 Drykkjarvörur,"Áhrif á vísitölu, %",0,01 Matur og drykkjarvörur,012 Drykkjarvörur,Samtals
 2002-08-01,045 Rafmagn og hiti,"Vægi, %",0.0269,"04 Húsnæði, hiti og rafmagn",045 Rafmagn og hiti,Samtals
 2002-08-01,045 Rafmagn og hiti,"Mánaðarbreyting, %",0.0291,"04 Húsnæði, hiti og rafmagn",045 Rafmagn og hiti,Samtals
 2002-08-01,045 Rafmagn og hiti,"Áhrif á vísitölu, %",8e-4,"04 Húsnæði, hiti og rafmagn",045 Rafmagn og hiti,Samtals
@@ -2402,6 +2408,9 @@ date,undirvisitala,lidur,value,flokkur_1,flokkur_2,flokkur_3
 2024-10-01,045 Rafmagn og hiti,"Vægi, %",0.0332,"04 Húsnæði, hiti og rafmagn",045 Rafmagn og hiti,Samtals
 2024-10-01,045 Rafmagn og hiti,"Mánaðarbreyting, %",-0.0036,"04 Húsnæði, hiti og rafmagn",045 Rafmagn og hiti,Samtals
 2024-10-01,045 Rafmagn og hiti,"Áhrif á vísitölu, %",-1e-4,"04 Húsnæði, hiti og rafmagn",045 Rafmagn og hiti,Samtals
+2024-11-01,045 Rafmagn og hiti,"Vægi, %",0.0334,"04 Húsnæði, hiti og rafmagn",045 Rafmagn og hiti,Samtals
+2024-11-01,045 Rafmagn og hiti,"Mánaðarbreyting, %",0.0075,"04 Húsnæði, hiti og rafmagn",045 Rafmagn og hiti,Samtals
+2024-11-01,045 Rafmagn og hiti,"Áhrif á vísitölu, %",2e-4,"04 Húsnæði, hiti og rafmagn",045 Rafmagn og hiti,Samtals
 2002-08-01,071 Kaup ökutækja,"Vægi, %",0.0623,07 Ferðir og flutningar,071 Kaup ökutækja,Samtals
 2002-08-01,071 Kaup ökutækja,"Mánaðarbreyting, %",-0.003,07 Ferðir og flutningar,071 Kaup ökutækja,Samtals
 2002-08-01,071 Kaup ökutækja,"Áhrif á vísitölu, %",-2e-4,07 Ferðir og flutningar,071 Kaup ökutækja,Samtals
@@ -3203,6 +3212,9 @@ date,undirvisitala,lidur,value,flokkur_1,flokkur_2,flokkur_3
 2024-10-01,071 Kaup ökutækja,"Vægi, %",0.0663,07 Ferðir og flutningar,071 Kaup ökutækja,Samtals
 2024-10-01,071 Kaup ökutækja,"Mánaðarbreyting, %",-0.0066,07 Ferðir og flutningar,071 Kaup ökutækja,Samtals
 2024-10-01,071 Kaup ökutækja,"Áhrif á vísitölu, %",-4e-4,07 Ferðir og flutningar,071 Kaup ökutækja,Samtals
+2024-11-01,071 Kaup ökutækja,"Vægi, %",0.0668,07 Ferðir og flutningar,071 Kaup ökutækja,Samtals
+2024-11-01,071 Kaup ökutækja,"Mánaðarbreyting, %",0.0083,07 Ferðir og flutningar,071 Kaup ökutækja,Samtals
+2024-11-01,071 Kaup ökutækja,"Áhrif á vísitölu, %",5e-4,07 Ferðir og flutningar,071 Kaup ökutækja,Samtals
 2002-08-01,072 Rekstur ökutækja,"Vægi, %",0.0727,07 Ferðir og flutningar,072 Rekstur ökutækja,Samtals
 2002-08-01,072 Rekstur ökutækja,"Mánaðarbreyting, %",-9e-4,07 Ferðir og flutningar,072 Rekstur ökutækja,Samtals
 2002-08-01,072 Rekstur ökutækja,"Áhrif á vísitölu, %",-1e-4,07 Ferðir og flutningar,072 Rekstur ökutækja,Samtals
@@ -4004,6 +4016,9 @@ date,undirvisitala,lidur,value,flokkur_1,flokkur_2,flokkur_3
 2024-10-01,072 Rekstur ökutækja,"Vægi, %",0.0653,07 Ferðir og flutningar,072 Rekstur ökutækja,Samtals
 2024-10-01,072 Rekstur ökutækja,"Mánaðarbreyting, %",0.0034999999999999996,07 Ferðir og flutningar,072 Rekstur ökutækja,Samtals
 2024-10-01,072 Rekstur ökutækja,"Áhrif á vísitölu, %",2e-4,07 Ferðir og flutningar,072 Rekstur ökutækja,Samtals
+2024-11-01,072 Rekstur ökutækja,"Vægi, %",0.065,07 Ferðir og flutningar,072 Rekstur ökutækja,Samtals
+2024-11-01,072 Rekstur ökutækja,"Mánaðarbreyting, %",-0.004,07 Ferðir og flutningar,072 Rekstur ökutækja,Samtals
+2024-11-01,072 Rekstur ökutækja,"Áhrif á vísitölu, %",-3e-4,07 Ferðir og flutningar,072 Rekstur ökutækja,Samtals
 2002-08-01,073 Flutningar,"Vægi, %",0.0245,07 Ferðir og flutningar,073 Flutningar,Samtals
 2002-08-01,073 Flutningar,"Mánaðarbreyting, %",0.0098,07 Ferðir og flutningar,073 Flutningar,Samtals
 2002-08-01,073 Flutningar,"Áhrif á vísitölu, %",2e-4,07 Ferðir og flutningar,073 Flutningar,Samtals
@@ -4805,6 +4820,9 @@ date,undirvisitala,lidur,value,flokkur_1,flokkur_2,flokkur_3
 2024-10-01,073 Flutningar,"Vægi, %",0.0245,07 Ferðir og flutningar,073 Flutningar,Samtals
 2024-10-01,073 Flutningar,"Mánaðarbreyting, %",0.0547,07 Ferðir og flutningar,073 Flutningar,Samtals
 2024-10-01,073 Flutningar,"Áhrif á vísitölu, %",0.0013,07 Ferðir og flutningar,073 Flutningar,Samtals
+2024-11-01,073 Flutningar,"Vægi, %",0.022000000000000002,07 Ferðir og flutningar,073 Flutningar,Samtals
+2024-11-01,073 Flutningar,"Mánaðarbreyting, %",-0.0987,07 Ferðir og flutningar,073 Flutningar,Samtals
+2024-11-01,073 Flutningar,"Áhrif á vísitölu, %",-0.0024,07 Ferðir og flutningar,073 Flutningar,Samtals
 2002-08-01,08 Póstur og sími,"Vægi, %",0.031400000000000004,08 Póstur og sími,08 Póstur og sími,Samtals
 2002-08-01,08 Póstur og sími,"Mánaðarbreyting, %",0.037599999999999995,08 Póstur og sími,08 Póstur og sími,Samtals
 2002-08-01,08 Póstur og sími,"Áhrif á vísitölu, %",0.0011,08 Póstur og sími,08 Póstur og sími,Samtals
@@ -5606,3 +5624,6 @@ date,undirvisitala,lidur,value,flokkur_1,flokkur_2,flokkur_3
 2024-10-01,08 Póstur og sími,"Vægi, %",0.0163,08 Póstur og sími,08 Póstur og sími,Samtals
 2024-10-01,08 Póstur og sími,"Mánaðarbreyting, %",6e-4,08 Póstur og sími,08 Póstur og sími,Samtals
 2024-10-01,08 Póstur og sími,"Áhrif á vísitölu, %",0,08 Póstur og sími,08 Póstur og sími,Samtals
+2024-11-01,08 Póstur og sími,"Vægi, %",0.0163,08 Póstur og sími,08 Póstur og sími,Samtals
+2024-11-01,08 Póstur og sími,"Mánaðarbreyting, %",-0.0021,08 Póstur og sími,08 Póstur og sími,Samtals
+2024-11-01,08 Póstur og sími,"Áhrif á vísitölu, %",0,08 Póstur og sími,08 Póstur og sími,Samtals
