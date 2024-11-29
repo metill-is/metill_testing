@@ -20,7 +20,7 @@ execute:
   freeze: false
 citation-location: margin
 reference-location: margin
-image: Figures/Prediction/Sharing/2024-11-26.png
+image: Figures/Prediction/Sharing/2024-11-29.png
 ---
 
 ```{r setup}
