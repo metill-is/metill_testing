@@ -2519,16 +2519,16 @@ date,fyrirtaeki,flokkur,n
 2021-09-23,Maskína,Sósíalistaflokkurinn,361.10978043912183
 2021-09-23,Maskína,Vinstri Græn,611.556886227545
 2021-09-23,Maskína,Viðreisn,588.2594810379243
-2021-09-25,Kosning,Annað,1198.3800000000233
-2021-09-25,Kosning,Flokkur Fólksins,16689.023999999998
-2021-09-25,Kosning,Framsóknarflokkurinn,34553.29
-2021-09-25,Kosning,Miðflokkurinn,10240.992
-2021-09-25,Kosning,Píratar,16878.273999999998
-2021-09-25,Kosning,Samfylkingin,19773.27
-2021-09-25,Kosning,Sjálfstæðisflokkurinn,47887.195999999996
+2021-09-25,Kosning,Annað,958.703999999961
+2021-09-25,Kosning,Flokkur Fólksins,16783.847999999998
+2021-09-25,Kosning,Framsóknarflokkurinn,34493.371
+2021-09-25,Kosning,Miðflokkurinn,10335.816
+2021-09-25,Kosning,Píratar,16937.1517
+2021-09-25,Kosning,Samfylkingin,19833.189
+2021-09-25,Kosning,Sjálfstæðisflokkurinn,47867.570100000004
 2021-09-25,Kosning,Sósíalistaflokkurinn,7775.568
-2021-09-25,Kosning,Vinstri Græn,24728.634000000002
-2021-09-25,Kosning,Viðreisn,16577.59
+2021-09-25,Kosning,Vinstri Græn,24669.7563
+2021-09-25,Kosning,Viðreisn,16637.509
 2021-10-16,Gallup,Annað,78.75122041447851
 2021-10-16,Gallup,Flokkur Fólksins,621.0413703636124
 2021-10-16,Gallup,Framsóknarflokkurinn,1353.195573763526
@@ -3459,3 +3459,23 @@ date,fyrirtaeki,flokkur,n
 2024-11-26,Prósent,Sósíalistaflokkurinn,138.5361445783132
 2024-11-26,Prósent,Vinstri Græn,81.21084337349396
 2024-11-26,Prósent,Viðreisn,420.3855421686746
+2024-11-26,Gallup,Annað,32.246876876877685
+2024-11-26,Gallup,Flokkur Fólksins,290.2218918918918
+2024-11-26,Gallup,Framsóknarflokkurinn,156.62768768768768
+2024-11-26,Gallup,Miðflokkurinn,255.67166666666662
+2024-11-26,Gallup,Píratar,94.43728228228227
+2024-11-26,Gallup,Samfylkingin,460.6696696696696
+2024-11-26,Gallup,Sjálfstæðisflokkurinn,423.81609609609603
+2024-11-26,Gallup,Sósíalistaflokkurinn,110.56072072072071
+2024-11-26,Gallup,Vinstri Græn,71.40379879879879
+2024-11-26,Gallup,Viðreisn,405.38930930930917
+2024-11-29,Félagsvísindastofnun,Annað,12.732732732732917
+2024-11-29,Félagsvísindastofnun,Flokkur Fólksins,111.41141141141141
+2024-11-29,Félagsvísindastofnun,Framsóknarflokkurinn,99.73973973973975
+2024-11-29,Félagsvísindastofnun,Miðflokkurinn,107.16716716716718
+2024-11-29,Félagsvísindastofnun,Píratar,47.747747747747745
+2024-11-29,Félagsvísindastofnun,Samfylkingin,232.37237237237238
+2024-11-29,Félagsvísindastofnun,Sjálfstæðisflokkurinn,209.02902902902903
+2024-11-29,Félagsvísindastofnun,Sósíalistaflokkurinn,64.72472472472472
+2024-11-29,Félagsvísindastofnun,Vinstri Græn,22.282282282282285
+2024-11-29,Félagsvísindastofnun,Viðreisn,152.7927927927928

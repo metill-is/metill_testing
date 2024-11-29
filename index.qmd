@@ -92,30 +92,6 @@ coverage_data <- read_parquet(here("data", "y_rep_draws.parquet")) |>
     (flokkur != "Lýðræðisflokkurinn") | (dags >= clock::date_build(2024, 10, 21))
   )
 
-coverage_data_prev <- read_parquet(here("data", "y_rep_draws_prev.parquet")) |>
-  reframe(
-    mean = median(value),
-    coverage = c(0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.95),
-    lower = quantile(value, 0.5 - coverage / 2),
-    upper = quantile(value, 0.5 + coverage / 2),
-    .by = c(dags, flokkur)
-  ) |>
-  inner_join(
-    colors
-  ) |>
-  mutate(
-    flokkur = if_else(
-      flokkur == "Annað",
-      "Lýðræðisflokkurinn",
-      flokkur
-    ),
-    flokkur = str_to_sentence(flokkur),
-    flokkur_ordered = glue("<b style='color:{litur}'>{flokkur}</b>"),
-    flokkur_ordered = fct_reorder(flokkur_ordered, mean)
-  ) |> 
-  filter(
-    (flokkur != "Lýðræðisflokkurinn") | (dags >= clock::date_build(2024, 10, 21))
-  )
 
 polling_data <- read_csv(here("data", "polling_data.csv")) |>
   mutate(
@@ -171,6 +147,12 @@ d <- read_parquet(here("data", "y_rep_draws.parquet")) |>
 
 ::: {.panel-tabset .nav-pills}
 
+### 29. nóv
+
+![](Figures/Prediction/Background/2024-11-29_background.png){.column-page}
+
+Nýjustu kannanir í spánni eru kannanir Gallup og Félagsvísindastofnunar sem voru birtar 29. nóvember
+
 ### 28. nóv
 
 
@@ -178,28 +160,11 @@ d <- read_parquet(here("data", "y_rep_draws.parquet")) |>
 
 Nýjustu kannanir í spánni eru kannanir Maskínu og Prósent sem birtust 28. nóvember
 
-### 23. nóv
-
-![](Figures/Prediction/Background/2024-11-18_background.png){.column-page}
-
-Nýjasta könnun í spánni er könnun Prósent sem var birt 22. nóvember
-```{html}
-
-```
 :::
 
 ::: {.latest-update}
 
-**Uppfærsla 28. nóvember:**
-
-Í dag birtust tvær nýjar fylgiskannanir, frá Maskínu og Prósent, sem hafa nokkur áhrif á kosningaspá Metils. Sömuleiðis hefur áhrif að fimm dagar eru frá síðustu uppfærslu líkansins og þar sem færri dagar eru til kosningar minnkar óvissan í líkaninu og vægi skoðanakannana eykst í spánni en vægi sögulegra gagna minnkar á móti. 
-Helstu tíðindin í nýjustu uppfærslunni eru þau að Sjálfstæðisflokki og Samfylkingu er spáð mestu fylgi, með 18% fylgi að miðgildi. Fylgi Viðreisnar gefur aðeins eftir, en þau mælast þó með 16% fylgi í miðgildisspánni. Flokkur fólksins heldur áfram að sækja aukið fylgi og er með 14% að miðgildi. 
-
-Mesta spennan er tengd 5% þröskuldinum, en flokkar sem ná því fylgi á landsvísu eiga rétt á jöfnunarþingmönnum. Bæði Píratar og Sósíalistar hafa aukið líkur sínar á því að ná yfir þröskuldinn frá síðustu uppfærslu. Þó hvorugur flokkurinn mælist yfir 5% í miðgildisspánni *(miðgildisspá Pírata er 5% eftir námundun)* eru nokkrar líkur á að annar eða báðir flokkar nái þingmönnum. Líklegasta útkoman samkvæmt nýjustu spá er að sjö flokkar nái þingmönnum, en á því eru um það bil helmings líkur samkvæmt tölfræðilíkaninu okkar.
-
-Helstu óvissuatriðin í líkaninu á lokametrunum tengjast Sósíalistaflokknum og Miðflokknum. Sósíalistaflokkurinn hefur aðeins boðið fram til þings einu sinni áður og því hefur líkanið minni upplýsingar um sögulegar mælingar á fylgi flokksins. Fylgi Miðflokksins hefur sveiflast mikið allt kjörtímabilið og því er vítt óvissubil um miðgildisspá flokksins. Sú óvissa kann að tengjast þeim fjölda kjósenda sem er að gera upp hug sinn milli Sjálfstæðisflokks og Miðflokks. 
-
-Þessar fylgissveiflur hafa auðvitað áhrif á þingmannafjölda og möguleg stjórnarmynstur líkt og sjá má neðar á síðunni. Alþingiskosningarnar 2024 verða æsispennandi og alls óvíst hver stendur uppi með pálmann í höndunum. Við stefnum að lokauppfærslu á kosningaspá Metils annað kvöld, þegar síðustu fylgiskannanir hafa verið birtar.
+**Uppfærsla 29. nóvember:**
 
 :::
 
@@ -207,15 +172,15 @@ Helstu óvissuatriðin í líkaninu á lokametrunum tengjast Sósíalistaflokknu
 
 ::: {.panel-tabset .nav-pills}
 
-### 28. nóv
+### 29. nóv
 
-![](Figures/Prediction/Background/2024-11-26_seats_background.png){.column-page}
+![](Figures/Prediction/Background/2024-11-29_seats_background.png){.column-page}
 
 Miðgildin að ofan summast ekki endilega upp í 63 og því er ekki ráðlagt að nota þessa mynd til að athuga mögulega meirihluta.
 
-### 23. nóv
+### 28. nóv
 
-![](Figures/Prediction/Background/2024-11-18_seats_background.png){.column-page}
+![](Figures/Prediction/Background/2024-11-26_seats_background.png){.column-page}
 
 Miðgildin að ofan summast ekki endilega upp í 63 og því er ekki ráðlagt að nota þessa mynd til að athuga mögulega meirihluta.
 
@@ -225,15 +190,13 @@ Miðgildin að ofan summast ekki endilega upp í 63 og því er ekki ráðlagt a
 
 ::: {.panel-tabset .nav-pills}
 
+### 29. nóv
+
+![](Figures/Prediction/Background/2024-11-29_majority_seats_background.png){.column-page}
+
 ### 28. nóv
 
 ![](Figures/Prediction/Background/2024-11-26_majority_seats_background.png){.column-page}
-
-
-
-### 23. nóv
-
-![](Figures/Prediction/Background/2024-11-18_majority_seats_background.png){.column-page}
 
 :::
 
@@ -274,7 +237,7 @@ Hér má finna ýmis gögn sem varpa ljósi á stöðu flokkanna fyrir komandi a
 
 Til að meta áhrif þessara þátta notum við fylgiskannanir fyrir alþingiskosningarnar 2016, 2017 og 2021, og úrslit þeirra, ásamt því að nota söguleg gögn um gengi ríkisstjórnarflokka og áhrif efnahagsstærða á það frá 1971 til 2021.
 
-Við vonum að líkanið komi að notum við að greina stöðu mála í íslenskum stjórnmálum í aðdraganda alþingiskosninganna. Eins og sjá má á vikmörkum fylgisspáa er mikilvægasta niðurstaða líkansins við birtingu sú að óvissan er gríðarlega mikil – það á ekki að koma okkur á óvart þó fylgi flokkanna breytist um nokkur prósentustig á lokametrunum. Á næstu vikum kynnum við til sögunnar fleiri gögn byggð á kosningaspánni, svo sem spár yfir fjölda þingmanna og möguleg stjórnarmynstur.
+Við vonum að líkanið komi að notum við að greina stöðu mála í íslenskum stjórnmálum í aðdraganda alþingiskosninganna. Eins og sjá má á vikmörkum fylgisspáa er mikilvægasta niðurstaða líkansins við birtingu sú að óvissan er gríðarlega mikil – það á ekki að koma okkur á óvart þó fylgi flokkanna breytist um nokkur prósentustig á lokametrunum.
 
 [Um líkanið](Kosningar/UmLikanid.qmd){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Smelltu hér til að lesa um aðferðafræði spálíkansins"}
 
@@ -287,6 +250,12 @@ Við vonum að líkanið komi að notum við að greina stöðu mála í íslens
 ### Fylgisspár
 
 ::: {.panel-tabset .nav-pills}
+
+#### 29. nóv
+
+![](Figures/Prediction/Background/2024-11-29_background.png){.column-page}
+
+Nýjustu kannanir í spánni eru kannanir Gallup og Félagsvísindastofnunar sem voru birtar 29. nóvember
 
 #### 28. nóv
 
@@ -326,6 +295,12 @@ Nýjasta könnun í spánni er könnun Maskínu sem var birt 7. nóvember
 
 ::: {.panel-tabset .nav-pills}
 
+#### 29. nóv
+
+![](Figures/Prediction/Background/2024-11-29_seats_background.png){.column-page}
+
+Miðgildin að ofan summast ekki endilega upp í 63 og því er ekki ráðlagt að nota þessa mynd til að athuga mögulega meirihluta.
+
 #### 28. nóv
 
 ![](Figures/Prediction/Background/2024-11-26_seats_background.png){.column-page}
@@ -343,6 +318,12 @@ Nýjasta könnun í spánni er könnun Prósent sem var birt 22. nóvember
 ### Samanlagðar þingsætaspár
 
 ::: {.panel-tabset .nav-pills}
+
+#### 29. nóv
+
+![](Figures/Prediction/Background/2024-11-29_majority_seats_background.png){.column-page}
+
+Nýjustu kannanir í spánni eru kannanir Gallup og Félagsvísindastofnunar sem birtust 29. nóvember
 
 #### 28. nóv
 
